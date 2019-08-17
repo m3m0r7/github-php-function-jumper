@@ -1,0 +1,51 @@
+{
+  "name": "github-php-function-jump",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "https://www.php.net/*"
+      ],
+      "js": [
+        "data/manual.js",
+        "data/functions.js",
+        "data/functions/a.js",
+        "data/functions/b.js",
+        "data/functions/c.js",
+        "data/functions/d.js",
+        "data/functions/e.js",
+        "data/functions/f.js",
+        "data/functions/g.js",
+        "data/functions/h.js",
+        "data/functions/i.js",
+        "data/functions/j.js",
+        "data/functions/k.js",
+        "data/functions/l.js",
+        "data/functions/m.js",
+        "data/functions/n.js",
+        "data/functions/o.js",
+        "data/functions/p.js",
+        "data/functions/q.js",
+        "data/functions/r.js",
+        "data/functions/s.js",
+        "data/functions/t.js",
+        "data/functions/u.js",
+        "data/functions/v.js",
+        "data/functions/w.js",
+        "data/functions/x.js",
+        "data/functions/y.js",
+        "data/functions/z.js",
+        "data/functions/_.js",
+        "bootstrap.js"
+      ]
+    }
+  ]
+}

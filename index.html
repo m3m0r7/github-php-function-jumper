@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en_US">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      li {
+        list-style: none;
+      }
+      span {
+        display: block;
+        min-width: 200px;
+        color: #000000;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .description {
+        padding: 10px;
+        font-weight: bold;
+      }
+      li.active {
+        background-color: #1e88e5;
+      }
+      li.active span {
+        color: #FFFFFF;
+        font-weight: bold;
+      }
+      .flash-message {
+        padding: 10px;
+        font-weight: bold;
+        color: #ff1744;
+      }
+      .disabled {
+        display: none;
+      }
+    </style>
+    <script src="page.js"></script>
+  </head>
+  <body>
+    <p class="description">Choose your doc language.</p>
+    <p class="flash-message disabled">Please reload showing page.</p>
+    <ul>
+      <li data-language-id="0" class="active"><span>English</span></li>
+      <li data-language-id="1"><span>日本語</span></li>
+    </ul>
+  </body>
+</html>
