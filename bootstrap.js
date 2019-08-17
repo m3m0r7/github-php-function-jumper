@@ -64,6 +64,8 @@ const inspectPage = () => {
     // + '.gp-code-jumper-targeted__popup--bottom { bottom: -45px }'
     + '.gp-code-jumper-targeted:hover .gp-code-jumper-targeted__popup { display: block }'
     + '.gp-code-jumper-colors--primary { color: #F92772 }'
+    + '.gp-code-jumper-colors--secondary { color: #74715E }'
+    + '.gp-code-jumper-colors--third { color: #888888 }'
     + '.gp-code-jumper-fonts--bold { font-weight: bold }'
   ;
 
@@ -77,8 +79,18 @@ const inspectPage = () => {
       filteredItems.map((value) => {
         const parameters = value.details.spec.parameters
           .replace(
+            /(=\s*[^\s\]]+)/g,
+            (value) => {
+              return `<span class="gp-code-jumper-colors--secondary">${value}</span>`;
+            }
+          )
+          .replace(
             /(?<!\$)(string|array|int|integer|bool|boolean|void|float|double|callable|resource|mixed)/g,
             '<span class="gp-code-jumper-colors--primary">$1</span>'
+          )
+          .replace(
+            /(\[|\])/g,
+            '<span class="gp-code-jumper-colors--third">$1</span>'
           );
 
         // add rendered flag
