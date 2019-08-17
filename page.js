@@ -3,7 +3,6 @@ const updateText = (propertyName, value) => {
     ? ['language', 'data-language-id']
     : ['position', 'data-position-id'];
 
-  console.log(`.choose-${propertyTarget[0]} [${propertyTarget[1]}="${value}"]`);
   document.querySelector(`.choose-${propertyTarget[0]} .active`).classList.remove('active');
   document.querySelector(`.choose-${propertyTarget[0]} [${propertyTarget[1]}="${value}"]`).classList.add('active');
 };
