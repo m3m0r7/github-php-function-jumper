@@ -1,28 +1,49 @@
-function update() {
+function update(propertyName) {
   chrome.storage.sync.get(
-    ['languageId'],
+    ['languageId', 'positionId'],
     (items) => {
-      document.querySelector('.active').classList.remove('active');
-      document.querySelector('[data-language-id="' + items.languageId + '"]').classList.add('active');
+      const value = items[propertyName] || 0;
+
+      const propertyTarget = propertyName === 'languageId'
+        ? ['language', 'data-language-id']
+        : ['position', 'data-position-id'];
+
+      document.querySelector(`.choose-${propertyTarget[0]} .active`).classList.remove('active');
+      document.querySelector(`.choose-${propertyTarget[0]} [${propertyTarget[1]}="${value}"]`).classList.add('active');
     }
   );
 }
-function changeLanguage(languageId) {
+function changeLanguage(propertyName, value) {
   chrome.storage.sync.set({
-    languageId,
+    [propertyName]: value,
   });
-  update();
+  update(propertyName);
 
   document.querySelector('.description').classList.add('disabled');
   document.querySelector('.flash-message').classList.remove('disabled');
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  update();
+  update('languageId');
+  update('positionId');
+
+  // Update languages
   document.querySelectorAll('[data-language-id]').forEach((element) => {
     element.addEventListener('click', (e) => {
       const languageId = e.path[1].getAttribute('data-language-id') * 1;
-      changeLanguage(languageId);
+      changeLanguage(
+        'languageId', languageId
+      );
+    })
+  });
+
+  // Update positions
+  document.querySelectorAll('[data-position-id]').forEach((element) => {
+    element.addEventListener('click', (e) => {
+      const positionId = e.path[1].getAttribute('data-position-id') * 1;
+      changeLanguage(
+        'positionId', positionId
+      );
     })
   });
 });

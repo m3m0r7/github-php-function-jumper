@@ -42,15 +42,25 @@
       .disabled {
         display: none;
       }
+      .separator {
+        height: 1px;
+        background-color: #DDDDDD;
+      }
     </style>
     <script src="page.js"></script>
   </head>
   <body>
     <p class="description">Choose your doc language.</p>
     <p class="flash-message disabled">Please reload showing page.</p>
-    <ul>
+    <ul class="choose-language">
       <li data-language-id="0" class="active"><span>English</span></li>
       <li data-language-id="1"><span>日本語</span></li>
+    </ul>
+    <div class="separator"></div>
+    <p class="description">Choose showing popup position.</p>
+    <ul class="choose-position">
+      <li data-position-id="0" class="active"><span>Top</span></li>
+      <li data-position-id="1"><span>Bottom</span></li>
     </ul>
   </body>
 </html>
