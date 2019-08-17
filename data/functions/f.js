@@ -512,7 +512,7 @@ functions.f = {
       "ref": null
     }
   },
-  "fann_get_MSE": {
+  "fann_get_mse": {
     "name": "fann_get_MSE",
     "url": "function.fann-get-mse",
     "spec": {
@@ -791,7 +791,7 @@ functions.f = {
       "ref": null
     }
   },
-  "fann_reset_MSE": {
+  "fann_reset_mse": {
     "name": "fann_reset_MSE",
     "url": "function.fann-reset-mse",
     "spec": {

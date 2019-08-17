@@ -7,11 +7,12 @@ const getFunctionsWithElements = (matches) => {
       .replace(/^([^(]+).*$/, '$1')
       .replace(/^\\/, '');
     const char = name.charAt(0).toLowerCase();
-    if (functions.hasOwnProperty(char) && functions[char].hasOwnProperty(name)) {
+    const loweredName = name.toLowerCase();
+    if (functions.hasOwnProperty(char) && functions[char].hasOwnProperty(loweredName)) {
       items.push({
         name,
         element: value,
-        details: functions[char][name],
+        details: functions[char][loweredName],
       });
     }
   });

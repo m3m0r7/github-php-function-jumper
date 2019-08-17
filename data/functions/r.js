@@ -1013,7 +1013,7 @@ functions.r = {
       "ref": null
     }
   },
-  "Runkit_Sandbox": {
+  "runkit_sandbox": {
     "name": "Runkit_Sandbox",
     "url": "runkit.sandbox",
     "spec": {
@@ -1031,7 +1031,7 @@ functions.r = {
       "ref": null
     }
   },
-  "Runkit_Sandbox_Parent": {
+  "runkit_sandbox_parent": {
     "name": "Runkit_Sandbox_Parent",
     "url": "runkit.sandbox-parent",
     "spec": {

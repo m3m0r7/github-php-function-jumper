@@ -440,7 +440,7 @@ functions.g = {
       "ref": null
     }
   },
-  "getSession": {
+  "getsession": {
     "name": "getSession",
     "url": "function.mysql-xdevapi-getsession",
     "spec": {

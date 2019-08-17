@@ -344,7 +344,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_activate_item": {
+  "pdf_activate_item": {
     "name": "PDF_activate_item",
     "url": "function.pdf-activate-item",
     "spec": {
@@ -353,7 +353,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_add_annotation": {
+  "pdf_add_annotation": {
     "name": "PDF_add_annotation",
     "url": "function.pdf-add-annotation",
     "spec": {
@@ -365,7 +365,7 @@ functions.p = {
       }
     }
   },
-  "PDF_add_bookmark": {
+  "pdf_add_bookmark": {
     "name": "PDF_add_bookmark",
     "url": "function.pdf-add-bookmark",
     "spec": {
@@ -377,7 +377,7 @@ functions.p = {
       }
     }
   },
-  "PDF_add_launchlink": {
+  "pdf_add_launchlink": {
     "name": "PDF_add_launchlink",
     "url": "function.pdf-add-launchlink",
     "spec": {
@@ -386,7 +386,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_add_locallink": {
+  "pdf_add_locallink": {
     "name": "PDF_add_locallink",
     "url": "function.pdf-add-locallink",
     "spec": {
@@ -395,7 +395,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_add_nameddest": {
+  "pdf_add_nameddest": {
     "name": "PDF_add_nameddest",
     "url": "function.pdf-add-nameddest",
     "spec": {
@@ -404,7 +404,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_add_note": {
+  "pdf_add_note": {
     "name": "PDF_add_note",
     "url": "function.pdf-add-note",
     "spec": {
@@ -413,7 +413,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_add_outline": {
+  "pdf_add_outline": {
     "name": "PDF_add_outline",
     "url": "function.pdf-add-outline",
     "spec": {
@@ -425,7 +425,7 @@ functions.p = {
       }
     }
   },
-  "PDF_add_pdflink": {
+  "pdf_add_pdflink": {
     "name": "PDF_add_pdflink",
     "url": "function.pdf-add-pdflink",
     "spec": {
@@ -434,7 +434,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_add_table_cell": {
+  "pdf_add_table_cell": {
     "name": "PDF_add_table_cell",
     "url": "function.pdf-add-table-cell",
     "spec": {
@@ -443,7 +443,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_add_textflow": {
+  "pdf_add_textflow": {
     "name": "PDF_add_textflow",
     "url": "function.pdf-add-textflow",
     "spec": {
@@ -452,7 +452,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_add_thumbnail": {
+  "pdf_add_thumbnail": {
     "name": "PDF_add_thumbnail",
     "url": "function.pdf-add-thumbnail",
     "spec": {
@@ -461,7 +461,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_add_weblink": {
+  "pdf_add_weblink": {
     "name": "PDF_add_weblink",
     "url": "function.pdf-add-weblink",
     "spec": {
@@ -470,7 +470,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_arc": {
+  "pdf_arc": {
     "name": "PDF_arc",
     "url": "function.pdf-arc",
     "spec": {
@@ -479,7 +479,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_arcn": {
+  "pdf_arcn": {
     "name": "PDF_arcn",
     "url": "function.pdf-arcn",
     "spec": {
@@ -488,7 +488,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_attach_file": {
+  "pdf_attach_file": {
     "name": "PDF_attach_file",
     "url": "function.pdf-attach-file",
     "spec": {
@@ -497,7 +497,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_document": {
+  "pdf_begin_document": {
     "name": "PDF_begin_document",
     "url": "function.pdf-begin-document",
     "spec": {
@@ -506,7 +506,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_font": {
+  "pdf_begin_font": {
     "name": "PDF_begin_font",
     "url": "function.pdf-begin-font",
     "spec": {
@@ -515,7 +515,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_glyph": {
+  "pdf_begin_glyph": {
     "name": "PDF_begin_glyph",
     "url": "function.pdf-begin-glyph",
     "spec": {
@@ -524,7 +524,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_item": {
+  "pdf_begin_item": {
     "name": "PDF_begin_item",
     "url": "function.pdf-begin-item",
     "spec": {
@@ -533,7 +533,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_layer": {
+  "pdf_begin_layer": {
     "name": "PDF_begin_layer",
     "url": "function.pdf-begin-layer",
     "spec": {
@@ -542,7 +542,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_page": {
+  "pdf_begin_page": {
     "name": "PDF_begin_page",
     "url": "function.pdf-begin-page",
     "spec": {
@@ -551,7 +551,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_page_ext": {
+  "pdf_begin_page_ext": {
     "name": "PDF_begin_page_ext",
     "url": "function.pdf-begin-page-ext",
     "spec": {
@@ -560,7 +560,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_pattern": {
+  "pdf_begin_pattern": {
     "name": "PDF_begin_pattern",
     "url": "function.pdf-begin-pattern",
     "spec": {
@@ -569,7 +569,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_template": {
+  "pdf_begin_template": {
     "name": "PDF_begin_template",
     "url": "function.pdf-begin-template",
     "spec": {
@@ -578,7 +578,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_begin_template_ext": {
+  "pdf_begin_template_ext": {
     "name": "PDF_begin_template_ext",
     "url": "function.pdf-begin-template-ext",
     "spec": {
@@ -587,7 +587,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_circle": {
+  "pdf_circle": {
     "name": "PDF_circle",
     "url": "function.pdf-circle",
     "spec": {
@@ -596,7 +596,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_clip": {
+  "pdf_clip": {
     "name": "PDF_clip",
     "url": "function.pdf-clip",
     "spec": {
@@ -605,7 +605,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_close": {
+  "pdf_close": {
     "name": "PDF_close",
     "url": "function.pdf-close",
     "spec": {
@@ -614,7 +614,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_closepath": {
+  "pdf_closepath": {
     "name": "PDF_closepath",
     "url": "function.pdf-closepath",
     "spec": {
@@ -623,7 +623,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_closepath_fill_stroke": {
+  "pdf_closepath_fill_stroke": {
     "name": "PDF_closepath_fill_stroke",
     "url": "function.pdf-closepath-fill-stroke",
     "spec": {
@@ -632,7 +632,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_closepath_stroke": {
+  "pdf_closepath_stroke": {
     "name": "PDF_closepath_stroke",
     "url": "function.pdf-closepath-stroke",
     "spec": {
@@ -641,7 +641,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_close_image": {
+  "pdf_close_image": {
     "name": "PDF_close_image",
     "url": "function.pdf-close-image",
     "spec": {
@@ -650,7 +650,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_close_pdi": {
+  "pdf_close_pdi": {
     "name": "PDF_close_pdi",
     "url": "function.pdf-close-pdi",
     "spec": {
@@ -659,7 +659,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_close_pdi_page": {
+  "pdf_close_pdi_page": {
     "name": "PDF_close_pdi_page",
     "url": "function.pdf-close-pdi-page",
     "spec": {
@@ -668,7 +668,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_concat": {
+  "pdf_concat": {
     "name": "PDF_concat",
     "url": "function.pdf-concat",
     "spec": {
@@ -677,7 +677,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_continue_text": {
+  "pdf_continue_text": {
     "name": "PDF_continue_text",
     "url": "function.pdf-continue-text",
     "spec": {
@@ -686,7 +686,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_create_3dview": {
+  "pdf_create_3dview": {
     "name": "PDF_create_3dview",
     "url": "function.pdf-create-3dview",
     "spec": {
@@ -695,7 +695,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_create_action": {
+  "pdf_create_action": {
     "name": "PDF_create_action",
     "url": "function.pdf-create-action",
     "spec": {
@@ -704,7 +704,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_create_annotation": {
+  "pdf_create_annotation": {
     "name": "PDF_create_annotation",
     "url": "function.pdf-create-annotation",
     "spec": {
@@ -713,7 +713,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_create_bookmark": {
+  "pdf_create_bookmark": {
     "name": "PDF_create_bookmark",
     "url": "function.pdf-create-bookmark",
     "spec": {
@@ -722,7 +722,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_create_field": {
+  "pdf_create_field": {
     "name": "PDF_create_field",
     "url": "function.pdf-create-field",
     "spec": {
@@ -731,7 +731,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_create_fieldgroup": {
+  "pdf_create_fieldgroup": {
     "name": "PDF_create_fieldgroup",
     "url": "function.pdf-create-fieldgroup",
     "spec": {
@@ -740,7 +740,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_create_gstate": {
+  "pdf_create_gstate": {
     "name": "PDF_create_gstate",
     "url": "function.pdf-create-gstate",
     "spec": {
@@ -749,7 +749,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_create_pvf": {
+  "pdf_create_pvf": {
     "name": "PDF_create_pvf",
     "url": "function.pdf-create-pvf",
     "spec": {
@@ -758,7 +758,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_create_textflow": {
+  "pdf_create_textflow": {
     "name": "PDF_create_textflow",
     "url": "function.pdf-create-textflow",
     "spec": {
@@ -767,7 +767,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_curveto": {
+  "pdf_curveto": {
     "name": "PDF_curveto",
     "url": "function.pdf-curveto",
     "spec": {
@@ -776,7 +776,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_define_layer": {
+  "pdf_define_layer": {
     "name": "PDF_define_layer",
     "url": "function.pdf-define-layer",
     "spec": {
@@ -785,7 +785,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_delete": {
+  "pdf_delete": {
     "name": "PDF_delete",
     "url": "function.pdf-delete",
     "spec": {
@@ -794,7 +794,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_delete_pvf": {
+  "pdf_delete_pvf": {
     "name": "PDF_delete_pvf",
     "url": "function.pdf-delete-pvf",
     "spec": {
@@ -803,7 +803,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_delete_table": {
+  "pdf_delete_table": {
     "name": "PDF_delete_table",
     "url": "function.pdf-delete-table",
     "spec": {
@@ -812,7 +812,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_delete_textflow": {
+  "pdf_delete_textflow": {
     "name": "PDF_delete_textflow",
     "url": "function.pdf-delete-textflow",
     "spec": {
@@ -821,7 +821,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_encoding_set_char": {
+  "pdf_encoding_set_char": {
     "name": "PDF_encoding_set_char",
     "url": "function.pdf-encoding-set-char",
     "spec": {
@@ -830,7 +830,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_endpath": {
+  "pdf_endpath": {
     "name": "PDF_endpath",
     "url": "function.pdf-endpath",
     "spec": {
@@ -839,7 +839,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_end_document": {
+  "pdf_end_document": {
     "name": "PDF_end_document",
     "url": "function.pdf-end-document",
     "spec": {
@@ -848,7 +848,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_end_font": {
+  "pdf_end_font": {
     "name": "PDF_end_font",
     "url": "function.pdf-end-font",
     "spec": {
@@ -857,7 +857,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_end_glyph": {
+  "pdf_end_glyph": {
     "name": "PDF_end_glyph",
     "url": "function.pdf-end-glyph",
     "spec": {
@@ -866,7 +866,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_end_item": {
+  "pdf_end_item": {
     "name": "PDF_end_item",
     "url": "function.pdf-end-item",
     "spec": {
@@ -875,7 +875,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_end_layer": {
+  "pdf_end_layer": {
     "name": "PDF_end_layer",
     "url": "function.pdf-end-layer",
     "spec": {
@@ -884,7 +884,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_end_page": {
+  "pdf_end_page": {
     "name": "PDF_end_page",
     "url": "function.pdf-end-page",
     "spec": {
@@ -893,7 +893,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_end_page_ext": {
+  "pdf_end_page_ext": {
     "name": "PDF_end_page_ext",
     "url": "function.pdf-end-page-ext",
     "spec": {
@@ -902,7 +902,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_end_pattern": {
+  "pdf_end_pattern": {
     "name": "PDF_end_pattern",
     "url": "function.pdf-end-pattern",
     "spec": {
@@ -911,7 +911,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_end_template": {
+  "pdf_end_template": {
     "name": "PDF_end_template",
     "url": "function.pdf-end-template",
     "spec": {
@@ -920,7 +920,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fill": {
+  "pdf_fill": {
     "name": "PDF_fill",
     "url": "function.pdf-fill",
     "spec": {
@@ -929,7 +929,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fill_imageblock": {
+  "pdf_fill_imageblock": {
     "name": "PDF_fill_imageblock",
     "url": "function.pdf-fill-imageblock",
     "spec": {
@@ -938,7 +938,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fill_pdfblock": {
+  "pdf_fill_pdfblock": {
     "name": "PDF_fill_pdfblock",
     "url": "function.pdf-fill-pdfblock",
     "spec": {
@@ -947,7 +947,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fill_stroke": {
+  "pdf_fill_stroke": {
     "name": "PDF_fill_stroke",
     "url": "function.pdf-fill-stroke",
     "spec": {
@@ -956,7 +956,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fill_textblock": {
+  "pdf_fill_textblock": {
     "name": "PDF_fill_textblock",
     "url": "function.pdf-fill-textblock",
     "spec": {
@@ -965,7 +965,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_findfont": {
+  "pdf_findfont": {
     "name": "PDF_findfont",
     "url": "function.pdf-findfont",
     "spec": {
@@ -974,7 +974,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fit_image": {
+  "pdf_fit_image": {
     "name": "PDF_fit_image",
     "url": "function.pdf-fit-image",
     "spec": {
@@ -983,7 +983,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fit_pdi_page": {
+  "pdf_fit_pdi_page": {
     "name": "PDF_fit_pdi_page",
     "url": "function.pdf-fit-pdi-page",
     "spec": {
@@ -992,7 +992,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fit_table": {
+  "pdf_fit_table": {
     "name": "PDF_fit_table",
     "url": "function.pdf-fit-table",
     "spec": {
@@ -1001,7 +1001,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fit_textflow": {
+  "pdf_fit_textflow": {
     "name": "PDF_fit_textflow",
     "url": "function.pdf-fit-textflow",
     "spec": {
@@ -1010,7 +1010,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_fit_textline": {
+  "pdf_fit_textline": {
     "name": "PDF_fit_textline",
     "url": "function.pdf-fit-textline",
     "spec": {
@@ -1019,7 +1019,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_apiname": {
+  "pdf_get_apiname": {
     "name": "PDF_get_apiname",
     "url": "function.pdf-get-apiname",
     "spec": {
@@ -1028,7 +1028,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_buffer": {
+  "pdf_get_buffer": {
     "name": "PDF_get_buffer",
     "url": "function.pdf-get-buffer",
     "spec": {
@@ -1037,7 +1037,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_errmsg": {
+  "pdf_get_errmsg": {
     "name": "PDF_get_errmsg",
     "url": "function.pdf-get-errmsg",
     "spec": {
@@ -1046,7 +1046,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_errnum": {
+  "pdf_get_errnum": {
     "name": "PDF_get_errnum",
     "url": "function.pdf-get-errnum",
     "spec": {
@@ -1055,7 +1055,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_font": {
+  "pdf_get_font": {
     "name": "PDF_get_font",
     "url": "function.pdf-get-font",
     "spec": {
@@ -1067,7 +1067,7 @@ functions.p = {
       }
     }
   },
-  "PDF_get_fontname": {
+  "pdf_get_fontname": {
     "name": "PDF_get_fontname",
     "url": "function.pdf-get-fontname",
     "spec": {
@@ -1079,7 +1079,7 @@ functions.p = {
       }
     }
   },
-  "PDF_get_fontsize": {
+  "pdf_get_fontsize": {
     "name": "PDF_get_fontsize",
     "url": "function.pdf-get-fontsize",
     "spec": {
@@ -1091,7 +1091,7 @@ functions.p = {
       }
     }
   },
-  "PDF_get_image_height": {
+  "pdf_get_image_height": {
     "name": "PDF_get_image_height",
     "url": "function.pdf-get-image-height",
     "spec": {
@@ -1103,7 +1103,7 @@ functions.p = {
       }
     }
   },
-  "PDF_get_image_width": {
+  "pdf_get_image_width": {
     "name": "PDF_get_image_width",
     "url": "function.pdf-get-image-width",
     "spec": {
@@ -1115,7 +1115,7 @@ functions.p = {
       }
     }
   },
-  "PDF_get_majorversion": {
+  "pdf_get_majorversion": {
     "name": "PDF_get_majorversion",
     "url": "function.pdf-get-majorversion",
     "spec": {
@@ -1124,7 +1124,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_minorversion": {
+  "pdf_get_minorversion": {
     "name": "PDF_get_minorversion",
     "url": "function.pdf-get-minorversion",
     "spec": {
@@ -1133,7 +1133,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_parameter": {
+  "pdf_get_parameter": {
     "name": "PDF_get_parameter",
     "url": "function.pdf-get-parameter",
     "spec": {
@@ -1142,7 +1142,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_pdi_parameter": {
+  "pdf_get_pdi_parameter": {
     "name": "PDF_get_pdi_parameter",
     "url": "function.pdf-get-pdi-parameter",
     "spec": {
@@ -1151,7 +1151,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_pdi_value": {
+  "pdf_get_pdi_value": {
     "name": "PDF_get_pdi_value",
     "url": "function.pdf-get-pdi-value",
     "spec": {
@@ -1160,7 +1160,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_get_value": {
+  "pdf_get_value": {
     "name": "PDF_get_value",
     "url": "function.pdf-get-value",
     "spec": {
@@ -1169,7 +1169,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_info_font": {
+  "pdf_info_font": {
     "name": "PDF_info_font",
     "url": "function.pdf-info-font",
     "spec": {
@@ -1178,7 +1178,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_info_matchbox": {
+  "pdf_info_matchbox": {
     "name": "PDF_info_matchbox",
     "url": "function.pdf-info-matchbox",
     "spec": {
@@ -1187,7 +1187,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_info_table": {
+  "pdf_info_table": {
     "name": "PDF_info_table",
     "url": "function.pdf-info-table",
     "spec": {
@@ -1196,7 +1196,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_info_textflow": {
+  "pdf_info_textflow": {
     "name": "PDF_info_textflow",
     "url": "function.pdf-info-textflow",
     "spec": {
@@ -1205,7 +1205,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_info_textline": {
+  "pdf_info_textline": {
     "name": "PDF_info_textline",
     "url": "function.pdf-info-textline",
     "spec": {
@@ -1214,7 +1214,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_initgraphics": {
+  "pdf_initgraphics": {
     "name": "PDF_initgraphics",
     "url": "function.pdf-initgraphics",
     "spec": {
@@ -1223,7 +1223,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_lineto": {
+  "pdf_lineto": {
     "name": "PDF_lineto",
     "url": "function.pdf-lineto",
     "spec": {
@@ -1232,7 +1232,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_load_3ddata": {
+  "pdf_load_3ddata": {
     "name": "PDF_load_3ddata",
     "url": "function.pdf-load-3ddata",
     "spec": {
@@ -1241,7 +1241,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_load_font": {
+  "pdf_load_font": {
     "name": "PDF_load_font",
     "url": "function.pdf-load-font",
     "spec": {
@@ -1250,7 +1250,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_load_iccprofile": {
+  "pdf_load_iccprofile": {
     "name": "PDF_load_iccprofile",
     "url": "function.pdf-load-iccprofile",
     "spec": {
@@ -1259,7 +1259,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_load_image": {
+  "pdf_load_image": {
     "name": "PDF_load_image",
     "url": "function.pdf-load-image",
     "spec": {
@@ -1268,7 +1268,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_makespotcolor": {
+  "pdf_makespotcolor": {
     "name": "PDF_makespotcolor",
     "url": "function.pdf-makespotcolor",
     "spec": {
@@ -1277,7 +1277,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_moveto": {
+  "pdf_moveto": {
     "name": "PDF_moveto",
     "url": "function.pdf-moveto",
     "spec": {
@@ -1286,7 +1286,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_new": {
+  "pdf_new": {
     "name": "PDF_new",
     "url": "function.pdf-new",
     "spec": {
@@ -1295,7 +1295,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_open_ccitt": {
+  "pdf_open_ccitt": {
     "name": "PDF_open_ccitt",
     "url": "function.pdf-open-ccitt",
     "spec": {
@@ -1304,7 +1304,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_open_file": {
+  "pdf_open_file": {
     "name": "PDF_open_file",
     "url": "function.pdf-open-file",
     "spec": {
@@ -1313,7 +1313,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_open_gif": {
+  "pdf_open_gif": {
     "name": "PDF_open_gif",
     "url": "function.pdf-open-gif",
     "spec": {
@@ -1325,7 +1325,7 @@ functions.p = {
       }
     }
   },
-  "PDF_open_image": {
+  "pdf_open_image": {
     "name": "PDF_open_image",
     "url": "function.pdf-open-image",
     "spec": {
@@ -1334,7 +1334,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_open_image_file": {
+  "pdf_open_image_file": {
     "name": "PDF_open_image_file",
     "url": "function.pdf-open-image-file",
     "spec": {
@@ -1343,7 +1343,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_open_jpeg": {
+  "pdf_open_jpeg": {
     "name": "PDF_open_jpeg",
     "url": "function.pdf-open-jpeg",
     "spec": {
@@ -1355,7 +1355,7 @@ functions.p = {
       }
     }
   },
-  "PDF_open_memory_image": {
+  "pdf_open_memory_image": {
     "name": "PDF_open_memory_image",
     "url": "function.pdf-open-memory-image",
     "spec": {
@@ -1364,7 +1364,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_open_pdi": {
+  "pdf_open_pdi": {
     "name": "PDF_open_pdi",
     "url": "function.pdf-open-pdi",
     "spec": {
@@ -1373,7 +1373,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_open_pdi_document": {
+  "pdf_open_pdi_document": {
     "name": "PDF_open_pdi_document",
     "url": "function.pdf-open-pdi-document",
     "spec": {
@@ -1382,7 +1382,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_open_pdi_page": {
+  "pdf_open_pdi_page": {
     "name": "PDF_open_pdi_page",
     "url": "function.pdf-open-pdi-page",
     "spec": {
@@ -1391,7 +1391,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_open_tiff": {
+  "pdf_open_tiff": {
     "name": "PDF_open_tiff",
     "url": "function.pdf-open-tiff",
     "spec": {
@@ -1403,7 +1403,7 @@ functions.p = {
       }
     }
   },
-  "PDF_pcos_get_number": {
+  "pdf_pcos_get_number": {
     "name": "PDF_pcos_get_number",
     "url": "function.pdf-pcos-get-number",
     "spec": {
@@ -1412,7 +1412,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_pcos_get_stream": {
+  "pdf_pcos_get_stream": {
     "name": "PDF_pcos_get_stream",
     "url": "function.pdf-pcos-get-stream",
     "spec": {
@@ -1421,7 +1421,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_pcos_get_string": {
+  "pdf_pcos_get_string": {
     "name": "PDF_pcos_get_string",
     "url": "function.pdf-pcos-get-string",
     "spec": {
@@ -1430,7 +1430,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_place_image": {
+  "pdf_place_image": {
     "name": "PDF_place_image",
     "url": "function.pdf-place-image",
     "spec": {
@@ -1439,7 +1439,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_place_pdi_page": {
+  "pdf_place_pdi_page": {
     "name": "PDF_place_pdi_page",
     "url": "function.pdf-place-pdi-page",
     "spec": {
@@ -1448,7 +1448,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_process_pdi": {
+  "pdf_process_pdi": {
     "name": "PDF_process_pdi",
     "url": "function.pdf-process-pdi",
     "spec": {
@@ -1457,7 +1457,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_rect": {
+  "pdf_rect": {
     "name": "PDF_rect",
     "url": "function.pdf-rect",
     "spec": {
@@ -1466,7 +1466,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_restore": {
+  "pdf_restore": {
     "name": "PDF_restore",
     "url": "function.pdf-restore",
     "spec": {
@@ -1475,7 +1475,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_resume_page": {
+  "pdf_resume_page": {
     "name": "PDF_resume_page",
     "url": "function.pdf-resume-page",
     "spec": {
@@ -1484,7 +1484,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_rotate": {
+  "pdf_rotate": {
     "name": "PDF_rotate",
     "url": "function.pdf-rotate",
     "spec": {
@@ -1493,7 +1493,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_save": {
+  "pdf_save": {
     "name": "PDF_save",
     "url": "function.pdf-save",
     "spec": {
@@ -1502,7 +1502,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_scale": {
+  "pdf_scale": {
     "name": "PDF_scale",
     "url": "function.pdf-scale",
     "spec": {
@@ -1511,7 +1511,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setcolor": {
+  "pdf_setcolor": {
     "name": "PDF_setcolor",
     "url": "function.pdf-setcolor",
     "spec": {
@@ -1520,7 +1520,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setdash": {
+  "pdf_setdash": {
     "name": "PDF_setdash",
     "url": "function.pdf-setdash",
     "spec": {
@@ -1529,7 +1529,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setdashpattern": {
+  "pdf_setdashpattern": {
     "name": "PDF_setdashpattern",
     "url": "function.pdf-setdashpattern",
     "spec": {
@@ -1538,7 +1538,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setflat": {
+  "pdf_setflat": {
     "name": "PDF_setflat",
     "url": "function.pdf-setflat",
     "spec": {
@@ -1547,7 +1547,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setfont": {
+  "pdf_setfont": {
     "name": "PDF_setfont",
     "url": "function.pdf-setfont",
     "spec": {
@@ -1556,7 +1556,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setgray": {
+  "pdf_setgray": {
     "name": "PDF_setgray",
     "url": "function.pdf-setgray",
     "spec": {
@@ -1565,7 +1565,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setgray_fill": {
+  "pdf_setgray_fill": {
     "name": "PDF_setgray_fill",
     "url": "function.pdf-setgray-fill",
     "spec": {
@@ -1574,7 +1574,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setgray_stroke": {
+  "pdf_setgray_stroke": {
     "name": "PDF_setgray_stroke",
     "url": "function.pdf-setgray-stroke",
     "spec": {
@@ -1583,7 +1583,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setlinecap": {
+  "pdf_setlinecap": {
     "name": "PDF_setlinecap",
     "url": "function.pdf-setlinecap",
     "spec": {
@@ -1592,7 +1592,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setlinejoin": {
+  "pdf_setlinejoin": {
     "name": "PDF_setlinejoin",
     "url": "function.pdf-setlinejoin",
     "spec": {
@@ -1601,7 +1601,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setlinewidth": {
+  "pdf_setlinewidth": {
     "name": "PDF_setlinewidth",
     "url": "function.pdf-setlinewidth",
     "spec": {
@@ -1610,7 +1610,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setmatrix": {
+  "pdf_setmatrix": {
     "name": "PDF_setmatrix",
     "url": "function.pdf-setmatrix",
     "spec": {
@@ -1619,7 +1619,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setmiterlimit": {
+  "pdf_setmiterlimit": {
     "name": "PDF_setmiterlimit",
     "url": "function.pdf-setmiterlimit",
     "spec": {
@@ -1628,7 +1628,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setpolydash": {
+  "pdf_setpolydash": {
     "name": "PDF_setpolydash",
     "url": "function.pdf-setpolydash",
     "spec": {
@@ -1640,7 +1640,7 @@ functions.p = {
       }
     }
   },
-  "PDF_setrgbcolor": {
+  "pdf_setrgbcolor": {
     "name": "PDF_setrgbcolor",
     "url": "function.pdf-setrgbcolor",
     "spec": {
@@ -1649,7 +1649,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setrgbcolor_fill": {
+  "pdf_setrgbcolor_fill": {
     "name": "PDF_setrgbcolor_fill",
     "url": "function.pdf-setrgbcolor-fill",
     "spec": {
@@ -1658,7 +1658,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_setrgbcolor_stroke": {
+  "pdf_setrgbcolor_stroke": {
     "name": "PDF_setrgbcolor_stroke",
     "url": "function.pdf-setrgbcolor-stroke",
     "spec": {
@@ -1667,7 +1667,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_border_color": {
+  "pdf_set_border_color": {
     "name": "PDF_set_border_color",
     "url": "function.pdf-set-border-color",
     "spec": {
@@ -1676,7 +1676,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_border_dash": {
+  "pdf_set_border_dash": {
     "name": "PDF_set_border_dash",
     "url": "function.pdf-set-border-dash",
     "spec": {
@@ -1685,7 +1685,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_border_style": {
+  "pdf_set_border_style": {
     "name": "PDF_set_border_style",
     "url": "function.pdf-set-border-style",
     "spec": {
@@ -1694,7 +1694,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_char_spacing": {
+  "pdf_set_char_spacing": {
     "name": "PDF_set_char_spacing",
     "url": "function.pdf-set-char-spacing",
     "spec": {
@@ -1706,7 +1706,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_duration": {
+  "pdf_set_duration": {
     "name": "PDF_set_duration",
     "url": "function.pdf-set-duration",
     "spec": {
@@ -1718,7 +1718,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_gstate": {
+  "pdf_set_gstate": {
     "name": "PDF_set_gstate",
     "url": "function.pdf-set-gstate",
     "spec": {
@@ -1727,7 +1727,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_horiz_scaling": {
+  "pdf_set_horiz_scaling": {
     "name": "PDF_set_horiz_scaling",
     "url": "function.pdf-set-horiz-scaling",
     "spec": {
@@ -1739,7 +1739,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_info": {
+  "pdf_set_info": {
     "name": "PDF_set_info",
     "url": "function.pdf-set-info",
     "spec": {
@@ -1748,7 +1748,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_info_author": {
+  "pdf_set_info_author": {
     "name": "PDF_set_info_author",
     "url": "function.pdf-set-info-author",
     "spec": {
@@ -1760,7 +1760,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_info_creator": {
+  "pdf_set_info_creator": {
     "name": "PDF_set_info_creator",
     "url": "function.pdf-set-info-creator",
     "spec": {
@@ -1772,7 +1772,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_info_keywords": {
+  "pdf_set_info_keywords": {
     "name": "PDF_set_info_keywords",
     "url": "function.pdf-set-info-keywords",
     "spec": {
@@ -1784,7 +1784,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_info_subject": {
+  "pdf_set_info_subject": {
     "name": "PDF_set_info_subject",
     "url": "function.pdf-set-info-subject",
     "spec": {
@@ -1796,7 +1796,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_info_title": {
+  "pdf_set_info_title": {
     "name": "PDF_set_info_title",
     "url": "function.pdf-set-info-title",
     "spec": {
@@ -1808,7 +1808,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_layer_dependency": {
+  "pdf_set_layer_dependency": {
     "name": "PDF_set_layer_dependency",
     "url": "function.pdf-set-layer-dependency",
     "spec": {
@@ -1817,7 +1817,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_leading": {
+  "pdf_set_leading": {
     "name": "PDF_set_leading",
     "url": "function.pdf-set-leading",
     "spec": {
@@ -1829,7 +1829,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_parameter": {
+  "pdf_set_parameter": {
     "name": "PDF_set_parameter",
     "url": "function.pdf-set-parameter",
     "spec": {
@@ -1838,7 +1838,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_text_matrix": {
+  "pdf_set_text_matrix": {
     "name": "PDF_set_text_matrix",
     "url": "function.pdf-set-text-matrix",
     "spec": {
@@ -1850,7 +1850,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_text_pos": {
+  "pdf_set_text_pos": {
     "name": "PDF_set_text_pos",
     "url": "function.pdf-set-text-pos",
     "spec": {
@@ -1859,7 +1859,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_text_rendering": {
+  "pdf_set_text_rendering": {
     "name": "PDF_set_text_rendering",
     "url": "function.pdf-set-text-rendering",
     "spec": {
@@ -1871,7 +1871,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_text_rise": {
+  "pdf_set_text_rise": {
     "name": "PDF_set_text_rise",
     "url": "function.pdf-set-text-rise",
     "spec": {
@@ -1883,7 +1883,7 @@ functions.p = {
       }
     }
   },
-  "PDF_set_value": {
+  "pdf_set_value": {
     "name": "PDF_set_value",
     "url": "function.pdf-set-value",
     "spec": {
@@ -1892,7 +1892,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_set_word_spacing": {
+  "pdf_set_word_spacing": {
     "name": "PDF_set_word_spacing",
     "url": "function.pdf-set-word-spacing",
     "spec": {
@@ -1904,7 +1904,7 @@ functions.p = {
       }
     }
   },
-  "PDF_shading": {
+  "pdf_shading": {
     "name": "PDF_shading",
     "url": "function.pdf-shading",
     "spec": {
@@ -1913,7 +1913,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_shading_pattern": {
+  "pdf_shading_pattern": {
     "name": "PDF_shading_pattern",
     "url": "function.pdf-shading-pattern",
     "spec": {
@@ -1922,7 +1922,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_shfill": {
+  "pdf_shfill": {
     "name": "PDF_shfill",
     "url": "function.pdf-shfill",
     "spec": {
@@ -1931,7 +1931,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_show": {
+  "pdf_show": {
     "name": "PDF_show",
     "url": "function.pdf-show",
     "spec": {
@@ -1940,7 +1940,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_show_boxed": {
+  "pdf_show_boxed": {
     "name": "PDF_show_boxed",
     "url": "function.pdf-show-boxed",
     "spec": {
@@ -1949,7 +1949,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_show_xy": {
+  "pdf_show_xy": {
     "name": "PDF_show_xy",
     "url": "function.pdf-show-xy",
     "spec": {
@@ -1958,7 +1958,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_skew": {
+  "pdf_skew": {
     "name": "PDF_skew",
     "url": "function.pdf-skew",
     "spec": {
@@ -1967,7 +1967,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_stringwidth": {
+  "pdf_stringwidth": {
     "name": "PDF_stringwidth",
     "url": "function.pdf-stringwidth",
     "spec": {
@@ -1976,7 +1976,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_stroke": {
+  "pdf_stroke": {
     "name": "PDF_stroke",
     "url": "function.pdf-stroke",
     "spec": {
@@ -1985,7 +1985,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_suspend_page": {
+  "pdf_suspend_page": {
     "name": "PDF_suspend_page",
     "url": "function.pdf-suspend-page",
     "spec": {
@@ -1994,7 +1994,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_translate": {
+  "pdf_translate": {
     "name": "PDF_translate",
     "url": "function.pdf-translate",
     "spec": {
@@ -2003,7 +2003,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_utf8_to_utf16": {
+  "pdf_utf8_to_utf16": {
     "name": "PDF_utf8_to_utf16",
     "url": "function.pdf-utf8-to-utf16",
     "spec": {
@@ -2012,7 +2012,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_utf16_to_utf8": {
+  "pdf_utf16_to_utf8": {
     "name": "PDF_utf16_to_utf8",
     "url": "function.pdf-utf16-to-utf8",
     "spec": {
@@ -2021,7 +2021,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PDF_utf32_to_utf16": {
+  "pdf_utf32_to_utf16": {
     "name": "PDF_utf32_to_utf16",
     "url": "function.pdf-utf32-to-utf16",
     "spec": {
@@ -2840,7 +2840,7 @@ functions.p = {
       "ref": null
     }
   },
-  "PharException": {
+  "pharexception": {
     "name": "PharException",
     "url": "pharexception.intro.unused",
     "spec": {
