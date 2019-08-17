@@ -13,6 +13,7 @@
   "icons" : {
     "128": "icons/128x128.png"
   },
+  "default_locale": "en",
   "content_scripts": [
     {
       "matches": [

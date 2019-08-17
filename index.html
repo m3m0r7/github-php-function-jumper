@@ -14,9 +14,9 @@
       li {
         list-style: none;
       }
-      span {
+      span.button {
         display: block;
-        min-width: 200px;
+        min-width: 220px;
         color: #000000;
         text-decoration: none;
         padding: 10px;
@@ -46,21 +46,32 @@
         height: 1px;
         background-color: #DDDDDD;
       }
+      span.button span {
+        font-size: 14px;
+      }
     </style>
     <script src="page.js"></script>
   </head>
   <body>
-    <p class="description">Choose your doc language.</p>
-    <p class="flash-message disabled">Please reload showing page.</p>
+    <p class="description"><span data-translate="L000000"></span></p>
+    <p class="flash-message disabled"><span data-translate="L000001"></span></p>
     <ul class="choose-language">
-      <li data-language-id="0" class="active"><span>English</span></li>
-      <li data-language-id="1"><span>日本語</span></li>
+      <li data-language-id="0" class="active"><span class="button"><span data-translate="L000800"></span></span></li>
+      <li data-language-id="1"><span class="button"><span data-translate="L000801"></span></span></li>
+      <li data-language-id="2"><span class="button"><span data-translate="L000802"></span></span></li>
+      <li data-language-id="3"><span class="button"><span data-translate="L000803"></span></span></li>
+      <li data-language-id="4"><span class="button"><span data-translate="L000804"></span></span></li>
+      <li data-language-id="5"><span class="button"><span data-translate="L000805"></span></span></li>
+      <li data-language-id="6"><span class="button"><span data-translate="L000806"></span></span></li>
+      <li data-language-id="7"><span class="button"><span data-translate="L000807"></span></span></li>
+      <li data-language-id="8"><span class="button"><span data-translate="L000808"></span></span></li>
+      <li data-language-id="9"><span class="button"><span data-translate="L000809"></span></span></li>
     </ul>
     <div class="separator"></div>
-    <p class="description">Choose showing popup position.</p>
+    <p class="description"><span data-translate="L000002"></span></p>
     <ul class="choose-position">
-      <li data-position-id="0" class="active"><span>Top</span></li>
-      <li data-position-id="1"><span>Bottom</span></li>
+      <li data-position-id="0" class="active"><span class="button"><span data-translate="L000100"></span></span></li>
+      <li data-position-id="1"><span class="button"><span data-translate="L000101"></span></span></li>
     </ul>
   </body>
 </html>

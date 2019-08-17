@@ -1,0 +1,47 @@
+{
+  "L000000": {
+    "message": "Choose your doc language."
+  },
+  "L000001": {
+    "message": "Please reload showing page."
+  },
+  "L000002": {
+    "message": "Choose showing popup position."
+  },
+  "L000100": {
+    "message": "Top"
+  },
+  "L000101": {
+    "message": "Bottom"
+  },
+  "L000800": {
+    "message": "&#x1f1fa;&#x1f1f8; English"
+  },
+  "L000801": {
+    "message": "&#x1f1ef;&#x1f1f5; Japanese"
+  },
+  "L000802": {
+    "message": "&#x1f1e7;&#x1f1f7; Brazilian Portuguese"
+  },
+  "L000803": {
+    "message": "&#x1f1e8;&#x1f1f3; Chinese (Simplified)"
+  },
+  "L000804": {
+    "message": "&#x1f1eb;&#x1f1f7; French"
+  },
+  "L000805": {
+    "message": "&#x1f1e9;&#x1f1ea; German"
+  },
+  "L000806": {
+    "message": "&#x1f1f7;&#x1f1f4; Romanian"
+  },
+  "L000807": {
+    "message": "&#x1f1f7;&#x1f1fa; Russian"
+  },
+  "L000808": {
+    "message": "&#x1f1ea;&#x1f1f8; Spanish"
+  },
+  "L000809": {
+    "message": "&#x1f1f9;&#x1f1f7; Turkish"
+  }
+}
