@@ -13,7 +13,7 @@ function update(propertyName) {
     }
   );
 }
-function changeLanguage(propertyName, value) {
+function change(propertyName, value) {
   chrome.storage.sync.set({
     [propertyName]: value,
   });
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-language-id]').forEach((element) => {
     element.addEventListener('click', (e) => {
       const languageId = e.path[1].getAttribute('data-language-id') * 1;
-      changeLanguage(
+      change(
         'languageId', languageId
       );
     })
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-position-id]').forEach((element) => {
     element.addEventListener('click', (e) => {
       const positionId = e.path[1].getAttribute('data-position-id') * 1;
-      changeLanguage(
+      change(
         'positionId', positionId
       );
     })
