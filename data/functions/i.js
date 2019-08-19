@@ -3423,6 +3423,7 @@ functions.i = {
     "name": "isset",
     "url": "function.isset",
     "spec": {
+      "isStructure": true,
       "parameters": "mixed $var [, mixed $... ]",
       "returnValue": "bool",
       "ref": null

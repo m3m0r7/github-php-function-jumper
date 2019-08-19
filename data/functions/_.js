@@ -12,6 +12,7 @@ functions._ = {
     "name": "__halt_compiler",
     "url": "function.halt-compiler",
     "spec": {
+      "isStructure": true,
       "parameters": "void",
       "returnValue": "void",
       "ref": null

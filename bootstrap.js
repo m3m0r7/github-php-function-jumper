@@ -8,14 +8,30 @@ const getFunctionsWithElements = (matches, marker) => {
       .replace(/^\\/, '');
     const char = name.charAt(0).toLowerCase();
     const loweredName = name.toLowerCase();
-    if (functions.hasOwnProperty(char) && functions[char].hasOwnProperty(loweredName)) {
-      items.push({
-        marker,
-        name,
-        element: value,
-        details: functions[char][loweredName],
-      });
+
+    // Set rendering flags.
+    value.setAttribute('data-gp-is-rendered', 'true');
+
+    if (!functions.hasOwnProperty(char) || !functions[char].hasOwnProperty(loweredName)) {
+      return;
     }
+    // If right syntax is :: or ->, through current syntax.
+    const nextNode = value.nextSibling;
+    if (nextNode.nodeName === 'SPAN'
+      && nextNode.classList.contains('pl-k')
+      && (
+        nextNode.innerText === '::'
+        || nextNode.innerText === '->'
+      )
+    ) {
+      return;
+    }
+    items.push({
+      marker,
+      name,
+      element: value,
+      details: functions[char][loweredName],
+    });
   });
   return items;
 };
@@ -60,8 +76,6 @@ const inspectPage = () => {
   style.innerHTML =
       '.gp-code-jumper-targeted { position: relative; display: inline-block }'
     + '.gp-code-jumper-targeted__popup { position: absolute; left: calc(-50% - 40px); box-shadow: 0 0 3px #888888; color: #000000; border: 1px solid #888888; background-color: #FFFFFF; display: none; z-index: 1; padding: 10px; border-radius: 2px; }'
-    // + '.gp-code-jumper-targeted__popup--top { top: -45px; }'
-    // + '.gp-code-jumper-targeted__popup--bottom { bottom: -45px }'
     + '.gp-code-jumper-targeted:hover .gp-code-jumper-targeted__popup { display: block }'
     + '.gp-code-jumper-colors--primary { color: #F92772 }'
     + '.gp-code-jumper-colors--secondary { color: #74715E }'
@@ -93,9 +107,6 @@ const inspectPage = () => {
             '<span class="gp-code-jumper-colors--third">$1</span>'
           );
 
-        // add rendered flag
-        value.element.setAttribute('data-gp-is-rendered', 'true');
-
         const position = items.positionId || 0;
 
         value.element.innerHTML =
@@ -103,13 +114,18 @@ const inspectPage = () => {
           + `${value.element.innerHTML}`
           + `</a>`;
 
+        let structure = 'function';
+        if (value.details.spec.hasOwnProperty('isStructure') && value.details.spec.isStructure === true) {
+          structure = 'struct';
+        }
+
         // Create popup DOM.
         const popup = document.createElement('div');
         popup.classList.add('gp-code-jumper-targeted__popup');
         popup.classList.add('gp-code-jumper-targeted__popup--' + (position === 0 ? 'top' : 'bottom'));
 
         popup.innerHTML =
-            `<span class="gp-code-jumper-colors--primary">function</span> `
+            `<span class="gp-code-jumper-colors--primary">${structure}</span> `
           + `<span class="gp-code-jumper-fonts--bold">${value.details.name}</span>`
           + `(${parameters})`
           + `<span class="gp-code-jumper-colors--primary">: ${value.details.spec.returnValue}</span>`;

@@ -570,6 +570,7 @@ functions.e = {
     "name": "empty",
     "url": "function.empty",
     "spec": {
+      "isStructure": true,
       "parameters": "mixed $var",
       "returnValue": "bool",
       "ref": null
