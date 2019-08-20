@@ -20,6 +20,9 @@
         "https://github.com/*",
         "https://gist.github.com/*"
       ],
+      "css": [
+        "main.css"
+      ],
       "js": [
         "data/manual.js",
         "data/functions.js",
@@ -105,8 +108,12 @@
         "data/functions/y.js",
         "data/functions/z.js",
         "data/functions/_.js",
+        "util.js",
         "listener/function.js",
-        "listener/class.js"
+        "listener/class.js",
+        "kernel.js",
+        "inspector.js",
+        "main.js"
       ]
     }
   ]
