@@ -1,47 +1,47 @@
 {
   "L000000": {
-    "message": "Choose your doc language."
+    "message": "Idioma documentación."
   },
   "L000001": {
-    "message": "Please reload showing page."
+    "message": "Recargue la página actual."
   },
   "L000002": {
-    "message": "Choose showing popup position."
+    "message": "Posición del pop-up."
   },
   "L000100": {
-    "message": "Top"
+    "message": "Superior"
   },
   "L000101": {
-    "message": "Bottom"
+    "message": "Inferior"
   },
   "L000800": {
-    "message": "&#x1f1fa;&#x1f1f8; English"
+    "message": "&#x1f1fa;&#x1f1f8; Inglés"
   },
   "L000801": {
-    "message": "&#x1f1ef;&#x1f1f5; Japanese"
+    "message": "&#x1f1ef;&#x1f1f5; Japonés"
   },
   "L000802": {
-    "message": "&#x1f1e7;&#x1f1f7; Brazilian Portuguese"
+    "message": "&#x1f1e7;&#x1f1f7; Portugués brasileño"
   },
   "L000803": {
-    "message": "&#x1f1e8;&#x1f1f3; Chinese (Simplified)"
+    "message": "&#x1f1e8;&#x1f1f3; Chino (Simplificado)"
   },
   "L000804": {
-    "message": "&#x1f1eb;&#x1f1f7; French"
+    "message": "&#x1f1eb;&#x1f1f7; Francés"
   },
   "L000805": {
-    "message": "&#x1f1e9;&#x1f1ea; German"
+    "message": "&#x1f1e9;&#x1f1ea; Alemán"
   },
   "L000806": {
-    "message": "&#x1f1f7;&#x1f1f4; Romanian"
+    "message": "&#x1f1f7;&#x1f1f4; Rumano"
   },
   "L000807": {
-    "message": "&#x1f1f7;&#x1f1fa; Russian"
+    "message": "&#x1f1f7;&#x1f1fa; Ruso"
   },
   "L000808": {
-    "message": "&#x1f1ea;&#x1f1f8; Spanish"
+    "message": "&#x1f1ea;&#x1f1f8; Español"
   },
   "L000809": {
-    "message": "&#x1f1f9;&#x1f1f7; Turkish"
+    "message": "&#x1f1f9;&#x1f1f7; Turco"
   }
 }
