@@ -105,7 +105,8 @@
         "data/functions/y.js",
         "data/functions/z.js",
         "data/functions/_.js",
-        "listener/function.js"
+        "listener/function.js",
+        "listener/class.js"
       ]
     }
   ]
