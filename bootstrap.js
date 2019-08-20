@@ -75,7 +75,7 @@ const inspectPage = () => {
 
   style.innerHTML =
       '.gp-code-jumper-targeted { position: relative; display: inline-block }'
-    + '.gp-code-jumper-targeted__popup { position: absolute; left: calc(-50% - 40px); box-shadow: 0 0 3px #888888; color: #000000; border: 1px solid #888888; background-color: #FFFFFF; display: none; z-index: 1; padding: 10px; border-radius: 2px; }'
+    + '.gp-code-jumper-targeted__popup { position: absolute; left: calc(-50% - 40px); box-shadow: 0 0 3px #888888; color: #000000; border: 1px solid #888888; background-color: #FFFFFF; display: none; z-index: 1; padding: 10px; border-radius: 2px; font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 12px }'
     + '.gp-code-jumper-targeted:hover .gp-code-jumper-targeted__popup { display: block }'
     + '.gp-code-jumper-colors--primary { color: #F92772 }'
     + '.gp-code-jumper-colors--secondary { color: #74715E }'
