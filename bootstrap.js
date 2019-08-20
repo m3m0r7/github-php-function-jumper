@@ -15,7 +15,7 @@ const getFunctionsWithElements = (matches, marker) => {
     if (!functions.hasOwnProperty(char) || !functions[char].hasOwnProperty(loweredName)) {
       return;
     }
-    // If right syntax is :: or ->, through current syntax.
+
     const nextNode = value.nextSibling;
     if (nextNode.nodeName === 'SPAN'
       && nextNode.classList.contains('pl-k')

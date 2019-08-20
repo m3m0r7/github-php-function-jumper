@@ -1659,6 +1659,7 @@ functions.d = {
     "name": "die",
     "url": "function.die",
     "spec": {
+      "isStructure": true,
       "parameters": "",
       "returnValue": null,
       "ref": {

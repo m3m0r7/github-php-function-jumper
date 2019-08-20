@@ -663,6 +663,7 @@ functions.l = {
     "name": "list",
     "url": "function.list",
     "spec": {
+      "isStructure": true,
       "parameters": "mixed $var1 [, mixed $... ]",
       "returnValue": "array",
       "ref": null

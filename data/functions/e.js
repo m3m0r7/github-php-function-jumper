@@ -868,6 +868,7 @@ functions.e = {
     "name": "eval",
     "url": "function.eval",
     "spec": {
+      "isStructure": true,
       "parameters": "string $code",
       "returnValue": "mixed",
       "ref": null
@@ -1165,6 +1166,7 @@ functions.e = {
     "name": "exit",
     "url": "function.exit",
     "spec": {
+      "isStructure": true,
       "parameters": "[ string $status ]",
       "returnValue": "void",
       "ref": null
