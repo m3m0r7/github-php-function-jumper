@@ -1,133 +1,133 @@
 classes.__indexes__.i = {
-  "identitymatrix": [
+  identitymatrix: [
     classes.c.cairocontext
   ],
-  "infill": [
+  infill: [
     classes.c.cairocontext
   ],
-  "instroke": [
+  instroke: [
     classes.c.cairocontext
   ],
-  "initidentity": [
+  initidentity: [
     classes.c.cairomatrix
   ],
-  "initrotate": [
+  initrotate: [
     classes.c.cairomatrix
   ],
-  "initscale": [
+  initscale: [
     classes.c.cairomatrix
   ],
-  "inittranslate": [
+  inittranslate: [
     classes.c.cairomatrix
   ],
-  "invert": [
+  invert: [
     classes.c.cairomatrix
   ],
-  "isgarbage": [
+  isgarbage: [
     classes.c.collectable
   ],
-  "isnumbersigned": [
+  isnumbersigned: [
     classes.c.columnresult
   ],
-  "ispadded": [
+  ispadded: [
     classes.c.columnresult
   ],
-  "isdir": [
+  isdir: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "isdot": [
+  isdot: [
     classes.d.directoryiterator
   ],
-  "isexecutable": [
+  isexecutable: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "isfile": [
+  isfile: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "islink": [
+  islink: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "isreadable": [
+  isreadable: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "iswritable": [
+  iswritable: [
     classes.d.directoryiterator,
     classes.p.phar,
     classes.p.phardata,
     classes.s.splfileinfo
   ],
-  "isid": [
+  isid: [
     classes.d.domattr
   ],
-  "insertdata": [
+  insertdata: [
     classes.d.domcharacterdata
   ],
-  "importnode": [
+  importnode: [
     classes.d.domdocument
   ],
-  "item": [
+  item: [
     classes.d.domnamednodemap,
     classes.d.domnodelist
   ],
-  "insertbefore": [
+  insertbefore: [
     classes.d.domnode
   ],
-  "isdefaultnamespace": [
+  isdefaultnamespace: [
     classes.d.domnode
   ],
-  "issamenode": [
+  issamenode: [
     classes.d.domnode
   ],
-  "issupported": [
+  issupported: [
     classes.d.domnode
   ],
-  "iselementcontentwhitespace": [
+  iselementcontentwhitespace: [
     classes.d.domtext
   ],
-  "iswhitespaceinelementcontent": [
+  iswhitespaceinelementcontent: [
     classes.d.domtext
   ],
-  "iteration": [
+  iteration: [
     classes.e.ev
   ],
-  "idle": [
+  idle: [
     classes.e.evloop
   ],
-  "invokepending": [
+  invokepending: [
     classes.e.evloop
   ],
-  "io": [
+  io: [
     classes.e.evloop
   ],
-  "invoke": [
+  invoke: [
     classes.e.evwatcher,
     classes.r.reflectionfunction,
     classes.r.reflectionmethod
   ],
-  "isknown": [
+  isknown: [
     classes.g.gearmantask
   ],
-  "isrunning": [
+  isrunning: [
     classes.g.gearmantask,
     classes.t.threaded,
     classes.v.varnishadmin
   ],
-  "implodeimage": [
+  implodeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "insertpage": [
+  insertpage: [
     classes.h.harudoc
   ],
-  "identify": [
+  identify: [
     classes.h.hw_api
   ],
-  "info": [
+  info: [
     classes.h.hw_api,
     classes.m.mongocommandcursor,
     classes.m.mongocursor,
@@ -136,7 +136,7 @@ classes.__indexes__.i = {
     classes.r.reflectionextension,
     classes.s.seaslog
   ],
-  "insert": [
+  insert: [
     classes.h.hw_api,
     classes.h.hw_api_object,
     classes.m.mongocollection,
@@ -146,495 +146,495 @@ classes.__indexes__.i = {
     classes.s.splpriorityqueue,
     classes.t.table
   ],
-  "insertanchor": [
+  insertanchor: [
     classes.h.hw_api
   ],
-  "insertcollection": [
+  insertcollection: [
     classes.h.hw_api
   ],
-  "insertdocument": [
+  insertdocument: [
     classes.h.hw_api
   ],
-  "identifyformat": [
+  identifyformat: [
     classes.i.imagick
   ],
-  "identifyimage": [
+  identifyimage: [
     classes.i.imagick
   ],
-  "importimagepixels": [
+  importimagepixels: [
     classes.i.imagick
   ],
-  "inversefouriertransformimage": [
+  inversefouriertransformimage: [
     classes.i.imagick
   ],
-  "ispixelsimilar": [
+  ispixelsimilar: [
     classes.i.imagickpixel
   ],
-  "ispixelsimilarquantum": [
+  ispixelsimilarquantum: [
     classes.i.imagickpixel
   ],
-  "issimilar": [
+  issimilar: [
     classes.i.imagickpixel
   ],
-  "isboundary": [
+  isboundary: [
     classes.i.intlbreakiterator
   ],
-  "indaylighttime": [
+  indaylighttime: [
     classes.i.intlcalendar
   ],
-  "isequivalentto": [
+  isequivalentto: [
     classes.i.intlcalendar
   ],
-  "islenient": [
+  islenient: [
     classes.i.intlcalendar,
     classes.i.intldateformatter
   ],
-  "isset": [
+  isset: [
     classes.i.intlcalendar,
     classes.s.sdo_das_setting
   ],
-  "isweekend": [
+  isweekend: [
     classes.i.intlcalendar
   ],
-  "isalnum": [
+  isalnum: [
     classes.i.intlchar
   ],
-  "isalpha": [
+  isalpha: [
     classes.i.intlchar
   ],
-  "isbase": [
+  isbase: [
     classes.i.intlchar
   ],
-  "isblank": [
+  isblank: [
     classes.i.intlchar
   ],
-  "iscntrl": [
+  iscntrl: [
     classes.i.intlchar
   ],
-  "isdefined": [
+  isdefined: [
     classes.i.intlchar
   ],
-  "isdigit": [
+  isdigit: [
     classes.i.intlchar
   ],
-  "isgraph": [
+  isgraph: [
     classes.i.intlchar
   ],
-  "isidignorable": [
+  isidignorable: [
     classes.i.intlchar
   ],
-  "isidpart": [
+  isidpart: [
     classes.i.intlchar
   ],
-  "isidstart": [
+  isidstart: [
     classes.i.intlchar
   ],
-  "isisocontrol": [
+  isisocontrol: [
     classes.i.intlchar
   ],
-  "isjavaidpart": [
+  isjavaidpart: [
     classes.i.intlchar
   ],
-  "isjavaidstart": [
+  isjavaidstart: [
     classes.i.intlchar
   ],
-  "isjavaspacechar": [
+  isjavaspacechar: [
     classes.i.intlchar
   ],
-  "islower": [
+  islower: [
     classes.i.intlchar
   ],
-  "ismirrored": [
+  ismirrored: [
     classes.i.intlchar
   ],
-  "isprint": [
+  isprint: [
     classes.i.intlchar
   ],
-  "ispunct": [
+  ispunct: [
     classes.i.intlchar
   ],
-  "isspace": [
+  isspace: [
     classes.i.intlchar
   ],
-  "istitle": [
+  istitle: [
     classes.i.intlchar
   ],
-  "isualphabetic": [
+  isualphabetic: [
     classes.i.intlchar
   ],
-  "isulowercase": [
+  isulowercase: [
     classes.i.intlchar
   ],
-  "isupper": [
+  isupper: [
     classes.i.intlchar
   ],
-  "isuuppercase": [
+  isuuppercase: [
     classes.i.intlchar
   ],
-  "isuwhitespace": [
+  isuwhitespace: [
     classes.i.intlchar
   ],
-  "iswhitespace": [
+  iswhitespace: [
     classes.i.intlchar
   ],
-  "isxdigit": [
+  isxdigit: [
     classes.i.intlchar
   ],
-  "isleapyear": [
+  isleapyear: [
     classes.i.intlgregoriancalendar
   ],
-  "iscopyrighted": [
+  iscopyrighted: [
     classes.k.ktaglib_mpeg_audioproperties
   ],
-  "isoriginal": [
+  isoriginal: [
     classes.k.ktaglib_mpeg_audioproperties
   ],
-  "isprotectionenabled": [
+  isprotectionenabled: [
     classes.k.ktaglib_mpeg_audioproperties
   ],
-  "isempty": [
+  isempty: [
     classes.k.ktaglib_tag,
     classes.s.spldoublylinkedlist,
     classes.s.splheap,
     classes.s.splpriorityqueue
   ],
-  "identity": [
+  identity: [
     classes.l.lapack
   ],
-  "include": [
+  include: [
     classes.l.lua
   ],
-  "increment": [
+  increment: [
     classes.m.memcache,
     classes.m.memcached
   ],
-  "incrementbykey": [
+  incrementbykey: [
     classes.m.memcached
   ],
-  "ispersistent": [
+  ispersistent: [
     classes.m.memcached,
     classes.r.reflectionextension,
     classes.z.zmqcontext,
     classes.z.zmqsocket
   ],
-  "ispristine": [
+  ispristine: [
     classes.m.memcached
   ],
-  "immortal": [
+  immortal: [
     classes.m.mongocursor
   ],
-  "isref": [
+  isref: [
     classes.m.mongodbref
   ],
-  "isvalid": [
+  isvalid: [
     classes.m.mongoid,
     classes.x.xmlreader
   ],
-  "init": [
+  init: [
     classes.m.mysqli,
     classes.m.mysqlnduhconnection,
     classes.y.yaf_controller_abstract
   ],
-  "isnormalized": [
+  isnormalized: [
     classes.n.normalizer
   ],
-  "is2leggedendpoint": [
+  is2leggedendpoint: [
     classes.o.oauthprovider
   ],
-  "isrequesttokenendpoint": [
+  isrequesttokenendpoint: [
     classes.o.oauthprovider
   ],
-  "intransaction": [
+  intransaction: [
     classes.p.pdo
   ],
-  "interceptfilefuncs": [
+  interceptfilefuncs: [
     classes.p.phar
   ],
-  "isbuffering": [
+  isbuffering: [
     classes.p.phar
   ],
-  "iscompressed": [
+  iscompressed: [
     classes.p.phar,
     classes.p.pharfileinfo
   ],
-  "isfileformat": [
+  isfileformat: [
     classes.p.phar
   ],
-  "isvalidpharfilename": [
+  isvalidpharfilename: [
     classes.p.phar
   ],
-  "iscompressedbzip2": [
+  iscompressedbzip2: [
     classes.p.pharfileinfo
   ],
-  "iscompressedgz": [
+  iscompressedgz: [
     classes.p.pharfileinfo
   ],
-  "iscrcchecked": [
+  iscrcchecked: [
     classes.p.pharfileinfo
   ],
-  "isbroken": [
+  isbroken: [
     classes.r.rararchive
   ],
-  "issolid": [
+  issolid: [
     classes.r.rararchive
   ],
-  "isdirectory": [
+  isdirectory: [
     classes.r.rarentry
   ],
-  "isencrypted": [
+  isencrypted: [
     classes.r.rarentry
   ],
-  "isusingexceptions": [
+  isusingexceptions: [
     classes.r.rarexception
   ],
-  "implementsinterface": [
+  implementsinterface: [
     classes.r.reflectionclass
   ],
-  "innamespace": [
+  innamespace: [
     classes.r.reflectionclass,
     classes.r.reflectionfunctionabstract
   ],
-  "isabstract": [
+  isabstract: [
     classes.r.reflectionclass,
     classes.r.reflectionmethod
   ],
-  "isanonymous": [
+  isanonymous: [
     classes.r.reflectionclass
   ],
-  "iscloneable": [
+  iscloneable: [
     classes.r.reflectionclass
   ],
-  "isfinal": [
+  isfinal: [
     classes.r.reflectionclass,
     classes.r.reflectionmethod
   ],
-  "isinstance": [
+  isinstance: [
     classes.r.reflectionclass,
     classes.s.sdo_model_type
   ],
-  "isinstantiable": [
+  isinstantiable: [
     classes.r.reflectionclass
   ],
-  "isinterface": [
+  isinterface: [
     classes.r.reflectionclass
   ],
-  "isinternal": [
+  isinternal: [
     classes.r.reflectionclass,
     classes.r.reflectionfunctionabstract
   ],
-  "isiterable": [
+  isiterable: [
     classes.r.reflectionclass
   ],
-  "isiterateable": [
+  isiterateable: [
     classes.r.reflectionclass
   ],
-  "issubclassof": [
+  issubclassof: [
     classes.r.reflectionclass
   ],
-  "istrait": [
+  istrait: [
     classes.r.reflectionclass
   ],
-  "isuserdefined": [
+  isuserdefined: [
     classes.r.reflectionclass,
     classes.r.reflectionfunctionabstract
   ],
-  "isprivate": [
+  isprivate: [
     classes.r.reflectionclassconstant,
     classes.r.reflectionmethod,
     classes.r.reflectionproperty
   ],
-  "isprotected": [
+  isprotected: [
     classes.r.reflectionclassconstant,
     classes.r.reflectionmethod,
     classes.r.reflectionproperty
   ],
-  "ispublic": [
+  ispublic: [
     classes.r.reflectionclassconstant,
     classes.r.reflectionmethod,
     classes.r.reflectionproperty
   ],
-  "istemporary": [
+  istemporary: [
     classes.r.reflectionextension
   ],
-  "invokeargs": [
+  invokeargs: [
     classes.r.reflectionfunction,
     classes.r.reflectionmethod
   ],
-  "isdisabled": [
+  isdisabled: [
     classes.r.reflectionfunction
   ],
-  "isclosure": [
+  isclosure: [
     classes.r.reflectionfunctionabstract
   ],
-  "isdeprecated": [
+  isdeprecated: [
     classes.r.reflectionfunctionabstract
   ],
-  "isgenerator": [
+  isgenerator: [
     classes.r.reflectionfunctionabstract
   ],
-  "isvariadic": [
+  isvariadic: [
     classes.r.reflectionfunctionabstract,
     classes.r.reflectionparameter
   ],
-  "isconstructor": [
+  isconstructor: [
     classes.r.reflectionmethod
   ],
-  "isdestructor": [
+  isdestructor: [
     classes.r.reflectionmethod
   ],
-  "isstatic": [
+  isstatic: [
     classes.r.reflectionmethod,
     classes.r.reflectionproperty
   ],
-  "isarray": [
+  isarray: [
     classes.r.reflectionparameter
   ],
-  "iscallable": [
+  iscallable: [
     classes.r.reflectionparameter
   ],
-  "isdefaultvalueavailable": [
+  isdefaultvalueavailable: [
     classes.r.reflectionparameter
   ],
-  "isdefaultvalueconstant": [
+  isdefaultvalueconstant: [
     classes.r.reflectionparameter
   ],
-  "isoptional": [
+  isoptional: [
     classes.r.reflectionparameter
   ],
-  "ispassedbyreference": [
+  ispassedbyreference: [
     classes.r.reflectionparameter
   ],
-  "isdefault": [
+  isdefault: [
     classes.r.reflectionproperty
   ],
-  "isbuiltin": [
+  isbuiltin: [
     classes.r.reflectiontype
   ],
-  "isconnected": [
+  isconnected: [
     classes.s.samconnection
   ],
-  "islogging": [
+  islogging: [
     classes.s.sdo_das_changesummary
   ],
-  "iscontainment": [
+  iscontainment: [
     classes.s.sdo_model_property
   ],
-  "ismany": [
+  ismany: [
     classes.s.sdo_model_property
   ],
-  "isabstracttype": [
+  isabstracttype: [
     classes.s.sdo_model_type
   ],
-  "isdatatype": [
+  isdatatype: [
     classes.s.sdo_model_type
   ],
-  "isopentype": [
+  isopentype: [
     classes.s.sdo_model_type
   ],
-  "issequencedtype": [
+  issequencedtype: [
     classes.s.sdo_model_type
   ],
-  "iscorrupted": [
+  iscorrupted: [
     classes.s.splheap,
     classes.s.splpriorityqueue
   ],
-  "issuspicious": [
+  issuspicious: [
     classes.s.spoofchecker
   ],
-  "importchar": [
+  importchar: [
     classes.s.swfmovie
   ],
-  "importfont": [
+  importfont: [
     classes.s.swfmovie
   ],
-  "isview": [
+  isview: [
     classes.t.table
   ],
-  "isjoined": [
+  isjoined: [
     classes.t.thread
   ],
-  "isstarted": [
+  isstarted: [
     classes.t.thread
   ],
-  "isterminated": [
+  isterminated: [
     classes.t.threaded
   ],
-  "iswaiting": [
+  iswaiting: [
     classes.t.threaded
   ],
-  "isxhtml": [
+  isxhtml: [
     classes.t.tidy
   ],
-  "isxml": [
+  isxml: [
     classes.t.tidy
   ],
-  "isasp": [
+  isasp: [
     classes.t.tidynode
   ],
-  "iscomment": [
+  iscomment: [
     classes.t.tidynode
   ],
-  "ishtml": [
+  ishtml: [
     classes.t.tidynode
   ],
-  "isjste": [
+  isjste: [
     classes.t.tidynode
   ],
-  "isphp": [
+  isphp: [
     classes.t.tidynode
   ],
-  "istext": [
+  istext: [
     classes.t.tidynode
   ],
-  "isshutdown": [
+  isshutdown: [
     classes.w.worker
   ],
-  "isworking": [
+  isworking: [
     classes.w.worker
   ],
-  "importstylesheet": [
+  importstylesheet: [
     classes.x.xsltprocessor
   ],
-  "initview": [
+  initview: [
     classes.y.yaf_controller_abstract,
     classes.y.yaf_dispatcher
   ],
-  "import": [
+  import: [
     classes.y.yaf_loader
   ],
-  "islocalname": [
+  islocalname: [
     classes.y.yaf_loader
   ],
-  "iscli": [
+  iscli: [
     classes.y.yaf_request_abstract
   ],
-  "isdispatched": [
+  isdispatched: [
     classes.y.yaf_request_abstract
   ],
-  "isget": [
+  isget: [
     classes.y.yaf_request_abstract
   ],
-  "ishead": [
+  ishead: [
     classes.y.yaf_request_abstract
   ],
-  "isoptions": [
+  isoptions: [
     classes.y.yaf_request_abstract
   ],
-  "ispost": [
+  ispost: [
     classes.y.yaf_request_abstract
   ],
-  "isput": [
+  isput: [
     classes.y.yaf_request_abstract
   ],
-  "isrouted": [
+  isrouted: [
     classes.y.yaf_request_abstract
   ],
-  "isxmlhttprequest": [
+  isxmlhttprequest: [
     classes.y.yaf_request_abstract,
     classes.y.yaf_request_http,
     classes.y.yaf_request_simple
   ],
-  "isrecoverable": [
+  isrecoverable: [
     classes.z.zookeeper
   ]
 };

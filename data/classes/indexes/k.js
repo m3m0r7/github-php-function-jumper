@@ -1,5 +1,5 @@
 classes.__indexes__.k = {
-  "key": [
+  key: [
     classes.a.apciterator,
     classes.a.apcuiterator,
     classes.a.appenditerator,
@@ -38,21 +38,21 @@ classes.__indexes__.k = {
     classes.y.yaf_config_simple,
     classes.y.yaf_session
   ],
-  "ksort": [
+  ksort: [
     classes.a.arrayiterator,
     classes.a.arrayobject
   ],
-  "keepalive": [
+  keepalive: [
     classes.e.evwatcher
   ],
-  "killcursor": [
+  killcursor: [
     classes.m.mongoclient
   ],
-  "kill": [
+  kill: [
     classes.m.mysqli,
     classes.t.thread
   ],
-  "killconnection": [
+  killconnection: [
     classes.m.mysqlnduhconnection
   ]
 };

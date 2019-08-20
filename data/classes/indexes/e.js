@@ -1,20 +1,20 @@
 classes.__indexes__.e = {
-  "exchangearray": [
+  exchangearray: [
     classes.a.arrayobject
   ],
-  "equal": [
+  equal: [
     classes.c.cairofontoptions
   ],
-  "extents": [
+  extents: [
     classes.c.cairoscaledfont
   ],
-  "existsindatabase": [
+  existsindatabase: [
     classes.c.collection,
     classes.d.databaseobject,
     classes.s.schema,
     classes.t.table
   ],
-  "execute": [
+  execute: [
     classes.c.collectionadd,
     classes.c.collectionfind,
     classes.c.collectionmodify,
@@ -35,151 +35,151 @@ classes.__indexes__.e = {
     classes.y.yaf_action_abstract,
     classes.y.yaf_application
   ],
-  "evaluate": [
+  evaluate: [
     classes.d.domxpath
   ],
-  "embeddablebackends": [
+  embeddablebackends: [
     classes.e.ev
   ],
-  "exit": [
+  exit: [
     classes.e.eventbase
   ],
-  "enablelocking": [
+  enablelocking: [
     classes.e.eventbuffer
   ],
-  "expand": [
+  expand: [
     classes.e.eventbuffer,
     classes.x.xmlreader
   ],
-  "enable": [
+  enable: [
     classes.e.eventbufferevent,
     classes.e.eventlistener
   ],
-  "embed": [
+  embed: [
     classes.e.evloop
   ],
-  "echo": [
+  echo: [
     classes.g.gearmanclient,
     classes.g.gearmanworker
   ],
-  "error": [
+  error: [
     classes.g.gearmanclient,
     classes.g.gearmanworker,
     classes.s.samconnection,
     classes.s.seaslog,
     classes.s.stomp
   ],
-  "exception": [
+  exception: [
     classes.g.gearmanjob
   ],
-  "edgeimage": [
+  edgeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "embossimage": [
+  embossimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "enhanceimage": [
+  enhanceimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "equalizeimage": [
+  equalizeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "ellipse": [
+  ellipse: [
     classes.g.gmagickdraw,
     classes.h.harupage,
     classes.i.imagickdraw
   ],
-  "endpath": [
+  endpath: [
     classes.h.harupage
   ],
-  "endtext": [
+  endtext: [
     classes.h.harupage
   ],
-  "eofill": [
+  eofill: [
     classes.h.harupage
   ],
-  "eofillstroke": [
+  eofillstroke: [
     classes.h.harupage
   ],
-  "encipherimage": [
+  encipherimage: [
     classes.i.imagick
   ],
-  "evaluateimage": [
+  evaluateimage: [
     classes.i.imagick
   ],
-  "exportimagepixels": [
+  exportimagepixels: [
     classes.i.imagick
   ],
-  "extentimage": [
+  extentimage: [
     classes.i.imagick
   ],
-  "equals": [
+  equals: [
     classes.i.intlcalendar
   ],
-  "enumcharnames": [
+  enumcharnames: [
     classes.i.intlchar
   ],
-  "enumchartypes": [
+  enumchartypes: [
     classes.i.intlchar
   ],
-  "eigenvalues": [
+  eigenvalues: [
     classes.l.lapack
   ],
-  "eval": [
+  eval: [
     classes.l.lua,
     classes.y.yaf_view_simple
   ],
-  "ensureindex": [
+  ensureindex: [
     classes.m.mongocollection
   ],
-  "explain": [
+  explain: [
     classes.m.mongocursor
   ],
-  "embedded_server_end": [
+  embedded_server_end: [
     classes.m.mysqli_driver
   ],
-  "embedded_server_start": [
+  embedded_server_start: [
     classes.m.mysqli_driver
   ],
-  "endpsession": [
+  endpsession: [
     classes.m.mysqlnduhconnection
   ],
-  "escapestring": [
+  escapestring: [
     classes.m.mysqlnduhconnection,
     classes.s.sphinxclient,
     classes.s.sqlite3
   ],
-  "enabledebug": [
+  enabledebug: [
     classes.o.oauth
   ],
-  "enableredirects": [
+  enableredirects: [
     classes.o.oauth
   ],
-  "enablesslchecks": [
+  enablesslchecks: [
     classes.o.oauth
   ],
-  "errorcode": [
+  errorcode: [
     classes.p.pdo,
     classes.p.pdostatement
   ],
-  "errorinfo": [
+  errorinfo: [
     classes.p.pdo,
     classes.p.pdostatement
   ],
-  "exec": [
+  exec: [
     classes.p.pdo,
     classes.s.sqlite3
   ],
-  "extractto": [
+  extractto: [
     classes.p.phar,
     classes.p.phardata,
     classes.z.ziparchive
   ],
-  "exists": [
+  exists: [
     classes.p.phdfs,
     classes.q.quickhashinthash,
     classes.q.quickhashintset,
@@ -187,20 +187,20 @@ classes.__indexes__.e = {
     classes.q.quickhashstringinthash,
     classes.z.zookeeper
   ],
-  "extract": [
+  extract: [
     classes.r.rarentry,
     classes.s.splheap,
     classes.s.splpriorityqueue
   ],
-  "endchildren": [
+  endchildren: [
     classes.r.recursiveiteratoriterator,
     classes.r.recursivetreeiterator
   ],
-  "enditeration": [
+  enditeration: [
     classes.r.recursiveiteratoriterator,
     classes.r.recursivetreeiterator
   ],
-  "export": [
+  export: [
     classes.r.reflection,
     classes.r.reflectionclass,
     classes.r.reflectionclassconstant,
@@ -214,49 +214,49 @@ classes.__indexes__.e = {
     classes.r.reflector,
     classes.s.sdo_model_reflectiondataobject
   ],
-  "errno": [
+  errno: [
     classes.s.samconnection
   ],
-  "endlogging": [
+  endlogging: [
     classes.s.sdo_das_changesummary
   ],
-  "executepreparedquery": [
+  executepreparedquery: [
     classes.s.sdo_das_relational
   ],
-  "executequery": [
+  executequery: [
     classes.s.sdo_das_relational
   ],
-  "emergency": [
+  emergency: [
     classes.s.seaslog
   ],
-  "escapequerychars": [
+  escapequerychars: [
     classes.s.solrutils
   ],
-  "eof": [
+  eof: [
     classes.s.splfileobject
   ],
-  "enqueue": [
+  enqueue: [
     classes.s.splqueue
   ],
-  "enableexceptions": [
+  enableexceptions: [
     classes.s.sqlite3
   ],
-  "endmask": [
+  endmask: [
     classes.s.swfdisplayitem
   ],
-  "extend": [
+  extend: [
     classes.t.threaded
   ],
-  "ext": [
+  ext: [
     classes.t.tokyotyrant
   ],
-  "executestring": [
+  executestring: [
     classes.v.v8js
   ],
-  "environ": [
+  environ: [
     classes.y.yaf_application
   ],
-  "enableview": [
+  enableview: [
     classes.y.yaf_dispatcher
   ]
 };

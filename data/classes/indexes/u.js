@@ -1,13 +1,13 @@
 classes.__indexes__.u = {
-  "uasort": [
+  uasort: [
     classes.a.arrayiterator,
     classes.a.arrayobject
   ],
-  "uksort": [
+  uksort: [
     classes.a.arrayiterator,
     classes.a.arrayobject
   ],
-  "unserialize": [
+  unserialize: [
     classes.a.arrayiterator,
     classes.a.arrayobject,
     classes.s.serializable,
@@ -16,19 +16,19 @@ classes.__indexes__.u = {
     classes.s.spldoublylinkedlist,
     classes.s.splobjectstorage
   ],
-  "usertodevice": [
+  usertodevice: [
     classes.c.cairocontext
   ],
-  "usertodevicedistance": [
+  usertodevicedistance: [
     classes.c.cairocontext
   ],
-  "unset": [
+  unset: [
     classes.c.collectionmodify
   ],
-  "unfreeze": [
+  unfreeze: [
     classes.e.eventbuffer
   ],
-  "unlock": [
+  unlock: [
     classes.e.eventbuffer,
     classes.h.hw_api,
     classes.m.mutex,
@@ -36,59 +36,59 @@ classes.__indexes__.u = {
     classes.s.syncsemaphore,
     classes.t.threaded
   ],
-  "unique": [
+  unique: [
     classes.g.gearmanjob,
     classes.g.gearmantask
   ],
-  "uuid": [
+  uuid: [
     classes.g.gearmantask
   ],
-  "unregister": [
+  unregister: [
     classes.g.gearmanworker
   ],
-  "unregisterall": [
+  unregisterall: [
     classes.g.gearmanworker
   ],
-  "usecnsencodings": [
+  usecnsencodings: [
     classes.h.harudoc
   ],
-  "usecnsfonts": [
+  usecnsfonts: [
     classes.h.harudoc
   ],
-  "usecntencodings": [
+  usecntencodings: [
     classes.h.harudoc
   ],
-  "usecntfonts": [
+  usecntfonts: [
     classes.h.harudoc
   ],
-  "usejpencodings": [
+  usejpencodings: [
     classes.h.harudoc
   ],
-  "usejpfonts": [
+  usejpfonts: [
     classes.h.harudoc
   ],
-  "usekrencodings": [
+  usekrencodings: [
     classes.h.harudoc
   ],
-  "usekrfonts": [
+  usekrfonts: [
     classes.h.harudoc
   ],
-  "user": [
+  user: [
     classes.h.hw_api
   ],
-  "userlist": [
+  userlist: [
     classes.h.hw_api
   ],
-  "uniqueimagecolors": [
+  uniqueimagecolors: [
     classes.i.imagick
   ],
-  "unsharpmaskimage": [
+  unsharpmaskimage: [
     classes.i.imagick
   ],
-  "usedaylighttime": [
+  usedaylighttime: [
     classes.i.intltimezone
   ],
-  "update": [
+  update: [
     classes.m.mongocollection,
     classes.q.quickhashinthash,
     classes.q.quickhashintstringhash,
@@ -97,59 +97,59 @@ classes.__indexes__.u = {
     classes.s.splobserver,
     classes.t.table
   ],
-  "use_result": [
+  use_result: [
     classes.m.mysqli
   ],
-  "useresult": [
+  useresult: [
     classes.m.mysqlnduhconnection
   ],
-  "uncompressallfiles": [
+  uncompressallfiles: [
     classes.p.phar
   ],
-  "unlinkarchive": [
+  unlinkarchive: [
     classes.p.phar
   ],
-  "unsubscribe": [
+  unsubscribe: [
     classes.s.samconnection,
     classes.s.stomp
   ],
-  "updatetimestamp": [
+  updatetimestamp: [
     classes.s.sessionupdatetimestamphandlerinterface
   ],
-  "usedismaxqueryparser": [
+  usedismaxqueryparser: [
     classes.s.solrdismaxquery
   ],
-  "useedismaxqueryparser": [
+  useedismaxqueryparser: [
     classes.s.solrdismaxquery
   ],
-  "updateattributes": [
+  updateattributes: [
     classes.s.sphinxclient
   ],
-  "unshift": [
+  unshift: [
     classes.s.spldoublylinkedlist
   ],
-  "unlink": [
+  unlink: [
     classes.s.streamwrapper
   ],
-  "url_stat": [
+  url_stat: [
     classes.s.streamwrapper
   ],
-  "unstack": [
+  unstack: [
     classes.w.worker
   ],
-  "unchangeall": [
+  unchangeall: [
     classes.z.ziparchive
   ],
-  "unchangearchive": [
+  unchangearchive: [
     classes.z.ziparchive
   ],
-  "unchangeindex": [
+  unchangeindex: [
     classes.z.ziparchive
   ],
-  "unchangename": [
+  unchangename: [
     classes.z.ziparchive
   ],
-  "unbind": [
+  unbind: [
     classes.z.zmqsocket
   ]
 };

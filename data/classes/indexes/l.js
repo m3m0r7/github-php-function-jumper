@@ -1,12 +1,12 @@
 classes.__indexes__.l = {
-  "lineto": [
+  lineto: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "leveltostring": [
+  leveltostring: [
     classes.c.cairopssurface
   ],
-  "limit": [
+  limit: [
     classes.c.collectionfind,
     classes.c.collectionmodify,
     classes.c.collectionremove,
@@ -16,45 +16,45 @@ classes.__indexes__.l = {
     classes.t.tableselect,
     classes.t.tableupdate
   ],
-  "lockexclusive": [
+  lockexclusive: [
     classes.c.collectionfind,
     classes.t.tableselect
   ],
-  "lockshared": [
+  lockshared: [
     classes.c.collectionfind,
     classes.t.tableselect
   ],
-  "listabbreviations": [
+  listabbreviations: [
     classes.d.datetimezone
   ],
-  "listidentifiers": [
+  listidentifiers: [
     classes.d.datetimezone
   ],
-  "load": [
+  load: [
     classes.d.domdocument,
     classes.f.ffi,
     classes.s.svmmodel
   ],
-  "loadhtml": [
+  loadhtml: [
     classes.d.domdocument
   ],
-  "loadhtmlfile": [
+  loadhtmlfile: [
     classes.d.domdocument
   ],
-  "loadxml": [
+  loadxml: [
     classes.d.domdocument
   ],
-  "lookupnamespaceuri": [
+  lookupnamespaceuri: [
     classes.d.domnode
   ],
-  "lookupprefix": [
+  lookupprefix: [
     classes.d.domnode
   ],
-  "loop": [
+  loop: [
     classes.e.eventbase,
     classes.y.yar_concurrent_client
   ],
-  "lock": [
+  lock: [
     classes.e.eventbuffer,
     classes.h.hw_api,
     classes.m.mutex,
@@ -62,156 +62,156 @@ classes.__indexes__.l = {
     classes.s.syncsemaphore,
     classes.t.threaded
   ],
-  "loadhosts": [
+  loadhosts: [
     classes.e.eventdnsbase
   ],
-  "loopfork": [
+  loopfork: [
     classes.e.evloop
   ],
-  "labelimage": [
+  labelimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "levelimage": [
+  levelimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "line": [
+  line: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "loadjpeg": [
+  loadjpeg: [
     classes.h.harudoc
   ],
-  "loadpng": [
+  loadpng: [
     classes.h.harudoc
   ],
-  "loadraw": [
+  loadraw: [
     classes.h.harudoc
   ],
-  "loadttc": [
+  loadttc: [
     classes.h.harudoc
   ],
-  "loadttf": [
+  loadttf: [
     classes.h.harudoc
   ],
-  "loadtype1": [
+  loadtype1: [
     classes.h.harudoc
   ],
-  "link": [
+  link: [
     classes.h.hw_api
   ],
-  "langdepvalue": [
+  langdepvalue: [
     classes.h.hw_api_attribute
   ],
-  "linearstretchimage": [
+  linearstretchimage: [
     classes.i.imagick
   ],
-  "liquidrescaleimage": [
+  liquidrescaleimage: [
     classes.i.imagick
   ],
-  "listregistry": [
+  listregistry: [
     classes.i.imagick
   ],
-  "last": [
+  last: [
     classes.i.intlbreakiterator,
     classes.j.judy
   ],
-  "localtime": [
+  localtime: [
     classes.i.intldateformatter
   ],
-  "lastempty": [
+  lastempty: [
     classes.j.judy
   ],
-  "leastsquaresbyfactorisation": [
+  leastsquaresbyfactorisation: [
     classes.l.lapack
   ],
-  "leastsquaresbysvd": [
+  leastsquaresbysvd: [
     classes.l.lapack
   ],
-  "lookup": [
+  lookup: [
     classes.l.locale
   ],
-  "listdbs": [
+  listdbs: [
     classes.m.mongoclient
   ],
-  "lasterror": [
+  lasterror: [
     classes.m.mongodb
   ],
-  "listcollections": [
+  listcollections: [
     classes.m.mongodb
   ],
-  "listfields": [
+  listfields: [
     classes.m.mysqlnduhconnection
   ],
-  "listmethod": [
+  listmethod: [
     classes.m.mysqlnduhconnection
   ],
-  "lastinsertid": [
+  lastinsertid: [
     classes.p.pdo
   ],
-  "loadphar": [
+  loadphar: [
     classes.p.phar
   ],
-  "list_directory": [
+  list_directory: [
     classes.p.phdfs
   ],
-  "loadfromfile": [
+  loadfromfile: [
     classes.q.quickhashinthash,
     classes.q.quickhashintset,
     classes.q.quickhashintstringhash,
     classes.q.quickhashstringinthash
   ],
-  "loadfromstring": [
+  loadfromstring: [
     classes.q.quickhashinthash,
     classes.q.quickhashintset,
     classes.q.quickhashintstringhash,
     classes.q.quickhashstringinthash
   ],
-  "loadfile": [
+  loadfile: [
     classes.s.sdo_das_xml
   ],
-  "loadstring": [
+  loadstring: [
     classes.s.sdo_das_xml
   ],
-  "log": [
+  log: [
     classes.s.seaslog
   ],
-  "listclients": [
+  listclients: [
     classes.s.session
   ],
-  "lasterrorcode": [
+  lasterrorcode: [
     classes.s.sqlite3
   ],
-  "lasterrormsg": [
+  lasterrormsg: [
     classes.s.sqlite3
   ],
-  "lastinsertrowid": [
+  lastinsertrowid: [
     classes.s.sqlite3
   ],
-  "loadextension": [
+  loadextension: [
     classes.s.sqlite3
   ],
-  "labelframe": [
+  labelframe: [
     classes.s.swfmovie,
     classes.s.swfsprite
   ],
-  "loopcount": [
+  loopcount: [
     classes.s.swfsoundinstance
   ],
-  "loopinpoint": [
+  loopinpoint: [
     classes.s.swfsoundinstance
   ],
-  "loopoutpoint": [
+  loopoutpoint: [
     classes.s.swfsoundinstance
   ],
-  "listids": [
+  listids: [
     classes.t.transliterator
   ],
-  "lookupnamespace": [
+  lookupnamespace: [
     classes.x.xmlreader
   ],
-  "locatename": [
+  locatename: [
     classes.z.ziparchive
   ]
 };

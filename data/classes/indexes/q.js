@@ -1,5 +1,5 @@
 classes.__indexes__.q = {
-  "query": [
+  query: [
     classes.d.domxpath,
     classes.m.mysqli,
     classes.m.mysqlnduhconnection,
@@ -9,42 +9,42 @@ classes.__indexes__.q = {
     classes.s.sqlite3,
     classes.s.swish
   ],
-  "quantizeimage": [
+  quantizeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "quantizeimages": [
+  quantizeimages: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "queryfontmetrics": [
+  queryfontmetrics: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "queryfonts": [
+  queryfonts: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "queryformats": [
+  queryformats: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "quit": [
+  quit: [
     classes.m.memcached
   ],
-  "queryreadresultsetheader": [
+  queryreadresultsetheader: [
     classes.m.mysqlnduhconnection
   ],
-  "quote": [
+  quote: [
     classes.p.pdo
   ],
-  "quotename": [
+  quotename: [
     classes.s.session
   ],
-  "queryphrase": [
+  queryphrase: [
     classes.s.solrutils
   ],
-  "querysingle": [
+  querysingle: [
     classes.s.sqlite3
   ]
 };

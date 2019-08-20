@@ -1,20 +1,20 @@
 classes.__indexes__.g = {
-  "gettotalcount": [
+  gettotalcount: [
     classes.a.apciterator,
     classes.a.apcuiterator
   ],
-  "gettotalhits": [
+  gettotalhits: [
     classes.a.apciterator,
     classes.a.apcuiterator
   ],
-  "gettotalsize": [
+  gettotalsize: [
     classes.a.apciterator,
     classes.a.apcuiterator
   ],
-  "getarrayiterator": [
+  getarrayiterator: [
     classes.a.appenditerator
   ],
-  "getinneriterator": [
+  getinneriterator: [
     classes.a.appenditerator,
     classes.c.cachingiterator,
     classes.f.filteriterator,
@@ -24,15 +24,15 @@ classes.__indexes__.g = {
     classes.o.outeriterator,
     classes.r.recursiveiteratoriterator
   ],
-  "getiteratorindex": [
+  getiteratorindex: [
     classes.a.appenditerator,
     classes.i.imagick
   ],
-  "getarraycopy": [
+  getarraycopy: [
     classes.a.arrayiterator,
     classes.a.arrayobject
   ],
-  "getflags": [
+  getflags: [
     classes.a.arrayiterator,
     classes.a.arrayobject,
     classes.c.cachingiterator,
@@ -41,106 +41,106 @@ classes.__indexes__.g = {
     classes.r.regexiterator,
     classes.s.splfileobject
   ],
-  "getiterator": [
+  getiterator: [
     classes.a.arrayobject,
     classes.i.iteratoraggregate,
     classes.t.tokyotyrant,
     classes.t.tokyotyranttable
   ],
-  "getiteratorclass": [
+  getiteratorclass: [
     classes.a.arrayobject
   ],
-  "getwarnings": [
+  getwarnings: [
     classes.b.baseresult,
     classes.d.docresult,
     classes.r.result,
     classes.r.rowresult,
     classes.s.sqlstatementresult
   ],
-  "getwarningscount": [
+  getwarningscount: [
     classes.b.baseresult,
     classes.d.docresult,
     classes.r.result,
     classes.r.rowresult,
     classes.s.sqlstatementresult
   ],
-  "getcache": [
+  getcache: [
     classes.c.cachingiterator
   ],
-  "getantialias": [
+  getantialias: [
     classes.c.cairocontext,
     classes.c.cairofontoptions
   ],
-  "getcurrentpoint": [
+  getcurrentpoint: [
     classes.c.cairocontext
   ],
-  "getdash": [
+  getdash: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "getdashcount": [
+  getdashcount: [
     classes.c.cairocontext
   ],
-  "getfillrule": [
+  getfillrule: [
     classes.c.cairocontext,
     classes.i.imagickdraw
   ],
-  "getfontface": [
+  getfontface: [
     classes.c.cairocontext,
     classes.c.cairoscaledfont
   ],
-  "getfontmatrix": [
+  getfontmatrix: [
     classes.c.cairocontext,
     classes.c.cairoscaledfont
   ],
-  "getfontoptions": [
+  getfontoptions: [
     classes.c.cairocontext,
     classes.c.cairoscaledfont,
     classes.c.cairosurface
   ],
-  "getgrouptarget": [
+  getgrouptarget: [
     classes.c.cairocontext
   ],
-  "getlinecap": [
+  getlinecap: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "getlinejoin": [
+  getlinejoin: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "getlinewidth": [
+  getlinewidth: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "getmatrix": [
+  getmatrix: [
     classes.c.cairocontext,
     classes.c.cairopattern,
     classes.i.imagickkernel
   ],
-  "getmiterlimit": [
+  getmiterlimit: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "getoperator": [
+  getoperator: [
     classes.c.cairocontext
   ],
-  "getscaledfont": [
+  getscaledfont: [
     classes.c.cairocontext
   ],
-  "getsource": [
+  getsource: [
     classes.c.cairocontext
   ],
-  "gettarget": [
+  gettarget: [
     classes.c.cairocontext
   ],
-  "gettolerance": [
+  gettolerance: [
     classes.c.cairocontext
   ],
-  "glyphpath": [
+  glyphpath: [
     classes.c.cairocontext
   ],
-  "gettype": [
+  gettype: [
     classes.c.cairofontface,
     classes.c.cairopattern,
     classes.c.cairoscaledfont,
@@ -158,42 +158,42 @@ classes.__indexes__.g = {
     classes.y.yar_client_exception,
     classes.y.yar_server_exception
   ],
-  "gethintmetrics": [
+  gethintmetrics: [
     classes.c.cairofontoptions
   ],
-  "gethintstyle": [
+  gethintstyle: [
     classes.c.cairofontoptions
   ],
-  "getsubpixelorder": [
+  getsubpixelorder: [
     classes.c.cairofontoptions
   ],
-  "getcolorstopcount": [
+  getcolorstopcount: [
     classes.c.cairogradientpattern
   ],
-  "getcolorstoprgba": [
+  getcolorstoprgba: [
     classes.c.cairogradientpattern
   ],
-  "getextend": [
+  getextend: [
     classes.c.cairogradientpattern,
     classes.c.cairosurfacepattern
   ],
-  "getdata": [
+  getdata: [
     classes.c.cairoimagesurface
   ],
-  "getformat": [
+  getformat: [
     classes.c.cairoimagesurface,
     classes.i.imagick
   ],
-  "getheight": [
+  getheight: [
     classes.c.cairoimagesurface,
     classes.h.haruimage,
     classes.h.harupage,
     classes.s.swfbitmap
   ],
-  "getstride": [
+  getstride: [
     classes.c.cairoimagesurface
   ],
-  "getwidth": [
+  getwidth: [
     classes.c.cairoimagesurface,
     classes.h.haruimage,
     classes.h.harupage,
@@ -201,47 +201,47 @@ classes.__indexes__.g = {
     classes.s.swffont,
     classes.s.swftext
   ],
-  "getpoints": [
+  getpoints: [
     classes.c.cairolineargradient
   ],
-  "geteps": [
+  geteps: [
     classes.c.cairopssurface
   ],
-  "getlevels": [
+  getlevels: [
     classes.c.cairopssurface
   ],
-  "getcircles": [
+  getcircles: [
     classes.c.cairoradialgradient
   ],
-  "getctm": [
+  getctm: [
     classes.c.cairoscaledfont
   ],
-  "getscalematrix": [
+  getscalematrix: [
     classes.c.cairoscaledfont
   ],
-  "glyphextents": [
+  glyphextents: [
     classes.c.cairoscaledfont
   ],
-  "getrgba": [
+  getrgba: [
     classes.c.cairosolidpattern
   ],
-  "getcontent": [
+  getcontent: [
     classes.c.cairosurface,
     classes.p.pharfileinfo
   ],
-  "getdeviceoffset": [
+  getdeviceoffset: [
     classes.c.cairosurface
   ],
-  "getfilter": [
+  getfilter: [
     classes.c.cairosurfacepattern
   ],
-  "getsurface": [
+  getsurface: [
     classes.c.cairosurfacepattern
   ],
-  "getversions": [
+  getversions: [
     classes.c.cairosvgsurface
   ],
-  "get": [
+  get: [
     classes.c.chdb,
     classes.i.intlcalendar,
     classes.m.memcache,
@@ -265,7 +265,7 @@ classes.__indexes__.g = {
     classes.z.zookeeper,
     classes.z.zookeeperconfig
   ],
-  "getattribute": [
+  getattribute: [
     classes.c.collator,
     classes.d.domelement,
     classes.n.numberformatter,
@@ -273,7 +273,7 @@ classes.__indexes__.g = {
     classes.p.pdostatement,
     classes.x.xmlreader
   ],
-  "geterrorcode": [
+  geterrorcode: [
     classes.c.collator,
     classes.i.intlbreakiterator,
     classes.i.intlcalendar,
@@ -285,7 +285,7 @@ classes.__indexes__.g = {
     classes.t.transliterator,
     classes.u.uconverter
   ],
-  "geterrormessage": [
+  geterrormessage: [
     classes.c.collator,
     classes.i.intlbreakiterator,
     classes.i.intlcalendar,
@@ -297,7 +297,7 @@ classes.__indexes__.g = {
     classes.t.transliterator,
     classes.u.uconverter
   ],
-  "getlocale": [
+  getlocale: [
     classes.c.collator,
     classes.i.intlbreakiterator,
     classes.i.intlcalendar,
@@ -305,13 +305,13 @@ classes.__indexes__.g = {
     classes.m.messageformatter,
     classes.n.numberformatter
   ],
-  "getsortkey": [
+  getsortkey: [
     classes.c.collator
   ],
-  "getstrength": [
+  getstrength: [
     classes.c.collator
   ],
-  "getname": [
+  getname: [
     classes.c.collection,
     classes.d.databaseobject,
     classes.d.datetimezone,
@@ -331,66 +331,66 @@ classes.__indexes__.g = {
     classes.s.simplexmlelement,
     classes.t.table
   ],
-  "getone": [
+  getone: [
     classes.c.collection
   ],
-  "getschema": [
+  getschema: [
     classes.c.collection,
     classes.s.schemaobject,
     classes.s.session,
     classes.t.table
   ],
-  "getsession": [
+  getsession: [
     classes.c.collection,
     classes.d.databaseobject,
     classes.s.schema,
     classes.t.table
   ],
-  "groupby": [
+  groupby: [
     classes.c.collectionfind,
     classes.t.tableselect
   ],
-  "getcharactersetname": [
+  getcharactersetname: [
     classes.c.columnresult
   ],
-  "getcollationname": [
+  getcollationname: [
     classes.c.columnresult
   ],
-  "getcolumnlabel": [
+  getcolumnlabel: [
     classes.c.columnresult
   ],
-  "getcolumnname": [
+  getcolumnname: [
     classes.c.columnresult
   ],
-  "getfractionaldigits": [
+  getfractionaldigits: [
     classes.c.columnresult
   ],
-  "getlength": [
+  getlength: [
     classes.c.columnresult,
     classes.k.ktaglib_mpeg_audioproperties
   ],
-  "getschemaname": [
+  getschemaname: [
     classes.c.columnresult
   ],
-  "gettablelabel": [
+  gettablelabel: [
     classes.c.columnresult
   ],
-  "gettablename": [
+  gettablename: [
     classes.c.columnresult
   ],
-  "getmeta": [
+  getmeta: [
     classes.c.counter
   ],
-  "getnamed": [
+  getnamed: [
     classes.c.counter
   ],
-  "getvalue": [
+  getvalue: [
     classes.c.counter,
     classes.r.reflectionclassconstant,
     classes.r.reflectionproperty,
     classes.s.sdo_das_setting
   ],
-  "getfilename": [
+  getfilename: [
     classes.c.curlfile,
     classes.d.directoryiterator,
     classes.g.gmagick,
@@ -400,99 +400,99 @@ classes.__indexes__.g = {
     classes.r.reflectionfunctionabstract,
     classes.s.splfileinfo
   ],
-  "getmimetype": [
+  getmimetype: [
     classes.c.curlfile,
     classes.k.ktaglib_id3v2_attachedpictureframe
   ],
-  "getpostfilename": [
+  getpostfilename: [
     classes.c.curlfile
   ],
-  "getdateinterval": [
+  getdateinterval: [
     classes.d.dateperiod
   ],
-  "getenddate": [
+  getenddate: [
     classes.d.dateperiod
   ],
-  "getrecurrences": [
+  getrecurrences: [
     classes.d.dateperiod
   ],
-  "getstartdate": [
+  getstartdate: [
     classes.d.dateperiod
   ],
-  "getlasterrors": [
+  getlasterrors: [
     classes.d.datetime,
     classes.d.datetimeimmutable,
     classes.z.zmqpoll
   ],
-  "getoffset": [
+  getoffset: [
     classes.d.datetime,
     classes.d.datetimezone,
     classes.i.intltimezone
   ],
-  "gettimestamp": [
+  gettimestamp: [
     classes.d.datetime,
     classes.m.mongoid
   ],
-  "gettimezone": [
+  gettimezone: [
     classes.d.datetime,
     classes.i.intlcalendar,
     classes.i.intldateformatter
   ],
-  "getlocation": [
+  getlocation: [
     classes.d.datetimezone
   ],
-  "gettransitions": [
+  gettransitions: [
     classes.d.datetimezone
   ],
-  "getatime": [
+  getatime: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "getbasename": [
+  getbasename: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "getctime": [
+  getctime: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "getextension": [
+  getextension: [
     classes.d.directoryiterator,
     classes.r.reflectionclass,
     classes.r.reflectionfunctionabstract,
     classes.s.splfileinfo
   ],
-  "getgroup": [
+  getgroup: [
     classes.d.directoryiterator,
     classes.s.solrquery,
     classes.s.splfileinfo
   ],
-  "getinode": [
+  getinode: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "getmtime": [
+  getmtime: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "getowner": [
+  getowner: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "getpath": [
+  getpath: [
     classes.d.directoryiterator,
     classes.p.phar,
     classes.s.splfileinfo
   ],
-  "getpathname": [
+  getpathname: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "getperms": [
+  getperms: [
     classes.d.directoryiterator,
     classes.s.splfileinfo
   ],
-  "getsize": [
+  getsize: [
     classes.d.directoryiterator,
     classes.g.gmagick,
     classes.h.haruimage,
@@ -508,338 +508,338 @@ classes.__indexes__.g = {
     classes.s.splfileinfo,
     classes.s.splfixedarray
   ],
-  "getelementbyid": [
+  getelementbyid: [
     classes.d.domdocument
   ],
-  "getelementsbytagname": [
+  getelementsbytagname: [
     classes.d.domdocument,
     classes.d.domelement
   ],
-  "getelementsbytagnamens": [
+  getelementsbytagnamens: [
     classes.d.domdocument,
     classes.d.domelement
   ],
-  "getattributenode": [
+  getattributenode: [
     classes.d.domelement
   ],
-  "getattributenodens": [
+  getattributenodens: [
     classes.d.domelement
   ],
-  "getattributens": [
+  getattributens: [
     classes.d.domelement,
     classes.x.xmlreader
   ],
-  "getnameditem": [
+  getnameditem: [
     classes.d.domnamednodemap
   ],
-  "getnameditemns": [
+  getnameditemns: [
     classes.d.domnamednodemap
   ],
-  "getlineno": [
+  getlineno: [
     classes.d.domnode
   ],
-  "getnodepath": [
+  getnodepath: [
     classes.d.domnode
   ],
-  "getcode": [
+  getcode: [
     classes.e.error,
     classes.e.exception,
     classes.t.throwable
   ],
-  "getfile": [
+  getfile: [
     classes.e.error,
     classes.e.exception,
     classes.t.throwable
   ],
-  "getline": [
+  getline: [
     classes.e.error,
     classes.e.exception,
     classes.t.throwable,
     classes.v.varnishlog
   ],
-  "getmessage": [
+  getmessage: [
     classes.e.error,
     classes.e.exception,
     classes.t.throwable
   ],
-  "getprevious": [
+  getprevious: [
     classes.e.error,
     classes.e.exception,
     classes.t.throwable,
     classes.y.yaf_exception
   ],
-  "gettrace": [
+  gettrace: [
     classes.e.error,
     classes.e.exception,
     classes.r.reflectiongenerator,
     classes.t.throwable
   ],
-  "gettraceasstring": [
+  gettraceasstring: [
     classes.e.error,
     classes.e.exception,
     classes.t.throwable
   ],
-  "getseverity": [
+  getseverity: [
     classes.e.errorexception
   ],
-  "getsupportedmethods": [
+  getsupportedmethods: [
     classes.e.event
   ],
-  "getfeatures": [
+  getfeatures: [
     classes.e.eventbase
   ],
-  "getmethod": [
+  getmethod: [
     classes.e.eventbase,
     classes.r.rarentry,
     classes.r.reflectionclass,
     classes.y.yaf_request_abstract
   ],
-  "gettimeofdaycached": [
+  gettimeofdaycached: [
     classes.e.eventbase
   ],
-  "gotexit": [
+  gotexit: [
     classes.e.eventbase
   ],
-  "gotstop": [
+  gotstop: [
     classes.e.eventbase
   ],
-  "getdnserrorstring": [
+  getdnserrorstring: [
     classes.e.eventbufferevent
   ],
-  "getenabled": [
+  getenabled: [
     classes.e.eventbufferevent
   ],
-  "getinput": [
+  getinput: [
     classes.e.eventbufferevent
   ],
-  "getoutput": [
+  getoutput: [
     classes.e.eventbufferevent
   ],
-  "getbase": [
+  getbase: [
     classes.e.eventhttpconnection,
     classes.e.eventlistener
   ],
-  "getpeer": [
+  getpeer: [
     classes.e.eventhttpconnection
   ],
-  "getbufferevent": [
+  getbufferevent: [
     classes.e.eventhttprequest
   ],
-  "getcommand": [
+  getcommand: [
     classes.e.eventhttprequest
   ],
-  "getconnection": [
+  getconnection: [
     classes.e.eventhttprequest
   ],
-  "gethost": [
+  gethost: [
     classes.e.eventhttprequest,
     classes.m.mongocursorexception
   ],
-  "getinputbuffer": [
+  getinputbuffer: [
     classes.e.eventhttprequest
   ],
-  "getinputheaders": [
+  getinputheaders: [
     classes.e.eventhttprequest
   ],
-  "getoutputbuffer": [
+  getoutputbuffer: [
     classes.e.eventhttprequest
   ],
-  "getoutputheaders": [
+  getoutputheaders: [
     classes.e.eventhttprequest
   ],
-  "getresponsecode": [
+  getresponsecode: [
     classes.e.eventhttprequest
   ],
-  "geturi": [
+  geturi: [
     classes.e.eventhttprequest
   ],
-  "getsocketname": [
+  getsocketname: [
     classes.e.eventlistener,
     classes.e.eventutil
   ],
-  "getlastsocketerrno": [
+  getlastsocketerrno: [
     classes.e.eventutil
   ],
-  "getlastsocketerror": [
+  getlastsocketerror: [
     classes.e.eventutil
   ],
-  "getsocketfd": [
+  getsocketfd: [
     classes.e.eventutil
   ],
-  "getloop": [
+  getloop: [
     classes.e.evwatcher
   ],
-  "getfromneuron": [
+  getfromneuron: [
     classes.f.fannconnection
   ],
-  "gettoneuron": [
+  gettoneuron: [
     classes.f.fannconnection
   ],
-  "getweight": [
+  getweight: [
     classes.f.fannconnection
   ],
-  "geterrno": [
+  geterrno: [
     classes.g.gearmanclient,
     classes.g.gearmanworker,
     classes.s.snmp
   ],
-  "getreturn": [
+  getreturn: [
     classes.g.generator
   ],
-  "gammaimage": [
+  gammaimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getcopyright": [
+  getcopyright: [
     classes.g.gmagick,
     classes.i.imagick,
     classes.r.reflectionzendextension
   ],
-  "getimagebackgroundcolor": [
+  getimagebackgroundcolor: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageblueprimary": [
+  getimageblueprimary: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagebordercolor": [
+  getimagebordercolor: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagechanneldepth": [
+  getimagechanneldepth: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagecolors": [
+  getimagecolors: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagecolorspace": [
+  getimagecolorspace: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagecompose": [
+  getimagecompose: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagedelay": [
+  getimagedelay: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagedepth": [
+  getimagedepth: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagedispose": [
+  getimagedispose: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageextrema": [
+  getimageextrema: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagefilename": [
+  getimagefilename: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageformat": [
+  getimageformat: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagegamma": [
+  getimagegamma: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagegreenprimary": [
+  getimagegreenprimary: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageheight": [
+  getimageheight: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagehistogram": [
+  getimagehistogram: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageindex": [
+  getimageindex: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageinterlacescheme": [
+  getimageinterlacescheme: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageiterations": [
+  getimageiterations: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagematte": [
+  getimagematte: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagemattecolor": [
+  getimagemattecolor: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageprofile": [
+  getimageprofile: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageredprimary": [
+  getimageredprimary: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagerenderingintent": [
+  getimagerenderingintent: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageresolution": [
+  getimageresolution: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagescene": [
+  getimagescene: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagesignature": [
+  getimagesignature: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagetype": [
+  getimagetype: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimageunits": [
+  getimageunits: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagewhitepoint": [
+  getimagewhitepoint: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getimagewidth": [
+  getimagewidth: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getpackagename": [
+  getpackagename: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getquantumdepth": [
+  getquantumdepth: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getreleasedate": [
+  getreleasedate: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getsamplingfactors": [
+  getsamplingfactors: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "getversion": [
+  getversion: [
     classes.g.gmagick,
     classes.i.imagick,
     classes.k.ktaglib_mpeg_audioproperties,
@@ -851,752 +851,752 @@ classes.__indexes__.g = {
     classes.r.reflectionextension,
     classes.r.reflectionzendextension
   ],
-  "getfillcolor": [
+  getfillcolor: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "getfillopacity": [
+  getfillopacity: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "getfont": [
+  getfont: [
     classes.g.gmagickdraw,
     classes.h.harudoc,
     classes.i.imagick,
     classes.i.imagickdraw
   ],
-  "getfontsize": [
+  getfontsize: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "getfontstyle": [
+  getfontstyle: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "getfontweight": [
+  getfontweight: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "getstrokecolor": [
+  getstrokecolor: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "getstrokeopacity": [
+  getstrokeopacity: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "getstrokewidth": [
+  getstrokewidth: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "gettextdecoration": [
+  gettextdecoration: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "gettextencoding": [
+  gettextencoding: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "getcolor": [
+  getcolor: [
     classes.g.gmagickpixel,
     classes.i.imagickpixel
   ],
-  "getcolorcount": [
+  getcolorcount: [
     classes.g.gmagickpixel,
     classes.i.imagickpixel
   ],
-  "getcolorvalue": [
+  getcolorvalue: [
     classes.g.gmagickpixel,
     classes.i.imagickpixel
   ],
-  "getcurrentencoder": [
+  getcurrentencoder: [
     classes.h.harudoc
   ],
-  "getcurrentpage": [
+  getcurrentpage: [
     classes.h.harudoc
   ],
-  "getencoder": [
+  getencoder: [
     classes.h.harudoc
   ],
-  "getinfoattr": [
+  getinfoattr: [
     classes.h.harudoc
   ],
-  "getpagelayout": [
+  getpagelayout: [
     classes.h.harudoc
   ],
-  "getpagemode": [
+  getpagemode: [
     classes.h.harudoc
   ],
-  "getstreamsize": [
+  getstreamsize: [
     classes.h.harudoc
   ],
-  "getbytetype": [
+  getbytetype: [
     classes.h.haruencoder
   ],
-  "getunicode": [
+  getunicode: [
     classes.h.haruencoder
   ],
-  "getwritingmode": [
+  getwritingmode: [
     classes.h.haruencoder
   ],
-  "getascent": [
+  getascent: [
     classes.h.harufont,
     classes.s.swffont,
     classes.s.swftext
   ],
-  "getcapheight": [
+  getcapheight: [
     classes.h.harufont
   ],
-  "getdescent": [
+  getdescent: [
     classes.h.harufont,
     classes.s.swffont,
     classes.s.swftext
   ],
-  "getencodingname": [
+  getencodingname: [
     classes.h.harufont
   ],
-  "getfontname": [
+  getfontname: [
     classes.h.harufont
   ],
-  "gettextwidth": [
+  gettextwidth: [
     classes.h.harufont,
     classes.h.harupage
   ],
-  "getunicodewidth": [
+  getunicodewidth: [
     classes.h.harufont
   ],
-  "getxheight": [
+  getxheight: [
     classes.h.harufont
   ],
-  "getbitspercomponent": [
+  getbitspercomponent: [
     classes.h.haruimage
   ],
-  "getcolorspace": [
+  getcolorspace: [
     classes.h.haruimage,
     classes.i.imagick
   ],
-  "getcharspace": [
+  getcharspace: [
     classes.h.harupage
   ],
-  "getcmykfill": [
+  getcmykfill: [
     classes.h.harupage
   ],
-  "getcmykstroke": [
+  getcmykstroke: [
     classes.h.harupage
   ],
-  "getcurrentfont": [
+  getcurrentfont: [
     classes.h.harupage
   ],
-  "getcurrentfontsize": [
+  getcurrentfontsize: [
     classes.h.harupage
   ],
-  "getcurrentpos": [
+  getcurrentpos: [
     classes.h.harupage
   ],
-  "getcurrenttextpos": [
+  getcurrenttextpos: [
     classes.h.harupage
   ],
-  "getfillingcolorspace": [
+  getfillingcolorspace: [
     classes.h.harupage
   ],
-  "getflatness": [
+  getflatness: [
     classes.h.harupage
   ],
-  "getgmode": [
+  getgmode: [
     classes.h.harupage
   ],
-  "getgrayfill": [
+  getgrayfill: [
     classes.h.harupage
   ],
-  "getgraystroke": [
+  getgraystroke: [
     classes.h.harupage
   ],
-  "gethorizontalscaling": [
+  gethorizontalscaling: [
     classes.h.harupage
   ],
-  "getrgbfill": [
+  getrgbfill: [
     classes.h.harupage
   ],
-  "getrgbstroke": [
+  getrgbstroke: [
     classes.h.harupage
   ],
-  "getstrokingcolorspace": [
+  getstrokingcolorspace: [
     classes.h.harupage
   ],
-  "gettextleading": [
+  gettextleading: [
     classes.h.harupage
   ],
-  "gettextmatrix": [
+  gettextmatrix: [
     classes.h.harupage
   ],
-  "gettextrenderingmode": [
+  gettextrenderingmode: [
     classes.h.harupage
   ],
-  "gettextrise": [
+  gettextrise: [
     classes.h.harupage
   ],
-  "gettransmatrix": [
+  gettransmatrix: [
     classes.h.harupage
   ],
-  "getwordspace": [
+  getwordspace: [
     classes.h.harupage
   ],
-  "gaussianblurimage": [
+  gaussianblurimage: [
     classes.i.imagick
   ],
-  "getcompression": [
+  getcompression: [
     classes.i.imagick
   ],
-  "getcompressionquality": [
+  getcompressionquality: [
     classes.i.imagick
   ],
-  "getgravity": [
+  getgravity: [
     classes.i.imagick,
     classes.i.imagickdraw
   ],
-  "gethomeurl": [
+  gethomeurl: [
     classes.i.imagick
   ],
-  "getimage": [
+  getimage: [
     classes.i.imagick
   ],
-  "getimagealphachannel": [
+  getimagealphachannel: [
     classes.i.imagick
   ],
-  "getimageartifact": [
+  getimageartifact: [
     classes.i.imagick
   ],
-  "getimageattribute": [
+  getimageattribute: [
     classes.i.imagick
   ],
-  "getimageblob": [
+  getimageblob: [
     classes.i.imagick
   ],
-  "getimagechanneldistortion": [
+  getimagechanneldistortion: [
     classes.i.imagick
   ],
-  "getimagechanneldistortions": [
+  getimagechanneldistortions: [
     classes.i.imagick
   ],
-  "getimagechannelextrema": [
+  getimagechannelextrema: [
     classes.i.imagick
   ],
-  "getimagechannelkurtosis": [
+  getimagechannelkurtosis: [
     classes.i.imagick
   ],
-  "getimagechannelmean": [
+  getimagechannelmean: [
     classes.i.imagick
   ],
-  "getimagechannelrange": [
+  getimagechannelrange: [
     classes.i.imagick
   ],
-  "getimagechannelstatistics": [
+  getimagechannelstatistics: [
     classes.i.imagick
   ],
-  "getimageclipmask": [
+  getimageclipmask: [
     classes.i.imagick
   ],
-  "getimagecolormapcolor": [
+  getimagecolormapcolor: [
     classes.i.imagick
   ],
-  "getimagecompression": [
+  getimagecompression: [
     classes.i.imagick
   ],
-  "getimagecompressionquality": [
+  getimagecompressionquality: [
     classes.i.imagick
   ],
-  "getimagedistortion": [
+  getimagedistortion: [
     classes.i.imagick
   ],
-  "getimagegeometry": [
+  getimagegeometry: [
     classes.i.imagick
   ],
-  "getimagegravity": [
+  getimagegravity: [
     classes.i.imagick
   ],
-  "getimageinterpolatemethod": [
+  getimageinterpolatemethod: [
     classes.i.imagick
   ],
-  "getimagelength": [
+  getimagelength: [
     classes.i.imagick
   ],
-  "getimagemagicklicense": [
+  getimagemagicklicense: [
     classes.i.imagick
   ],
-  "getimagemimetype": [
+  getimagemimetype: [
     classes.i.imagick
   ],
-  "getimageorientation": [
+  getimageorientation: [
     classes.i.imagick
   ],
-  "getimagepage": [
+  getimagepage: [
     classes.i.imagick
   ],
-  "getimagepixelcolor": [
+  getimagepixelcolor: [
     classes.i.imagick
   ],
-  "getimageprofiles": [
+  getimageprofiles: [
     classes.i.imagick
   ],
-  "getimageproperties": [
+  getimageproperties: [
     classes.i.imagick
   ],
-  "getimageproperty": [
+  getimageproperty: [
     classes.i.imagick
   ],
-  "getimageregion": [
+  getimageregion: [
     classes.i.imagick
   ],
-  "getimagesblob": [
+  getimagesblob: [
     classes.i.imagick
   ],
-  "getimagesize": [
+  getimagesize: [
     classes.i.imagick
   ],
-  "getimagetickspersecond": [
+  getimagetickspersecond: [
     classes.i.imagick
   ],
-  "getimagetotalinkdensity": [
+  getimagetotalinkdensity: [
     classes.i.imagick
   ],
-  "getimagevirtualpixelmethod": [
+  getimagevirtualpixelmethod: [
     classes.i.imagick
   ],
-  "getinterlacescheme": [
+  getinterlacescheme: [
     classes.i.imagick
   ],
-  "getnumberimages": [
+  getnumberimages: [
     classes.i.imagick
   ],
-  "getoption": [
+  getoption: [
     classes.i.imagick,
     classes.m.memcached
   ],
-  "getpage": [
+  getpage: [
     classes.i.imagick
   ],
-  "getpixeliterator": [
+  getpixeliterator: [
     classes.i.imagick
   ],
-  "getpixelregioniterator": [
+  getpixelregioniterator: [
     classes.i.imagick
   ],
-  "getpointsize": [
+  getpointsize: [
     classes.i.imagick
   ],
-  "getquantum": [
+  getquantum: [
     classes.i.imagick
   ],
-  "getquantumrange": [
+  getquantumrange: [
     classes.i.imagick
   ],
-  "getregistry": [
+  getregistry: [
     classes.i.imagick
   ],
-  "getresource": [
+  getresource: [
     classes.i.imagick,
     classes.m.mongogridfsfile
   ],
-  "getresourcelimit": [
+  getresourcelimit: [
     classes.i.imagick
   ],
-  "getsizeoffset": [
+  getsizeoffset: [
     classes.i.imagick
   ],
-  "getclippath": [
+  getclippath: [
     classes.i.imagickdraw
   ],
-  "getcliprule": [
+  getcliprule: [
     classes.i.imagickdraw
   ],
-  "getclipunits": [
+  getclipunits: [
     classes.i.imagickdraw
   ],
-  "getfontfamily": [
+  getfontfamily: [
     classes.i.imagickdraw
   ],
-  "getfontstretch": [
+  getfontstretch: [
     classes.i.imagickdraw
   ],
-  "getstrokeantialias": [
+  getstrokeantialias: [
     classes.i.imagickdraw
   ],
-  "getstrokedasharray": [
+  getstrokedasharray: [
     classes.i.imagickdraw
   ],
-  "getstrokedashoffset": [
+  getstrokedashoffset: [
     classes.i.imagickdraw
   ],
-  "getstrokelinecap": [
+  getstrokelinecap: [
     classes.i.imagickdraw
   ],
-  "getstrokelinejoin": [
+  getstrokelinejoin: [
     classes.i.imagickdraw
   ],
-  "getstrokemiterlimit": [
+  getstrokemiterlimit: [
     classes.i.imagickdraw
   ],
-  "gettextalignment": [
+  gettextalignment: [
     classes.i.imagickdraw
   ],
-  "gettextantialias": [
+  gettextantialias: [
     classes.i.imagickdraw
   ],
-  "gettextinterlinespacing": [
+  gettextinterlinespacing: [
     classes.i.imagickdraw
   ],
-  "gettextinterwordspacing": [
+  gettextinterwordspacing: [
     classes.i.imagickdraw
   ],
-  "gettextkerning": [
+  gettextkerning: [
     classes.i.imagickdraw
   ],
-  "gettextundercolor": [
+  gettextundercolor: [
     classes.i.imagickdraw
   ],
-  "getvectorgraphics": [
+  getvectorgraphics: [
     classes.i.imagickdraw
   ],
-  "getcolorasstring": [
+  getcolorasstring: [
     classes.i.imagickpixel
   ],
-  "getcolorquantum": [
+  getcolorquantum: [
     classes.i.imagickpixel
   ],
-  "getcolorvaluequantum": [
+  getcolorvaluequantum: [
     classes.i.imagickpixel
   ],
-  "gethsl": [
+  gethsl: [
     classes.i.imagickpixel
   ],
-  "getindex": [
+  getindex: [
     classes.i.imagickpixel
   ],
-  "getcurrentiteratorrow": [
+  getcurrentiteratorrow: [
     classes.i.imagickpixeliterator
   ],
-  "getiteratorrow": [
+  getiteratorrow: [
     classes.i.imagickpixeliterator
   ],
-  "getnextiteratorrow": [
+  getnextiteratorrow: [
     classes.i.imagickpixeliterator
   ],
-  "getpreviousiteratorrow": [
+  getpreviousiteratorrow: [
     classes.i.imagickpixeliterator
   ],
-  "getpartsiterator": [
+  getpartsiterator: [
     classes.i.intlbreakiterator
   ],
-  "gettext": [
+  gettext: [
     classes.i.intlbreakiterator
   ],
-  "getactualmaximum": [
+  getactualmaximum: [
     classes.i.intlcalendar
   ],
-  "getactualminimum": [
+  getactualminimum: [
     classes.i.intlcalendar
   ],
-  "getavailablelocales": [
+  getavailablelocales: [
     classes.i.intlcalendar
   ],
-  "getdayofweektype": [
+  getdayofweektype: [
     classes.i.intlcalendar
   ],
-  "getfirstdayofweek": [
+  getfirstdayofweek: [
     classes.i.intlcalendar
   ],
-  "getgreatestminimum": [
+  getgreatestminimum: [
     classes.i.intlcalendar
   ],
-  "getkeywordvaluesforlocale": [
+  getkeywordvaluesforlocale: [
     classes.i.intlcalendar
   ],
-  "getleastmaximum": [
+  getleastmaximum: [
     classes.i.intlcalendar
   ],
-  "getmaximum": [
+  getmaximum: [
     classes.i.intlcalendar
   ],
-  "getminimaldaysinfirstweek": [
+  getminimaldaysinfirstweek: [
     classes.i.intlcalendar
   ],
-  "getminimum": [
+  getminimum: [
     classes.i.intlcalendar
   ],
-  "getnow": [
+  getnow: [
     classes.i.intlcalendar
   ],
-  "getrepeatedwalltimeoption": [
+  getrepeatedwalltimeoption: [
     classes.i.intlcalendar
   ],
-  "getskippedwalltimeoption": [
+  getskippedwalltimeoption: [
     classes.i.intlcalendar
   ],
-  "gettime": [
+  gettime: [
     classes.i.intlcalendar
   ],
-  "getweekendtransition": [
+  getweekendtransition: [
     classes.i.intlcalendar
   ],
-  "getbidipairedbracket": [
+  getbidipairedbracket: [
     classes.i.intlchar
   ],
-  "getblockcode": [
+  getblockcode: [
     classes.i.intlchar
   ],
-  "getcombiningclass": [
+  getcombiningclass: [
     classes.i.intlchar
   ],
-  "getfc_nfkc_closure": [
+  getfc_nfkc_closure: [
     classes.i.intlchar
   ],
-  "getintpropertymaxvalue": [
+  getintpropertymaxvalue: [
     classes.i.intlchar
   ],
-  "getintpropertyminvalue": [
+  getintpropertyminvalue: [
     classes.i.intlchar
   ],
-  "getintpropertyvalue": [
+  getintpropertyvalue: [
     classes.i.intlchar
   ],
-  "getnumericvalue": [
+  getnumericvalue: [
     classes.i.intlchar
   ],
-  "getpropertyenum": [
+  getpropertyenum: [
     classes.i.intlchar
   ],
-  "getpropertyname": [
+  getpropertyname: [
     classes.i.intlchar,
     classes.s.sdo_das_setting
   ],
-  "getpropertyvalueenum": [
+  getpropertyvalueenum: [
     classes.i.intlchar
   ],
-  "getpropertyvaluename": [
+  getpropertyvaluename: [
     classes.i.intlchar
   ],
-  "getunicodeversion": [
+  getunicodeversion: [
     classes.i.intlchar
   ],
-  "getlastcodepoint": [
+  getlastcodepoint: [
     classes.i.intlcodepointbreakiterator
   ],
-  "getcalendar": [
+  getcalendar: [
     classes.i.intldateformatter
   ],
-  "getcalendarobject": [
+  getcalendarobject: [
     classes.i.intldateformatter
   ],
-  "getdatetype": [
+  getdatetype: [
     classes.i.intldateformatter
   ],
-  "getpattern": [
+  getpattern: [
     classes.i.intldateformatter,
     classes.m.messageformatter,
     classes.n.numberformatter
   ],
-  "gettimetype": [
+  gettimetype: [
     classes.i.intldateformatter
   ],
-  "gettimezoneid": [
+  gettimezoneid: [
     classes.i.intldateformatter
   ],
-  "getgregorianchange": [
+  getgregorianchange: [
     classes.i.intlgregoriancalendar
   ],
-  "getbreakiterator": [
+  getbreakiterator: [
     classes.i.intlpartsiterator
   ],
-  "getbinaryrules": [
+  getbinaryrules: [
     classes.i.intlrulebasedbreakiterator
   ],
-  "getrules": [
+  getrules: [
     classes.i.intlrulebasedbreakiterator
   ],
-  "getrulestatus": [
+  getrulestatus: [
     classes.i.intlrulebasedbreakiterator
   ],
-  "getrulestatusvec": [
+  getrulestatusvec: [
     classes.i.intlrulebasedbreakiterator
   ],
-  "getcanonicalid": [
+  getcanonicalid: [
     classes.i.intltimezone
   ],
-  "getdisplayname": [
+  getdisplayname: [
     classes.i.intltimezone,
     classes.l.locale
   ],
-  "getdstsavings": [
+  getdstsavings: [
     classes.i.intltimezone
   ],
-  "getequivalentid": [
+  getequivalentid: [
     classes.i.intltimezone
   ],
-  "getgmt": [
+  getgmt: [
     classes.i.intltimezone
   ],
-  "getid": [
+  getid: [
     classes.i.intltimezone
   ],
-  "getidforwindowsid": [
+  getidforwindowsid: [
     classes.i.intltimezone
   ],
-  "getrawoffset": [
+  getrawoffset: [
     classes.i.intltimezone
   ],
-  "getregion": [
+  getregion: [
     classes.i.intltimezone,
     classes.l.locale
   ],
-  "gettzdataversion": [
+  gettzdataversion: [
     classes.i.intltimezone
   ],
-  "getunknown": [
+  getunknown: [
     classes.i.intltimezone
   ],
-  "getwindowsid": [
+  getwindowsid: [
     classes.i.intltimezone
   ],
-  "getdescription": [
+  getdescription: [
     classes.k.ktaglib_id3v2_attachedpictureframe
   ],
-  "getframelist": [
+  getframelist: [
     classes.k.ktaglib_id3v2_tag
   ],
-  "getbitrate": [
+  getbitrate: [
     classes.k.ktaglib_mpeg_audioproperties
   ],
-  "getchannels": [
+  getchannels: [
     classes.k.ktaglib_mpeg_audioproperties
   ],
-  "getlayer": [
+  getlayer: [
     classes.k.ktaglib_mpeg_audioproperties
   ],
-  "getsamplebitrate": [
+  getsamplebitrate: [
     classes.k.ktaglib_mpeg_audioproperties
   ],
-  "getaudioproperties": [
+  getaudioproperties: [
     classes.k.ktaglib_mpeg_file
   ],
-  "getid3v1tag": [
+  getid3v1tag: [
     classes.k.ktaglib_mpeg_file
   ],
-  "getid3v2tag": [
+  getid3v2tag: [
     classes.k.ktaglib_mpeg_file
   ],
-  "getalbum": [
+  getalbum: [
     classes.k.ktaglib_tag
   ],
-  "getartist": [
+  getartist: [
     classes.k.ktaglib_tag
   ],
-  "getcomment": [
+  getcomment: [
     classes.k.ktaglib_tag,
     classes.r.rararchive
   ],
-  "getgenre": [
+  getgenre: [
     classes.k.ktaglib_tag
   ],
-  "gettitle": [
+  gettitle: [
     classes.k.ktaglib_tag
   ],
-  "gettrack": [
+  gettrack: [
     classes.k.ktaglib_tag
   ],
-  "getyear": [
+  getyear: [
     classes.k.ktaglib_tag
   ],
-  "getposition": [
+  getposition: [
     classes.l.limititerator,
     classes.r.reflectionparameter
   ],
-  "getallvariants": [
+  getallvariants: [
     classes.l.locale
   ],
-  "getdefault": [
+  getdefault: [
     classes.l.locale,
     classes.s.sdo_model_property
   ],
-  "getdisplaylanguage": [
+  getdisplaylanguage: [
     classes.l.locale
   ],
-  "getdisplayregion": [
+  getdisplayregion: [
     classes.l.locale
   ],
-  "getdisplayscript": [
+  getdisplayscript: [
     classes.l.locale
   ],
-  "getdisplayvariant": [
+  getdisplayvariant: [
     classes.l.locale
   ],
-  "getkeywords": [
+  getkeywords: [
     classes.l.locale
   ],
-  "getprimarylanguage": [
+  getprimarylanguage: [
     classes.l.locale
   ],
-  "getscript": [
+  getscript: [
     classes.l.locale
   ],
-  "getextendedstats": [
+  getextendedstats: [
     classes.m.memcache
   ],
-  "getserverstatus": [
+  getserverstatus: [
     classes.m.memcache
   ],
-  "getstats": [
+  getstats: [
     classes.m.memcache,
     classes.m.memcached,
     classes.s.solrquery
   ],
-  "getallkeys": [
+  getallkeys: [
     classes.m.memcached
   ],
-  "getbykey": [
+  getbykey: [
     classes.m.memcached
   ],
-  "getdelayed": [
+  getdelayed: [
     classes.m.memcached
   ],
-  "getdelayedbykey": [
+  getdelayedbykey: [
     classes.m.memcached
   ],
-  "getmulti": [
+  getmulti: [
     classes.m.memcached
   ],
-  "getmultibykey": [
+  getmultibykey: [
     classes.m.memcached
   ],
-  "getresultcode": [
+  getresultcode: [
     classes.m.memcached
   ],
-  "getresultmessage": [
+  getresultmessage: [
     classes.m.memcached
   ],
-  "getserverbykey": [
+  getserverbykey: [
     classes.m.memcached
   ],
-  "getserverlist": [
+  getserverlist: [
     classes.m.memcached
   ],
-  "gethosts": [
+  gethosts: [
     classes.m.mongo
   ],
-  "getpoolsize": [
+  getpoolsize: [
     classes.m.mongo
   ],
-  "getslave": [
+  getslave: [
     classes.m.mongo
   ],
-  "getslaveokay": [
+  getslaveokay: [
     classes.m.mongo,
     classes.m.mongocollection,
     classes.m.mongodb
   ],
-  "getconnections": [
+  getconnections: [
     classes.m.mongoclient
   ],
-  "getreadpreference": [
+  getreadpreference: [
     classes.m.mongoclient,
     classes.m.mongocollection,
     classes.m.mongocommandcursor,
@@ -1604,163 +1604,163 @@ classes.__indexes__.g = {
     classes.m.mongocursorinterface,
     classes.m.mongodb
   ],
-  "getwriteconcern": [
+  getwriteconcern: [
     classes.m.mongoclient,
     classes.m.mongocollection,
     classes.m.mongodb
   ],
-  "getdbref": [
+  getdbref: [
     classes.m.mongocollection,
     classes.m.mongodb
   ],
-  "getindexinfo": [
+  getindexinfo: [
     classes.m.mongocollection
   ],
-  "group": [
+  group: [
     classes.m.mongocollection
   ],
-  "getnext": [
+  getnext: [
     classes.m.mongocursor,
     classes.m.mongogridfscursor,
     classes.s.snmp
   ],
-  "getcollectioninfo": [
+  getcollectioninfo: [
     classes.m.mongodb
   ],
-  "getcollectionnames": [
+  getcollectionnames: [
     classes.m.mongodb
   ],
-  "getgridfs": [
+  getgridfs: [
     classes.m.mongodb
   ],
-  "getprofilinglevel": [
+  getprofilinglevel: [
     classes.m.mongodb
   ],
-  "getbytes": [
+  getbytes: [
     classes.m.mongogridfsfile
   ],
-  "gethostname": [
+  gethostname: [
     classes.m.mongoid
   ],
-  "getinc": [
+  getinc: [
     classes.m.mongoid
   ],
-  "getpid": [
+  getpid: [
     classes.m.mongoid
   ],
-  "getcallback": [
+  getcallback: [
     classes.m.mongolog
   ],
-  "getlevel": [
+  getlevel: [
     classes.m.mongolog
   ],
-  "getmodule": [
+  getmodule: [
     classes.m.mongolog
   ],
-  "getdocument": [
+  getdocument: [
     classes.m.mongoresultexception,
     classes.m.mongowriteconcernexception
   ],
-  "get_charset": [
+  get_charset: [
     classes.m.mysqli
   ],
-  "get_connection_stats": [
+  get_connection_stats: [
     classes.m.mysqli
   ],
-  "get_warnings": [
+  get_warnings: [
     classes.m.mysqli,
     classes.m.mysqli_stmt
   ],
-  "get_result": [
+  get_result: [
     classes.m.mysqli_stmt
   ],
-  "getaffectedrows": [
+  getaffectedrows: [
     classes.m.mysqlnduhconnection
   ],
-  "geterrornumber": [
+  geterrornumber: [
     classes.m.mysqlnduhconnection
   ],
-  "geterrorstring": [
+  geterrorstring: [
     classes.m.mysqlnduhconnection
   ],
-  "getfieldcount": [
+  getfieldcount: [
     classes.m.mysqlnduhconnection,
     classes.s.solrdocument,
     classes.s.solrinputdocument
   ],
-  "gethostinformation": [
+  gethostinformation: [
     classes.m.mysqlnduhconnection
   ],
-  "getlastinsertid": [
+  getlastinsertid: [
     classes.m.mysqlnduhconnection,
     classes.s.sqlstatementresult
   ],
-  "getlastmessage": [
+  getlastmessage: [
     classes.m.mysqlnduhconnection
   ],
-  "getprotocolinformation": [
+  getprotocolinformation: [
     classes.m.mysqlnduhconnection
   ],
-  "getserverinformation": [
+  getserverinformation: [
     classes.m.mysqlnduhconnection
   ],
-  "getserverstatistics": [
+  getserverstatistics: [
     classes.m.mysqlnduhconnection
   ],
-  "getserverversion": [
+  getserverversion: [
     classes.m.mysqlnduhconnection,
     classes.s.session
   ],
-  "getsqlstate": [
+  getsqlstate: [
     classes.m.mysqlnduhconnection
   ],
-  "getstatistics": [
+  getstatistics: [
     classes.m.mysqlnduhconnection
   ],
-  "getthreadid": [
+  getthreadid: [
     classes.m.mysqlnduhconnection,
     classes.t.thread
   ],
-  "getwarningcount": [
+  getwarningcount: [
     classes.m.mysqlnduhconnection
   ],
-  "getrawdecomposition": [
+  getrawdecomposition: [
     classes.n.normalizer
   ],
-  "getsymbol": [
+  getsymbol: [
     classes.n.numberformatter
   ],
-  "gettextattribute": [
+  gettextattribute: [
     classes.n.numberformatter
   ],
-  "generatesignature": [
+  generatesignature: [
     classes.o.oauth
   ],
-  "getaccesstoken": [
+  getaccesstoken: [
     classes.o.oauth
   ],
-  "getcapath": [
+  getcapath: [
     classes.o.oauth
   ],
-  "getlastresponse": [
+  getlastresponse: [
     classes.o.oauth
   ],
-  "getlastresponseheaders": [
+  getlastresponseheaders: [
     classes.o.oauth
   ],
-  "getlastresponseinfo": [
+  getlastresponseinfo: [
     classes.o.oauth
   ],
-  "getrequestheader": [
+  getrequestheader: [
     classes.o.oauth
   ],
-  "getrequesttoken": [
+  getrequesttoken: [
     classes.o.oauth
   ],
-  "generatetoken": [
+  generatetoken: [
     classes.o.oauthprovider
   ],
-  "getchildren": [
+  getchildren: [
     classes.p.parentiterator,
     classes.r.recursivearrayiterator,
     classes.r.recursivecachingiterator,
@@ -1773,1187 +1773,1187 @@ classes.__indexes__.g = {
     classes.s.splfileobject,
     classes.z.zookeeper
   ],
-  "getavailabledrivers": [
+  getavailabledrivers: [
     classes.p.pdo
   ],
-  "getcolumnmeta": [
+  getcolumnmeta: [
     classes.p.pdostatement
   ],
-  "getalias": [
+  getalias: [
     classes.p.phar
   ],
-  "getmetadata": [
+  getmetadata: [
     classes.p.phar,
     classes.p.pharfileinfo
   ],
-  "getmodified": [
+  getmodified: [
     classes.p.phar
   ],
-  "getsignature": [
+  getsignature: [
     classes.p.phar
   ],
-  "getstub": [
+  getstub: [
     classes.p.phar
   ],
-  "getsupportedcompression": [
+  getsupportedcompression: [
     classes.p.phar
   ],
-  "getsupportedsignatures": [
+  getsupportedsignatures: [
     classes.p.phar
   ],
-  "getcompressedsize": [
+  getcompressedsize: [
     classes.p.pharfileinfo
   ],
-  "getcrc32": [
+  getcrc32: [
     classes.p.pharfileinfo
   ],
-  "getpharflags": [
+  getpharflags: [
     classes.p.pharfileinfo
   ],
-  "getentries": [
+  getentries: [
     classes.r.rararchive
   ],
-  "getentry": [
+  getentry: [
     classes.r.rararchive,
     classes.r.recursivetreeiterator
   ],
-  "getattr": [
+  getattr: [
     classes.r.rarentry
   ],
-  "getcrc": [
+  getcrc: [
     classes.r.rarentry
   ],
-  "getfiletime": [
+  getfiletime: [
     classes.r.rarentry
   ],
-  "gethostos": [
+  gethostos: [
     classes.r.rarentry
   ],
-  "getpackedsize": [
+  getpackedsize: [
     classes.r.rarentry
   ],
-  "getstream": [
+  getstream: [
     classes.r.rarentry,
     classes.z.ziparchive
   ],
-  "getunpackedsize": [
+  getunpackedsize: [
     classes.r.rarentry
   ],
-  "getsubpath": [
+  getsubpath: [
     classes.r.recursivedirectoryiterator
   ],
-  "getsubpathname": [
+  getsubpathname: [
     classes.r.recursivedirectoryiterator
   ],
-  "getdepth": [
+  getdepth: [
     classes.r.recursiveiteratoriterator
   ],
-  "getmaxdepth": [
+  getmaxdepth: [
     classes.r.recursiveiteratoriterator
   ],
-  "getsubiterator": [
+  getsubiterator: [
     classes.r.recursiveiteratoriterator
   ],
-  "getpostfix": [
+  getpostfix: [
     classes.r.recursivetreeiterator
   ],
-  "getprefix": [
+  getprefix: [
     classes.r.recursivetreeiterator
   ],
-  "getmodifiernames": [
+  getmodifiernames: [
     classes.r.reflection
   ],
-  "getconstant": [
+  getconstant: [
     classes.r.reflectionclass
   ],
-  "getconstants": [
+  getconstants: [
     classes.r.reflectionclass,
     classes.r.reflectionextension
   ],
-  "getconstructor": [
+  getconstructor: [
     classes.r.reflectionclass
   ],
-  "getdefaultproperties": [
+  getdefaultproperties: [
     classes.r.reflectionclass
   ],
-  "getdoccomment": [
+  getdoccomment: [
     classes.r.reflectionclass,
     classes.r.reflectionclassconstant,
     classes.r.reflectionfunctionabstract,
     classes.r.reflectionproperty
   ],
-  "getendline": [
+  getendline: [
     classes.r.reflectionclass,
     classes.r.reflectionfunctionabstract
   ],
-  "getextensionname": [
+  getextensionname: [
     classes.r.reflectionclass,
     classes.r.reflectionfunctionabstract
   ],
-  "getinterfacenames": [
+  getinterfacenames: [
     classes.r.reflectionclass
   ],
-  "getinterfaces": [
+  getinterfaces: [
     classes.r.reflectionclass
   ],
-  "getmethods": [
+  getmethods: [
     classes.r.reflectionclass
   ],
-  "getmodifiers": [
+  getmodifiers: [
     classes.r.reflectionclass,
     classes.r.reflectionclassconstant,
     classes.r.reflectionmethod,
     classes.r.reflectionproperty
   ],
-  "getnamespacename": [
+  getnamespacename: [
     classes.r.reflectionclass,
     classes.r.reflectionfunctionabstract
   ],
-  "getparentclass": [
+  getparentclass: [
     classes.r.reflectionclass
   ],
-  "getproperties": [
+  getproperties: [
     classes.r.reflectionclass,
     classes.s.sdo_model_type
   ],
-  "getproperty": [
+  getproperty: [
     classes.r.reflectionclass,
     classes.s.sdo_model_type,
     classes.s.sdo_sequence
   ],
-  "getreflectionconstant": [
+  getreflectionconstant: [
     classes.r.reflectionclass
   ],
-  "getreflectionconstants": [
+  getreflectionconstants: [
     classes.r.reflectionclass
   ],
-  "getshortname": [
+  getshortname: [
     classes.r.reflectionclass,
     classes.r.reflectionfunctionabstract
   ],
-  "getstartline": [
+  getstartline: [
     classes.r.reflectionclass,
     classes.r.reflectionfunctionabstract
   ],
-  "getstaticproperties": [
+  getstaticproperties: [
     classes.r.reflectionclass
   ],
-  "getstaticpropertyvalue": [
+  getstaticpropertyvalue: [
     classes.r.reflectionclass
   ],
-  "gettraitaliases": [
+  gettraitaliases: [
     classes.r.reflectionclass
   ],
-  "gettraitnames": [
+  gettraitnames: [
     classes.r.reflectionclass
   ],
-  "gettraits": [
+  gettraits: [
     classes.r.reflectionclass
   ],
-  "getdeclaringclass": [
+  getdeclaringclass: [
     classes.r.reflectionclassconstant,
     classes.r.reflectionmethod,
     classes.r.reflectionparameter,
     classes.r.reflectionproperty
   ],
-  "getclasses": [
+  getclasses: [
     classes.r.reflectionextension
   ],
-  "getclassnames": [
+  getclassnames: [
     classes.r.reflectionextension
   ],
-  "getdependencies": [
+  getdependencies: [
     classes.r.reflectionextension
   ],
-  "getfunctions": [
+  getfunctions: [
     classes.r.reflectionextension,
     classes.s.soapserver
   ],
-  "getinientries": [
+  getinientries: [
     classes.r.reflectionextension
   ],
-  "getclosure": [
+  getclosure: [
     classes.r.reflectionfunction,
     classes.r.reflectionmethod
   ],
-  "getclosurescopeclass": [
+  getclosurescopeclass: [
     classes.r.reflectionfunctionabstract
   ],
-  "getclosurethis": [
+  getclosurethis: [
     classes.r.reflectionfunctionabstract
   ],
-  "getnumberofparameters": [
+  getnumberofparameters: [
     classes.r.reflectionfunctionabstract
   ],
-  "getnumberofrequiredparameters": [
+  getnumberofrequiredparameters: [
     classes.r.reflectionfunctionabstract
   ],
-  "getparameters": [
+  getparameters: [
     classes.r.reflectionfunctionabstract
   ],
-  "getreturntype": [
+  getreturntype: [
     classes.r.reflectionfunctionabstract
   ],
-  "getstaticvariables": [
+  getstaticvariables: [
     classes.r.reflectionfunctionabstract
   ],
-  "getexecutingfile": [
+  getexecutingfile: [
     classes.r.reflectiongenerator
   ],
-  "getexecutinggenerator": [
+  getexecutinggenerator: [
     classes.r.reflectiongenerator
   ],
-  "getexecutingline": [
+  getexecutingline: [
     classes.r.reflectiongenerator
   ],
-  "getfunction": [
+  getfunction: [
     classes.r.reflectiongenerator
   ],
-  "getthis": [
+  getthis: [
     classes.r.reflectiongenerator
   ],
-  "getprototype": [
+  getprototype: [
     classes.r.reflectionmethod
   ],
-  "getclass": [
+  getclass: [
     classes.r.reflectionparameter
   ],
-  "getdeclaringfunction": [
+  getdeclaringfunction: [
     classes.r.reflectionparameter
   ],
-  "getdefaultvalue": [
+  getdefaultvalue: [
     classes.r.reflectionparameter
   ],
-  "getdefaultvalueconstantname": [
+  getdefaultvalueconstantname: [
     classes.r.reflectionparameter
   ],
-  "getauthor": [
+  getauthor: [
     classes.r.reflectionzendextension
   ],
-  "geturl": [
+  geturl: [
     classes.r.reflectionzendextension
   ],
-  "getmode": [
+  getmode: [
     classes.r.regexiterator
   ],
-  "getpregflags": [
+  getpregflags: [
     classes.r.regexiterator
   ],
-  "getregex": [
+  getregex: [
     classes.r.regexiterator
   ],
-  "getlocales": [
+  getlocales: [
     classes.r.resourcebundle
   ],
-  "getautoincrementvalue": [
+  getautoincrementvalue: [
     classes.r.result
   ],
-  "getgeneratedids": [
+  getgeneratedids: [
     classes.r.result,
     classes.s.sqlstatementresult
   ],
-  "getcolumnnames": [
+  getcolumnnames: [
     classes.r.rowresult,
     classes.s.sqlstatementresult
   ],
-  "getcolumns": [
+  getcolumns: [
     classes.r.rowresult,
     classes.s.sqlstatementresult
   ],
-  "getcolumnscount": [
+  getcolumnscount: [
     classes.r.rowresult,
     classes.s.sqlstatementresult
   ],
-  "getservice": [
+  getservice: [
     classes.s.sca
   ],
-  "getcollection": [
+  getcollection: [
     classes.s.schema
   ],
-  "getcollectionastable": [
+  getcollectionastable: [
     classes.s.schema
   ],
-  "getcollections": [
+  getcollections: [
     classes.s.schema
   ],
-  "gettable": [
+  gettable: [
     classes.s.schema
   ],
-  "gettables": [
+  gettables: [
     classes.s.schema
   ],
-  "getchangeddataobjects": [
+  getchangeddataobjects: [
     classes.s.sdo_das_changesummary
   ],
-  "getchangetype": [
+  getchangetype: [
     classes.s.sdo_das_changesummary
   ],
-  "getoldcontainer": [
+  getoldcontainer: [
     classes.s.sdo_das_changesummary
   ],
-  "getoldvalues": [
+  getoldvalues: [
     classes.s.sdo_das_changesummary
   ],
-  "getdatafactory": [
+  getdatafactory: [
     classes.s.sdo_das_datafactory
   ],
-  "getchangesummary": [
+  getchangesummary: [
     classes.s.sdo_das_dataobject
   ],
-  "getlistindex": [
+  getlistindex: [
     classes.s.sdo_das_setting
   ],
-  "getpropertyindex": [
+  getpropertyindex: [
     classes.s.sdo_das_setting
   ],
-  "getrootdataobject": [
+  getrootdataobject: [
     classes.s.sdo_das_xml_document
   ],
-  "getrootelementname": [
+  getrootelementname: [
     classes.s.sdo_das_xml_document
   ],
-  "getrootelementuri": [
+  getrootelementuri: [
     classes.s.sdo_das_xml_document
   ],
-  "getcontainer": [
+  getcontainer: [
     classes.s.sdo_dataobject
   ],
-  "getsequence": [
+  getsequence: [
     classes.s.sdo_dataobject
   ],
-  "gettypename": [
+  gettypename: [
     classes.s.sdo_dataobject
   ],
-  "gettypenamespaceuri": [
+  gettypenamespaceuri: [
     classes.s.sdo_dataobject
   ],
-  "getcause": [
+  getcause: [
     classes.s.sdo_exception
   ],
-  "getcontainingtype": [
+  getcontainingtype: [
     classes.s.sdo_model_property
   ],
-  "getcontainmentproperty": [
+  getcontainmentproperty: [
     classes.s.sdo_model_reflectiondataobject
   ],
-  "getinstanceproperties": [
+  getinstanceproperties: [
     classes.s.sdo_model_reflectiondataobject
   ],
-  "getbasetype": [
+  getbasetype: [
     classes.s.sdo_model_type
   ],
-  "getnamespaceuri": [
+  getnamespaceuri: [
     classes.s.sdo_model_type
   ],
-  "getbasepath": [
+  getbasepath: [
     classes.s.seaslog
   ],
-  "getbuffer": [
+  getbuffer: [
     classes.s.seaslog
   ],
-  "getbufferenabled": [
+  getbufferenabled: [
     classes.s.seaslog
   ],
-  "getdatetimeformat": [
+  getdatetimeformat: [
     classes.s.seaslog
   ],
-  "getlastlogger": [
+  getlastlogger: [
     classes.s.seaslog
   ],
-  "getrequestid": [
+  getrequestid: [
     classes.s.seaslog
   ],
-  "getrequestvariable": [
+  getrequestvariable: [
     classes.s.seaslog
   ],
-  "generateuuid": [
+  generateuuid: [
     classes.s.session
   ],
-  "getschemas": [
+  getschemas: [
     classes.s.session
   ],
-  "gc": [
+  gc: [
     classes.s.sessionhandler,
     classes.s.sessionhandlerinterface
   ],
-  "getdocnamespaces": [
+  getdocnamespaces: [
     classes.s.simplexmlelement
   ],
-  "getnamespaces": [
+  getnamespaces: [
     classes.s.simplexmlelement
   ],
-  "geterror": [
+  geterror: [
     classes.s.snmp
   ],
-  "getbyid": [
+  getbyid: [
     classes.s.solrclient
   ],
-  "getbyids": [
+  getbyids: [
     classes.s.solrclient
   ],
-  "getdebug": [
+  getdebug: [
     classes.s.solrclient
   ],
-  "getoptions": [
+  getoptions: [
     classes.s.solrclient,
     classes.s.svm
   ],
-  "getinternalinfo": [
+  getinternalinfo: [
     classes.s.solrclientexception,
     classes.s.solrexception,
     classes.s.solrillegalargumentexception,
     classes.s.solrillegaloperationexception,
     classes.s.solrserverexception
   ],
-  "getfield": [
+  getfield: [
     classes.s.solrcollapsefunction,
     classes.s.solrdocument,
     classes.s.solrinputdocument
   ],
-  "gethint": [
+  gethint: [
     classes.s.solrcollapsefunction
   ],
-  "getmax": [
+  getmax: [
     classes.s.solrcollapsefunction
   ],
-  "getmin": [
+  getmin: [
     classes.s.solrcollapsefunction
   ],
-  "getnullpolicy": [
+  getnullpolicy: [
     classes.s.solrcollapsefunction
   ],
-  "getchilddocuments": [
+  getchilddocuments: [
     classes.s.solrdocument,
     classes.s.solrinputdocument
   ],
-  "getchilddocumentscount": [
+  getchilddocumentscount: [
     classes.s.solrdocument,
     classes.s.solrinputdocument
   ],
-  "getfieldnames": [
+  getfieldnames: [
     classes.s.solrdocument,
     classes.s.solrinputdocument
   ],
-  "getinputdocument": [
+  getinputdocument: [
     classes.s.solrdocument
   ],
-  "getboost": [
+  getboost: [
     classes.s.solrinputdocument
   ],
-  "getfieldboost": [
+  getfieldboost: [
     classes.s.solrinputdocument
   ],
-  "getpropertynames": [
+  getpropertynames: [
     classes.s.solrobject
   ],
-  "getparam": [
+  getparam: [
     classes.s.solrparams,
     classes.y.yaf_request_abstract
   ],
-  "getparams": [
+  getparams: [
     classes.s.solrparams,
     classes.v.varnishadmin,
     classes.y.yaf_request_abstract
   ],
-  "getpreparedparams": [
+  getpreparedparams: [
     classes.s.solrparams
   ],
-  "getresponse": [
+  getresponse: [
     classes.s.solrpingresponse,
     classes.s.solrresponse,
     classes.y.yaf_controller_abstract
   ],
-  "getexpand": [
+  getexpand: [
     classes.s.solrquery
   ],
-  "getexpandfilterqueries": [
+  getexpandfilterqueries: [
     classes.s.solrquery
   ],
-  "getexpandquery": [
+  getexpandquery: [
     classes.s.solrquery
   ],
-  "getexpandrows": [
+  getexpandrows: [
     classes.s.solrquery
   ],
-  "getexpandsortfields": [
+  getexpandsortfields: [
     classes.s.solrquery
   ],
-  "getfacet": [
+  getfacet: [
     classes.s.solrquery
   ],
-  "getfacetdateend": [
+  getfacetdateend: [
     classes.s.solrquery
   ],
-  "getfacetdatefields": [
+  getfacetdatefields: [
     classes.s.solrquery
   ],
-  "getfacetdategap": [
+  getfacetdategap: [
     classes.s.solrquery
   ],
-  "getfacetdatehardend": [
+  getfacetdatehardend: [
     classes.s.solrquery
   ],
-  "getfacetdateother": [
+  getfacetdateother: [
     classes.s.solrquery
   ],
-  "getfacetdatestart": [
+  getfacetdatestart: [
     classes.s.solrquery
   ],
-  "getfacetfields": [
+  getfacetfields: [
     classes.s.solrquery
   ],
-  "getfacetlimit": [
+  getfacetlimit: [
     classes.s.solrquery
   ],
-  "getfacetmethod": [
+  getfacetmethod: [
     classes.s.solrquery
   ],
-  "getfacetmincount": [
+  getfacetmincount: [
     classes.s.solrquery
   ],
-  "getfacetmissing": [
+  getfacetmissing: [
     classes.s.solrquery
   ],
-  "getfacetoffset": [
+  getfacetoffset: [
     classes.s.solrquery
   ],
-  "getfacetprefix": [
+  getfacetprefix: [
     classes.s.solrquery
   ],
-  "getfacetqueries": [
+  getfacetqueries: [
     classes.s.solrquery
   ],
-  "getfacetsort": [
+  getfacetsort: [
     classes.s.solrquery
   ],
-  "getfields": [
+  getfields: [
     classes.s.solrquery
   ],
-  "getfilterqueries": [
+  getfilterqueries: [
     classes.s.solrquery
   ],
-  "getgroupcachepercent": [
+  getgroupcachepercent: [
     classes.s.solrquery
   ],
-  "getgroupfacet": [
+  getgroupfacet: [
     classes.s.solrquery
   ],
-  "getgroupfields": [
+  getgroupfields: [
     classes.s.solrquery
   ],
-  "getgroupformat": [
+  getgroupformat: [
     classes.s.solrquery
   ],
-  "getgroupfunctions": [
+  getgroupfunctions: [
     classes.s.solrquery
   ],
-  "getgrouplimit": [
+  getgrouplimit: [
     classes.s.solrquery
   ],
-  "getgroupmain": [
+  getgroupmain: [
     classes.s.solrquery
   ],
-  "getgroupngroups": [
+  getgroupngroups: [
     classes.s.solrquery
   ],
-  "getgroupoffset": [
+  getgroupoffset: [
     classes.s.solrquery
   ],
-  "getgroupqueries": [
+  getgroupqueries: [
     classes.s.solrquery
   ],
-  "getgroupsortfields": [
+  getgroupsortfields: [
     classes.s.solrquery
   ],
-  "getgrouptruncate": [
+  getgrouptruncate: [
     classes.s.solrquery
   ],
-  "gethighlight": [
+  gethighlight: [
     classes.s.solrquery
   ],
-  "gethighlightalternatefield": [
+  gethighlightalternatefield: [
     classes.s.solrquery
   ],
-  "gethighlightfields": [
+  gethighlightfields: [
     classes.s.solrquery
   ],
-  "gethighlightformatter": [
+  gethighlightformatter: [
     classes.s.solrquery
   ],
-  "gethighlightfragmenter": [
+  gethighlightfragmenter: [
     classes.s.solrquery
   ],
-  "gethighlightfragsize": [
+  gethighlightfragsize: [
     classes.s.solrquery
   ],
-  "gethighlighthighlightmultiterm": [
+  gethighlighthighlightmultiterm: [
     classes.s.solrquery
   ],
-  "gethighlightmaxalternatefieldlength": [
+  gethighlightmaxalternatefieldlength: [
     classes.s.solrquery
   ],
-  "gethighlightmaxanalyzedchars": [
+  gethighlightmaxanalyzedchars: [
     classes.s.solrquery
   ],
-  "gethighlightmergecontiguous": [
+  gethighlightmergecontiguous: [
     classes.s.solrquery
   ],
-  "gethighlightregexmaxanalyzedchars": [
+  gethighlightregexmaxanalyzedchars: [
     classes.s.solrquery
   ],
-  "gethighlightregexpattern": [
+  gethighlightregexpattern: [
     classes.s.solrquery
   ],
-  "gethighlightregexslop": [
+  gethighlightregexslop: [
     classes.s.solrquery
   ],
-  "gethighlightrequirefieldmatch": [
+  gethighlightrequirefieldmatch: [
     classes.s.solrquery
   ],
-  "gethighlightsimplepost": [
+  gethighlightsimplepost: [
     classes.s.solrquery
   ],
-  "gethighlightsimplepre": [
+  gethighlightsimplepre: [
     classes.s.solrquery
   ],
-  "gethighlightsnippets": [
+  gethighlightsnippets: [
     classes.s.solrquery
   ],
-  "gethighlightusephrasehighlighter": [
+  gethighlightusephrasehighlighter: [
     classes.s.solrquery
   ],
-  "getmlt": [
+  getmlt: [
     classes.s.solrquery
   ],
-  "getmltboost": [
+  getmltboost: [
     classes.s.solrquery
   ],
-  "getmltcount": [
+  getmltcount: [
     classes.s.solrquery
   ],
-  "getmltfields": [
+  getmltfields: [
     classes.s.solrquery
   ],
-  "getmltmaxnumqueryterms": [
+  getmltmaxnumqueryterms: [
     classes.s.solrquery
   ],
-  "getmltmaxnumtokens": [
+  getmltmaxnumtokens: [
     classes.s.solrquery
   ],
-  "getmltmaxwordlength": [
+  getmltmaxwordlength: [
     classes.s.solrquery
   ],
-  "getmltmindocfrequency": [
+  getmltmindocfrequency: [
     classes.s.solrquery
   ],
-  "getmltmintermfrequency": [
+  getmltmintermfrequency: [
     classes.s.solrquery
   ],
-  "getmltminwordlength": [
+  getmltminwordlength: [
     classes.s.solrquery
   ],
-  "getmltqueryfields": [
+  getmltqueryfields: [
     classes.s.solrquery
   ],
-  "getquery": [
+  getquery: [
     classes.s.solrquery,
     classes.t.tokyotyranttable,
     classes.y.yaf_request_http,
     classes.y.yaf_request_simple
   ],
-  "getrows": [
+  getrows: [
     classes.s.solrquery
   ],
-  "getsortfields": [
+  getsortfields: [
     classes.s.solrquery
   ],
-  "getstart": [
+  getstart: [
     classes.s.solrquery
   ],
-  "getstatsfacets": [
+  getstatsfacets: [
     classes.s.solrquery
   ],
-  "getstatsfields": [
+  getstatsfields: [
     classes.s.solrquery
   ],
-  "getterms": [
+  getterms: [
     classes.s.solrquery
   ],
-  "gettermsfield": [
+  gettermsfield: [
     classes.s.solrquery
   ],
-  "gettermsincludelowerbound": [
+  gettermsincludelowerbound: [
     classes.s.solrquery
   ],
-  "gettermsincludeupperbound": [
+  gettermsincludeupperbound: [
     classes.s.solrquery
   ],
-  "gettermslimit": [
+  gettermslimit: [
     classes.s.solrquery
   ],
-  "gettermslowerbound": [
+  gettermslowerbound: [
     classes.s.solrquery
   ],
-  "gettermsmaxcount": [
+  gettermsmaxcount: [
     classes.s.solrquery
   ],
-  "gettermsmincount": [
+  gettermsmincount: [
     classes.s.solrquery
   ],
-  "gettermsprefix": [
+  gettermsprefix: [
     classes.s.solrquery
   ],
-  "gettermsreturnraw": [
+  gettermsreturnraw: [
     classes.s.solrquery
   ],
-  "gettermssort": [
+  gettermssort: [
     classes.s.solrquery
   ],
-  "gettermsupperbound": [
+  gettermsupperbound: [
     classes.s.solrquery
   ],
-  "gettimeallowed": [
+  gettimeallowed: [
     classes.s.solrquery
   ],
-  "getdigestedresponse": [
+  getdigestedresponse: [
     classes.s.solrresponse
   ],
-  "gethttpstatus": [
+  gethttpstatus: [
     classes.s.solrresponse
   ],
-  "gethttpstatusmessage": [
+  gethttpstatusmessage: [
     classes.s.solrresponse
   ],
-  "getrawrequest": [
+  getrawrequest: [
     classes.s.solrresponse
   ],
-  "getrawrequestheaders": [
+  getrawrequestheaders: [
     classes.s.solrresponse
   ],
-  "getrawresponse": [
+  getrawresponse: [
     classes.s.solrresponse
   ],
-  "getrawresponseheaders": [
+  getrawresponseheaders: [
     classes.s.solrresponse
   ],
-  "getrequesturl": [
+  getrequesturl: [
     classes.s.solrresponse
   ],
-  "getsolrversion": [
+  getsolrversion: [
     classes.s.solrutils
   ],
-  "getlasterror": [
+  getlasterror: [
     classes.s.sphinxclient
   ],
-  "getlastwarning": [
+  getlastwarning: [
     classes.s.sphinxclient
   ],
-  "getiteratormode": [
+  getiteratormode: [
     classes.s.spldoublylinkedlist
   ],
-  "getconstlist": [
+  getconstlist: [
     classes.s.splenum
   ],
-  "getfileinfo": [
+  getfileinfo: [
     classes.s.splfileinfo
   ],
-  "getlinktarget": [
+  getlinktarget: [
     classes.s.splfileinfo
   ],
-  "getpathinfo": [
+  getpathinfo: [
     classes.s.splfileinfo
   ],
-  "getrealpath": [
+  getrealpath: [
     classes.s.splfileinfo
   ],
-  "getcsvcontrol": [
+  getcsvcontrol: [
     classes.s.splfileobject
   ],
-  "getcurrentline": [
+  getcurrentline: [
     classes.s.splfileobject
   ],
-  "getmaxlinelen": [
+  getmaxlinelen: [
     classes.s.splfileobject
   ],
-  "gethash": [
+  gethash: [
     classes.s.splobjectstorage
   ],
-  "getinfo": [
+  getinfo: [
     classes.s.splobjectstorage
   ],
-  "getextractflags": [
+  getextractflags: [
     classes.s.splpriorityqueue
   ],
-  "getsql": [
+  getsql: [
     classes.s.sqlite3stmt
   ],
-  "getnextresult": [
+  getnextresult: [
     classes.s.sqlstatement,
     classes.s.statement
   ],
-  "getresult": [
+  getresult: [
     classes.s.sqlstatement,
     classes.s.statement
   ],
-  "getaffecteditemscount": [
+  getaffecteditemscount: [
     classes.s.sqlstatementresult
   ],
-  "getreadtimeout": [
+  getreadtimeout: [
     classes.s.stomp
   ],
-  "getsessionid": [
+  getsessionid: [
     classes.s.stomp
   ],
-  "getdetails": [
+  getdetails: [
     classes.s.stompexception
   ],
-  "getlabels": [
+  getlabels: [
     classes.s.svmmodel
   ],
-  "getnrclass": [
+  getnrclass: [
     classes.s.svmmodel
   ],
-  "getsvmtype": [
+  getsvmtype: [
     classes.s.svmmodel
   ],
-  "getsvrprobability": [
+  getsvrprobability: [
     classes.s.svmmodel
   ],
-  "getrot": [
+  getrot: [
     classes.s.swfdisplayitem
   ],
-  "getx": [
+  getx: [
     classes.s.swfdisplayitem
   ],
-  "getxscale": [
+  getxscale: [
     classes.s.swfdisplayitem
   ],
-  "getxskew": [
+  getxskew: [
     classes.s.swfdisplayitem
   ],
-  "gety": [
+  gety: [
     classes.s.swfdisplayitem
   ],
-  "getyscale": [
+  getyscale: [
     classes.s.swfdisplayitem
   ],
-  "getyskew": [
+  getyskew: [
     classes.s.swfdisplayitem
   ],
-  "getleading": [
+  getleading: [
     classes.s.swffont,
     classes.s.swftext
   ],
-  "getshape": [
+  getshape: [
     classes.s.swffont
   ],
-  "getutf8width": [
+  getutf8width: [
     classes.s.swffont,
     classes.s.swftext
   ],
-  "getshape1": [
+  getshape1: [
     classes.s.swfmorph
   ],
-  "getshape2": [
+  getshape2: [
     classes.s.swfmorph
   ],
-  "getnumframes": [
+  getnumframes: [
     classes.s.swfvideostream
   ],
-  "getmetalist": [
+  getmetalist: [
     classes.s.swish,
     classes.s.swishresult
   ],
-  "getpropertylist": [
+  getpropertylist: [
     classes.s.swish
   ],
-  "getparsedwords": [
+  getparsedwords: [
     classes.s.swishresults
   ],
-  "getremovedstopwords": [
+  getremovedstopwords: [
     classes.s.swishresults
   ],
-  "getcreatorid": [
+  getcreatorid: [
     classes.t.thread
   ],
-  "getcurrentthread": [
+  getcurrentthread: [
     classes.t.thread
   ],
-  "getcurrentthreadid": [
+  getcurrentthreadid: [
     classes.t.thread
   ],
-  "globally": [
+  globally: [
     classes.t.thread
   ],
-  "getterminationinfo": [
+  getterminationinfo: [
     classes.t.threaded
   ],
-  "getconfig": [
+  getconfig: [
     classes.t.tidy,
     classes.y.yaf_application,
     classes.z.zookeeper
   ],
-  "gethtmlver": [
+  gethtmlver: [
     classes.t.tidy
   ],
-  "getopt": [
+  getopt: [
     classes.t.tidy,
     classes.z.zmqcontext
   ],
-  "getoptdoc": [
+  getoptdoc: [
     classes.t.tidy
   ],
-  "getrelease": [
+  getrelease: [
     classes.t.tidy
   ],
-  "getstatus": [
+  getstatus: [
     classes.t.tidy
   ],
-  "getparent": [
+  getparent: [
     classes.t.tidynode
   ],
-  "genuid": [
+  genuid: [
     classes.t.tokyotyranttable
   ],
-  "getaliases": [
+  getaliases: [
     classes.u.uconverter
   ],
-  "getavailable": [
+  getavailable: [
     classes.u.uconverter
   ],
-  "getdestinationencoding": [
+  getdestinationencoding: [
     classes.u.uconverter
   ],
-  "getdestinationtype": [
+  getdestinationtype: [
     classes.u.uconverter
   ],
-  "getsourceencoding": [
+  getsourceencoding: [
     classes.u.uconverter
   ],
-  "getsourcetype": [
+  getsourcetype: [
     classes.u.uconverter
   ],
-  "getstandards": [
+  getstandards: [
     classes.u.uconverter
   ],
-  "getsubstchars": [
+  getsubstchars: [
     classes.u.uconverter
   ],
-  "getextensions": [
+  getextensions: [
     classes.v.v8js
   ],
-  "getpendingexception": [
+  getpendingexception: [
     classes.v.v8js
   ],
-  "getjsfilename": [
+  getjsfilename: [
     classes.v.v8jsexception
   ],
-  "getjslinenumber": [
+  getjslinenumber: [
     classes.v.v8jsexception
   ],
-  "getjssourceline": [
+  getjssourceline: [
     classes.v.v8jsexception
   ],
-  "getjstrace": [
+  getjstrace: [
     classes.v.v8jsexception
   ],
-  "getpanic": [
+  getpanic: [
     classes.v.varnishadmin
   ],
-  "gettagname": [
+  gettagname: [
     classes.v.varnishlog
   ],
-  "getsnapshot": [
+  getsnapshot: [
     classes.v.varnishstat
   ],
-  "getstacked": [
+  getstacked: [
     classes.w.worker
   ],
-  "getattributeno": [
+  getattributeno: [
     classes.x.xmlreader
   ],
-  "getparserproperty": [
+  getparserproperty: [
     classes.x.xmlreader
   ],
-  "getparameter": [
+  getparameter: [
     classes.x.xsltprocessor
   ],
-  "getsecurityprefs": [
+  getsecurityprefs: [
     classes.x.xsltprocessor
   ],
-  "getcontroller": [
+  getcontroller: [
     classes.y.yaf_action_abstract
   ],
-  "getappdirectory": [
+  getappdirectory: [
     classes.y.yaf_application
   ],
-  "getdispatcher": [
+  getdispatcher: [
     classes.y.yaf_application
   ],
-  "getlasterrormsg": [
+  getlasterrormsg: [
     classes.y.yaf_application
   ],
-  "getlasterrorno": [
+  getlasterrorno: [
     classes.y.yaf_application
   ],
-  "getmodules": [
+  getmodules: [
     classes.y.yaf_application
   ],
-  "getinvokearg": [
+  getinvokearg: [
     classes.y.yaf_controller_abstract
   ],
-  "getinvokeargs": [
+  getinvokeargs: [
     classes.y.yaf_controller_abstract
   ],
-  "getmodulename": [
+  getmodulename: [
     classes.y.yaf_controller_abstract,
     classes.y.yaf_request_abstract
   ],
-  "getrequest": [
+  getrequest: [
     classes.y.yaf_controller_abstract,
     classes.y.yaf_dispatcher,
     classes.y.yaf_request_http,
     classes.y.yaf_request_simple
   ],
-  "getview": [
+  getview: [
     classes.y.yaf_controller_abstract
   ],
-  "getviewpath": [
+  getviewpath: [
     classes.y.yaf_controller_abstract
   ],
-  "getapplication": [
+  getapplication: [
     classes.y.yaf_dispatcher
   ],
-  "getinstance": [
+  getinstance: [
     classes.y.yaf_dispatcher,
     classes.y.yaf_loader,
     classes.y.yaf_session
   ],
-  "getrouter": [
+  getrouter: [
     classes.y.yaf_dispatcher
   ],
-  "getlibrarypath": [
+  getlibrarypath: [
     classes.y.yaf_loader
   ],
-  "getlocalnamespace": [
+  getlocalnamespace: [
     classes.y.yaf_loader
   ],
-  "getactionname": [
+  getactionname: [
     classes.y.yaf_request_abstract
   ],
-  "getbaseuri": [
+  getbaseuri: [
     classes.y.yaf_request_abstract
   ],
-  "getcontrollername": [
+  getcontrollername: [
     classes.y.yaf_request_abstract
   ],
-  "getenv": [
+  getenv: [
     classes.y.yaf_request_abstract
   ],
-  "getexception": [
+  getexception: [
     classes.y.yaf_request_abstract
   ],
-  "getlanguage": [
+  getlanguage: [
     classes.y.yaf_request_abstract
   ],
-  "getrequesturi": [
+  getrequesturi: [
     classes.y.yaf_request_abstract
   ],
-  "getserver": [
+  getserver: [
     classes.y.yaf_request_abstract
   ],
-  "getcookie": [
+  getcookie: [
     classes.y.yaf_request_http,
     classes.y.yaf_request_simple
   ],
-  "getfiles": [
+  getfiles: [
     classes.y.yaf_request_http,
     classes.y.yaf_request_simple
   ],
-  "getpost": [
+  getpost: [
     classes.y.yaf_request_http,
     classes.y.yaf_request_simple
   ],
-  "getraw": [
+  getraw: [
     classes.y.yaf_request_http
   ],
-  "getbody": [
+  getbody: [
     classes.y.yaf_response_abstract
   ],
-  "getheader": [
+  getheader: [
     classes.y.yaf_response_abstract
   ],
-  "getcurrentroute": [
+  getcurrentroute: [
     classes.y.yaf_router
   ],
-  "getroute": [
+  getroute: [
     classes.y.yaf_router
   ],
-  "getroutes": [
+  getroutes: [
     classes.y.yaf_router
   ],
-  "getscriptpath": [
+  getscriptpath: [
     classes.y.yaf_view_interface,
     classes.y.yaf_view_simple
   ],
-  "getarchivecomment": [
+  getarchivecomment: [
     classes.z.ziparchive
   ],
-  "getcommentindex": [
+  getcommentindex: [
     classes.z.ziparchive
   ],
-  "getcommentname": [
+  getcommentname: [
     classes.z.ziparchive
   ],
-  "getexternalattributesindex": [
+  getexternalattributesindex: [
     classes.z.ziparchive
   ],
-  "getexternalattributesname": [
+  getexternalattributesname: [
     classes.z.ziparchive
   ],
-  "getfromindex": [
+  getfromindex: [
     classes.z.ziparchive
   ],
-  "getfromname": [
+  getfromname: [
     classes.z.ziparchive
   ],
-  "getnameindex": [
+  getnameindex: [
     classes.z.ziparchive
   ],
-  "getstatusstring": [
+  getstatusstring: [
     classes.z.ziparchive
   ],
-  "getsocket": [
+  getsocket: [
     classes.z.zmqcontext
   ],
-  "getidletimeout": [
+  getidletimeout: [
     classes.z.zmqdevice
   ],
-  "gettimertimeout": [
+  gettimertimeout: [
     classes.z.zmqdevice
   ],
-  "getendpoints": [
+  getendpoints: [
     classes.z.zmqsocket
   ],
-  "getpersistentid": [
+  getpersistentid: [
     classes.z.zmqsocket
   ],
-  "getsockettype": [
+  getsockettype: [
     classes.z.zmqsocket
   ],
-  "getsockopt": [
+  getsockopt: [
     classes.z.zmqsocket
   ],
-  "getacl": [
+  getacl: [
     classes.z.zookeeper
   ],
-  "getclientid": [
+  getclientid: [
     classes.z.zookeeper
   ],
-  "getrecvtimeout": [
+  getrecvtimeout: [
     classes.z.zookeeper
   ],
-  "getstate": [
+  getstate: [
     classes.z.zookeeper
   ]
 };

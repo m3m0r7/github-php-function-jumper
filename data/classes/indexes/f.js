@@ -1,64 +1,64 @@
 classes.__indexes__.f = {
-  "fill": [
+  fill: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "fillextents": [
+  fillextents: [
     classes.c.cairocontext
   ],
-  "fillpreserve": [
+  fillpreserve: [
     classes.c.cairocontext
   ],
-  "fontextents": [
+  fontextents: [
     classes.c.cairocontext
   ],
-  "finish": [
+  finish: [
     classes.c.cairosurface
   ],
-  "flush": [
+  flush: [
     classes.c.cairosurface,
     classes.m.memcache,
     classes.m.memcached
   ],
-  "fromcallable": [
+  fromcallable: [
     classes.c.closure
   ],
-  "find": [
+  find: [
     classes.c.collection,
     classes.h.hw_api,
     classes.m.mongocollection,
     classes.m.mongogridfs
   ],
-  "fields": [
+  fields: [
     classes.c.collectionfind,
     classes.m.mongocursor
   ],
-  "format": [
+  format: [
     classes.d.dateinterval,
     classes.d.datetime,
     classes.i.intldateformatter,
     classes.m.messageformatter,
     classes.n.numberformatter
   ],
-  "fetchall": [
+  fetchall: [
     classes.d.docresult,
     classes.m.memcached,
     classes.p.pdostatement,
     classes.r.rowresult,
     classes.s.sqlstatementresult
   ],
-  "fetchone": [
+  fetchone: [
     classes.d.docresult,
     classes.r.rowresult,
     classes.s.sqlstatementresult
   ],
-  "feedsignal": [
+  feedsignal: [
     classes.e.ev
   ],
-  "feedsignalevent": [
+  feedsignalevent: [
     classes.e.ev
   ],
-  "free": [
+  free: [
     classes.e.event,
     classes.e.eventbase,
     classes.e.eventbufferevent,
@@ -67,247 +67,247 @@ classes.__indexes__.f = {
     classes.j.judy,
     classes.m.mysqli_result
   ],
-  "freeze": [
+  freeze: [
     classes.e.eventbuffer
   ],
-  "findheader": [
+  findheader: [
     classes.e.eventhttprequest
   ],
-  "fork": [
+  fork: [
     classes.e.evloop
   ],
-  "feed": [
+  feed: [
     classes.e.evwatcher
   ],
-  "file": [
+  file: [
     classes.f.finfo
   ],
-  "fail": [
+  fail: [
     classes.g.gearmanjob
   ],
-  "functionname": [
+  functionname: [
     classes.g.gearmanjob,
     classes.g.gearmantask
   ],
-  "function": [
+  function: [
     classes.g.gearmantask
   ],
-  "flipimage": [
+  flipimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "flopimage": [
+  flopimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "frameimage": [
+  frameimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "fillstroke": [
+  fillstroke: [
     classes.h.harupage
   ],
-  "ftstat": [
+  ftstat: [
     classes.h.hw_api
   ],
-  "filter": [
+  filter: [
     classes.i.imagick,
     classes.p.php_user_filter
   ],
-  "flattenimages": [
+  flattenimages: [
     classes.i.imagick
   ],
-  "floodfillpaintimage": [
+  floodfillpaintimage: [
     classes.i.imagick
   ],
-  "forwardfouriertransformimage": [
+  forwardfouriertransformimage: [
     classes.i.imagick
   ],
-  "functionimage": [
+  functionimage: [
     classes.i.imagick
   ],
-  "fximage": [
+  fximage: [
     classes.i.imagick
   ],
-  "frombuiltin": [
+  frombuiltin: [
     classes.i.imagickkernel
   ],
-  "frommatrix": [
+  frommatrix: [
     classes.i.imagickkernel
   ],
-  "first": [
+  first: [
     classes.i.intlbreakiterator,
     classes.j.judy,
     classes.s.syncsharedmemory
   ],
-  "following": [
+  following: [
     classes.i.intlbreakiterator
   ],
-  "fielddifference": [
+  fielddifference: [
     classes.i.intlcalendar
   ],
-  "fromdatetime": [
+  fromdatetime: [
     classes.i.intlcalendar
   ],
-  "foldcase": [
+  foldcase: [
     classes.i.intlchar
   ],
-  "fordigit": [
+  fordigit: [
     classes.i.intlchar
   ],
-  "formatobject": [
+  formatobject: [
     classes.i.intldateformatter
   ],
-  "fromdatetimezone": [
+  fromdatetimezone: [
     classes.i.intltimezone
   ],
-  "firstempty": [
+  firstempty: [
     classes.j.judy
   ],
-  "filtermatches": [
+  filtermatches: [
     classes.l.locale
   ],
-  "fetch": [
+  fetch: [
     classes.m.memcached,
     classes.m.mysqli_stmt,
     classes.o.oauth,
     classes.p.pdostatement
   ],
-  "formatmessage": [
+  formatmessage: [
     classes.m.messageformatter
   ],
-  "findandmodify": [
+  findandmodify: [
     classes.m.mongocollection
   ],
-  "findone": [
+  findone: [
     classes.m.mongocollection,
     classes.m.mongogridfs
   ],
-  "forceerror": [
+  forceerror: [
     classes.m.mongodb
   ],
-  "fetch_all": [
+  fetch_all: [
     classes.m.mysqli_result
   ],
-  "fetch_array": [
+  fetch_array: [
     classes.m.mysqli_result
   ],
-  "fetch_assoc": [
+  fetch_assoc: [
     classes.m.mysqli_result
   ],
-  "fetch_field": [
+  fetch_field: [
     classes.m.mysqli_result
   ],
-  "fetch_fields": [
+  fetch_fields: [
     classes.m.mysqli_result
   ],
-  "fetch_field_direct": [
+  fetch_field_direct: [
     classes.m.mysqli_result
   ],
-  "fetch_object": [
+  fetch_object: [
     classes.m.mysqli_result
   ],
-  "fetch_row": [
+  fetch_row: [
     classes.m.mysqli_result
   ],
-  "field_seek": [
+  field_seek: [
     classes.m.mysqli_result
   ],
-  "free_result": [
+  free_result: [
     classes.m.mysqli_stmt
   ],
-  "formatcurrency": [
+  formatcurrency: [
     classes.n.numberformatter
   ],
-  "fetchcolumn": [
+  fetchcolumn: [
     classes.p.pdostatement
   ],
-  "fetchobject": [
+  fetchobject: [
     classes.p.pdostatement
   ],
-  "file_info": [
+  file_info: [
     classes.p.phdfs
   ],
-  "flushbuffer": [
+  flushbuffer: [
     classes.s.seaslog
   ],
-  "fault": [
+  fault: [
     classes.s.soapserver
   ],
-  "fieldexists": [
+  fieldexists: [
     classes.s.solrdocument,
     classes.s.solrinputdocument
   ],
-  "fflush": [
+  fflush: [
     classes.s.splfileobject
   ],
-  "fgetc": [
+  fgetc: [
     classes.s.splfileobject
   ],
-  "fgetcsv": [
+  fgetcsv: [
     classes.s.splfileobject
   ],
-  "fgets": [
+  fgets: [
     classes.s.splfileobject
   ],
-  "fgetss": [
+  fgetss: [
     classes.s.splfileobject
   ],
-  "flock": [
+  flock: [
     classes.s.splfileobject
   ],
-  "fpassthru": [
+  fpassthru: [
     classes.s.splfileobject
   ],
-  "fputcsv": [
+  fputcsv: [
     classes.s.splfileobject
   ],
-  "fread": [
+  fread: [
     classes.s.splfileobject
   ],
-  "fscanf": [
+  fscanf: [
     classes.s.splfileobject
   ],
-  "fseek": [
+  fseek: [
     classes.s.splfileobject
   ],
-  "fstat": [
+  fstat: [
     classes.s.splfileobject
   ],
-  "ftell": [
+  ftell: [
     classes.s.splfileobject
   ],
-  "ftruncate": [
+  ftruncate: [
     classes.s.splfileobject
   ],
-  "fwrite": [
+  fwrite: [
     classes.s.splfileobject
   ],
-  "fromarray": [
+  fromarray: [
     classes.s.splfixedarray
   ],
-  "fetcharray": [
+  fetcharray: [
     classes.s.sqlite3result
   ],
-  "finalize": [
+  finalize: [
     classes.s.sqlite3result
   ],
-  "fire": [
+  fire: [
     classes.s.syncevent
   ],
-  "from": [
+  from: [
     classes.t.threaded
   ],
-  "fwmkeys": [
+  fwmkeys: [
     classes.t.tokyotyrant
   ],
-  "fromucallback": [
+  fromucallback: [
     classes.u.uconverter
   ],
-  "forward": [
+  forward: [
     classes.y.yaf_controller_abstract
   ],
-  "flushinstantly": [
+  flushinstantly: [
     classes.y.yaf_dispatcher
   ]
 };

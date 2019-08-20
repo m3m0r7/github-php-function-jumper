@@ -1,5 +1,5 @@
 classes.__indexes__.o = {
-  "offsetexists": [
+  offsetexists: [
     classes.a.arrayaccess,
     classes.a.arrayiterator,
     classes.a.arrayobject,
@@ -16,7 +16,7 @@ classes.__indexes__.o = {
     classes.y.yaf_config_simple,
     classes.y.yaf_session
   ],
-  "offsetget": [
+  offsetget: [
     classes.a.arrayaccess,
     classes.a.arrayiterator,
     classes.a.arrayobject,
@@ -33,25 +33,7 @@ classes.__indexes__.o = {
     classes.y.yaf_config_simple,
     classes.y.yaf_session
   ],
-  "offsetset": [
-    classes.a.arrayaccess,
-    classes.a.arrayiterator,
-    classes.a.arrayobject,
-    classes.c.cachingiterator,
-    classes.j.judy,
-    classes.p.phar,
-    classes.p.phardata,
-    classes.s.solrdocument,
-    classes.s.solrobject,
-    classes.s.spldoublylinkedlist,
-    classes.s.splfixedarray,
-    classes.s.splobjectstorage,
-    classes.w.weakmap,
-    classes.y.yaf_config_ini,
-    classes.y.yaf_config_simple,
-    classes.y.yaf_session
-  ],
-  "offsetunset": [
+  offsetset: [
     classes.a.arrayaccess,
     classes.a.arrayiterator,
     classes.a.arrayobject,
@@ -69,47 +51,65 @@ classes.__indexes__.o = {
     classes.y.yaf_config_simple,
     classes.y.yaf_session
   ],
-  "offset": [
+  offsetunset: [
+    classes.a.arrayaccess,
+    classes.a.arrayiterator,
+    classes.a.arrayobject,
+    classes.c.cachingiterator,
+    classes.j.judy,
+    classes.p.phar,
+    classes.p.phardata,
+    classes.s.solrdocument,
+    classes.s.solrobject,
+    classes.s.spldoublylinkedlist,
+    classes.s.splfixedarray,
+    classes.s.splobjectstorage,
+    classes.w.weakmap,
+    classes.y.yaf_config_ini,
+    classes.y.yaf_config_simple,
+    classes.y.yaf_session
+  ],
+  offset: [
     classes.c.collectionfind,
     classes.t.tableselect
   ],
-  "options": [
+  options: [
     classes.g.gearmanworker,
     classes.m.mysqli
   ],
-  "oilpaintimage": [
+  oilpaintimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "output": [
+  output: [
     classes.h.harudoc,
     classes.s.swfmovie
   ],
-  "object": [
+  object: [
     classes.h.hw_api
   ],
-  "objectbyanchor": [
+  objectbyanchor: [
     classes.h.hw_api
   ],
-  "opaquepaintimage": [
+  opaquepaintimage: [
     classes.i.imagick
   ],
-  "optimizeimagelayers": [
+  optimizeimagelayers: [
     classes.i.imagick
   ],
-  "orderedposterizeimage": [
+  orderedposterizeimage: [
     classes.i.imagick
   ],
-  "ord": [
+  ord: [
     classes.i.intlchar
   ],
-  "onclose": [
+  onclose: [
     classes.p.php_user_filter
   ],
-  "oncreate": [
+  oncreate: [
     classes.p.php_user_filter
   ],
-  "open": [
+  open: [
     classes.r.rararchive,
     classes.s.sessionhandler,
     classes.s.sessionhandlerinterface,
@@ -118,21 +118,21 @@ classes.__indexes__.o = {
     classes.x.xmlreader,
     classes.z.ziparchive
   ],
-  "optimize": [
+  optimize: [
     classes.s.solrclient
   ],
-  "openfile": [
+  openfile: [
     classes.s.splfileinfo
   ],
-  "openblob": [
+  openblob: [
     classes.s.sqlite3
   ],
-  "orderby": [
+  orderby: [
     classes.t.tabledelete,
     classes.t.tableselect,
     classes.t.tableupdate
   ],
-  "out": [
+  out: [
     classes.t.tokyotyrant,
     classes.t.tokyotyrantquery,
     classes.t.tokyotyranttable

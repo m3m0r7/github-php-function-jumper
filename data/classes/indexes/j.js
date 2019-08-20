@@ -1,14 +1,14 @@
 classes.__indexes__.j = {
-  "jobstatus": [
+  jobstatus: [
     classes.g.gearmanclient
   ],
-  "jobhandle": [
+  jobhandle: [
     classes.g.gearmantask
   ],
-  "jsonserialize": [
+  jsonserialize: [
     classes.j.jsonserializable
   ],
-  "join": [
+  join: [
     classes.t.thread
   ]
 };

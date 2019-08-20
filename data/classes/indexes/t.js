@@ -1,149 +1,149 @@
 classes.__indexes__.t = {
-  "textextents": [
+  textextents: [
     classes.c.cairocontext,
     classes.c.cairoscaledfont
   ],
-  "textpath": [
+  textpath: [
     classes.c.cairocontext
   ],
-  "transform": [
+  transform: [
     classes.c.cairocontext
   ],
-  "translate": [
+  translate: [
     classes.c.cairocontext,
     classes.c.cairomatrix,
     classes.i.imagickdraw
   ],
-  "transformdistance": [
+  transformdistance: [
     classes.c.cairomatrix
   ],
-  "transformpoint": [
+  transformpoint: [
     classes.c.cairomatrix
   ],
-  "time": [
+  time: [
     classes.e.ev
   ],
-  "timer": [
+  timer: [
     classes.e.event,
     classes.e.evloop
   ],
-  "type": [
+  type: [
     classes.f.ffi,
     classes.h.hw_api_reason
   ],
-  "typeof": [
+  typeof: [
     classes.f.ffi
   ],
-  "timeout": [
+  timeout: [
     classes.g.gearmanclient,
     classes.g.gearmanworker,
     classes.m.mongocommandcursor,
     classes.m.mongocursor,
     classes.m.mongocursorinterface
   ],
-  "taskdenominator": [
+  taskdenominator: [
     classes.g.gearmantask
   ],
-  "tasknumerator": [
+  tasknumerator: [
     classes.g.gearmantask
   ],
-  "throw": [
+  throw: [
     classes.g.generator
   ],
-  "thumbnailimage": [
+  thumbnailimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "trimimage": [
+  trimimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "textout": [
+  textout: [
     classes.h.harupage
   ],
-  "textrect": [
+  textrect: [
     classes.h.harupage
   ],
-  "title": [
+  title: [
     classes.h.hw_api_object
   ],
-  "textureimage": [
+  textureimage: [
     classes.i.imagick
   ],
-  "thresholdimage": [
+  thresholdimage: [
     classes.i.imagick
   ],
-  "tintimage": [
+  tintimage: [
     classes.i.imagick
   ],
-  "transformimage": [
+  transformimage: [
     classes.i.imagick
   ],
-  "transformimagecolorspace": [
+  transformimagecolorspace: [
     classes.i.imagick
   ],
-  "transparentpaintimage": [
+  transparentpaintimage: [
     classes.i.imagick
   ],
-  "transposeimage": [
+  transposeimage: [
     classes.i.imagick
   ],
-  "transverseimage": [
+  transverseimage: [
     classes.i.imagick
   ],
-  "todatetime": [
+  todatetime: [
     classes.i.intlcalendar,
     classes.m.mongodate
   ],
-  "tolower": [
+  tolower: [
     classes.i.intlchar
   ],
-  "totitle": [
+  totitle: [
     classes.i.intlchar
   ],
-  "toupper": [
+  toupper: [
     classes.i.intlchar
   ],
-  "todatetimezone": [
+  todatetimezone: [
     classes.i.intltimezone
   ],
-  "touch": [
+  touch: [
     classes.m.memcached
   ],
-  "touchbykey": [
+  touchbykey: [
     classes.m.memcached
   ],
-  "toindexstring": [
+  toindexstring: [
     classes.m.mongocollection
   ],
-  "tailable": [
+  tailable: [
     classes.m.mongocursor
   ],
-  "trylock": [
+  trylock: [
     classes.m.mutex
   ],
-  "thread_safe": [
+  thread_safe: [
     classes.m.mysqli
   ],
-  "txcommit": [
+  txcommit: [
     classes.m.mysqlnduhconnection
   ],
-  "txrollback": [
+  txrollback: [
     classes.m.mysqlnduhconnection
   ],
-  "timestampnoncehandler": [
+  timestampnoncehandler: [
     classes.o.oauthprovider
   ],
-  "tokenhandler": [
+  tokenhandler: [
     classes.o.oauthprovider
   ],
-  "tell": [
+  tell: [
     classes.p.phdfs
   ],
-  "threads": [
+  threads: [
     classes.s.solrclient
   ],
-  "toarray": [
+  toarray: [
     classes.s.solrdocument,
     classes.s.solrinputdocument,
     classes.s.splfixedarray,
@@ -151,39 +151,39 @@ classes.__indexes__.t = {
     classes.y.yaf_config_ini,
     classes.y.yaf_config_simple
   ],
-  "tostring": [
+  tostring: [
     classes.s.solrparams
   ],
-  "top": [
+  top: [
     classes.s.spldoublylinkedlist,
     classes.s.splheap,
     classes.s.splpriorityqueue
   ],
-  "train": [
+  train: [
     classes.s.svm
   ],
-  "tune": [
+  tune: [
     classes.t.tokyotyrant
   ],
-  "transliterate": [
+  transliterate: [
     classes.t.transliterator
   ],
-  "toucallback": [
+  toucallback: [
     classes.u.uconverter
   ],
-  "transcode": [
+  transcode: [
     classes.u.uconverter
   ],
-  "transformtodoc": [
+  transformtodoc: [
     classes.x.xsltprocessor
   ],
-  "transformtouri": [
+  transformtouri: [
     classes.x.xsltprocessor
   ],
-  "transformtoxml": [
+  transformtoxml: [
     classes.x.xsltprocessor
   ],
-  "throwexception": [
+  throwexception: [
     classes.y.yaf_dispatcher
   ]
 };

@@ -1,11 +1,11 @@
 classes.__indexes__.x = {
-  "xinclude": [
+  xinclude: [
     classes.d.domdocument
   ],
-  "xpath": [
+  xpath: [
     classes.s.simplexmlelement
   ],
-  "xml": [
+  xml: [
     classes.x.xmlreader
   ]
 };

@@ -1,23 +1,23 @@
 classes.__indexes__.d = {
-  "devicetouser": [
+  devicetouser: [
     classes.c.cairocontext
   ],
-  "devicetouserdistance": [
+  devicetouserdistance: [
     classes.c.cairocontext
   ],
-  "dscbeginpagesetup": [
+  dscbeginpagesetup: [
     classes.c.cairopssurface
   ],
-  "dscbeginsetup": [
+  dscbeginsetup: [
     classes.c.cairopssurface
   ],
-  "dsccomment": [
+  dsccomment: [
     classes.c.cairopssurface
   ],
-  "dropindex": [
+  dropindex: [
     classes.c.collection
   ],
-  "destroy": [
+  destroy: [
     classes.c.cond,
     classes.g.gmagick,
     classes.i.imagick,
@@ -28,132 +28,132 @@ classes.__indexes__.d = {
     classes.s.sessionhandler,
     classes.s.sessionhandlerinterface
   ],
-  "diff": [
+  diff: [
     classes.d.datetime
   ],
-  "deletedata": [
+  deletedata: [
     classes.d.domcharacterdata
   ],
-  "depth": [
+  depth: [
     classes.e.ev
   ],
-  "del": [
+  del: [
     classes.e.event,
     classes.y.yaf_registry,
     classes.y.yaf_session
   ],
-  "delsignal": [
+  delsignal: [
     classes.e.event
   ],
-  "deltimer": [
+  deltimer: [
     classes.e.event
   ],
-  "dispatch": [
+  dispatch: [
     classes.e.eventbase,
     classes.y.yaf_dispatcher
   ],
-  "drain": [
+  drain: [
     classes.e.eventbuffer
   ],
-  "disable": [
+  disable: [
     classes.e.eventbufferevent,
     classes.e.eventlistener
   ],
-  "defaultloop": [
+  defaultloop: [
     classes.e.evloop
   ],
-  "data": [
+  data: [
     classes.g.gearmanclient,
     classes.g.gearmanjob,
     classes.g.gearmantask
   ],
-  "do": [
+  do: [
     classes.g.gearmanclient
   ],
-  "dobackground": [
+  dobackground: [
     classes.g.gearmanclient
   ],
-  "dohigh": [
+  dohigh: [
     classes.g.gearmanclient
   ],
-  "dohighbackground": [
+  dohighbackground: [
     classes.g.gearmanclient
   ],
-  "dojobhandle": [
+  dojobhandle: [
     classes.g.gearmanclient
   ],
-  "dolow": [
+  dolow: [
     classes.g.gearmanclient
   ],
-  "dolowbackground": [
+  dolowbackground: [
     classes.g.gearmanclient
   ],
-  "donormal": [
+  donormal: [
     classes.g.gearmanclient
   ],
-  "dostatus": [
+  dostatus: [
     classes.g.gearmanclient
   ],
-  "datasize": [
+  datasize: [
     classes.g.gearmantask
   ],
-  "deconstructimages": [
+  deconstructimages: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "despeckleimage": [
+  despeckleimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "drawimage": [
+  drawimage: [
     classes.g.gmagick,
     classes.h.harupage,
     classes.i.imagick
   ],
-  "dbstat": [
+  dbstat: [
     classes.h.hw_api
   ],
-  "dcstat": [
+  dcstat: [
     classes.h.hw_api
   ],
-  "dstanchors": [
+  dstanchors: [
     classes.h.hw_api
   ],
-  "dstofsrcanchor": [
+  dstofsrcanchor: [
     classes.h.hw_api
   ],
-  "description": [
+  description: [
     classes.h.hw_api_reason
   ],
-  "decipherimage": [
+  decipherimage: [
     classes.i.imagick
   ],
-  "deleteimageartifact": [
+  deleteimageartifact: [
     classes.i.imagick
   ],
-  "deleteimageproperty": [
+  deleteimageproperty: [
     classes.i.imagick
   ],
-  "deskewimage": [
+  deskewimage: [
     classes.i.imagick
   ],
-  "displayimage": [
+  displayimage: [
     classes.i.imagick
   ],
-  "displayimages": [
+  displayimages: [
     classes.i.imagick
   ],
-  "distortimage": [
+  distortimage: [
     classes.i.imagick
   ],
-  "digit": [
+  digit: [
     classes.i.intlchar
   ],
-  "decrement": [
+  decrement: [
     classes.m.memcache,
     classes.m.memcached
   ],
-  "delete": [
+  delete: [
     classes.m.memcache,
     classes.m.memcached,
     classes.m.mongogridfs,
@@ -167,181 +167,181 @@ classes.__indexes__.d = {
     classes.t.table,
     classes.z.zookeeper
   ],
-  "decrementbykey": [
+  decrementbykey: [
     classes.m.memcached
   ],
-  "deletebykey": [
+  deletebykey: [
     classes.m.memcached
   ],
-  "deletemulti": [
+  deletemulti: [
     classes.m.memcached
   ],
-  "deletemultibykey": [
+  deletemultibykey: [
     classes.m.memcached
   ],
-  "dropdb": [
+  dropdb: [
     classes.m.mongoclient
   ],
-  "deleteindex": [
+  deleteindex: [
     classes.m.mongocollection,
     classes.z.ziparchive
   ],
-  "deleteindexes": [
+  deleteindexes: [
     classes.m.mongocollection
   ],
-  "distinct": [
+  distinct: [
     classes.m.mongocollection
   ],
-  "drop": [
+  drop: [
     classes.m.mongocollection,
     classes.m.mongodb,
     classes.m.mongogridfs
   ],
-  "dead": [
+  dead: [
     classes.m.mongocommandcursor,
     classes.m.mongocursor,
     classes.m.mongocursorinterface
   ],
-  "doquery": [
+  doquery: [
     classes.m.mongocursor
   ],
-  "dropcollection": [
+  dropcollection: [
     classes.m.mongodb,
     classes.s.schema
   ],
-  "detachiterator": [
+  detachiterator: [
     classes.m.multipleiterator
   ],
-  "debug": [
+  debug: [
     classes.m.mysqli,
     classes.s.seaslog
   ],
-  "dump_debug_info": [
+  dump_debug_info: [
     classes.m.mysqli
   ],
-  "data_seek": [
+  data_seek: [
     classes.m.mysqli_result,
     classes.m.mysqli_stmt
   ],
-  "disabledebug": [
+  disabledebug: [
     classes.o.oauth
   ],
-  "disableredirects": [
+  disableredirects: [
     classes.o.oauth
   ],
-  "disablesslchecks": [
+  disablesslchecks: [
     classes.o.oauth
   ],
-  "debugdumpparams": [
+  debugdumpparams: [
     classes.p.pdostatement
   ],
-  "decompress": [
+  decompress: [
     classes.p.phar,
     classes.p.phardata,
     classes.p.pharfileinfo
   ],
-  "decompressfiles": [
+  decompressfiles: [
     classes.p.phar,
     classes.p.phardata
   ],
-  "delmetadata": [
+  delmetadata: [
     classes.p.phar,
     classes.p.phardata,
     classes.p.pharfileinfo
   ],
-  "disconnect": [
+  disconnect: [
     classes.p.phdfs,
     classes.s.samconnection,
     classes.v.varnishadmin,
     classes.z.zmqsocket
   ],
-  "dropschema": [
+  dropschema: [
     classes.s.session
   ],
-  "deletebyid": [
+  deletebyid: [
     classes.s.solrclient
   ],
-  "deletebyids": [
+  deletebyids: [
     classes.s.solrclient
   ],
-  "deletebyqueries": [
+  deletebyqueries: [
     classes.s.solrclient
   ],
-  "deletebyquery": [
+  deletebyquery: [
     classes.s.solrclient
   ],
-  "deletefield": [
+  deletefield: [
     classes.s.solrdocument,
     classes.s.solrinputdocument
   ],
-  "digestxmlresponse": [
+  digestxmlresponse: [
     classes.s.solrutils
   ],
-  "detach": [
+  detach: [
     classes.s.splobjectstorage,
     classes.s.splsubject,
     classes.t.thread
   ],
-  "dequeue": [
+  dequeue: [
     classes.s.splqueue
   ],
-  "dir_closedir": [
+  dir_closedir: [
     classes.s.streamwrapper
   ],
-  "dir_opendir": [
+  dir_opendir: [
     classes.s.streamwrapper
   ],
-  "dir_readdir": [
+  dir_readdir: [
     classes.s.streamwrapper
   ],
-  "dir_rewinddir": [
+  dir_rewinddir: [
     classes.s.streamwrapper
   ],
-  "drawarc": [
+  drawarc: [
     classes.s.swfshape
   ],
-  "drawcircle": [
+  drawcircle: [
     classes.s.swfshape
   ],
-  "drawcubic": [
+  drawcubic: [
     classes.s.swfshape
   ],
-  "drawcubicto": [
+  drawcubicto: [
     classes.s.swfshape
   ],
-  "drawcurve": [
+  drawcurve: [
     classes.s.swfshape
   ],
-  "drawcurveto": [
+  drawcurveto: [
     classes.s.swfshape
   ],
-  "drawglyph": [
+  drawglyph: [
     classes.s.swfshape
   ],
-  "drawline": [
+  drawline: [
     classes.s.swfshape
   ],
-  "drawlineto": [
+  drawlineto: [
     classes.s.swfshape
   ],
-  "diagnose": [
+  diagnose: [
     classes.t.tidy
   ],
-  "display": [
+  display: [
     classes.y.yaf_controller_abstract,
     classes.y.yaf_view_interface,
     classes.y.yaf_view_simple
   ],
-  "disableview": [
+  disableview: [
     classes.y.yaf_dispatcher
   ],
-  "dispatchloopshutdown": [
+  dispatchloopshutdown: [
     classes.y.yaf_plugin_abstract
   ],
-  "dispatchloopstartup": [
+  dispatchloopstartup: [
     classes.y.yaf_plugin_abstract
   ],
-  "deletename": [
+  deletename: [
     classes.z.ziparchive
   ]
 };

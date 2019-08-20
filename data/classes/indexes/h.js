@@ -1,63 +1,63 @@
 classes.__indexes__.h = {
-  "hasnext": [
+  hasnext: [
     classes.c.cachingiterator,
     classes.m.mongocursor
   ],
-  "hascurrentpoint": [
+  hascurrentpoint: [
     classes.c.cairocontext
   ],
-  "hash": [
+  hash: [
     classes.c.cairofontoptions
   ],
-  "having": [
+  having: [
     classes.c.collectionfind,
     classes.t.tableselect
   ],
-  "hasattribute": [
+  hasattribute: [
     classes.d.domelement
   ],
-  "hasattributens": [
+  hasattributens: [
     classes.d.domelement
   ],
-  "hasfeature": [
+  hasfeature: [
     classes.d.domimplementation
   ],
-  "hasattributes": [
+  hasattributes: [
     classes.d.domnode
   ],
-  "haschildnodes": [
+  haschildnodes: [
     classes.d.domnode
   ],
-  "handle": [
+  handle: [
     classes.g.gearmanjob,
     classes.s.soapserver,
     classes.y.yar_server
   ],
-  "hasnextimage": [
+  hasnextimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "haspreviousimage": [
+  haspreviousimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "hwstat": [
+  hwstat: [
     classes.h.hw_api
   ],
-  "haldclutimage": [
+  haldclutimage: [
     classes.i.imagick
   ],
-  "hasbinaryproperty": [
+  hasbinaryproperty: [
     classes.i.intlchar
   ],
-  "hassamerules": [
+  hassamerules: [
     classes.i.intltimezone
   ],
-  "hint": [
+  hint: [
     classes.m.mongocursor,
     classes.t.tokyotyrantquery
   ],
-  "haschildren": [
+  haschildren: [
     classes.p.parentiterator,
     classes.r.recursivearrayiterator,
     classes.r.recursivecachingiterator,
@@ -70,55 +70,55 @@ classes.__indexes__.h = {
     classes.s.splfileobject,
     classes.t.tidynode
   ],
-  "hasmetadata": [
+  hasmetadata: [
     classes.p.phar,
     classes.p.pharfileinfo
   ],
-  "hasconstant": [
+  hasconstant: [
     classes.r.reflectionclass
   ],
-  "hasmethod": [
+  hasmethod: [
     classes.r.reflectionclass
   ],
-  "hasproperty": [
+  hasproperty: [
     classes.r.reflectionclass
   ],
-  "hasreturntype": [
+  hasreturntype: [
     classes.r.reflectionfunctionabstract
   ],
-  "hastype": [
+  hastype: [
     classes.r.reflectionparameter
   ],
-  "header": [
+  header: [
     classes.s.sammessage
   ],
-  "haschilddocuments": [
+  haschilddocuments: [
     classes.s.solrdocument,
     classes.s.solrinputdocument
   ],
-  "hasmoreresults": [
+  hasmoreresults: [
     classes.s.sqlstatement,
     classes.s.statement
   ],
-  "hasdata": [
+  hasdata: [
     classes.s.sqlstatementresult
   ],
-  "hasframe": [
+  hasframe: [
     classes.s.stomp
   ],
-  "head": [
+  head: [
     classes.t.tidy
   ],
-  "html": [
+  html: [
     classes.t.tidy
   ],
-  "hassiblings": [
+  hassiblings: [
     classes.t.tidynode
   ],
-  "hasexsltsupport": [
+  hasexsltsupport: [
     classes.x.xsltprocessor
   ],
-  "has": [
+  has: [
     classes.y.yaconf,
     classes.y.yaf_registry,
     classes.y.yaf_session

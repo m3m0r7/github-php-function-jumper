@@ -1,5 +1,5 @@
 classes.__indexes__._ = {
-  "__construct": [
+  __construct: [
     classes.a.apciterator,
     classes.a.apcuiterator,
     classes.a.appenditerator,
@@ -289,7 +289,7 @@ classes.__indexes__._ = {
     classes.z.zmqsocket,
     classes.z.zookeeper
   ],
-  "__tostring": [
+  __tostring: [
     classes.c.cachingiterator,
     classes.d.directoryiterator,
     classes.e.error,
@@ -328,7 +328,7 @@ classes.__indexes__._ = {
     classes.t.throwable,
     classes.y.yaf_response_abstract
   ],
-  "__wakeup": [
+  __wakeup: [
     classes.c.curlfile,
     classes.d.datetime,
     classes.g.generator,
@@ -338,12 +338,12 @@ classes.__indexes__._ = {
     classes.y.yaf_loader,
     classes.y.yaf_session
   ],
-  "__set_state": [
+  __set_state: [
     classes.d.datetime,
     classes.d.datetimeimmutable,
     classes.m.mongoid
   ],
-  "__clone": [
+  __clone: [
     classes.e.error,
     classes.e.exception,
     classes.r.reflectionextension,
@@ -363,7 +363,7 @@ classes.__indexes__._ = {
     classes.y.yaf_response_abstract,
     classes.y.yaf_session
   ],
-  "__destruct": [
+  __destruct: [
     classes.j.judy,
     classes.o.oauth,
     classes.p.phdfs,
@@ -384,10 +384,10 @@ classes.__indexes__._ = {
     classes.y.yaf_application,
     classes.y.yaf_response_abstract
   ],
-  "__invoke": [
+  __invoke: [
     classes.l.luaclosure
   ],
-  "__get": [
+  __get: [
     classes.m.mongo,
     classes.m.mongocollection,
     classes.m.mongodb,
@@ -397,65 +397,65 @@ classes.__indexes__._ = {
     classes.y.yaf_session,
     classes.y.yaf_view_simple
   ],
-  "__call": [
+  __call: [
     classes.s.soapclient,
     classes.y.yar_client
   ],
-  "__dorequest": [
+  __dorequest: [
     classes.s.soapclient
   ],
-  "__getcookies": [
+  __getcookies: [
     classes.s.soapclient
   ],
-  "__getfunctions": [
+  __getfunctions: [
     classes.s.soapclient
   ],
-  "__getlastrequest": [
+  __getlastrequest: [
     classes.s.soapclient
   ],
-  "__getlastrequestheaders": [
+  __getlastrequestheaders: [
     classes.s.soapclient
   ],
-  "__getlastresponse": [
+  __getlastresponse: [
     classes.s.soapclient
   ],
-  "__getlastresponseheaders": [
+  __getlastresponseheaders: [
     classes.s.soapclient
   ],
-  "__gettypes": [
+  __gettypes: [
     classes.s.soapclient
   ],
-  "__setcookie": [
+  __setcookie: [
     classes.s.soapclient
   ],
-  "__setlocation": [
+  __setlocation: [
     classes.s.soapclient
   ],
-  "__setsoapheaders": [
+  __setsoapheaders: [
     classes.s.soapclient
   ],
-  "__soapcall": [
+  __soapcall: [
     classes.s.soapclient
   ],
-  "__isset": [
+  __isset: [
     classes.s.solrdocument,
     classes.y.yaf_config_ini,
     classes.y.yaf_config_simple,
     classes.y.yaf_session,
     classes.y.yaf_view_simple
   ],
-  "__set": [
+  __set: [
     classes.s.solrdocument,
     classes.y.yaf_config_ini,
     classes.y.yaf_config_simple,
     classes.y.yaf_session,
     classes.y.yaf_view_simple
   ],
-  "__unset": [
+  __unset: [
     classes.s.solrdocument,
     classes.y.yaf_session
   ],
-  "__sleep": [
+  __sleep: [
     classes.y.yaf_application,
     classes.y.yaf_dispatcher,
     classes.y.yaf_loader,

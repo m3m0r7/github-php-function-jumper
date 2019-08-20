@@ -1,5 +1,5 @@
 classes.__indexes__.r = {
-  "rewind": [
+  rewind: [
     classes.a.apciterator,
     classes.a.apcuiterator,
     classes.a.appenditerator,
@@ -38,42 +38,42 @@ classes.__indexes__.r = {
     classes.y.yaf_config_simple,
     classes.y.yaf_session
   ],
-  "rectangle": [
+  rectangle: [
     classes.c.cairocontext,
     classes.g.gmagickdraw,
     classes.h.harupage,
     classes.i.imagickdraw
   ],
-  "relcurveto": [
+  relcurveto: [
     classes.c.cairocontext
   ],
-  "rellineto": [
+  rellineto: [
     classes.c.cairocontext
   ],
-  "relmoveto": [
+  relmoveto: [
     classes.c.cairocontext
   ],
-  "resetclip": [
+  resetclip: [
     classes.c.cairocontext
   ],
-  "restore": [
+  restore: [
     classes.c.cairocontext,
     classes.t.tokyotyrant
   ],
-  "rotate": [
+  rotate: [
     classes.c.cairocontext,
     classes.c.cairomatrix,
     classes.g.gmagickdraw,
     classes.i.imagickdraw,
     classes.s.swfdisplayitem
   ],
-  "restricttolevel": [
+  restricttolevel: [
     classes.c.cairopssurface
   ],
-  "restricttoversion": [
+  restricttoversion: [
     classes.c.cairosvgsurface
   ],
-  "remove": [
+  remove: [
     classes.c.collection,
     classes.h.hw_api,
     classes.h.hw_api_object,
@@ -86,22 +86,22 @@ classes.__indexes__.r = {
     classes.z.zmqpoll,
     classes.z.zookeeperconfig
   ],
-  "removeone": [
+  removeone: [
     classes.c.collection
   ],
-  "replaceone": [
+  replaceone: [
     classes.c.collection
   ],
-  "replace": [
+  replace: [
     classes.c.collectionmodify,
     classes.h.hw_api,
     classes.m.memcache,
     classes.m.memcached
   ],
-  "resetvalue": [
+  resetvalue: [
     classes.c.counter
   ],
-  "read": [
+  read: [
     classes.d.directory,
     classes.e.eventbuffer,
     classes.e.eventbufferevent,
@@ -113,206 +113,206 @@ classes.__indexes__.r = {
     classes.s.syncsharedmemory,
     classes.x.xmlreader
   ],
-  "replacedata": [
+  replacedata: [
     classes.d.domcharacterdata
   ],
-  "registernodeclass": [
+  registernodeclass: [
     classes.d.domdocument
   ],
-  "relaxngvalidate": [
+  relaxngvalidate: [
     classes.d.domdocument
   ],
-  "relaxngvalidatesource": [
+  relaxngvalidatesource: [
     classes.d.domdocument
   ],
-  "removeattribute": [
+  removeattribute: [
     classes.d.domelement
   ],
-  "removeattributenode": [
+  removeattributenode: [
     classes.d.domelement
   ],
-  "removeattributens": [
+  removeattributens: [
     classes.d.domelement
   ],
-  "removechild": [
+  removechild: [
     classes.d.domnode
   ],
-  "replacechild": [
+  replacechild: [
     classes.d.domnode
   ],
-  "registernamespace": [
+  registernamespace: [
     classes.d.domxpath
   ],
-  "registerphpfunctions": [
+  registerphpfunctions: [
     classes.d.domxpath,
     classes.x.xsltprocessor
   ],
-  "recommendedbackends": [
+  recommendedbackends: [
     classes.e.ev
   ],
-  "resume": [
+  resume: [
     classes.e.ev,
     classes.e.evloop
   ],
-  "run": [
+  run: [
     classes.e.ev,
     classes.e.evloop,
     classes.t.threaded,
     classes.y.yaf_application,
     classes.z.zmqdevice
   ],
-  "reinit": [
+  reinit: [
     classes.e.eventbase
   ],
-  "readfrom": [
+  readfrom: [
     classes.e.eventbuffer
   ],
-  "readline": [
+  readline: [
     classes.e.eventbuffer
   ],
-  "readbuffer": [
+  readbuffer: [
     classes.e.eventbufferevent
   ],
-  "requirefeatures": [
+  requirefeatures: [
     classes.e.eventconfig
   ],
-  "removeserveralias": [
+  removeserveralias: [
     classes.e.eventhttp
   ],
-  "removeheader": [
+  removeheader: [
     classes.e.eventhttprequest
   ],
-  "removeoptions": [
+  removeoptions: [
     classes.g.gearmanclient,
     classes.g.gearmanworker
   ],
-  "returncode": [
+  returncode: [
     classes.g.gearmanclient,
     classes.g.gearmanjob,
     classes.g.gearmantask,
     classes.g.gearmanworker
   ],
-  "runtasks": [
+  runtasks: [
     classes.g.gearmanclient
   ],
-  "recvdata": [
+  recvdata: [
     classes.g.gearmantask
   ],
-  "register": [
+  register: [
     classes.g.gearmanworker
   ],
-  "radialblurimage": [
+  radialblurimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "raiseimage": [
+  raiseimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "readimage": [
+  readimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "readimageblob": [
+  readimageblob: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "readimagefile": [
+  readimagefile: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "reducenoiseimage": [
+  reducenoiseimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "removeimage": [
+  removeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "removeimageprofile": [
+  removeimageprofile: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "resampleimage": [
+  resampleimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "resizeimage": [
+  resizeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "rollimage": [
+  rollimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "rotateimage": [
+  rotateimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "roundrectangle": [
+  roundrectangle: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "readfromstream": [
+  readfromstream: [
     classes.h.harudoc
   ],
-  "reseterror": [
+  reseterror: [
     classes.h.harudoc,
     classes.m.mongodb
   ],
-  "resetstream": [
+  resetstream: [
     classes.h.harudoc
   ],
-  "reason": [
+  reason: [
     classes.h.hw_api_error
   ],
-  "randomthresholdimage": [
+  randomthresholdimage: [
     classes.i.imagick
   ],
-  "readimages": [
+  readimages: [
     classes.i.imagick
   ],
-  "recolorimage": [
+  recolorimage: [
     classes.i.imagick
   ],
-  "remapimage": [
+  remapimage: [
     classes.i.imagick
   ],
-  "render": [
+  render: [
     classes.i.imagick,
     classes.i.imagickdraw,
     classes.y.yaf_controller_abstract,
     classes.y.yaf_view_interface,
     classes.y.yaf_view_simple
   ],
-  "resetimagepage": [
+  resetimagepage: [
     classes.i.imagick
   ],
-  "rotationalblurimage": [
+  rotationalblurimage: [
     classes.i.imagick
   ],
-  "roundcorners": [
+  roundcorners: [
     classes.i.imagick
   ],
-  "resetvectorgraphics": [
+  resetvectorgraphics: [
     classes.i.imagickdraw
   ],
-  "resetiterator": [
+  resetiterator: [
     classes.i.imagickpixeliterator
   ],
-  "roll": [
+  roll: [
     classes.i.intlcalendar
   ],
-  "registercallback": [
+  registercallback: [
     classes.l.lua
   ],
-  "replacebykey": [
+  replacebykey: [
     classes.m.memcached
   ],
-  "resetserverlist": [
+  resetserverlist: [
     classes.m.memcached
   ],
-  "reset": [
+  reset: [
     classes.m.mongocursor,
     classes.m.mysqli_stmt,
     classes.s.solrdocument,
@@ -322,242 +322,242 @@ classes.__indexes__.r = {
     classes.s.syncevent,
     classes.y.yar_concurrent_client
   ],
-  "repair": [
+  repair: [
     classes.m.mongodb
   ],
-  "real_connect": [
+  real_connect: [
     classes.m.mysqli
   ],
-  "real_escape_string": [
+  real_escape_string: [
     classes.m.mysqli
   ],
-  "real_query": [
+  real_query: [
     classes.m.mysqli
   ],
-  "reap_async_query": [
+  reap_async_query: [
     classes.m.mysqli
   ],
-  "refresh": [
+  refresh: [
     classes.m.mysqli
   ],
-  "release_savepoint": [
+  release_savepoint: [
     classes.m.mysqli
   ],
-  "rollback": [
+  rollback: [
     classes.m.mysqli,
     classes.p.pdo,
     classes.s.samconnection,
     classes.s.session,
     classes.s.solrclient
   ],
-  "rpl_query_type": [
+  rpl_query_type: [
     classes.m.mysqli
   ],
-  "result_metadata": [
+  result_metadata: [
     classes.m.mysqli_stmt
   ],
-  "reapquery": [
+  reapquery: [
     classes.m.mysqlnduhconnection
   ],
-  "refreshserver": [
+  refreshserver: [
     classes.m.mysqlnduhconnection
   ],
-  "restartpsession": [
+  restartpsession: [
     classes.m.mysqlnduhconnection
   ],
-  "removerequiredparameter": [
+  removerequiredparameter: [
     classes.o.oauthprovider
   ],
-  "reportproblem": [
+  reportproblem: [
     classes.o.oauthprovider
   ],
-  "rowcount": [
+  rowcount: [
     classes.p.pdostatement
   ],
-  "running": [
+  running: [
     classes.p.phar
   ],
-  "rename": [
+  rename: [
     classes.p.phdfs,
     classes.s.streamwrapper
   ],
-  "resize": [
+  resize: [
     classes.p.pool
   ],
-  "returnsreference": [
+  returnsreference: [
     classes.r.reflectionfunctionabstract
   ],
-  "receive": [
+  receive: [
     classes.s.samconnection
   ],
-  "releasesavepoint": [
+  releasesavepoint: [
     classes.s.session
   ],
-  "rollbackto": [
+  rollbackto: [
     classes.s.session
   ],
-  "registerxpathnamespace": [
+  registerxpathnamespace: [
     classes.s.simplexmlelement
   ],
-  "request": [
+  request: [
     classes.s.solrclient
   ],
-  "removebigramphrasefield": [
+  removebigramphrasefield: [
     classes.s.solrdismaxquery
   ],
-  "removeboostquery": [
+  removeboostquery: [
     classes.s.solrdismaxquery
   ],
-  "removephrasefield": [
+  removephrasefield: [
     classes.s.solrdismaxquery
   ],
-  "removequeryfield": [
+  removequeryfield: [
     classes.s.solrdismaxquery
   ],
-  "removetrigramphrasefield": [
+  removetrigramphrasefield: [
     classes.s.solrdismaxquery
   ],
-  "removeuserfield": [
+  removeuserfield: [
     classes.s.solrdismaxquery
   ],
-  "removeexpandfilterquery": [
+  removeexpandfilterquery: [
     classes.s.solrquery
   ],
-  "removeexpandsortfield": [
+  removeexpandsortfield: [
     classes.s.solrquery
   ],
-  "removefacetdatefield": [
+  removefacetdatefield: [
     classes.s.solrquery
   ],
-  "removefacetdateother": [
+  removefacetdateother: [
     classes.s.solrquery
   ],
-  "removefacetfield": [
+  removefacetfield: [
     classes.s.solrquery
   ],
-  "removefacetquery": [
+  removefacetquery: [
     classes.s.solrquery
   ],
-  "removefield": [
+  removefield: [
     classes.s.solrquery
   ],
-  "removefilterquery": [
+  removefilterquery: [
     classes.s.solrquery
   ],
-  "removehighlightfield": [
+  removehighlightfield: [
     classes.s.solrquery
   ],
-  "removemltfield": [
+  removemltfield: [
     classes.s.solrquery
   ],
-  "removemltqueryfield": [
+  removemltqueryfield: [
     classes.s.solrquery
   ],
-  "removesortfield": [
+  removesortfield: [
     classes.s.solrquery
   ],
-  "removestatsfacet": [
+  removestatsfacet: [
     classes.s.solrquery
   ],
-  "removestatsfield": [
+  removestatsfield: [
     classes.s.solrquery
   ],
-  "resetfilters": [
+  resetfilters: [
     classes.s.sphinxclient
   ],
-  "resetgroupby": [
+  resetgroupby: [
     classes.s.sphinxclient
   ],
-  "runqueries": [
+  runqueries: [
     classes.s.sphinxclient
   ],
-  "recoverfromcorruption": [
+  recoverfromcorruption: [
     classes.s.splheap,
     classes.s.splpriorityqueue
   ],
-  "removeall": [
+  removeall: [
     classes.s.splobjectstorage
   ],
-  "removeallexcept": [
+  removeallexcept: [
     classes.s.splobjectstorage
   ],
-  "readonly": [
+  readonly: [
     classes.s.sqlite3stmt,
     classes.y.yaf_config_abstract,
     classes.y.yaf_config_ini,
     classes.y.yaf_config_simple
   ],
-  "readframe": [
+  readframe: [
     classes.s.stomp
   ],
-  "rmdir": [
+  rmdir: [
     classes.s.streamwrapper
   ],
-  "rotateto": [
+  rotateto: [
     classes.s.swfdisplayitem,
     classes.s.swffill
   ],
-  "resetlimit": [
+  resetlimit: [
     classes.s.swishsearch
   ],
-  "readlock": [
+  readlock: [
     classes.s.syncreaderwriter
   ],
-  "readunlock": [
+  readunlock: [
     classes.s.syncreaderwriter
   ],
-  "repairfile": [
+  repairfile: [
     classes.t.tidy
   ],
-  "repairstring": [
+  repairstring: [
     classes.t.tidy
   ],
-  "root": [
+  root: [
     classes.t.tidy
   ],
-  "reasontext": [
+  reasontext: [
     classes.u.uconverter
   ],
-  "registerextension": [
+  registerextension: [
     classes.v.v8js
   ],
-  "release": [
+  release: [
     classes.w.weakref
   ],
-  "readinnerxml": [
+  readinnerxml: [
     classes.x.xmlreader
   ],
-  "readouterxml": [
+  readouterxml: [
     classes.x.xmlreader
   ],
-  "readstring": [
+  readstring: [
     classes.x.xmlreader
   ],
-  "removeparameter": [
+  removeparameter: [
     classes.x.xsltprocessor
   ],
-  "redirect": [
+  redirect: [
     classes.y.yaf_controller_abstract
   ],
-  "registerplugin": [
+  registerplugin: [
     classes.y.yaf_dispatcher
   ],
-  "returnresponse": [
+  returnresponse: [
     classes.y.yaf_dispatcher
   ],
-  "registerlocalnamespace": [
+  registerlocalnamespace: [
     classes.y.yaf_loader
   ],
-  "routershutdown": [
+  routershutdown: [
     classes.y.yaf_plugin_abstract
   ],
-  "routerstartup": [
+  routerstartup: [
     classes.y.yaf_plugin_abstract
   ],
-  "response": [
+  response: [
     classes.y.yaf_response_abstract
   ],
-  "route": [
+  route: [
     classes.y.yaf_router,
     classes.y.yaf_route_interface,
     classes.y.yaf_route_map,
@@ -567,16 +567,16 @@ classes.__indexes__.r = {
     classes.y.yaf_route_static,
     classes.y.yaf_route_supervar
   ],
-  "renameindex": [
+  renameindex: [
     classes.z.ziparchive
   ],
-  "renamename": [
+  renamename: [
     classes.z.ziparchive
   ],
-  "recv": [
+  recv: [
     classes.z.zmqsocket
   ],
-  "recvmulti": [
+  recvmulti: [
     classes.z.zmqsocket
   ]
 };

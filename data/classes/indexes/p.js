@@ -1,51 +1,51 @@
 classes.__indexes__.p = {
-  "paint": [
+  paint: [
     classes.c.cairocontext
   ],
-  "paintwithalpha": [
+  paintwithalpha: [
     classes.c.cairocontext
   ],
-  "pathextents": [
+  pathextents: [
     classes.c.cairocontext
   ],
-  "popgroup": [
+  popgroup: [
     classes.c.cairocontext
   ],
-  "popgrouptosource": [
+  popgrouptosource: [
     classes.c.cairocontext
   ],
-  "pushgroup": [
+  pushgroup: [
     classes.c.cairocontext
   ],
-  "pushgroupwithcontent": [
+  pushgroupwithcontent: [
     classes.c.cairocontext
   ],
-  "patch": [
+  patch: [
     classes.c.collectionmodify
   ],
-  "pending": [
+  pending: [
     classes.e.event
   ],
-  "priorityinit": [
+  priorityinit: [
     classes.e.eventbase
   ],
-  "prepend": [
+  prepend: [
     classes.e.eventbuffer,
     classes.m.memcached
   ],
-  "prependbuffer": [
+  prependbuffer: [
     classes.e.eventbuffer
   ],
-  "pullup": [
+  pullup: [
     classes.e.eventbuffer
   ],
-  "parseresolvconf": [
+  parseresolvconf: [
     classes.e.eventdnsbase
   ],
-  "periodic": [
+  periodic: [
     classes.e.evloop
   ],
-  "prepare": [
+  prepare: [
     classes.e.evloop,
     classes.m.mysqli,
     classes.m.mysqli_stmt,
@@ -54,284 +54,284 @@ classes.__indexes__.p = {
     classes.s.sqlite3,
     classes.s.swish
   ],
-  "prev": [
+  prev: [
     classes.e.evstat,
     classes.j.judy,
     classes.s.spldoublylinkedlist
   ],
-  "ping": [
+  ping: [
     classes.g.gearmanclient,
     classes.m.mysqli,
     classes.m.mysqlnduhconnection,
     classes.s.solrclient
   ],
-  "previousimage": [
+  previousimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "profileimage": [
+  profileimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "point": [
+  point: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "polygon": [
+  polygon: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "polyline": [
+  polyline: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "parents": [
+  parents: [
     classes.h.hw_api
   ],
-  "paintfloodfillimage": [
+  paintfloodfillimage: [
     classes.i.imagick
   ],
-  "paintopaqueimage": [
+  paintopaqueimage: [
     classes.i.imagick
   ],
-  "painttransparentimage": [
+  painttransparentimage: [
     classes.i.imagick
   ],
-  "pingimage": [
+  pingimage: [
     classes.i.imagick
   ],
-  "pingimageblob": [
+  pingimageblob: [
     classes.i.imagick
   ],
-  "pingimagefile": [
+  pingimagefile: [
     classes.i.imagick
   ],
-  "polaroidimage": [
+  polaroidimage: [
     classes.i.imagick
   ],
-  "posterizeimage": [
+  posterizeimage: [
     classes.i.imagick
   ],
-  "previewimages": [
+  previewimages: [
     classes.i.imagick
   ],
-  "pathclose": [
+  pathclose: [
     classes.i.imagickdraw
   ],
-  "pathcurvetoabsolute": [
+  pathcurvetoabsolute: [
     classes.i.imagickdraw
   ],
-  "pathcurvetoquadraticbezierabsolute": [
+  pathcurvetoquadraticbezierabsolute: [
     classes.i.imagickdraw
   ],
-  "pathcurvetoquadraticbezierrelative": [
+  pathcurvetoquadraticbezierrelative: [
     classes.i.imagickdraw
   ],
-  "pathcurvetoquadraticbeziersmoothabsolute": [
+  pathcurvetoquadraticbeziersmoothabsolute: [
     classes.i.imagickdraw
   ],
-  "pathcurvetoquadraticbeziersmoothrelative": [
+  pathcurvetoquadraticbeziersmoothrelative: [
     classes.i.imagickdraw
   ],
-  "pathcurvetorelative": [
+  pathcurvetorelative: [
     classes.i.imagickdraw
   ],
-  "pathcurvetosmoothabsolute": [
+  pathcurvetosmoothabsolute: [
     classes.i.imagickdraw
   ],
-  "pathcurvetosmoothrelative": [
+  pathcurvetosmoothrelative: [
     classes.i.imagickdraw
   ],
-  "pathellipticarcabsolute": [
+  pathellipticarcabsolute: [
     classes.i.imagickdraw
   ],
-  "pathellipticarcrelative": [
+  pathellipticarcrelative: [
     classes.i.imagickdraw
   ],
-  "pathfinish": [
+  pathfinish: [
     classes.i.imagickdraw
   ],
-  "pathlinetoabsolute": [
+  pathlinetoabsolute: [
     classes.i.imagickdraw
   ],
-  "pathlinetohorizontalabsolute": [
+  pathlinetohorizontalabsolute: [
     classes.i.imagickdraw
   ],
-  "pathlinetohorizontalrelative": [
+  pathlinetohorizontalrelative: [
     classes.i.imagickdraw
   ],
-  "pathlinetorelative": [
+  pathlinetorelative: [
     classes.i.imagickdraw
   ],
-  "pathlinetoverticalabsolute": [
+  pathlinetoverticalabsolute: [
     classes.i.imagickdraw
   ],
-  "pathlinetoverticalrelative": [
+  pathlinetoverticalrelative: [
     classes.i.imagickdraw
   ],
-  "pathmovetoabsolute": [
+  pathmovetoabsolute: [
     classes.i.imagickdraw
   ],
-  "pathmovetorelative": [
+  pathmovetorelative: [
     classes.i.imagickdraw
   ],
-  "pathstart": [
+  pathstart: [
     classes.i.imagickdraw
   ],
-  "pop": [
+  pop: [
     classes.i.imagickdraw,
     classes.s.spldoublylinkedlist,
     classes.t.threaded
   ],
-  "popclippath": [
+  popclippath: [
     classes.i.imagickdraw
   ],
-  "popdefs": [
+  popdefs: [
     classes.i.imagickdraw
   ],
-  "poppattern": [
+  poppattern: [
     classes.i.imagickdraw
   ],
-  "push": [
+  push: [
     classes.i.imagickdraw,
     classes.s.spldoublylinkedlist
   ],
-  "pushclippath": [
+  pushclippath: [
     classes.i.imagickdraw
   ],
-  "pushdefs": [
+  pushdefs: [
     classes.i.imagickdraw
   ],
-  "pushpattern": [
+  pushpattern: [
     classes.i.imagickdraw
   ],
-  "preceding": [
+  preceding: [
     classes.i.intlbreakiterator
   ],
-  "previous": [
+  previous: [
     classes.i.intlbreakiterator
   ],
-  "parse": [
+  parse: [
     classes.i.intldateformatter,
     classes.m.messageformatter,
     classes.n.numberformatter
   ],
-  "prevempty": [
+  prevempty: [
     classes.j.judy
   ],
-  "pseudoinverse": [
+  pseudoinverse: [
     classes.l.lapack
   ],
-  "parselocale": [
+  parselocale: [
     classes.l.locale
   ],
-  "pconnect": [
+  pconnect: [
     classes.m.memcache
   ],
-  "prependbykey": [
+  prependbykey: [
     classes.m.memcached
   ],
-  "parsemessage": [
+  parsemessage: [
     classes.m.messageformatter
   ],
-  "pooldebug": [
+  pooldebug: [
     classes.m.mongo
   ],
-  "parallelcollectionscan": [
+  parallelcollectionscan: [
     classes.m.mongocollection
   ],
-  "partial": [
+  partial: [
     classes.m.mongocursor
   ],
-  "preverror": [
+  preverror: [
     classes.m.mongodb
   ],
-  "put": [
+  put: [
     classes.m.mongogridfs,
     classes.t.tokyotyrant,
     classes.t.tokyotyranttable
   ],
-  "poll": [
+  poll: [
     classes.m.mysqli,
     classes.z.zmqpoll
   ],
-  "parsecurrency": [
+  parsecurrency: [
     classes.n.numberformatter
   ],
-  "pgsqlcopyfromarray": [
+  pgsqlcopyfromarray: [
     classes.p.pdo
   ],
-  "pgsqlcopyfromfile": [
+  pgsqlcopyfromfile: [
     classes.p.pdo
   ],
-  "pgsqlcopytoarray": [
+  pgsqlcopytoarray: [
     classes.p.pdo
   ],
-  "pgsqlcopytofile": [
+  pgsqlcopytofile: [
     classes.p.pdo
   ],
-  "pgsqlgetnotify": [
+  pgsqlgetnotify: [
     classes.p.pdo
   ],
-  "pgsqlgetpid": [
+  pgsqlgetpid: [
     classes.p.pdo
   ],
-  "pgsqllobcreate": [
+  pgsqllobcreate: [
     classes.p.pdo
   ],
-  "pgsqllobopen": [
+  pgsqllobopen: [
     classes.p.pdo
   ],
-  "pgsqllobunlink": [
+  pgsqllobunlink: [
     classes.p.pdo
   ],
-  "peek": [
+  peek: [
     classes.s.samconnection
   ],
-  "peekall": [
+  peekall: [
     classes.s.samconnection
   ],
-  "paramcount": [
+  paramcount: [
     classes.s.sqlite3stmt
   ],
-  "predict": [
+  predict: [
     classes.s.svmmodel
   ],
-  "predict_probability": [
+  predict_probability: [
     classes.s.svmmodel
   ],
-  "parsefile": [
+  parsefile: [
     classes.t.tidy
   ],
-  "parsestring": [
+  parsestring: [
     classes.t.tidy
   ],
-  "putcat": [
+  putcat: [
     classes.t.tokyotyrant,
     classes.t.tokyotyranttable
   ],
-  "putkeep": [
+  putkeep: [
     classes.t.tokyotyrant,
     classes.t.tokyotyranttable
   ],
-  "putnr": [
+  putnr: [
     classes.t.tokyotyrant,
     classes.t.tokyotyranttable
   ],
-  "putshl": [
+  putshl: [
     classes.t.tokyotyrant,
     classes.t.tokyotyranttable
   ],
-  "postdispatch": [
+  postdispatch: [
     classes.y.yaf_plugin_abstract
   ],
-  "predispatch": [
+  predispatch: [
     classes.y.yaf_plugin_abstract
   ],
-  "preresponse": [
+  preresponse: [
     classes.y.yaf_plugin_abstract
   ],
-  "prependbody": [
+  prependbody: [
     classes.y.yaf_response_abstract
   ]
 };

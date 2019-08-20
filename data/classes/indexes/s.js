@@ -1,12 +1,12 @@
 classes.__indexes__.s = {
-  "seek": [
+  seek: [
     classes.a.arrayiterator,
     classes.d.directoryiterator,
     classes.l.limititerator,
     classes.s.seekableiterator,
     classes.s.splfileobject
   ],
-  "serialize": [
+  serialize: [
     classes.a.arrayiterator,
     classes.a.arrayobject,
     classes.s.serializable,
@@ -15,7 +15,7 @@ classes.__indexes__.s = {
     classes.s.spldoublylinkedlist,
     classes.s.splobjectstorage
   ],
-  "setflags": [
+  setflags: [
     classes.a.arrayiterator,
     classes.a.arrayobject,
     classes.c.cachingiterator,
@@ -24,13 +24,13 @@ classes.__indexes__.s = {
     classes.r.regexiterator,
     classes.s.splfileobject
   ],
-  "setiteratorclass": [
+  setiteratorclass: [
     classes.a.arrayobject
   ],
-  "statustostring": [
+  statustostring: [
     classes.c.cairo
   ],
-  "save": [
+  save: [
     classes.c.cairocontext,
     classes.d.domdocument,
     classes.h.harudoc,
@@ -40,7 +40,7 @@ classes.__indexes__.s = {
     classes.s.svmmodel,
     classes.s.swfmovie
   ],
-  "scale": [
+  scale: [
     classes.c.cairocontext,
     classes.c.cairomatrix,
     classes.g.gmagickdraw,
@@ -48,86 +48,86 @@ classes.__indexes__.s = {
     classes.i.imagickkernel,
     classes.s.swfdisplayitem
   ],
-  "selectfontface": [
+  selectfontface: [
     classes.c.cairocontext
   ],
-  "setantialias": [
+  setantialias: [
     classes.c.cairocontext,
     classes.c.cairofontoptions
   ],
-  "setdash": [
+  setdash: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "setfillrule": [
+  setfillrule: [
     classes.c.cairocontext,
     classes.i.imagickdraw
   ],
-  "setfontface": [
+  setfontface: [
     classes.c.cairocontext
   ],
-  "setfontmatrix": [
+  setfontmatrix: [
     classes.c.cairocontext
   ],
-  "setfontoptions": [
+  setfontoptions: [
     classes.c.cairocontext
   ],
-  "setfontsize": [
+  setfontsize: [
     classes.c.cairocontext,
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "setlinecap": [
+  setlinecap: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "setlinejoin": [
+  setlinejoin: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "setlinewidth": [
+  setlinewidth: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "setmatrix": [
+  setmatrix: [
     classes.c.cairocontext,
     classes.c.cairopattern,
     classes.s.swfdisplayitem
   ],
-  "setmiterlimit": [
+  setmiterlimit: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "setoperator": [
+  setoperator: [
     classes.c.cairocontext
   ],
-  "setscaledfont": [
+  setscaledfont: [
     classes.c.cairocontext
   ],
-  "setsource": [
+  setsource: [
     classes.c.cairocontext
   ],
-  "setsourcergb": [
+  setsourcergb: [
     classes.c.cairocontext
   ],
-  "setsourcergba": [
+  setsourcergba: [
     classes.c.cairocontext
   ],
-  "setsourcesurface": [
+  setsourcesurface: [
     classes.c.cairocontext
   ],
-  "settolerance": [
+  settolerance: [
     classes.c.cairocontext
   ],
-  "showpage": [
+  showpage: [
     classes.c.cairocontext,
     classes.c.cairosurface
   ],
-  "showtext": [
+  showtext: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "status": [
+  status: [
     classes.c.cairocontext,
     classes.c.cairofontface,
     classes.c.cairofontoptions,
@@ -137,33 +137,33 @@ classes.__indexes__.s = {
     classes.g.gearmanjob,
     classes.s.sphinxclient
   ],
-  "stroke": [
+  stroke: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "strokeextents": [
+  strokeextents: [
     classes.c.cairocontext
   ],
-  "strokepreserve": [
+  strokepreserve: [
     classes.c.cairocontext
   ],
-  "sethintmetrics": [
+  sethintmetrics: [
     classes.c.cairofontoptions
   ],
-  "sethintstyle": [
+  sethintstyle: [
     classes.c.cairofontoptions
   ],
-  "setsubpixelorder": [
+  setsubpixelorder: [
     classes.c.cairofontoptions
   ],
-  "strideforwidth": [
+  strideforwidth: [
     classes.c.cairoformat
   ],
-  "setextend": [
+  setextend: [
     classes.c.cairogradientpattern,
     classes.c.cairosurfacepattern
   ],
-  "setsize": [
+  setsize: [
     classes.c.cairopdfsurface,
     classes.c.cairopssurface,
     classes.g.gmagick,
@@ -173,30 +173,30 @@ classes.__indexes__.s = {
     classes.s.solrcollapsefunction,
     classes.s.splfixedarray
   ],
-  "seteps": [
+  seteps: [
     classes.c.cairopssurface
   ],
-  "setdeviceoffset": [
+  setdeviceoffset: [
     classes.c.cairosurface
   ],
-  "setfallbackresolution": [
+  setfallbackresolution: [
     classes.c.cairosurface
   ],
-  "setfilter": [
+  setfilter: [
     classes.c.cairosurfacepattern,
     classes.s.sphinxclient
   ],
-  "setattribute": [
+  setattribute: [
     classes.c.collator,
     classes.d.domelement,
     classes.n.numberformatter,
     classes.p.pdo,
     classes.p.pdostatement
   ],
-  "setstrength": [
+  setstrength: [
     classes.c.collator
   ],
-  "sort": [
+  sort: [
     classes.c.collator,
     classes.c.collectionfind,
     classes.c.collectionmodify,
@@ -206,13 +206,13 @@ classes.__indexes__.s = {
     classes.s.solrdocument,
     classes.s.solrinputdocument
   ],
-  "sortwithsortkeys": [
+  sortwithsortkeys: [
     classes.c.collator
   ],
-  "setgarbage": [
+  setgarbage: [
     classes.c.collectable
   ],
-  "set": [
+  set: [
     classes.c.collectionmodify,
     classes.e.evchild,
     classes.e.evembed,
@@ -236,1047 +236,1047 @@ classes.__indexes__.s = {
     classes.z.zookeeper,
     classes.z.zookeeperconfig
   ],
-  "skip": [
+  skip: [
     classes.c.collectionmodify,
     classes.c.crudoperationskippable,
     classes.m.mongocursor
   ],
-  "signal": [
+  signal: [
     classes.c.cond,
     classes.e.event,
     classes.e.evloop
   ],
-  "setcounterclass": [
+  setcounterclass: [
     classes.c.counter
   ],
-  "setmimetype": [
+  setmimetype: [
     classes.c.curlfile,
     classes.k.ktaglib_id3v2_attachedpictureframe
   ],
-  "setpostfilename": [
+  setpostfilename: [
     classes.c.curlfile
   ],
-  "setdate": [
+  setdate: [
     classes.d.datetime,
     classes.d.datetimeimmutable
   ],
-  "setisodate": [
+  setisodate: [
     classes.d.datetime,
     classes.d.datetimeimmutable
   ],
-  "settime": [
+  settime: [
     classes.d.datetime,
     classes.d.datetimeimmutable,
     classes.i.intlcalendar
   ],
-  "settimestamp": [
+  settimestamp: [
     classes.d.datetime,
     classes.d.datetimeimmutable,
     classes.o.oauth
   ],
-  "settimezone": [
+  settimezone: [
     classes.d.datetime,
     classes.d.datetimeimmutable,
     classes.i.intlcalendar,
     classes.i.intldateformatter
   ],
-  "sub": [
+  sub: [
     classes.d.datetime,
     classes.d.datetimeimmutable
   ],
-  "substringdata": [
+  substringdata: [
     classes.d.domcharacterdata
   ],
-  "savehtml": [
+  savehtml: [
     classes.d.domdocument
   ],
-  "savehtmlfile": [
+  savehtmlfile: [
     classes.d.domdocument
   ],
-  "savexml": [
+  savexml: [
     classes.d.domdocument,
     classes.s.simplexmlelement
   ],
-  "schemavalidate": [
+  schemavalidate: [
     classes.d.domdocument
   ],
-  "schemavalidatesource": [
+  schemavalidatesource: [
     classes.d.domdocument
   ],
-  "setattributenode": [
+  setattributenode: [
     classes.d.domelement
   ],
-  "setattributenodens": [
+  setattributenodens: [
     classes.d.domelement
   ],
-  "setattributens": [
+  setattributens: [
     classes.d.domelement
   ],
-  "setidattribute": [
+  setidattribute: [
     classes.d.domelement
   ],
-  "setidattributenode": [
+  setidattributenode: [
     classes.d.domelement
   ],
-  "setidattributens": [
+  setidattributens: [
     classes.d.domelement
   ],
-  "splittext": [
+  splittext: [
     classes.d.domtext
   ],
-  "sleep": [
+  sleep: [
     classes.e.ev
   ],
-  "stop": [
+  stop: [
     classes.e.ev,
     classes.e.eventbase,
     classes.e.evloop,
     classes.e.evwatcher,
     classes.v.varnishadmin
   ],
-  "supportedbackends": [
+  supportedbackends: [
     classes.e.ev
   ],
-  "suspend": [
+  suspend: [
     classes.e.ev,
     classes.e.evloop
   ],
-  "sweep": [
+  sweep: [
     classes.e.evembed
   ],
-  "setpriority": [
+  setpriority: [
     classes.e.event,
     classes.e.eventbufferevent
   ],
-  "settimer": [
+  settimer: [
     classes.e.event
   ],
-  "search": [
+  search: [
     classes.e.eventbuffer,
     classes.t.tokyotyrantquery
   ],
-  "searcheol": [
+  searcheol: [
     classes.e.eventbuffer
   ],
-  "substr": [
+  substr: [
     classes.e.eventbuffer
   ],
-  "setcallbacks": [
+  setcallbacks: [
     classes.e.eventbufferevent
   ],
-  "settimeouts": [
+  settimeouts: [
     classes.e.eventbufferevent
   ],
-  "setwatermark": [
+  setwatermark: [
     classes.e.eventbufferevent
   ],
-  "sslerror": [
+  sslerror: [
     classes.e.eventbufferevent
   ],
-  "sslfilter": [
+  sslfilter: [
     classes.e.eventbufferevent
   ],
-  "sslgetcipherinfo": [
+  sslgetcipherinfo: [
     classes.e.eventbufferevent
   ],
-  "sslgetciphername": [
+  sslgetciphername: [
     classes.e.eventbufferevent
   ],
-  "sslgetcipherversion": [
+  sslgetcipherversion: [
     classes.e.eventbufferevent
   ],
-  "sslgetprotocol": [
+  sslgetprotocol: [
     classes.e.eventbufferevent
   ],
-  "sslrenegotiate": [
+  sslrenegotiate: [
     classes.e.eventbufferevent
   ],
-  "sslsocket": [
+  sslsocket: [
     classes.e.eventbufferevent
   ],
-  "setmaxdispatchinterval": [
+  setmaxdispatchinterval: [
     classes.e.eventconfig
   ],
-  "setoption": [
+  setoption: [
     classes.e.eventdnsbase,
     classes.i.imagick,
     classes.m.memcached
   ],
-  "setsearchndots": [
+  setsearchndots: [
     classes.e.eventdnsbase
   ],
-  "setallowedmethods": [
+  setallowedmethods: [
     classes.e.eventhttp
   ],
-  "setcallback": [
+  setcallback: [
     classes.e.eventhttp,
     classes.e.eventlistener,
     classes.e.evwatcher,
     classes.m.mongolog
   ],
-  "setdefaultcallback": [
+  setdefaultcallback: [
     classes.e.eventhttp
   ],
-  "setmaxbodysize": [
+  setmaxbodysize: [
     classes.e.eventhttp,
     classes.e.eventhttpconnection
   ],
-  "setmaxheaderssize": [
+  setmaxheaderssize: [
     classes.e.eventhttp,
     classes.e.eventhttpconnection
   ],
-  "settimeout": [
+  settimeout: [
     classes.e.eventhttp,
     classes.e.eventhttpconnection,
     classes.g.gearmanclient,
     classes.g.gearmanworker,
     classes.v.varnishadmin
   ],
-  "setclosecallback": [
+  setclosecallback: [
     classes.e.eventhttpconnection
   ],
-  "setlocaladdress": [
+  setlocaladdress: [
     classes.e.eventhttpconnection
   ],
-  "setlocalport": [
+  setlocalport: [
     classes.e.eventhttpconnection
   ],
-  "setretries": [
+  setretries: [
     classes.e.eventhttpconnection,
     classes.s.sphinxclient
   ],
-  "senderror": [
+  senderror: [
     classes.e.eventhttprequest
   ],
-  "sendreply": [
+  sendreply: [
     classes.e.eventhttprequest
   ],
-  "sendreplychunk": [
+  sendreplychunk: [
     classes.e.eventhttprequest
   ],
-  "sendreplyend": [
+  sendreplyend: [
     classes.e.eventhttprequest
   ],
-  "sendreplystart": [
+  sendreplystart: [
     classes.e.eventhttprequest
   ],
-  "seterrorcallback": [
+  seterrorcallback: [
     classes.e.eventlistener
   ],
-  "setsocketoption": [
+  setsocketoption: [
     classes.e.eventutil
   ],
-  "sslrandpoll": [
+  sslrandpoll: [
     classes.e.eventutil
   ],
-  "stat": [
+  stat: [
     classes.e.evloop,
     classes.e.evstat,
     classes.m.mysqli,
     classes.t.tokyotyrant
   ],
-  "start": [
+  start: [
     classes.e.evwatcher,
     classes.t.thread,
     classes.v.varnishadmin,
     classes.y.yaf_session
   ],
-  "setweight": [
+  setweight: [
     classes.f.fannconnection
   ],
-  "scope": [
+  scope: [
     classes.f.ffi
   ],
-  "sizeof": [
+  sizeof: [
     classes.f.ffi
   ],
-  "string": [
+  string: [
     classes.f.ffi
   ],
-  "set_flags": [
+  set_flags: [
     classes.f.finfo
   ],
-  "setclientcallback": [
+  setclientcallback: [
     classes.g.gearmanclient
   ],
-  "setcompletecallback": [
+  setcompletecallback: [
     classes.g.gearmanclient
   ],
-  "setcontext": [
+  setcontext: [
     classes.g.gearmanclient
   ],
-  "setcreatedcallback": [
+  setcreatedcallback: [
     classes.g.gearmanclient
   ],
-  "setdata": [
+  setdata: [
     classes.g.gearmanclient
   ],
-  "setdatacallback": [
+  setdatacallback: [
     classes.g.gearmanclient
   ],
-  "setexceptioncallback": [
+  setexceptioncallback: [
     classes.g.gearmanclient
   ],
-  "setfailcallback": [
+  setfailcallback: [
     classes.g.gearmanclient
   ],
-  "setoptions": [
+  setoptions: [
     classes.g.gearmanclient,
     classes.g.gearmanworker,
     classes.m.memcached,
     classes.r.rrdgraph,
     classes.s.svm
   ],
-  "setstatuscallback": [
+  setstatuscallback: [
     classes.g.gearmanclient
   ],
-  "setwarningcallback": [
+  setwarningcallback: [
     classes.g.gearmanclient
   ],
-  "setworkloadcallback": [
+  setworkloadcallback: [
     classes.g.gearmanclient
   ],
-  "sendcomplete": [
+  sendcomplete: [
     classes.g.gearmanjob
   ],
-  "senddata": [
+  senddata: [
     classes.g.gearmanjob,
     classes.g.gearmantask
   ],
-  "sendexception": [
+  sendexception: [
     classes.g.gearmanjob
   ],
-  "sendfail": [
+  sendfail: [
     classes.g.gearmanjob
   ],
-  "sendstatus": [
+  sendstatus: [
     classes.g.gearmanjob
   ],
-  "sendwarning": [
+  sendwarning: [
     classes.g.gearmanjob
   ],
-  "setreturn": [
+  setreturn: [
     classes.g.gearmanjob
   ],
-  "sendworkload": [
+  sendworkload: [
     classes.g.gearmantask
   ],
-  "setid": [
+  setid: [
     classes.g.gearmanworker
   ],
-  "send": [
+  send: [
     classes.g.generator,
     classes.s.samconnection,
     classes.s.stomp,
     classes.z.zmqsocket
   ],
-  "scaleimage": [
+  scaleimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "separateimagechannel": [
+  separateimagechannel: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setcompressionquality": [
+  setcompressionquality: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setfilename": [
+  setfilename: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagebackgroundcolor": [
+  setimagebackgroundcolor: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimageblueprimary": [
+  setimageblueprimary: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagebordercolor": [
+  setimagebordercolor: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagechanneldepth": [
+  setimagechanneldepth: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagecolorspace": [
+  setimagecolorspace: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagecompose": [
+  setimagecompose: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagedelay": [
+  setimagedelay: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagedepth": [
+  setimagedepth: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagedispose": [
+  setimagedispose: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagefilename": [
+  setimagefilename: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimageformat": [
+  setimageformat: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagegamma": [
+  setimagegamma: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagegreenprimary": [
+  setimagegreenprimary: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimageindex": [
+  setimageindex: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimageinterlacescheme": [
+  setimageinterlacescheme: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimageiterations": [
+  setimageiterations: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimageprofile": [
+  setimageprofile: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimageredprimary": [
+  setimageredprimary: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagerenderingintent": [
+  setimagerenderingintent: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimageresolution": [
+  setimageresolution: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagescene": [
+  setimagescene: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagetype": [
+  setimagetype: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimageunits": [
+  setimageunits: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setimagewhitepoint": [
+  setimagewhitepoint: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setsamplingfactors": [
+  setsamplingfactors: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "shearimage": [
+  shearimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "solarizeimage": [
+  solarizeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "spreadimage": [
+  spreadimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "stripimage": [
+  stripimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "swirlimage": [
+  swirlimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "setfillcolor": [
+  setfillcolor: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "setfillopacity": [
+  setfillopacity: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "setfont": [
+  setfont: [
     classes.g.gmagickdraw,
     classes.i.imagick,
     classes.i.imagickdraw,
     classes.s.swftext,
     classes.s.swftextfield
   ],
-  "setfontstyle": [
+  setfontstyle: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "setfontweight": [
+  setfontweight: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "setstrokecolor": [
+  setstrokecolor: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "setstrokeopacity": [
+  setstrokeopacity: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "setstrokewidth": [
+  setstrokewidth: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "settextdecoration": [
+  settextdecoration: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "settextencoding": [
+  settextencoding: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "setcolor": [
+  setcolor: [
     classes.g.gmagickpixel,
     classes.i.imagickpixel,
     classes.s.swftext,
     classes.s.swftextfield
   ],
-  "setcolorvalue": [
+  setcolorvalue: [
     classes.g.gmagickpixel,
     classes.i.imagickpixel
   ],
-  "setborderstyle": [
+  setborderstyle: [
     classes.h.haruannotation
   ],
-  "sethighlightmode": [
+  sethighlightmode: [
     classes.h.haruannotation
   ],
-  "seticon": [
+  seticon: [
     classes.h.haruannotation
   ],
-  "setopened": [
+  setopened: [
     classes.h.haruannotation,
     classes.h.haruoutline
   ],
-  "setfit": [
+  setfit: [
     classes.h.harudestination
   ],
-  "setfitb": [
+  setfitb: [
     classes.h.harudestination
   ],
-  "setfitbh": [
+  setfitbh: [
     classes.h.harudestination
   ],
-  "setfitbv": [
+  setfitbv: [
     classes.h.harudestination
   ],
-  "setfith": [
+  setfith: [
     classes.h.harudestination
   ],
-  "setfitr": [
+  setfitr: [
     classes.h.harudestination
   ],
-  "setfitv": [
+  setfitv: [
     classes.h.harudestination
   ],
-  "setxyz": [
+  setxyz: [
     classes.h.harudestination
   ],
-  "savetostream": [
+  savetostream: [
     classes.h.harudoc
   ],
-  "setcompressionmode": [
+  setcompressionmode: [
     classes.h.harudoc
   ],
-  "setcurrentencoder": [
+  setcurrentencoder: [
     classes.h.harudoc
   ],
-  "setencryptionmode": [
+  setencryptionmode: [
     classes.h.harudoc
   ],
-  "setinfoattr": [
+  setinfoattr: [
     classes.h.harudoc
   ],
-  "setinfodateattr": [
+  setinfodateattr: [
     classes.h.harudoc
   ],
-  "setopenaction": [
+  setopenaction: [
     classes.h.harudoc
   ],
-  "setpagelayout": [
+  setpagelayout: [
     classes.h.harudoc
   ],
-  "setpagemode": [
+  setpagemode: [
     classes.h.harudoc
   ],
-  "setpagesconfiguration": [
+  setpagesconfiguration: [
     classes.h.harudoc
   ],
-  "setpassword": [
+  setpassword: [
     classes.h.harudoc,
     classes.z.ziparchive
   ],
-  "setpermission": [
+  setpermission: [
     classes.h.harudoc
   ],
-  "setcolormask": [
+  setcolormask: [
     classes.h.haruimage
   ],
-  "setmaskimage": [
+  setmaskimage: [
     classes.h.haruimage
   ],
-  "setdestination": [
+  setdestination: [
     classes.h.haruoutline
   ],
-  "setcharspace": [
+  setcharspace: [
     classes.h.harupage
   ],
-  "setcmykfill": [
+  setcmykfill: [
     classes.h.harupage
   ],
-  "setcmykstroke": [
+  setcmykstroke: [
     classes.h.harupage
   ],
-  "setflatness": [
+  setflatness: [
     classes.h.harupage
   ],
-  "setfontandsize": [
+  setfontandsize: [
     classes.h.harupage
   ],
-  "setgrayfill": [
+  setgrayfill: [
     classes.h.harupage
   ],
-  "setgraystroke": [
+  setgraystroke: [
     classes.h.harupage
   ],
-  "setheight": [
+  setheight: [
     classes.h.harupage,
     classes.s.swftext,
     classes.s.swftextfield
   ],
-  "sethorizontalscaling": [
+  sethorizontalscaling: [
     classes.h.harupage
   ],
-  "setrgbfill": [
+  setrgbfill: [
     classes.h.harupage
   ],
-  "setrgbstroke": [
+  setrgbstroke: [
     classes.h.harupage
   ],
-  "setrotate": [
+  setrotate: [
     classes.h.harupage
   ],
-  "setslideshow": [
+  setslideshow: [
     classes.h.harupage
   ],
-  "settextleading": [
+  settextleading: [
     classes.h.harupage
   ],
-  "settextmatrix": [
+  settextmatrix: [
     classes.h.harupage
   ],
-  "settextrenderingmode": [
+  settextrenderingmode: [
     classes.h.harupage
   ],
-  "settextrise": [
+  settextrise: [
     classes.h.harupage
   ],
-  "setwidth": [
+  setwidth: [
     classes.h.harupage
   ],
-  "setwordspace": [
+  setwordspace: [
     classes.h.harupage
   ],
-  "showtextnextline": [
+  showtextnextline: [
     classes.h.harupage
   ],
-  "setcommittedversion": [
+  setcommittedversion: [
     classes.h.hw_api
   ],
-  "srcanchors": [
+  srcanchors: [
     classes.h.hw_api
   ],
-  "srcsofdst": [
+  srcsofdst: [
     classes.h.hw_api
   ],
-  "sampleimage": [
+  sampleimage: [
     classes.i.imagick
   ],
-  "segmentimage": [
+  segmentimage: [
     classes.i.imagick
   ],
-  "selectiveblurimage": [
+  selectiveblurimage: [
     classes.i.imagick
   ],
-  "sepiatoneimage": [
+  sepiatoneimage: [
     classes.i.imagick
   ],
-  "setbackgroundcolor": [
+  setbackgroundcolor: [
     classes.i.imagick
   ],
-  "setcolorspace": [
+  setcolorspace: [
     classes.i.imagick
   ],
-  "setcompression": [
+  setcompression: [
     classes.i.imagick
   ],
-  "setfirstiterator": [
+  setfirstiterator: [
     classes.i.imagick
   ],
-  "setformat": [
+  setformat: [
     classes.i.imagick
   ],
-  "setgravity": [
+  setgravity: [
     classes.i.imagick,
     classes.i.imagickdraw
   ],
-  "setimage": [
+  setimage: [
     classes.i.imagick
   ],
-  "setimagealphachannel": [
+  setimagealphachannel: [
     classes.i.imagick
   ],
-  "setimageartifact": [
+  setimageartifact: [
     classes.i.imagick
   ],
-  "setimageattribute": [
+  setimageattribute: [
     classes.i.imagick
   ],
-  "setimagebias": [
+  setimagebias: [
     classes.i.imagick
   ],
-  "setimagebiasquantum": [
+  setimagebiasquantum: [
     classes.i.imagick
   ],
-  "setimageclipmask": [
+  setimageclipmask: [
     classes.i.imagick
   ],
-  "setimagecolormapcolor": [
+  setimagecolormapcolor: [
     classes.i.imagick
   ],
-  "setimagecompression": [
+  setimagecompression: [
     classes.i.imagick
   ],
-  "setimagecompressionquality": [
+  setimagecompressionquality: [
     classes.i.imagick
   ],
-  "setimageextent": [
+  setimageextent: [
     classes.i.imagick
   ],
-  "setimagegravity": [
+  setimagegravity: [
     classes.i.imagick
   ],
-  "setimageinterpolatemethod": [
+  setimageinterpolatemethod: [
     classes.i.imagick
   ],
-  "setimagematte": [
+  setimagematte: [
     classes.i.imagick
   ],
-  "setimagemattecolor": [
+  setimagemattecolor: [
     classes.i.imagick
   ],
-  "setimageopacity": [
+  setimageopacity: [
     classes.i.imagick
   ],
-  "setimageorientation": [
+  setimageorientation: [
     classes.i.imagick
   ],
-  "setimagepage": [
+  setimagepage: [
     classes.i.imagick
   ],
-  "setimageproperty": [
+  setimageproperty: [
     classes.i.imagick
   ],
-  "setimagetickspersecond": [
+  setimagetickspersecond: [
     classes.i.imagick
   ],
-  "setimagevirtualpixelmethod": [
+  setimagevirtualpixelmethod: [
     classes.i.imagick
   ],
-  "setinterlacescheme": [
+  setinterlacescheme: [
     classes.i.imagick
   ],
-  "setiteratorindex": [
+  setiteratorindex: [
     classes.i.imagick
   ],
-  "setlastiterator": [
+  setlastiterator: [
     classes.i.imagick
   ],
-  "setpage": [
+  setpage: [
     classes.i.imagick
   ],
-  "setpointsize": [
+  setpointsize: [
     classes.i.imagick
   ],
-  "setprogressmonitor": [
+  setprogressmonitor: [
     classes.i.imagick
   ],
-  "setregistry": [
+  setregistry: [
     classes.i.imagick
   ],
-  "setresolution": [
+  setresolution: [
     classes.i.imagick,
     classes.i.imagickdraw
   ],
-  "setresourcelimit": [
+  setresourcelimit: [
     classes.i.imagick
   ],
-  "setsizeoffset": [
+  setsizeoffset: [
     classes.i.imagick
   ],
-  "settype": [
+  settype: [
     classes.i.imagick,
     classes.k.ktaglib_id3v2_attachedpictureframe
   ],
-  "shadeimage": [
+  shadeimage: [
     classes.i.imagick
   ],
-  "shadowimage": [
+  shadowimage: [
     classes.i.imagick
   ],
-  "sharpenimage": [
+  sharpenimage: [
     classes.i.imagick
   ],
-  "shaveimage": [
+  shaveimage: [
     classes.i.imagick
   ],
-  "sigmoidalcontrastimage": [
+  sigmoidalcontrastimage: [
     classes.i.imagick
   ],
-  "sketchimage": [
+  sketchimage: [
     classes.i.imagick
   ],
-  "smushimages": [
+  smushimages: [
     classes.i.imagick
   ],
-  "sparsecolorimage": [
+  sparsecolorimage: [
     classes.i.imagick
   ],
-  "spliceimage": [
+  spliceimage: [
     classes.i.imagick
   ],
-  "statisticimage": [
+  statisticimage: [
     classes.i.imagick
   ],
-  "steganoimage": [
+  steganoimage: [
     classes.i.imagick
   ],
-  "stereoimage": [
+  stereoimage: [
     classes.i.imagick
   ],
-  "subimagematch": [
+  subimagematch: [
     classes.i.imagick
   ],
-  "setclippath": [
+  setclippath: [
     classes.i.imagickdraw
   ],
-  "setcliprule": [
+  setcliprule: [
     classes.i.imagickdraw
   ],
-  "setclipunits": [
+  setclipunits: [
     classes.i.imagickdraw
   ],
-  "setfillalpha": [
+  setfillalpha: [
     classes.i.imagickdraw
   ],
-  "setfillpatternurl": [
+  setfillpatternurl: [
     classes.i.imagickdraw
   ],
-  "setfontfamily": [
+  setfontfamily: [
     classes.i.imagickdraw
   ],
-  "setfontstretch": [
+  setfontstretch: [
     classes.i.imagickdraw
   ],
-  "setstrokealpha": [
+  setstrokealpha: [
     classes.i.imagickdraw
   ],
-  "setstrokeantialias": [
+  setstrokeantialias: [
     classes.i.imagickdraw
   ],
-  "setstrokedasharray": [
+  setstrokedasharray: [
     classes.i.imagickdraw
   ],
-  "setstrokedashoffset": [
+  setstrokedashoffset: [
     classes.i.imagickdraw
   ],
-  "setstrokelinecap": [
+  setstrokelinecap: [
     classes.i.imagickdraw
   ],
-  "setstrokelinejoin": [
+  setstrokelinejoin: [
     classes.i.imagickdraw
   ],
-  "setstrokemiterlimit": [
+  setstrokemiterlimit: [
     classes.i.imagickdraw
   ],
-  "setstrokepatternurl": [
+  setstrokepatternurl: [
     classes.i.imagickdraw
   ],
-  "settextalignment": [
+  settextalignment: [
     classes.i.imagickdraw
   ],
-  "settextantialias": [
+  settextantialias: [
     classes.i.imagickdraw
   ],
-  "settextinterlinespacing": [
+  settextinterlinespacing: [
     classes.i.imagickdraw
   ],
-  "settextinterwordspacing": [
+  settextinterwordspacing: [
     classes.i.imagickdraw
   ],
-  "settextkerning": [
+  settextkerning: [
     classes.i.imagickdraw
   ],
-  "settextundercolor": [
+  settextundercolor: [
     classes.i.imagickdraw
   ],
-  "setvectorgraphics": [
+  setvectorgraphics: [
     classes.i.imagickdraw
   ],
-  "setviewbox": [
+  setviewbox: [
     classes.i.imagickdraw
   ],
-  "skewx": [
+  skewx: [
     classes.i.imagickdraw,
     classes.s.swfdisplayitem
   ],
-  "skewy": [
+  skewy: [
     classes.i.imagickdraw,
     classes.s.swfdisplayitem
   ],
-  "separate": [
+  separate: [
     classes.i.imagickkernel
   ],
-  "setcolorcount": [
+  setcolorcount: [
     classes.i.imagickpixel
   ],
-  "setcolorvaluequantum": [
+  setcolorvaluequantum: [
     classes.i.imagickpixel
   ],
-  "sethsl": [
+  sethsl: [
     classes.i.imagickpixel
   ],
-  "setindex": [
+  setindex: [
     classes.i.imagickpixel,
     classes.t.tokyotyranttable
   ],
-  "setiteratorfirstrow": [
+  setiteratorfirstrow: [
     classes.i.imagickpixeliterator
   ],
-  "setiteratorlastrow": [
+  setiteratorlastrow: [
     classes.i.imagickpixeliterator
   ],
-  "setiteratorrow": [
+  setiteratorrow: [
     classes.i.imagickpixeliterator
   ],
-  "synciterator": [
+  synciterator: [
     classes.i.imagickpixeliterator
   ],
-  "settext": [
+  settext: [
     classes.i.intlbreakiterator
   ],
-  "setfirstdayofweek": [
+  setfirstdayofweek: [
     classes.i.intlcalendar
   ],
-  "setlenient": [
+  setlenient: [
     classes.i.intlcalendar,
     classes.i.intldateformatter
   ],
-  "setminimaldaysinfirstweek": [
+  setminimaldaysinfirstweek: [
     classes.i.intlcalendar
   ],
-  "setrepeatedwalltimeoption": [
+  setrepeatedwalltimeoption: [
     classes.i.intlcalendar
   ],
-  "setskippedwalltimeoption": [
+  setskippedwalltimeoption: [
     classes.i.intlcalendar
   ],
-  "setcalendar": [
+  setcalendar: [
     classes.i.intldateformatter
   ],
-  "setpattern": [
+  setpattern: [
     classes.i.intldateformatter,
     classes.m.messageformatter,
     classes.n.numberformatter
   ],
-  "settimezoneid": [
+  settimezoneid: [
     classes.i.intldateformatter
   ],
-  "setgregorianchange": [
+  setgregorianchange: [
     classes.i.intlgregoriancalendar
   ],
-  "size": [
+  size: [
     classes.j.judy,
     classes.s.syncsharedmemory,
     classes.t.tokyotyrant
   ],
-  "savepicture": [
+  savepicture: [
     classes.k.ktaglib_id3v2_attachedpictureframe
   ],
-  "setpicture": [
+  setpicture: [
     classes.k.ktaglib_id3v2_attachedpictureframe
   ],
-  "singularvalues": [
+  singularvalues: [
     classes.l.lapack
   ],
-  "solvelinearequation": [
+  solvelinearequation: [
     classes.l.lapack
   ],
-  "setdefault": [
+  setdefault: [
     classes.l.locale
   ],
-  "setcompressthreshold": [
+  setcompressthreshold: [
     classes.m.memcache
   ],
-  "setserverparams": [
+  setserverparams: [
     classes.m.memcache
   ],
-  "setbykey": [
+  setbykey: [
     classes.m.memcached
   ],
-  "setmulti": [
+  setmulti: [
     classes.m.memcached
   ],
-  "setmultibykey": [
+  setmultibykey: [
     classes.m.memcached
   ],
-  "setsaslauthdata": [
+  setsaslauthdata: [
     classes.m.memcached
   ],
-  "setpoolsize": [
+  setpoolsize: [
     classes.m.mongo
   ],
-  "setslaveokay": [
+  setslaveokay: [
     classes.m.mongo,
     classes.m.mongocollection,
     classes.m.mongodb
   ],
-  "switchslave": [
+  switchslave: [
     classes.m.mongo
   ],
-  "selectcollection": [
+  selectcollection: [
     classes.m.mongoclient,
     classes.m.mongodb
   ],
-  "selectdb": [
+  selectdb: [
     classes.m.mongoclient,
     classes.m.mysqlnduhconnection
   ],
-  "setreadpreference": [
+  setreadpreference: [
     classes.m.mongoclient,
     classes.m.mongocollection,
     classes.m.mongocommandcursor,
@@ -1284,1067 +1284,1067 @@ classes.__indexes__.s = {
     classes.m.mongocursorinterface,
     classes.m.mongodb
   ],
-  "setwriteconcern": [
+  setwriteconcern: [
     classes.m.mongoclient,
     classes.m.mongocollection,
     classes.m.mongodb
   ],
-  "setflag": [
+  setflag: [
     classes.m.mongocursor
   ],
-  "slaveokay": [
+  slaveokay: [
     classes.m.mongocursor
   ],
-  "snapshot": [
+  snapshot: [
     classes.m.mongocursor
   ],
-  "setprofilinglevel": [
+  setprofilinglevel: [
     classes.m.mongodb
   ],
-  "storebytes": [
+  storebytes: [
     classes.m.mongogridfs
   ],
-  "storefile": [
+  storefile: [
     classes.m.mongogridfs
   ],
-  "storeupload": [
+  storeupload: [
     classes.m.mongogridfs
   ],
-  "setlevel": [
+  setlevel: [
     classes.m.mongolog
   ],
-  "setmodule": [
+  setmodule: [
     classes.m.mongolog
   ],
-  "savepoint": [
+  savepoint: [
     classes.m.mysqli
   ],
-  "select_db": [
+  select_db: [
     classes.m.mysqli
   ],
-  "send_query": [
+  send_query: [
     classes.m.mysqli
   ],
-  "set_charset": [
+  set_charset: [
     classes.m.mysqli
   ],
-  "set_local_infile_default": [
+  set_local_infile_default: [
     classes.m.mysqli
   ],
-  "set_local_infile_handler": [
+  set_local_infile_handler: [
     classes.m.mysqli
   ],
-  "ssl_set": [
+  ssl_set: [
     classes.m.mysqli
   ],
-  "stmt_init": [
+  stmt_init: [
     classes.m.mysqli
   ],
-  "store_result": [
+  store_result: [
     classes.m.mysqli,
     classes.m.mysqli_stmt
   ],
-  "send_long_data": [
+  send_long_data: [
     classes.m.mysqli_stmt
   ],
-  "sendclose": [
+  sendclose: [
     classes.m.mysqlnduhconnection
   ],
-  "sendquery": [
+  sendquery: [
     classes.m.mysqlnduhconnection
   ],
-  "serverdumpdebuginformation": [
+  serverdumpdebuginformation: [
     classes.m.mysqlnduhconnection
   ],
-  "setautocommit": [
+  setautocommit: [
     classes.m.mysqlnduhconnection
   ],
-  "setcharset": [
+  setcharset: [
     classes.m.mysqlnduhconnection
   ],
-  "setclientoption": [
+  setclientoption: [
     classes.m.mysqlnduhconnection
   ],
-  "setserveroption": [
+  setserveroption: [
     classes.m.mysqlnduhconnection
   ],
-  "shutdownserver": [
+  shutdownserver: [
     classes.m.mysqlnduhconnection
   ],
-  "simplecommand": [
+  simplecommand: [
     classes.m.mysqlnduhconnection
   ],
-  "simplecommandhandleresponse": [
+  simplecommandhandleresponse: [
     classes.m.mysqlnduhconnection
   ],
-  "sslset": [
+  sslset: [
     classes.m.mysqlnduhconnection
   ],
-  "stmtinit": [
+  stmtinit: [
     classes.m.mysqlnduhconnection
   ],
-  "storeresult": [
+  storeresult: [
     classes.m.mysqlnduhconnection
   ],
-  "setsymbol": [
+  setsymbol: [
     classes.n.numberformatter
   ],
-  "settextattribute": [
+  settextattribute: [
     classes.n.numberformatter
   ],
-  "setauthtype": [
+  setauthtype: [
     classes.o.oauth
   ],
-  "setcapath": [
+  setcapath: [
     classes.o.oauth
   ],
-  "setnonce": [
+  setnonce: [
     classes.o.oauth
   ],
-  "setrequestengine": [
+  setrequestengine: [
     classes.o.oauth
   ],
-  "setrsacertificate": [
+  setrsacertificate: [
     classes.o.oauth
   ],
-  "setsslchecks": [
+  setsslchecks: [
     classes.o.oauth
   ],
-  "settoken": [
+  settoken: [
     classes.o.oauth
   ],
-  "setversion": [
+  setversion: [
     classes.o.oauth
   ],
-  "setparam": [
+  setparam: [
     classes.o.oauthprovider,
     classes.s.solrparams,
     classes.v.varnishadmin,
     classes.y.yaf_request_abstract
   ],
-  "setrequesttokenpath": [
+  setrequesttokenpath: [
     classes.o.oauthprovider
   ],
-  "sqlitecreateaggregate": [
+  sqlitecreateaggregate: [
     classes.p.pdo
   ],
-  "sqlitecreatecollation": [
+  sqlitecreatecollation: [
     classes.p.pdo
   ],
-  "sqlitecreatefunction": [
+  sqlitecreatefunction: [
     classes.p.pdo
   ],
-  "setfetchmode": [
+  setfetchmode: [
     classes.p.pdostatement
   ],
-  "setalias": [
+  setalias: [
     classes.p.phar,
     classes.p.phardata
   ],
-  "setdefaultstub": [
+  setdefaultstub: [
     classes.p.phar,
     classes.p.phardata
   ],
-  "setmetadata": [
+  setmetadata: [
     classes.p.phar,
     classes.p.pharfileinfo
   ],
-  "setsignaturealgorithm": [
+  setsignaturealgorithm: [
     classes.p.phar
   ],
-  "setstub": [
+  setstub: [
     classes.p.phar,
     classes.p.phardata
   ],
-  "startbuffering": [
+  startbuffering: [
     classes.p.phar
   ],
-  "stopbuffering": [
+  stopbuffering: [
     classes.p.phar
   ],
-  "setcompressedbzip2": [
+  setcompressedbzip2: [
     classes.p.pharfileinfo
   ],
-  "setcompressedgz": [
+  setcompressedgz: [
     classes.p.pharfileinfo
   ],
-  "setuncompressed": [
+  setuncompressed: [
     classes.p.pharfileinfo
   ],
-  "shutdown": [
+  shutdown: [
     classes.p.pool,
     classes.w.worker
   ],
-  "submit": [
+  submit: [
     classes.p.pool
   ],
-  "submitto": [
+  submitto: [
     classes.p.pool
   ],
-  "savetofile": [
+  savetofile: [
     classes.q.quickhashinthash,
     classes.q.quickhashintset,
     classes.q.quickhashintstringhash,
     classes.q.quickhashstringinthash,
     classes.s.swfmovie
   ],
-  "savetostring": [
+  savetostring: [
     classes.q.quickhashinthash,
     classes.q.quickhashintset,
     classes.q.quickhashintstringhash,
     classes.q.quickhashstringinthash
   ],
-  "setallowbroken": [
+  setallowbroken: [
     classes.r.rararchive
   ],
-  "setusingexceptions": [
+  setusingexceptions: [
     classes.r.rarexception
   ],
-  "setmaxdepth": [
+  setmaxdepth: [
     classes.r.recursiveiteratoriterator
   ],
-  "setpostfix": [
+  setpostfix: [
     classes.r.recursivetreeiterator
   ],
-  "setprefixpart": [
+  setprefixpart: [
     classes.r.recursivetreeiterator
   ],
-  "setstaticpropertyvalue": [
+  setstaticpropertyvalue: [
     classes.r.reflectionclass
   ],
-  "setaccessible": [
+  setaccessible: [
     classes.r.reflectionmethod,
     classes.r.reflectionproperty
   ],
-  "setvalue": [
+  setvalue: [
     classes.r.reflectionproperty
   ],
-  "setmode": [
+  setmode: [
     classes.r.regexiterator
   ],
-  "setpregflags": [
+  setpregflags: [
     classes.r.regexiterator
   ],
-  "saveverbose": [
+  saveverbose: [
     classes.r.rrdgraph
   ],
-  "setdebug": [
+  setdebug: [
     classes.s.samconnection
   ],
-  "subscribe": [
+  subscribe: [
     classes.s.samconnection,
     classes.s.stomp
   ],
-  "savefile": [
+  savefile: [
     classes.s.sdo_das_xml
   ],
-  "savestring": [
+  savestring: [
     classes.s.sdo_das_xml
   ],
-  "setencoding": [
+  setencoding: [
     classes.s.sdo_das_xml_document
   ],
-  "setxmldeclaration": [
+  setxmldeclaration: [
     classes.s.sdo_das_xml_document
   ],
-  "setxmlversion": [
+  setxmlversion: [
     classes.s.sdo_das_xml_document
   ],
-  "setbasepath": [
+  setbasepath: [
     classes.s.seaslog
   ],
-  "setdatetimeformat": [
+  setdatetimeformat: [
     classes.s.seaslog
   ],
-  "setlogger": [
+  setlogger: [
     classes.s.seaslog
   ],
-  "setrequestid": [
+  setrequestid: [
     classes.s.seaslog
   ],
-  "setrequestvariable": [
+  setrequestvariable: [
     classes.s.seaslog
   ],
-  "setsavepoint": [
+  setsavepoint: [
     classes.s.session
   ],
-  "sql": [
+  sql: [
     classes.s.session
   ],
-  "starttransaction": [
+  starttransaction: [
     classes.s.session
   ],
-  "setsecurity": [
+  setsecurity: [
     classes.s.snmp
   ],
-  "soapclient": [
+  soapclient: [
     classes.s.soapclient
   ],
-  "soapfault": [
+  soapfault: [
     classes.s.soapfault
   ],
-  "soapheader": [
+  soapheader: [
     classes.s.soapheader
   ],
-  "soapparam": [
+  soapparam: [
     classes.s.soapparam
   ],
-  "setclass": [
+  setclass: [
     classes.s.soapserver
   ],
-  "setobject": [
+  setobject: [
     classes.s.soapserver
   ],
-  "setpersistence": [
+  setpersistence: [
     classes.s.soapserver
   ],
-  "soapserver": [
+  soapserver: [
     classes.s.soapserver
   ],
-  "soapvar": [
+  soapvar: [
     classes.s.soapvar
   ],
-  "setresponsewriter": [
+  setresponsewriter: [
     classes.s.solrclient
   ],
-  "setservlet": [
+  setservlet: [
     classes.s.solrclient
   ],
-  "system": [
+  system: [
     classes.s.solrclient
   ],
-  "setfield": [
+  setfield: [
     classes.s.solrcollapsefunction
   ],
-  "sethint": [
+  sethint: [
     classes.s.solrcollapsefunction
   ],
-  "setmax": [
+  setmax: [
     classes.s.solrcollapsefunction
   ],
-  "setmin": [
+  setmin: [
     classes.s.solrcollapsefunction
   ],
-  "setnullpolicy": [
+  setnullpolicy: [
     classes.s.solrcollapsefunction
   ],
-  "setbigramphrasefields": [
+  setbigramphrasefields: [
     classes.s.solrdismaxquery
   ],
-  "setbigramphraseslop": [
+  setbigramphraseslop: [
     classes.s.solrdismaxquery
   ],
-  "setboostfunction": [
+  setboostfunction: [
     classes.s.solrdismaxquery
   ],
-  "setboostquery": [
+  setboostquery: [
     classes.s.solrdismaxquery
   ],
-  "setminimummatch": [
+  setminimummatch: [
     classes.s.solrdismaxquery
   ],
-  "setphrasefields": [
+  setphrasefields: [
     classes.s.solrdismaxquery
   ],
-  "setphraseslop": [
+  setphraseslop: [
     classes.s.solrdismaxquery
   ],
-  "setqueryalt": [
+  setqueryalt: [
     classes.s.solrdismaxquery
   ],
-  "setqueryphraseslop": [
+  setqueryphraseslop: [
     classes.s.solrdismaxquery
   ],
-  "settiebreaker": [
+  settiebreaker: [
     classes.s.solrdismaxquery
   ],
-  "settrigramphrasefields": [
+  settrigramphrasefields: [
     classes.s.solrdismaxquery
   ],
-  "settrigramphraseslop": [
+  settrigramphraseslop: [
     classes.s.solrdismaxquery
   ],
-  "setuserfields": [
+  setuserfields: [
     classes.s.solrdismaxquery
   ],
-  "setboost": [
+  setboost: [
     classes.s.solrinputdocument
   ],
-  "setfieldboost": [
+  setfieldboost: [
     classes.s.solrinputdocument
   ],
-  "setechohandler": [
+  setechohandler: [
     classes.s.solrquery
   ],
-  "setechoparams": [
+  setechoparams: [
     classes.s.solrquery
   ],
-  "setexpand": [
+  setexpand: [
     classes.s.solrquery
   ],
-  "setexpandquery": [
+  setexpandquery: [
     classes.s.solrquery
   ],
-  "setexpandrows": [
+  setexpandrows: [
     classes.s.solrquery
   ],
-  "setexplainother": [
+  setexplainother: [
     classes.s.solrquery
   ],
-  "setfacet": [
+  setfacet: [
     classes.s.solrquery
   ],
-  "setfacetdateend": [
+  setfacetdateend: [
     classes.s.solrquery
   ],
-  "setfacetdategap": [
+  setfacetdategap: [
     classes.s.solrquery
   ],
-  "setfacetdatehardend": [
+  setfacetdatehardend: [
     classes.s.solrquery
   ],
-  "setfacetdatestart": [
+  setfacetdatestart: [
     classes.s.solrquery
   ],
-  "setfacetenumcachemindefaultfrequency": [
+  setfacetenumcachemindefaultfrequency: [
     classes.s.solrquery
   ],
-  "setfacetlimit": [
+  setfacetlimit: [
     classes.s.solrquery
   ],
-  "setfacetmethod": [
+  setfacetmethod: [
     classes.s.solrquery
   ],
-  "setfacetmincount": [
+  setfacetmincount: [
     classes.s.solrquery
   ],
-  "setfacetmissing": [
+  setfacetmissing: [
     classes.s.solrquery
   ],
-  "setfacetoffset": [
+  setfacetoffset: [
     classes.s.solrquery
   ],
-  "setfacetprefix": [
+  setfacetprefix: [
     classes.s.solrquery
   ],
-  "setfacetsort": [
+  setfacetsort: [
     classes.s.solrquery
   ],
-  "setgroup": [
+  setgroup: [
     classes.s.solrquery
   ],
-  "setgroupcachepercent": [
+  setgroupcachepercent: [
     classes.s.solrquery
   ],
-  "setgroupfacet": [
+  setgroupfacet: [
     classes.s.solrquery
   ],
-  "setgroupformat": [
+  setgroupformat: [
     classes.s.solrquery
   ],
-  "setgrouplimit": [
+  setgrouplimit: [
     classes.s.solrquery
   ],
-  "setgroupmain": [
+  setgroupmain: [
     classes.s.solrquery
   ],
-  "setgroupngroups": [
+  setgroupngroups: [
     classes.s.solrquery
   ],
-  "setgroupoffset": [
+  setgroupoffset: [
     classes.s.solrquery
   ],
-  "setgrouptruncate": [
+  setgrouptruncate: [
     classes.s.solrquery
   ],
-  "sethighlight": [
+  sethighlight: [
     classes.s.solrquery
   ],
-  "sethighlightalternatefield": [
+  sethighlightalternatefield: [
     classes.s.solrquery
   ],
-  "sethighlightformatter": [
+  sethighlightformatter: [
     classes.s.solrquery
   ],
-  "sethighlightfragmenter": [
+  sethighlightfragmenter: [
     classes.s.solrquery
   ],
-  "sethighlightfragsize": [
+  sethighlightfragsize: [
     classes.s.solrquery
   ],
-  "sethighlighthighlightmultiterm": [
+  sethighlighthighlightmultiterm: [
     classes.s.solrquery
   ],
-  "sethighlightmaxalternatefieldlength": [
+  sethighlightmaxalternatefieldlength: [
     classes.s.solrquery
   ],
-  "sethighlightmaxanalyzedchars": [
+  sethighlightmaxanalyzedchars: [
     classes.s.solrquery
   ],
-  "sethighlightmergecontiguous": [
+  sethighlightmergecontiguous: [
     classes.s.solrquery
   ],
-  "sethighlightregexmaxanalyzedchars": [
+  sethighlightregexmaxanalyzedchars: [
     classes.s.solrquery
   ],
-  "sethighlightregexpattern": [
+  sethighlightregexpattern: [
     classes.s.solrquery
   ],
-  "sethighlightregexslop": [
+  sethighlightregexslop: [
     classes.s.solrquery
   ],
-  "sethighlightrequirefieldmatch": [
+  sethighlightrequirefieldmatch: [
     classes.s.solrquery
   ],
-  "sethighlightsimplepost": [
+  sethighlightsimplepost: [
     classes.s.solrquery
   ],
-  "sethighlightsimplepre": [
+  sethighlightsimplepre: [
     classes.s.solrquery
   ],
-  "sethighlightsnippets": [
+  sethighlightsnippets: [
     classes.s.solrquery
   ],
-  "sethighlightusephrasehighlighter": [
+  sethighlightusephrasehighlighter: [
     classes.s.solrquery
   ],
-  "setmlt": [
+  setmlt: [
     classes.s.solrquery
   ],
-  "setmltboost": [
+  setmltboost: [
     classes.s.solrquery
   ],
-  "setmltcount": [
+  setmltcount: [
     classes.s.solrquery
   ],
-  "setmltmaxnumqueryterms": [
+  setmltmaxnumqueryterms: [
     classes.s.solrquery
   ],
-  "setmltmaxnumtokens": [
+  setmltmaxnumtokens: [
     classes.s.solrquery
   ],
-  "setmltmaxwordlength": [
+  setmltmaxwordlength: [
     classes.s.solrquery
   ],
-  "setmltmindocfrequency": [
+  setmltmindocfrequency: [
     classes.s.solrquery
   ],
-  "setmltmintermfrequency": [
+  setmltmintermfrequency: [
     classes.s.solrquery
   ],
-  "setmltminwordlength": [
+  setmltminwordlength: [
     classes.s.solrquery
   ],
-  "setomitheader": [
+  setomitheader: [
     classes.s.solrquery
   ],
-  "setquery": [
+  setquery: [
     classes.s.solrquery
   ],
-  "setrows": [
+  setrows: [
     classes.s.solrquery
   ],
-  "setshowdebuginfo": [
+  setshowdebuginfo: [
     classes.s.solrquery
   ],
-  "setstart": [
+  setstart: [
     classes.s.solrquery
   ],
-  "setstats": [
+  setstats: [
     classes.s.solrquery
   ],
-  "setterms": [
+  setterms: [
     classes.s.solrquery
   ],
-  "settermsfield": [
+  settermsfield: [
     classes.s.solrquery
   ],
-  "settermsincludelowerbound": [
+  settermsincludelowerbound: [
     classes.s.solrquery
   ],
-  "settermsincludeupperbound": [
+  settermsincludeupperbound: [
     classes.s.solrquery
   ],
-  "settermslimit": [
+  settermslimit: [
     classes.s.solrquery
   ],
-  "settermslowerbound": [
+  settermslowerbound: [
     classes.s.solrquery
   ],
-  "settermsmaxcount": [
+  settermsmaxcount: [
     classes.s.solrquery
   ],
-  "settermsmincount": [
+  settermsmincount: [
     classes.s.solrquery
   ],
-  "settermsprefix": [
+  settermsprefix: [
     classes.s.solrquery
   ],
-  "settermsreturnraw": [
+  settermsreturnraw: [
     classes.s.solrquery
   ],
-  "settermssort": [
+  settermssort: [
     classes.s.solrquery
   ],
-  "settermsupperbound": [
+  settermsupperbound: [
     classes.s.solrquery
   ],
-  "settimeallowed": [
+  settimeallowed: [
     classes.s.solrquery
   ],
-  "setparsemode": [
+  setparsemode: [
     classes.s.solrresponse
   ],
-  "success": [
+  success: [
     classes.s.solrresponse
   ],
-  "setarrayresult": [
+  setarrayresult: [
     classes.s.sphinxclient
   ],
-  "setconnecttimeout": [
+  setconnecttimeout: [
     classes.s.sphinxclient
   ],
-  "setfieldweights": [
+  setfieldweights: [
     classes.s.sphinxclient
   ],
-  "setfilterfloatrange": [
+  setfilterfloatrange: [
     classes.s.sphinxclient
   ],
-  "setfilterrange": [
+  setfilterrange: [
     classes.s.sphinxclient
   ],
-  "setgeoanchor": [
+  setgeoanchor: [
     classes.s.sphinxclient
   ],
-  "setgroupby": [
+  setgroupby: [
     classes.s.sphinxclient
   ],
-  "setgroupdistinct": [
+  setgroupdistinct: [
     classes.s.sphinxclient
   ],
-  "setidrange": [
+  setidrange: [
     classes.s.sphinxclient
   ],
-  "setindexweights": [
+  setindexweights: [
     classes.s.sphinxclient
   ],
-  "setlimits": [
+  setlimits: [
     classes.s.sphinxclient
   ],
-  "setmatchmode": [
+  setmatchmode: [
     classes.s.sphinxclient
   ],
-  "setmaxquerytime": [
+  setmaxquerytime: [
     classes.s.sphinxclient
   ],
-  "setoverride": [
+  setoverride: [
     classes.s.sphinxclient
   ],
-  "setrankingmode": [
+  setrankingmode: [
     classes.s.sphinxclient
   ],
-  "setselect": [
+  setselect: [
     classes.s.sphinxclient
   ],
-  "setserver": [
+  setserver: [
     classes.s.sphinxclient
   ],
-  "setsortmode": [
+  setsortmode: [
     classes.s.sphinxclient
   ],
-  "setiteratormode": [
+  setiteratormode: [
     classes.s.spldoublylinkedlist,
     classes.s.splqueue,
     classes.s.splstack
   ],
-  "shift": [
+  shift: [
     classes.s.spldoublylinkedlist,
     classes.t.threaded
   ],
-  "setfileclass": [
+  setfileclass: [
     classes.s.splfileinfo
   ],
-  "setinfoclass": [
+  setinfoclass: [
     classes.s.splfileinfo
   ],
-  "setcsvcontrol": [
+  setcsvcontrol: [
     classes.s.splfileobject
   ],
-  "setmaxlinelen": [
+  setmaxlinelen: [
     classes.s.splfileobject
   ],
-  "setinfo": [
+  setinfo: [
     classes.s.splobjectstorage
   ],
-  "setextractflags": [
+  setextractflags: [
     classes.s.splpriorityqueue
   ],
-  "setallowedlocales": [
+  setallowedlocales: [
     classes.s.spoofchecker
   ],
-  "setchecks": [
+  setchecks: [
     classes.s.spoofchecker
   ],
-  "setreadtimeout": [
+  setreadtimeout: [
     classes.s.stomp
   ],
-  "stream_cast": [
+  stream_cast: [
     classes.s.streamwrapper
   ],
-  "stream_close": [
+  stream_close: [
     classes.s.streamwrapper
   ],
-  "stream_eof": [
+  stream_eof: [
     classes.s.streamwrapper
   ],
-  "stream_flush": [
+  stream_flush: [
     classes.s.streamwrapper
   ],
-  "stream_lock": [
+  stream_lock: [
     classes.s.streamwrapper
   ],
-  "stream_metadata": [
+  stream_metadata: [
     classes.s.streamwrapper
   ],
-  "stream_open": [
+  stream_open: [
     classes.s.streamwrapper
   ],
-  "stream_read": [
+  stream_read: [
     classes.s.streamwrapper
   ],
-  "stream_seek": [
+  stream_seek: [
     classes.s.streamwrapper
   ],
-  "stream_set_option": [
+  stream_set_option: [
     classes.s.streamwrapper
   ],
-  "stream_stat": [
+  stream_stat: [
     classes.s.streamwrapper
   ],
-  "stream_tell": [
+  stream_tell: [
     classes.s.streamwrapper
   ],
-  "stream_truncate": [
+  stream_truncate: [
     classes.s.streamwrapper
   ],
-  "stream_write": [
+  stream_write: [
     classes.s.streamwrapper
   ],
-  "setaction": [
+  setaction: [
     classes.s.swfbutton
   ],
-  "setdown": [
+  setdown: [
     classes.s.swfbutton
   ],
-  "sethit": [
+  sethit: [
     classes.s.swfbutton
   ],
-  "setmenu": [
+  setmenu: [
     classes.s.swfbutton
   ],
-  "setover": [
+  setover: [
     classes.s.swfbutton
   ],
-  "setup": [
+  setup: [
     classes.s.swfbutton
   ],
-  "scaleto": [
+  scaleto: [
     classes.s.swfdisplayitem,
     classes.s.swffill
   ],
-  "setdepth": [
+  setdepth: [
     classes.s.swfdisplayitem
   ],
-  "setmasklevel": [
+  setmasklevel: [
     classes.s.swfdisplayitem
   ],
-  "setname": [
+  setname: [
     classes.s.swfdisplayitem,
     classes.s.swftextfield
   ],
-  "setratio": [
+  setratio: [
     classes.s.swfdisplayitem
   ],
-  "skewxto": [
+  skewxto: [
     classes.s.swfdisplayitem,
     classes.s.swffill
   ],
-  "skewyto": [
+  skewyto: [
     classes.s.swfdisplayitem,
     classes.s.swffill
   ],
-  "setbackground": [
+  setbackground: [
     classes.s.swfmovie
   ],
-  "setdimension": [
+  setdimension: [
     classes.s.swfmovie,
     classes.s.swfvideostream
   ],
-  "setframes": [
+  setframes: [
     classes.s.swfmovie,
     classes.s.swfsprite
   ],
-  "setrate": [
+  setrate: [
     classes.s.swfmovie
   ],
-  "startsound": [
+  startsound: [
     classes.s.swfmovie,
     classes.s.swfsprite
   ],
-  "stopsound": [
+  stopsound: [
     classes.s.swfmovie,
     classes.s.swfsprite
   ],
-  "streammp3": [
+  streammp3: [
     classes.s.swfmovie
   ],
-  "setleftfill": [
+  setleftfill: [
     classes.s.swfshape
   ],
-  "setline": [
+  setline: [
     classes.s.swfshape
   ],
-  "setrightfill": [
+  setrightfill: [
     classes.s.swfshape
   ],
-  "setspacing": [
+  setspacing: [
     classes.s.swftext
   ],
-  "setbounds": [
+  setbounds: [
     classes.s.swftextfield
   ],
-  "setindentation": [
+  setindentation: [
     classes.s.swftextfield
   ],
-  "setleftmargin": [
+  setleftmargin: [
     classes.s.swftextfield
   ],
-  "setlinespacing": [
+  setlinespacing: [
     classes.s.swftextfield
   ],
-  "setmargins": [
+  setmargins: [
     classes.s.swftextfield
   ],
-  "setpadding": [
+  setpadding: [
     classes.s.swftextfield
   ],
-  "setrightmargin": [
+  setrightmargin: [
     classes.s.swftextfield
   ],
-  "stem": [
+  stem: [
     classes.s.swishresult
   ],
-  "seekresult": [
+  seekresult: [
     classes.s.swishresults
   ],
-  "setlimit": [
+  setlimit: [
     classes.s.swishsearch,
     classes.t.tokyotyrantquery
   ],
-  "setphrasedelimiter": [
+  setphrasedelimiter: [
     classes.s.swishsearch
   ],
-  "setsort": [
+  setsort: [
     classes.s.swishsearch
   ],
-  "setstructure": [
+  setstructure: [
     classes.s.swishsearch
   ],
-  "select": [
+  select: [
     classes.t.table
   ],
-  "synchronized": [
+  synchronized: [
     classes.t.threaded
   ],
-  "setmaster": [
+  setmaster: [
     classes.t.tokyotyrant
   ],
-  "sync": [
+  sync: [
     classes.t.tokyotyrant
   ],
-  "setorder": [
+  setorder: [
     classes.t.tokyotyrantquery
   ],
-  "setdestinationencoding": [
+  setdestinationencoding: [
     classes.u.uconverter
   ],
-  "setsourceencoding": [
+  setsourceencoding: [
     classes.u.uconverter
   ],
-  "setsubstchars": [
+  setsubstchars: [
     classes.u.uconverter
   ],
-  "setcompat": [
+  setcompat: [
     classes.v.varnishadmin
   ],
-  "sethost": [
+  sethost: [
     classes.v.varnishadmin
   ],
-  "setident": [
+  setident: [
     classes.v.varnishadmin
   ],
-  "setport": [
+  setport: [
     classes.v.varnishadmin
   ],
-  "setsecret": [
+  setsecret: [
     classes.v.varnishadmin
   ],
-  "stack": [
+  stack: [
     classes.w.worker
   ],
-  "setparserproperty": [
+  setparserproperty: [
     classes.x.xmlreader
   ],
-  "setrelaxngschema": [
+  setrelaxngschema: [
     classes.x.xmlreader
   ],
-  "setrelaxngschemasource": [
+  setrelaxngschemasource: [
     classes.x.xmlreader
   ],
-  "setschema": [
+  setschema: [
     classes.x.xmlreader
   ],
-  "setparameter": [
+  setparameter: [
     classes.x.xsltprocessor
   ],
-  "setprofiling": [
+  setprofiling: [
     classes.x.xsltprocessor
   ],
-  "setsecurityprefs": [
+  setsecurityprefs: [
     classes.x.xsltprocessor
   ],
-  "setappdirectory": [
+  setappdirectory: [
     classes.y.yaf_application
   ],
-  "setviewpath": [
+  setviewpath: [
     classes.y.yaf_controller_abstract
   ],
-  "setdefaultaction": [
+  setdefaultaction: [
     classes.y.yaf_dispatcher
   ],
-  "setdefaultcontroller": [
+  setdefaultcontroller: [
     classes.y.yaf_dispatcher
   ],
-  "setdefaultmodule": [
+  setdefaultmodule: [
     classes.y.yaf_dispatcher
   ],
-  "seterrorhandler": [
+  seterrorhandler: [
     classes.y.yaf_dispatcher
   ],
-  "setrequest": [
+  setrequest: [
     classes.y.yaf_dispatcher
   ],
-  "setview": [
+  setview: [
     classes.y.yaf_dispatcher
   ],
-  "setlibrarypath": [
+  setlibrarypath: [
     classes.y.yaf_loader
   ],
-  "setactionname": [
+  setactionname: [
     classes.y.yaf_request_abstract
   ],
-  "setbaseuri": [
+  setbaseuri: [
     classes.y.yaf_request_abstract
   ],
-  "setcontrollername": [
+  setcontrollername: [
     classes.y.yaf_request_abstract
   ],
-  "setdispatched": [
+  setdispatched: [
     classes.y.yaf_request_abstract
   ],
-  "setmodulename": [
+  setmodulename: [
     classes.y.yaf_request_abstract
   ],
-  "setrequesturi": [
+  setrequesturi: [
     classes.y.yaf_request_abstract
   ],
-  "setrouted": [
+  setrouted: [
     classes.y.yaf_request_abstract
   ],
-  "setallheaders": [
+  setallheaders: [
     classes.y.yaf_response_abstract
   ],
-  "setbody": [
+  setbody: [
     classes.y.yaf_response_abstract
   ],
-  "setheader": [
+  setheader: [
     classes.y.yaf_response_abstract
   ],
-  "setredirect": [
+  setredirect: [
     classes.y.yaf_response_abstract
   ],
-  "setscriptpath": [
+  setscriptpath: [
     classes.y.yaf_view_interface,
     classes.y.yaf_view_simple
   ],
-  "setopt": [
+  setopt: [
     classes.y.yar_client,
     classes.z.zmqcontext
   ],
-  "setarchivecomment": [
+  setarchivecomment: [
     classes.z.ziparchive
   ],
-  "setcommentindex": [
+  setcommentindex: [
     classes.z.ziparchive
   ],
-  "setcommentname": [
+  setcommentname: [
     classes.z.ziparchive
   ],
-  "setcompressionindex": [
+  setcompressionindex: [
     classes.z.ziparchive
   ],
-  "setcompressionname": [
+  setcompressionname: [
     classes.z.ziparchive
   ],
-  "setencryptionindex": [
+  setencryptionindex: [
     classes.z.ziparchive
   ],
-  "setencryptionname": [
+  setencryptionname: [
     classes.z.ziparchive
   ],
-  "setexternalattributesindex": [
+  setexternalattributesindex: [
     classes.z.ziparchive
   ],
-  "setexternalattributesname": [
+  setexternalattributesname: [
     classes.z.ziparchive
   ],
-  "statindex": [
+  statindex: [
     classes.z.ziparchive
   ],
-  "statname": [
+  statname: [
     classes.z.ziparchive
   ],
-  "setidlecallback": [
+  setidlecallback: [
     classes.z.zmqdevice
   ],
-  "setidletimeout": [
+  setidletimeout: [
     classes.z.zmqdevice
   ],
-  "settimercallback": [
+  settimercallback: [
     classes.z.zmqdevice
   ],
-  "settimertimeout": [
+  settimertimeout: [
     classes.z.zmqdevice
   ],
-  "sendmulti": [
+  sendmulti: [
     classes.z.zmqsocket
   ],
-  "setsockopt": [
+  setsockopt: [
     classes.z.zmqsocket
   ],
-  "setacl": [
+  setacl: [
     classes.z.zookeeper
   ],
-  "setdebuglevel": [
+  setdebuglevel: [
     classes.z.zookeeper
   ],
-  "setdeterministicconnorder": [
+  setdeterministicconnorder: [
     classes.z.zookeeper
   ],
-  "setlogstream": [
+  setlogstream: [
     classes.z.zookeeper
   ],
-  "setwatcher": [
+  setwatcher: [
     classes.z.zookeeper
   ]
 };

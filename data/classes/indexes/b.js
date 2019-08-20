@@ -1,5 +1,5 @@
 classes.__indexes__.b = {
-  "bind": [
+  bind: [
     classes.c.closure,
     classes.c.collectionfind,
     classes.c.collectionmodify,
@@ -12,128 +12,128 @@ classes.__indexes__.b = {
     classes.t.tableupdate,
     classes.z.zmqsocket
   ],
-  "bindto": [
+  bindto: [
     classes.c.closure
   ],
-  "broadcast": [
+  broadcast: [
     classes.c.cond
   ],
-  "bumpvalue": [
+  bumpvalue: [
     classes.c.counter
   ],
-  "backend": [
+  backend: [
     classes.e.ev,
     classes.e.evloop
   ],
-  "buffer": [
+  buffer: [
     classes.f.finfo
   ],
-  "blurimage": [
+  blurimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "borderimage": [
+  borderimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "bezier": [
+  bezier: [
     classes.g.gmagickdraw,
     classes.i.imagickdraw
   ],
-  "begintext": [
+  begintext: [
     classes.h.harupage
   ],
-  "blackthresholdimage": [
+  blackthresholdimage: [
     classes.i.imagick
   ],
-  "blueshiftimage": [
+  blueshiftimage: [
     classes.i.imagick
   ],
-  "brightnesscontrastimage": [
+  brightnesscontrastimage: [
     classes.i.imagick
   ],
-  "before": [
+  before: [
     classes.i.intlcalendar
   ],
-  "bycount": [
+  bycount: [
     classes.j.judy
   ],
-  "batchinsert": [
+  batchinsert: [
     classes.m.mongocollection
   ],
-  "batchsize": [
+  batchsize: [
     classes.m.mongocommandcursor,
     classes.m.mongocursor,
     classes.m.mongocursorinterface
   ],
-  "begin_transaction": [
+  begin_transaction: [
     classes.m.mysqli
   ],
-  "bind_param": [
+  bind_param: [
     classes.m.mysqli_stmt
   ],
-  "bind_result": [
+  bind_result: [
     classes.m.mysqli_stmt
   ],
-  "begintransaction": [
+  begintransaction: [
     classes.p.pdo
   ],
-  "bindcolumn": [
+  bindcolumn: [
     classes.p.pdostatement
   ],
-  "bindparam": [
+  bindparam: [
     classes.p.pdostatement,
     classes.s.sqlite3stmt
   ],
-  "bindvalue": [
+  bindvalue: [
     classes.p.pdostatement,
     classes.s.sqlite3stmt
   ],
-  "buildfromdirectory": [
+  buildfromdirectory: [
     classes.p.phar,
     classes.p.phardata
   ],
-  "buildfromiterator": [
+  buildfromiterator: [
     classes.p.phar,
     classes.p.phardata
   ],
-  "beginchildren": [
+  beginchildren: [
     classes.r.recursiveiteratoriterator,
     classes.r.recursivetreeiterator
   ],
-  "beginiteration": [
+  beginiteration: [
     classes.r.recursiveiteratoriterator,
     classes.r.recursivetreeiterator
   ],
-  "body": [
+  body: [
     classes.s.sammessage,
     classes.t.tidy
   ],
-  "beginlogging": [
+  beginlogging: [
     classes.s.sdo_das_changesummary
   ],
-  "buildexcerpts": [
+  buildexcerpts: [
     classes.s.sphinxclient
   ],
-  "buildkeywords": [
+  buildkeywords: [
     classes.s.sphinxclient
   ],
-  "bottom": [
+  bottom: [
     classes.s.spldoublylinkedlist
   ],
-  "busytimeout": [
+  busytimeout: [
     classes.s.sqlite3
   ],
-  "begin": [
+  begin: [
     classes.s.stomp
   ],
-  "ban": [
+  ban: [
     classes.v.varnishadmin
   ],
-  "banurl": [
+  banurl: [
     classes.v.varnishadmin
   ],
-  "bootstrap": [
+  bootstrap: [
     classes.y.yaf_application
   ]
 };

@@ -1,5 +1,5 @@
 classes.__indexes__.v = {
-  "valid": [
+  valid: [
     classes.a.apciterator,
     classes.a.apcuiterator,
     classes.a.appenditerator,
@@ -36,39 +36,39 @@ classes.__indexes__.v = {
     classes.y.yaf_config_simple,
     classes.y.yaf_session
   ],
-  "version": [
+  version: [
     classes.c.cairo,
     classes.s.sqlite3
   ],
-  "versionstring": [
+  versionstring: [
     classes.c.cairo
   ],
-  "versiontostring": [
+  versiontostring: [
     classes.c.cairosvgsurface
   ],
-  "validate": [
+  validate: [
     classes.d.domdocument,
     classes.m.mongocollection
   ],
-  "verify": [
+  verify: [
     classes.e.ev,
     classes.e.evloop
   ],
-  "value": [
+  value: [
     classes.h.hw_api_attribute,
     classes.h.hw_api_object
   ],
-  "values": [
+  values: [
     classes.h.hw_api_attribute,
     classes.t.tableinsert
   ],
-  "vignetteimage": [
+  vignetteimage: [
     classes.i.imagick
   ],
-  "validateid": [
+  validateid: [
     classes.s.sessionupdatetimestamphandlerinterface
   ],
-  "vanish": [
+  vanish: [
     classes.t.tokyotyrant
   ]
 };

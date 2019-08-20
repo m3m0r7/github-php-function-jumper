@@ -1,47 +1,47 @@
 classes.__indexes__.a = {
-  "append": [
+  append: [
     classes.a.appenditerator,
     classes.a.arrayiterator,
     classes.a.arrayobject,
     classes.m.memcached
   ],
-  "asort": [
+  asort: [
     classes.a.arrayiterator,
     classes.a.arrayobject,
     classes.c.collator
   ],
-  "availablefonts": [
+  availablefonts: [
     classes.c.cairo
   ],
-  "availablesurfaces": [
+  availablesurfaces: [
     classes.c.cairo
   ],
-  "appendpath": [
+  appendpath: [
     classes.c.cairocontext
   ],
-  "arc": [
+  arc: [
     classes.c.cairocontext,
     classes.g.gmagickdraw,
     classes.h.harupage,
     classes.i.imagickdraw
   ],
-  "arcnegative": [
+  arcnegative: [
     classes.c.cairocontext
   ],
-  "addcolorstoprgb": [
+  addcolorstoprgb: [
     classes.c.cairogradientpattern
   ],
-  "addcolorstoprgba": [
+  addcolorstoprgba: [
     classes.c.cairogradientpattern
   ],
-  "accept": [
+  accept: [
     classes.c.callbackfilteriterator,
     classes.e.eventhttp,
     classes.f.filteriterator,
     classes.p.parentiterator,
     classes.r.regexiterator
   ],
-  "add": [
+  add: [
     classes.c.collection,
     classes.d.datetime,
     classes.d.datetimeimmutable,
@@ -64,466 +64,466 @@ classes.__indexes__.a = {
     classes.z.zmqpoll,
     classes.z.zookeeperconfig
   ],
-  "addorreplaceone": [
+  addorreplaceone: [
     classes.c.collection
   ],
-  "arrayappend": [
+  arrayappend: [
     classes.c.collectionmodify
   ],
-  "arrayinsert": [
+  arrayinsert: [
     classes.c.collectionmodify
   ],
-  "appenddata": [
+  appenddata: [
     classes.d.domcharacterdata
   ],
-  "appendxml": [
+  appendxml: [
     classes.d.domdocumentfragment
   ],
-  "appendchild": [
+  appendchild: [
     classes.d.domnode
   ],
-  "addsignal": [
+  addsignal: [
     classes.e.event
   ],
-  "addtimer": [
+  addtimer: [
     classes.e.event
   ],
-  "addbuffer": [
+  addbuffer: [
     classes.e.eventbuffer
   ],
-  "appendfrom": [
+  appendfrom: [
     classes.e.eventbuffer
   ],
-  "avoidmethod": [
+  avoidmethod: [
     classes.e.eventconfig
   ],
-  "addnameserverip": [
+  addnameserverip: [
     classes.e.eventdnsbase
   ],
-  "addsearch": [
+  addsearch: [
     classes.e.eventdnsbase
   ],
-  "addserveralias": [
+  addserveralias: [
     classes.e.eventhttp
   ],
-  "addheader": [
+  addheader: [
     classes.e.eventhttprequest
   ],
-  "again": [
+  again: [
     classes.e.evperiodic,
     classes.e.evtimer
   ],
-  "at": [
+  at: [
     classes.e.evperiodic
   ],
-  "attr": [
+  attr: [
     classes.e.evstat
   ],
-  "addr": [
+  addr: [
     classes.f.ffi
   ],
-  "alignof": [
+  alignof: [
     classes.f.ffi
   ],
-  "arraytype": [
+  arraytype: [
     classes.f.ffi
   ],
-  "addoptions": [
+  addoptions: [
     classes.g.gearmanclient,
     classes.g.gearmanworker
   ],
-  "addserver": [
+  addserver: [
     classes.g.gearmanclient,
     classes.g.gearmanworker,
     classes.m.memcache,
     classes.m.memcached
   ],
-  "addservers": [
+  addservers: [
     classes.g.gearmanclient,
     classes.g.gearmanworker,
     classes.m.memcached
   ],
-  "addtask": [
+  addtask: [
     classes.g.gearmanclient
   ],
-  "addtaskbackground": [
+  addtaskbackground: [
     classes.g.gearmanclient
   ],
-  "addtaskhigh": [
+  addtaskhigh: [
     classes.g.gearmanclient
   ],
-  "addtaskhighbackground": [
+  addtaskhighbackground: [
     classes.g.gearmanclient
   ],
-  "addtasklow": [
+  addtasklow: [
     classes.g.gearmanclient
   ],
-  "addtasklowbackground": [
+  addtasklowbackground: [
     classes.g.gearmanclient
   ],
-  "addtaskstatus": [
+  addtaskstatus: [
     classes.g.gearmanclient
   ],
-  "addfunction": [
+  addfunction: [
     classes.g.gearmanworker,
     classes.s.soapserver
   ],
-  "addimage": [
+  addimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "addnoiseimage": [
+  addnoiseimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "annotateimage": [
+  annotateimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "annotate": [
+  annotate: [
     classes.g.gmagickdraw
   ],
-  "addpage": [
+  addpage: [
     classes.h.harudoc
   ],
-  "addpagelabel": [
+  addpagelabel: [
     classes.h.harudoc
   ],
-  "assign": [
+  assign: [
     classes.h.hw_api_object,
     classes.l.lua,
     classes.y.yaf_view_interface,
     classes.y.yaf_view_simple
   ],
-  "attreditable": [
+  attreditable: [
     classes.h.hw_api_object
   ],
-  "adaptiveblurimage": [
+  adaptiveblurimage: [
     classes.i.imagick
   ],
-  "adaptiveresizeimage": [
+  adaptiveresizeimage: [
     classes.i.imagick
   ],
-  "adaptivesharpenimage": [
+  adaptivesharpenimage: [
     classes.i.imagick
   ],
-  "adaptivethresholdimage": [
+  adaptivethresholdimage: [
     classes.i.imagick
   ],
-  "affinetransformimage": [
+  affinetransformimage: [
     classes.i.imagick
   ],
-  "animateimages": [
+  animateimages: [
     classes.i.imagick
   ],
-  "appendimages": [
+  appendimages: [
     classes.i.imagick
   ],
-  "autolevelimage": [
+  autolevelimage: [
     classes.i.imagick
   ],
-  "averageimages": [
+  averageimages: [
     classes.i.imagick
   ],
-  "affine": [
+  affine: [
     classes.i.imagickdraw
   ],
-  "annotation": [
+  annotation: [
     classes.i.imagickdraw
   ],
-  "addkernel": [
+  addkernel: [
     classes.i.imagickkernel
   ],
-  "addunitykernel": [
+  addunitykernel: [
     classes.i.imagickkernel
   ],
-  "after": [
+  after: [
     classes.i.intlcalendar
   ],
-  "addframe": [
+  addframe: [
     classes.k.ktaglib_id3v2_tag
   ],
-  "acceptfromhttp": [
+  acceptfromhttp: [
     classes.l.locale
   ],
-  "addbykey": [
+  addbykey: [
     classes.m.memcached
   ],
-  "appendbykey": [
+  appendbykey: [
     classes.m.memcached
   ],
-  "aggregate": [
+  aggregate: [
     classes.m.mongocollection
   ],
-  "aggregatecursor": [
+  aggregatecursor: [
     classes.m.mongocollection
   ],
-  "addoption": [
+  addoption: [
     classes.m.mongocursor
   ],
-  "awaitdata": [
+  awaitdata: [
     classes.m.mongocursor
   ],
-  "authenticate": [
+  authenticate: [
     classes.m.mongodb
   ],
-  "attachiterator": [
+  attachiterator: [
     classes.m.multipleiterator
   ],
-  "autocommit": [
+  autocommit: [
     classes.m.mysqli
   ],
-  "attr_get": [
+  attr_get: [
     classes.m.mysqli_stmt
   ],
-  "attr_set": [
+  attr_set: [
     classes.m.mysqli_stmt
   ],
-  "addrequiredparameter": [
+  addrequiredparameter: [
     classes.o.oauthprovider
   ],
-  "addemptydir": [
+  addemptydir: [
     classes.p.phar,
     classes.p.phardata,
     classes.z.ziparchive
   ],
-  "addfile": [
+  addfile: [
     classes.p.phar,
     classes.p.phardata,
     classes.z.ziparchive
   ],
-  "addfromstring": [
+  addfromstring: [
     classes.p.phar,
     classes.p.phardata,
     classes.z.ziparchive
   ],
-  "apiversion": [
+  apiversion: [
     classes.p.phar
   ],
-  "allowsnull": [
+  allowsnull: [
     classes.r.reflectionparameter,
     classes.r.reflectiontype
   ],
-  "addarchive": [
+  addarchive: [
     classes.r.rrdcreator
   ],
-  "adddatasource": [
+  adddatasource: [
     classes.r.rrdcreator
   ],
-  "addpropertytotype": [
+  addpropertytotype: [
     classes.s.sdo_das_datafactory
   ],
-  "addtype": [
+  addtype: [
     classes.s.sdo_das_datafactory
   ],
-  "applychanges": [
+  applychanges: [
     classes.s.sdo_das_relational
   ],
-  "addtypes": [
+  addtypes: [
     classes.s.sdo_das_xml
   ],
-  "alert": [
+  alert: [
     classes.s.seaslog
   ],
-  "analyzercount": [
+  analyzercount: [
     classes.s.seaslog
   ],
-  "analyzerdetail": [
+  analyzerdetail: [
     classes.s.seaslog
   ],
-  "addattribute": [
+  addattribute: [
     classes.s.simplexmlelement
   ],
-  "addchild": [
+  addchild: [
     classes.s.simplexmlelement
   ],
-  "asxml": [
+  asxml: [
     classes.s.simplexmlelement
   ],
-  "attributes": [
+  attributes: [
     classes.s.simplexmlelement
   ],
-  "addsoapheader": [
+  addsoapheader: [
     classes.s.soapserver
   ],
-  "adddocument": [
+  adddocument: [
     classes.s.solrclient
   ],
-  "adddocuments": [
+  adddocuments: [
     classes.s.solrclient
   ],
-  "addbigramphrasefield": [
+  addbigramphrasefield: [
     classes.s.solrdismaxquery
   ],
-  "addboostquery": [
+  addboostquery: [
     classes.s.solrdismaxquery
   ],
-  "addphrasefield": [
+  addphrasefield: [
     classes.s.solrdismaxquery
   ],
-  "addqueryfield": [
+  addqueryfield: [
     classes.s.solrdismaxquery
   ],
-  "addtrigramphrasefield": [
+  addtrigramphrasefield: [
     classes.s.solrdismaxquery
   ],
-  "adduserfield": [
+  adduserfield: [
     classes.s.solrdismaxquery
   ],
-  "addfield": [
+  addfield: [
     classes.s.solrdocument,
     classes.s.solrinputdocument,
     classes.s.solrquery
   ],
-  "addchilddocument": [
+  addchilddocument: [
     classes.s.solrinputdocument
   ],
-  "addchilddocuments": [
+  addchilddocuments: [
     classes.s.solrinputdocument
   ],
-  "addparam": [
+  addparam: [
     classes.s.solrparams
   ],
-  "addexpandfilterquery": [
+  addexpandfilterquery: [
     classes.s.solrquery
   ],
-  "addexpandsortfield": [
+  addexpandsortfield: [
     classes.s.solrquery
   ],
-  "addfacetdatefield": [
+  addfacetdatefield: [
     classes.s.solrquery
   ],
-  "addfacetdateother": [
+  addfacetdateother: [
     classes.s.solrquery
   ],
-  "addfacetfield": [
+  addfacetfield: [
     classes.s.solrquery
   ],
-  "addfacetquery": [
+  addfacetquery: [
     classes.s.solrquery
   ],
-  "addfilterquery": [
+  addfilterquery: [
     classes.s.solrquery
   ],
-  "addgroupfield": [
+  addgroupfield: [
     classes.s.solrquery
   ],
-  "addgroupfunction": [
+  addgroupfunction: [
     classes.s.solrquery
   ],
-  "addgroupquery": [
+  addgroupquery: [
     classes.s.solrquery
   ],
-  "addgroupsortfield": [
+  addgroupsortfield: [
     classes.s.solrquery
   ],
-  "addhighlightfield": [
+  addhighlightfield: [
     classes.s.solrquery
   ],
-  "addmltfield": [
+  addmltfield: [
     classes.s.solrquery
   ],
-  "addmltqueryfield": [
+  addmltqueryfield: [
     classes.s.solrquery
   ],
-  "addsortfield": [
+  addsortfield: [
     classes.s.solrquery
   ],
-  "addstatsfacet": [
+  addstatsfacet: [
     classes.s.solrquery
   ],
-  "addstatsfield": [
+  addstatsfield: [
     classes.s.solrquery
   ],
-  "addquery": [
+  addquery: [
     classes.s.sphinxclient
   ],
-  "addall": [
+  addall: [
     classes.s.splobjectstorage
   ],
-  "attach": [
+  attach: [
     classes.s.splobjectstorage,
     classes.s.splsubject
   ],
-  "areconfusable": [
+  areconfusable: [
     classes.s.spoofchecker
   ],
-  "abort": [
+  abort: [
     classes.s.stomp
   ],
-  "ack": [
+  ack: [
     classes.s.stomp
   ],
-  "addaction": [
+  addaction: [
     classes.s.swfbutton,
     classes.s.swfdisplayitem
   ],
-  "addasound": [
+  addasound: [
     classes.s.swfbutton
   ],
-  "addshape": [
+  addshape: [
     classes.s.swfbutton
   ],
-  "addcolor": [
+  addcolor: [
     classes.s.swfdisplayitem
   ],
-  "addchars": [
+  addchars: [
     classes.s.swffontchar,
     classes.s.swftextfield
   ],
-  "addutf8chars": [
+  addutf8chars: [
     classes.s.swffontchar
   ],
-  "addentry": [
+  addentry: [
     classes.s.swfgradient
   ],
-  "addexport": [
+  addexport: [
     classes.s.swfmovie
   ],
-  "addfont": [
+  addfont: [
     classes.s.swfmovie
   ],
-  "addfill": [
+  addfill: [
     classes.s.swfshape
   ],
-  "addstring": [
+  addstring: [
     classes.s.swftext,
     classes.s.swftextfield
   ],
-  "addutf8string": [
+  addutf8string: [
     classes.s.swftext
   ],
-  "align": [
+  align: [
     classes.s.swftextfield
   ],
-  "addcond": [
+  addcond: [
     classes.t.tokyotyrantquery
   ],
-  "auth": [
+  auth: [
     classes.v.varnishadmin
   ],
-  "acquire": [
+  acquire: [
     classes.w.weakref
   ],
-  "app": [
+  app: [
     classes.y.yaf_application
   ],
-  "autorender": [
+  autorender: [
     classes.y.yaf_dispatcher
   ],
-  "autoload": [
+  autoload: [
     classes.y.yaf_loader
   ],
-  "appendbody": [
+  appendbody: [
     classes.y.yaf_response_abstract
   ],
-  "addconfig": [
+  addconfig: [
     classes.y.yaf_router
   ],
-  "addroute": [
+  addroute: [
     classes.y.yaf_router
   ],
-  "assemble": [
+  assemble: [
     classes.y.yaf_route_interface,
     classes.y.yaf_route_map,
     classes.y.yaf_route_regex,
@@ -532,16 +532,16 @@ classes.__indexes__.a = {
     classes.y.yaf_route_static,
     classes.y.yaf_route_supervar
   ],
-  "assignref": [
+  assignref: [
     classes.y.yaf_view_simple
   ],
-  "addglob": [
+  addglob: [
     classes.z.ziparchive
   ],
-  "addpattern": [
+  addpattern: [
     classes.z.ziparchive
   ],
-  "addauth": [
+  addauth: [
     classes.z.zookeeper
   ]
 };

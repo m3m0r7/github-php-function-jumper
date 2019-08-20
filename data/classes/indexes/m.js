@@ -1,171 +1,171 @@
 classes.__indexes__.m = {
-  "mask": [
+  mask: [
     classes.c.cairocontext
   ],
-  "masksurface": [
+  masksurface: [
     classes.c.cairocontext
   ],
-  "moveto": [
+  moveto: [
     classes.c.cairocontext,
     classes.h.harupage,
     classes.s.swfdisplayitem,
     classes.s.swffill,
     classes.s.swftext
   ],
-  "merge": [
+  merge: [
     classes.c.cairofontoptions,
     classes.s.solrdocument,
     classes.s.solrinputdocument,
     classes.t.threaded
   ],
-  "multiply": [
+  multiply: [
     classes.c.cairomatrix
   ],
-  "markdirty": [
+  markdirty: [
     classes.c.cairosurface
   ],
-  "markdirtyrectangle": [
+  markdirtyrectangle: [
     classes.c.cairosurface
   ],
-  "modify": [
+  modify: [
     classes.c.collection,
     classes.d.datetime,
     classes.d.datetimeimmutable
   ],
-  "makerequest": [
+  makerequest: [
     classes.e.eventhttpconnection
   ],
-  "memcmp": [
+  memcmp: [
     classes.f.ffi
   ],
-  "memcpy": [
+  memcpy: [
     classes.f.ffi
   ],
-  "memset": [
+  memset: [
     classes.f.ffi
   ],
-  "magnifyimage": [
+  magnifyimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "mapimage": [
+  mapimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "medianfilterimage": [
+  medianfilterimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "minifyimage": [
+  minifyimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "modulateimage": [
+  modulateimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "motionblurimage": [
+  motionblurimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "measuretext": [
+  measuretext: [
     classes.h.harufont,
     classes.h.harupage
   ],
-  "movetextpos": [
+  movetextpos: [
     classes.h.harupage
   ],
-  "movetonextline": [
+  movetonextline: [
     classes.h.harupage
   ],
-  "move": [
+  move: [
     classes.h.hw_api,
     classes.s.sdo_sequence,
     classes.s.swfdisplayitem
   ],
-  "mimetype": [
+  mimetype: [
     classes.h.hw_api_content
   ],
-  "mattefloodfillimage": [
+  mattefloodfillimage: [
     classes.i.imagick
   ],
-  "mergeimagelayers": [
+  mergeimagelayers: [
     classes.i.imagick
   ],
-  "montageimage": [
+  montageimage: [
     classes.i.imagick
   ],
-  "morphimages": [
+  morphimages: [
     classes.i.imagick
   ],
-  "morphology": [
+  morphology: [
     classes.i.imagick
   ],
-  "mosaicimages": [
+  mosaicimages: [
     classes.i.imagick
   ],
-  "matte": [
+  matte: [
     classes.i.imagickdraw
   ],
-  "memoryusage": [
+  memoryusage: [
     classes.j.judy
   ],
-  "maxtimems": [
+  maxtimems: [
     classes.m.mongocursor
   ],
-  "more_results": [
+  more_results: [
     classes.m.mysqli,
     classes.m.mysqli_stmt
   ],
-  "multi_query": [
+  multi_query: [
     classes.m.mysqli
   ],
-  "moreresults": [
+  moreresults: [
     classes.m.mysqlnduhconnection
   ],
-  "mapphar": [
+  mapphar: [
     classes.p.phar
   ],
-  "mount": [
+  mount: [
     classes.p.phar
   ],
-  "mungserver": [
+  mungserver: [
     classes.p.phar
   ],
-  "mkdir": [
+  mkdir: [
     classes.s.streamwrapper
   ],
-  "multcolor": [
+  multcolor: [
     classes.s.swfdisplayitem
   ],
-  "movepen": [
+  movepen: [
     classes.s.swfshape
   ],
-  "movepento": [
+  movepento: [
     classes.s.swfshape
   ],
-  "metasearch": [
+  metasearch: [
     classes.t.tokyotyrantquery
   ],
-  "movetoattribute": [
+  movetoattribute: [
     classes.x.xmlreader
   ],
-  "movetoattributeno": [
+  movetoattributeno: [
     classes.x.xmlreader
   ],
-  "movetoattributens": [
+  movetoattributens: [
     classes.x.xmlreader
   ],
-  "movetoelement": [
+  movetoelement: [
     classes.x.xmlreader
   ],
-  "movetofirstattribute": [
+  movetofirstattribute: [
     classes.x.xmlreader
   ],
-  "movetonextattribute": [
+  movetonextattribute: [
     classes.x.xmlreader
   ],
-  "match": [
+  match: [
     classes.y.yaf_route_static
   ]
 };

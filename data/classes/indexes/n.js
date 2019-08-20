@@ -1,5 +1,5 @@
 classes.__indexes__.n = {
-  "next": [
+  next: [
     classes.a.apciterator,
     classes.a.apcuiterator,
     classes.a.appenditerator,
@@ -42,111 +42,111 @@ classes.__indexes__.n = {
     classes.y.yaf_config_simple,
     classes.y.yaf_session
   ],
-  "natcasesort": [
+  natcasesort: [
     classes.a.arrayiterator,
     classes.a.arrayobject
   ],
-  "natsort": [
+  natsort: [
     classes.a.arrayiterator,
     classes.a.arrayobject
   ],
-  "newpath": [
+  newpath: [
     classes.c.cairocontext
   ],
-  "newsubpath": [
+  newsubpath: [
     classes.c.cairocontext
   ],
-  "normalizedocument": [
+  normalizedocument: [
     classes.d.domdocument
   ],
-  "normalize": [
+  normalize: [
     classes.d.domnode,
     classes.n.normalizer
   ],
-  "now": [
+  now: [
     classes.e.ev,
     classes.e.evloop
   ],
-  "nowupdate": [
+  nowupdate: [
     classes.e.ev,
     classes.e.evloop
   ],
-  "new": [
+  new: [
     classes.f.ffi
   ],
-  "newimage": [
+  newimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "nextimage": [
+  nextimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "normalizeimage": [
+  normalizeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "negateimage": [
+  negateimage: [
     classes.i.imagick
   ],
-  "newpseudoimage": [
+  newpseudoimage: [
     classes.i.imagick
   ],
-  "newpixeliterator": [
+  newpixeliterator: [
     classes.i.imagickpixeliterator
   ],
-  "newpixelregioniterator": [
+  newpixelregioniterator: [
     classes.i.imagickpixeliterator
   ],
-  "nextempty": [
+  nextempty: [
     classes.j.judy
   ],
-  "next_result": [
+  next_result: [
     classes.m.mysqli,
     classes.m.mysqli_stmt
   ],
-  "nextresult": [
+  nextresult: [
     classes.m.mysqlnduhconnection,
     classes.s.sqlstatementresult,
     classes.s.swishresults
   ],
-  "nextrowset": [
+  nextrowset: [
     classes.p.pdostatement
   ],
-  "nextelement": [
+  nextelement: [
     classes.r.recursiveiteratoriterator,
     classes.r.recursivetreeiterator
   ],
-  "newinstance": [
+  newinstance: [
     classes.r.reflectionclass
   ],
-  "newinstanceargs": [
+  newinstanceargs: [
     classes.r.reflectionclass
   ],
-  "newinstancewithoutconstructor": [
+  newinstancewithoutconstructor: [
     classes.r.reflectionclass
   ],
-  "notice": [
+  notice: [
     classes.s.seaslog
   ],
-  "notify": [
+  notify: [
     classes.s.splsubject,
     classes.t.threaded
   ],
-  "numcolumns": [
+  numcolumns: [
     classes.s.sqlite3result
   ],
-  "nextframe": [
+  nextframe: [
     classes.s.swfmovie,
     classes.s.swfsprite
   ],
-  "nomultiple": [
+  nomultiple: [
     classes.s.swfsoundinstance
   ],
-  "notifyone": [
+  notifyone: [
     classes.t.threaded
   ],
-  "num": [
+  num: [
     classes.t.tokyotyrant
   ]
 };

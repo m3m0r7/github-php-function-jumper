@@ -13,13 +13,9 @@ const beatifyClassSignature = (info) => {
 
   if (info.details.spec.isPrivate) {
     descriptor.push('private');
-  }
-
-  if (info.details.spec.isProtected) {
-    descriptor.push('public');
-  }
-
-  if (info.details.spec.isPublic) {
+  } else if (info.details.spec.isProtected) {
+    descriptor.push('protected');
+  } else {
     descriptor.push('public');
   }
 

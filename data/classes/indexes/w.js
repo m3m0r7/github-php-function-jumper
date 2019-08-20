@@ -1,14 +1,14 @@
 classes.__indexes__.w = {
-  "writetopng": [
+  writetopng: [
     classes.c.cairosurface
   ],
-  "wait": [
+  wait: [
     classes.c.cond,
     classes.g.gearmanworker,
     classes.s.syncevent,
     classes.t.threaded
   ],
-  "write": [
+  write: [
     classes.e.eventbuffer,
     classes.e.eventbufferevent,
     classes.g.gmagick,
@@ -18,57 +18,57 @@ classes.__indexes__.w = {
     classes.s.sessionhandlerinterface,
     classes.s.syncsharedmemory
   ],
-  "writebuffer": [
+  writebuffer: [
     classes.e.eventbufferevent
   ],
-  "warning": [
+  warning: [
     classes.g.gearmanjob,
     classes.s.seaslog
   ],
-  "workload": [
+  workload: [
     classes.g.gearmanjob
   ],
-  "workloadsize": [
+  workloadsize: [
     classes.g.gearmanjob
   ],
-  "work": [
+  work: [
     classes.g.gearmanworker
   ],
-  "writeimage": [
+  writeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "waveimage": [
+  waveimage: [
     classes.i.imagick
   ],
-  "whitethresholdimage": [
+  whitethresholdimage: [
     classes.i.imagick
   ],
-  "writeimagefile": [
+  writeimagefile: [
     classes.i.imagick
   ],
-  "writeimages": [
+  writeimages: [
     classes.i.imagick
   ],
-  "writeimagesfile": [
+  writeimagesfile: [
     classes.i.imagick
   ],
-  "webphar": [
+  webphar: [
     classes.p.phar
   ],
-  "walk": [
+  walk: [
     classes.s.snmp
   ],
-  "writeexports": [
+  writeexports: [
     classes.s.swfmovie
   ],
-  "writelock": [
+  writelock: [
     classes.s.syncreaderwriter
   ],
-  "writeunlock": [
+  writeunlock: [
     classes.s.syncreaderwriter
   ],
-  "where": [
+  where: [
     classes.t.tabledelete,
     classes.t.tableselect,
     classes.t.tableupdate

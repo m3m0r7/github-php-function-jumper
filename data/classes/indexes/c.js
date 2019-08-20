@@ -1,5 +1,5 @@
 classes.__indexes__.c = {
-  "current": [
+  current: [
     classes.a.apciterator,
     classes.a.apcuiterator,
     classes.a.appenditerator,
@@ -39,7 +39,7 @@ classes.__indexes__.c = {
     classes.y.yaf_config_simple,
     classes.y.yaf_session
   ],
-  "count": [
+  count: [
     classes.a.arrayiterator,
     classes.a.arrayobject,
     classes.c.cachingiterator,
@@ -72,58 +72,58 @@ classes.__indexes__.c = {
     classes.z.ziparchive,
     classes.z.zmqpoll
   ],
-  "clip": [
+  clip: [
     classes.c.cairocontext
   ],
-  "clipextents": [
+  clipextents: [
     classes.c.cairocontext
   ],
-  "clippreserve": [
+  clippreserve: [
     classes.c.cairocontext
   ],
-  "cliprectanglelist": [
+  cliprectanglelist: [
     classes.c.cairocontext
   ],
-  "closepath": [
+  closepath: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "copypage": [
+  copypage: [
     classes.c.cairocontext,
     classes.c.cairosurface
   ],
-  "copypath": [
+  copypath: [
     classes.c.cairocontext
   ],
-  "copypathflat": [
+  copypathflat: [
     classes.c.cairocontext
   ],
-  "curveto": [
+  curveto: [
     classes.c.cairocontext,
     classes.h.harupage
   ],
-  "createfordata": [
+  createfordata: [
     classes.c.cairoimagesurface
   ],
-  "createfrompng": [
+  createfrompng: [
     classes.c.cairoimagesurface
   ],
-  "createsimilar": [
+  createsimilar: [
     classes.c.cairosurface
   ],
-  "call": [
+  call: [
     classes.c.closure,
     classes.l.lua,
     classes.y.yar_concurrent_client
   ],
-  "compare": [
+  compare: [
     classes.c.collator,
     classes.s.splheap,
     classes.s.splmaxheap,
     classes.s.splminheap,
     classes.s.splpriorityqueue
   ],
-  "create": [
+  create: [
     classes.c.collator,
     classes.c.cond,
     classes.g.gearmantask,
@@ -138,24 +138,24 @@ classes.__indexes__.c = {
     classes.t.transliterator,
     classes.z.zookeeper
   ],
-  "createindex": [
+  createindex: [
     classes.c.collection,
     classes.m.mongocollection
   ],
-  "createfromdatestring": [
+  createfromdatestring: [
     classes.d.dateinterval
   ],
-  "createfromformat": [
+  createfromformat: [
     classes.d.datetime,
     classes.d.datetimeimmutable
   ],
-  "createfromimmutable": [
+  createfromimmutable: [
     classes.d.datetime
   ],
-  "createfrommutable": [
+  createfrommutable: [
     classes.d.datetimeimmutable
   ],
-  "close": [
+  close: [
     classes.d.directory,
     classes.e.eventbufferevent,
     classes.m.memcache,
@@ -175,53 +175,53 @@ classes.__indexes__.c = {
     classes.z.ziparchive,
     classes.z.zookeeper
   ],
-  "createattribute": [
+  createattribute: [
     classes.d.domdocument
   ],
-  "createattributens": [
+  createattributens: [
     classes.d.domdocument
   ],
-  "createcdatasection": [
+  createcdatasection: [
     classes.d.domdocument
   ],
-  "createcomment": [
+  createcomment: [
     classes.d.domdocument
   ],
-  "createdocumentfragment": [
+  createdocumentfragment: [
     classes.d.domdocument
   ],
-  "createelement": [
+  createelement: [
     classes.d.domdocument
   ],
-  "createelementns": [
+  createelementns: [
     classes.d.domdocument
   ],
-  "createentityreference": [
+  createentityreference: [
     classes.d.domdocument
   ],
-  "createprocessinginstruction": [
+  createprocessinginstruction: [
     classes.d.domdocument
   ],
-  "createtextnode": [
+  createtextnode: [
     classes.d.domdocument
   ],
-  "createdocument": [
+  createdocument: [
     classes.d.domimplementation,
     classes.s.sdo_das_xml
   ],
-  "createdocumenttype": [
+  createdocumenttype: [
     classes.d.domimplementation
   ],
-  "c14n": [
+  c14n: [
     classes.d.domnode
   ],
-  "c14nfile": [
+  c14nfile: [
     classes.d.domnode
   ],
-  "clonenode": [
+  clonenode: [
     classes.d.domnode
   ],
-  "createstopped": [
+  createstopped: [
     classes.e.evcheck,
     classes.e.evchild,
     classes.e.evembed,
@@ -234,10 +234,10 @@ classes.__indexes__.c = {
     classes.e.evstat,
     classes.e.evtimer
   ],
-  "copyout": [
+  copyout: [
     classes.e.eventbuffer
   ],
-  "connect": [
+  connect: [
     classes.e.eventbufferevent,
     classes.m.memcache,
     classes.m.mongo,
@@ -249,35 +249,35 @@ classes.__indexes__.c = {
     classes.z.zmqsocket,
     classes.z.zookeeper
   ],
-  "connecthost": [
+  connecthost: [
     classes.e.eventbufferevent
   ],
-  "createpair": [
+  createpair: [
     classes.e.eventbufferevent
   ],
-  "clearsearch": [
+  clearsearch: [
     classes.e.eventdnsbase
   ],
-  "countnameservers": [
+  countnameservers: [
     classes.e.eventdnsbase
   ],
-  "cancel": [
+  cancel: [
     classes.e.eventhttprequest
   ],
-  "clearheaders": [
+  clearheaders: [
     classes.e.eventhttprequest,
     classes.y.yaf_response_abstract
   ],
-  "closeconnection": [
+  closeconnection: [
     classes.e.eventhttprequest
   ],
-  "check": [
+  check: [
     classes.e.evloop
   ],
-  "child": [
+  child: [
     classes.e.evloop
   ],
-  "clear": [
+  clear: [
     classes.e.evwatcher,
     classes.g.gmagick,
     classes.i.imagick,
@@ -292,435 +292,435 @@ classes.__indexes__.c = {
     classes.y.yaf_view_simple,
     classes.z.zmqpoll
   ],
-  "cast": [
+  cast: [
     classes.f.ffi
   ],
-  "cdef": [
+  cdef: [
     classes.f.ffi
   ],
-  "clearcallbacks": [
+  clearcallbacks: [
     classes.g.gearmanclient
   ],
-  "clone": [
+  clone: [
     classes.g.gearmanclient,
     classes.g.gearmanworker,
     classes.i.imagick,
     classes.i.imagickdraw
   ],
-  "context": [
+  context: [
     classes.g.gearmanclient
   ],
-  "complete": [
+  complete: [
     classes.g.gearmanjob
   ],
-  "charcoalimage": [
+  charcoalimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "chopimage": [
+  chopimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "commentimage": [
+  commentimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "compositeimage": [
+  compositeimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "cropimage": [
+  cropimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "cropthumbnailimage": [
+  cropthumbnailimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "cyclecolormapimage": [
+  cyclecolormapimage: [
     classes.g.gmagick,
     classes.i.imagick
   ],
-  "createoutline": [
+  createoutline: [
     classes.h.harudoc
   ],
-  "circle": [
+  circle: [
     classes.h.harupage,
     classes.i.imagickdraw
   ],
-  "concat": [
+  concat: [
     classes.h.harupage
   ],
-  "createdestination": [
+  createdestination: [
     classes.h.harupage
   ],
-  "createlinkannotation": [
+  createlinkannotation: [
     classes.h.harupage
   ],
-  "createtextannotation": [
+  createtextannotation: [
     classes.h.harupage
   ],
-  "createurlannotation": [
+  createurlannotation: [
     classes.h.harupage
   ],
-  "curveto2": [
+  curveto2: [
     classes.h.harupage
   ],
-  "curveto3": [
+  curveto3: [
     classes.h.harupage
   ],
-  "checkin": [
+  checkin: [
     classes.h.hw_api
   ],
-  "checkout": [
+  checkout: [
     classes.h.hw_api
   ],
-  "children": [
+  children: [
     classes.h.hw_api,
     classes.s.simplexmlelement
   ],
-  "content": [
+  content: [
     classes.h.hw_api
   ],
-  "copy": [
+  copy: [
     classes.h.hw_api,
     classes.p.phar,
     classes.p.phardata,
     classes.p.phdfs,
     classes.t.tokyotyrant
   ],
-  "clampimage": [
+  clampimage: [
     classes.i.imagick
   ],
-  "clipimage": [
+  clipimage: [
     classes.i.imagick
   ],
-  "clipimagepath": [
+  clipimagepath: [
     classes.i.imagick
   ],
-  "clippathimage": [
+  clippathimage: [
     classes.i.imagick
   ],
-  "clutimage": [
+  clutimage: [
     classes.i.imagick
   ],
-  "coalesceimages": [
+  coalesceimages: [
     classes.i.imagick
   ],
-  "colorfloodfillimage": [
+  colorfloodfillimage: [
     classes.i.imagick
   ],
-  "colorizeimage": [
+  colorizeimage: [
     classes.i.imagick
   ],
-  "colormatriximage": [
+  colormatriximage: [
     classes.i.imagick
   ],
-  "combineimages": [
+  combineimages: [
     classes.i.imagick
   ],
-  "compareimagechannels": [
+  compareimagechannels: [
     classes.i.imagick
   ],
-  "compareimagelayers": [
+  compareimagelayers: [
     classes.i.imagick
   ],
-  "compareimages": [
+  compareimages: [
     classes.i.imagick
   ],
-  "contrastimage": [
+  contrastimage: [
     classes.i.imagick
   ],
-  "contraststretchimage": [
+  contraststretchimage: [
     classes.i.imagick
   ],
-  "convolveimage": [
+  convolveimage: [
     classes.i.imagick
   ],
-  "color": [
+  color: [
     classes.i.imagickdraw
   ],
-  "comment": [
+  comment: [
     classes.i.imagickdraw
   ],
-  "composite": [
+  composite: [
     classes.i.imagickdraw
   ],
-  "createcharacterinstance": [
+  createcharacterinstance: [
     classes.i.intlbreakiterator
   ],
-  "createcodepointinstance": [
+  createcodepointinstance: [
     classes.i.intlbreakiterator
   ],
-  "createlineinstance": [
+  createlineinstance: [
     classes.i.intlbreakiterator
   ],
-  "createsentenceinstance": [
+  createsentenceinstance: [
     classes.i.intlbreakiterator
   ],
-  "createtitleinstance": [
+  createtitleinstance: [
     classes.i.intlbreakiterator
   ],
-  "createwordinstance": [
+  createwordinstance: [
     classes.i.intlbreakiterator
   ],
-  "createinstance": [
+  createinstance: [
     classes.i.intlcalendar
   ],
-  "charage": [
+  charage: [
     classes.i.intlchar
   ],
-  "chardigitvalue": [
+  chardigitvalue: [
     classes.i.intlchar
   ],
-  "chardirection": [
+  chardirection: [
     classes.i.intlchar
   ],
-  "charfromname": [
+  charfromname: [
     classes.i.intlchar
   ],
-  "charmirror": [
+  charmirror: [
     classes.i.intlchar
   ],
-  "charname": [
+  charname: [
     classes.i.intlchar
   ],
-  "chartype": [
+  chartype: [
     classes.i.intlchar
   ],
-  "chr": [
+  chr: [
     classes.i.intlchar
   ],
-  "countequivalentids": [
+  countequivalentids: [
     classes.i.intltimezone
   ],
-  "createdefault": [
+  createdefault: [
     classes.i.intltimezone
   ],
-  "createenumeration": [
+  createenumeration: [
     classes.i.intltimezone
   ],
-  "createtimezone": [
+  createtimezone: [
     classes.i.intltimezone
   ],
-  "createtimezoneidenumeration": [
+  createtimezoneidenumeration: [
     classes.i.intltimezone
   ],
-  "canonicalize": [
+  canonicalize: [
     classes.l.locale
   ],
-  "composelocale": [
+  composelocale: [
     classes.l.locale
   ],
-  "cas": [
+  cas: [
     classes.m.memcached
   ],
-  "casbykey": [
+  casbykey: [
     classes.m.memcached
   ],
-  "connectutil": [
+  connectutil: [
     classes.m.mongo
   ],
-  "createdbref": [
+  createdbref: [
     classes.m.mongocollection,
     classes.m.mongodb
   ],
-  "createfromdocument": [
+  createfromdocument: [
     classes.m.mongocommandcursor
   ],
-  "command": [
+  command: [
     classes.m.mongodb
   ],
-  "createcollection": [
+  createcollection: [
     classes.m.mongodb,
     classes.s.schema
   ],
-  "containsiterator": [
+  containsiterator: [
     classes.m.multipleiterator
   ],
-  "countiterators": [
+  countiterators: [
     classes.m.multipleiterator
   ],
-  "change_user": [
+  change_user: [
     classes.m.mysqli
   ],
-  "character_set_name": [
+  character_set_name: [
     classes.m.mysqli
   ],
-  "commit": [
+  commit: [
     classes.m.mysqli,
     classes.p.pdo,
     classes.s.samconnection,
     classes.s.solrclient,
     classes.s.stomp
   ],
-  "changeuser": [
+  changeuser: [
     classes.m.mysqlnduhconnection
   ],
-  "charsetname": [
+  charsetname: [
     classes.m.mysqlnduhconnection
   ],
-  "callconsumerhandler": [
+  callconsumerhandler: [
     classes.o.oauthprovider
   ],
-  "calltimestampnoncehandler": [
+  calltimestampnoncehandler: [
     classes.o.oauthprovider
   ],
-  "calltokenhandler": [
+  calltokenhandler: [
     classes.o.oauthprovider
   ],
-  "checkoauthrequest": [
+  checkoauthrequest: [
     classes.o.oauthprovider
   ],
-  "consumerhandler": [
+  consumerhandler: [
     classes.o.oauthprovider
   ],
-  "cubrid_schema": [
+  cubrid_schema: [
     classes.p.pdo
   ],
-  "closecursor": [
+  closecursor: [
     classes.p.pdostatement
   ],
-  "columncount": [
+  columncount: [
     classes.p.pdostatement
   ],
-  "cancompress": [
+  cancompress: [
     classes.p.phar
   ],
-  "canwrite": [
+  canwrite: [
     classes.p.phar
   ],
-  "compress": [
+  compress: [
     classes.p.phar,
     classes.p.phardata,
     classes.p.pharfileinfo
   ],
-  "compressallfilesbzip2": [
+  compressallfilesbzip2: [
     classes.p.phar
   ],
-  "compressallfilesgz": [
+  compressallfilesgz: [
     classes.p.phar
   ],
-  "compressfiles": [
+  compressfiles: [
     classes.p.phar,
     classes.p.phardata
   ],
-  "converttodata": [
+  converttodata: [
     classes.p.phar,
     classes.p.phardata
   ],
-  "converttoexecutable": [
+  converttoexecutable: [
     classes.p.phar,
     classes.p.phardata
   ],
-  "createdefaultstub": [
+  createdefaultstub: [
     classes.p.phar
   ],
-  "chmod": [
+  chmod: [
     classes.p.pharfileinfo
   ],
-  "create_directory": [
+  create_directory: [
     classes.p.phdfs
   ],
-  "collect": [
+  collect: [
     classes.p.pool,
     classes.w.worker
   ],
-  "callgetchildren": [
+  callgetchildren: [
     classes.r.recursiveiteratoriterator,
     classes.r.recursivetreeiterator
   ],
-  "callhaschildren": [
+  callhaschildren: [
     classes.r.recursiveiteratoriterator,
     classes.r.recursivetreeiterator
   ],
-  "canbepassedbyvalue": [
+  canbepassedbyvalue: [
     classes.r.reflectionparameter
   ],
-  "createdataobject": [
+  createdataobject: [
     classes.s.sca,
     classes.s.sca_localproxy,
     classes.s.sca_soapproxy,
     classes.s.sdo_das_xml,
     classes.s.sdo_dataobject
   ],
-  "createrootdataobject": [
+  createrootdataobject: [
     classes.s.sdo_das_relational
   ],
-  "closeloggerstream": [
+  closeloggerstream: [
     classes.s.seaslog
   ],
-  "critical": [
+  critical: [
     classes.s.seaslog
   ],
-  "createschema": [
+  createschema: [
     classes.s.session
   ],
-  "create_sid": [
+  create_sid: [
     classes.s.sessionhandler,
     classes.s.sessionidinterface
   ],
-  "collapse": [
+  collapse: [
     classes.s.solrquery
   ],
-  "contains": [
+  contains: [
     classes.s.splobjectstorage
   ],
-  "changes": [
+  changes: [
     classes.s.sqlite3
   ],
-  "createaggregate": [
+  createaggregate: [
     classes.s.sqlite3
   ],
-  "createcollation": [
+  createcollation: [
     classes.s.sqlite3
   ],
-  "createfunction": [
+  createfunction: [
     classes.s.sqlite3
   ],
-  "columnname": [
+  columnname: [
     classes.s.sqlite3result
   ],
-  "columntype": [
+  columntype: [
     classes.s.sqlite3result
   ],
-  "crossvalidate": [
+  crossvalidate: [
     classes.s.svm
   ],
-  "checkprobabilitymodel": [
+  checkprobabilitymodel: [
     classes.s.svmmodel
   ],
-  "chunk": [
+  chunk: [
     classes.t.threaded
   ],
-  "cleanrepair": [
+  cleanrepair: [
     classes.t.tidy
   ],
-  "connecturi": [
+  connecturi: [
     classes.t.tokyotyrant
   ],
-  "createfromrules": [
+  createfromrules: [
     classes.t.transliterator
   ],
-  "createinverse": [
+  createinverse: [
     classes.t.transliterator
   ],
-  "convert": [
+  convert: [
     classes.u.uconverter
   ],
-  "clearpanic": [
+  clearpanic: [
     classes.v.varnishadmin
   ],
-  "clearlasterror": [
+  clearlasterror: [
     classes.y.yaf_application
   ],
-  "catchexception": [
+  catchexception: [
     classes.y.yaf_dispatcher
   ],
-  "clearlocalnamespace": [
+  clearlocalnamespace: [
     classes.y.yaf_loader
   ],
-  "clearbody": [
+  clearbody: [
     classes.y.yaf_response_abstract
   ]
 };
