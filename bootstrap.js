@@ -114,9 +114,9 @@ const inspectPage = () => {
           + `${value.element.innerHTML}`
           + `</a>`;
 
-        let structure = 'function';
+        let descriptor = 'function';
         if (value.details.spec.hasOwnProperty('isStructure') && value.details.spec.isStructure === true) {
-          structure = 'struct';
+          descriptor = 'structure';
         }
 
         // Create popup DOM.
@@ -125,7 +125,7 @@ const inspectPage = () => {
         popup.classList.add('gp-code-jumper-targeted__popup--' + (position === 0 ? 'top' : 'bottom'));
 
         popup.innerHTML =
-            `<span class="gp-code-jumper-colors--primary">${structure}</span> `
+            `<span class="gp-code-jumper-colors--primary">${descriptor}</span> `
           + `<span class="gp-code-jumper-fonts--bold">${value.details.name}</span>`
           + `(${parameters})`
           + `<span class="gp-code-jumper-colors--primary">: ${value.details.spec.returnValue}</span>`;
