@@ -13,8 +13,8 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
             element: nextNextNode,
             ...templates.optionParameters,
             isClass: true,
-            details: classDetails['methods']['__construct'],
             isClassReference: true,
+            details: classDetails['methods']['__construct'],
             classDetails,
           });
           return;

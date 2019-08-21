@@ -23,6 +23,26 @@ const inspectPage = () => {
       ),
       'discussion'
     ),
+
+    // Processing comment-outs.
+    ...getCommentOutsWithElements(
+      document.querySelectorAll(
+        '.type-php .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
+      ),
+      'source'
+    ),
+    ...getCommentOutsWithElements(
+      document.querySelectorAll(
+        '[data-file-type=".php"] .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
+      ),
+      'files'
+    ),
+    ...getCommentOutsWithElements(
+      document.querySelectorAll(
+        '#discussion_bucket .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
+      ),
+      'discussion'
+    ),
   ];
 
   chrome.storage.sync.get(
@@ -47,10 +67,17 @@ const inspectPage = () => {
           element.parentNode.insertBefore(wrapper, element);
           wrapper.appendChild(element);
 
-          const [ , method, remainedTexts ] = wrapper.innerHTML.match(/^([A-Za-z0-9_]+)(.+)/);
+          const [ , beforeRemainedTexts, method, afterRemainedTexts ] = wrapper.innerHTML.match(/^([^A-Za-z0-9_]*)([A-Za-z0-9_]+)(.*)/);
+
+          if (beforeRemainedTexts.length > 0) {
+            wrapper.before(beforeRemainedTexts);
+          }
 
           wrapper.innerHTML = method;
-          wrapper.after(remainedTexts);
+
+          if (afterRemainedTexts.length > 0) {
+            wrapper.after(afterRemainedTexts);
+          }
 
           // Apply rendered flags;
           wrapper.setAttribute('data-gp-is-rendered', 'true');
