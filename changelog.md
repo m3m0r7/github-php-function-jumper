@@ -1,5 +1,13 @@
 # Change Logs
 
+Ver 0.1.0
+- Implement to jump to the PHP manual from class name token.
+  - But, It cannot jump to the PHP manual (And show a popup) from a method on class.
+
+Ver 0.0.13:
+- Use monospace fonts (@chitoku-k)
+- Fix japanese localization file (@hexium310) 
+
 Ver 0.0.12:
 - Change some descriptors type to structure.
 
