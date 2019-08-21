@@ -1,6 +1,7 @@
 .gp-code-jumper-targeted {
   position: relative;
-  display: inline-block
+  display: inline-block;
+  color: inherit;
 }
 
 .gp-code-jumper-targeted__popup {
@@ -15,7 +16,7 @@
   padding: 10px;
   border-radius: 2px;
   font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 12px
+  font-size: 12px;
 }
 
 .gp-code-jumper-targeted-popup__triangle {

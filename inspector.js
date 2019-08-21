@@ -23,6 +23,26 @@ const inspectPage = () => {
       ),
       'discussion'
     ),
+
+    // Processing comment-outs.
+    ...getCommentOutsWithElements(
+      document.querySelectorAll(
+        '.type-php .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
+      ),
+      'source'
+    ),
+    ...getCommentOutsWithElements(
+      document.querySelectorAll(
+        '[data-file-type=".php"] .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
+      ),
+      'files'
+    ),
+    ...getCommentOutsWithElements(
+      document.querySelectorAll(
+        '#discussion_bucket .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
+      ),
+      'discussion'
+    ),
   ];
 
   chrome.storage.sync.get(
@@ -31,11 +51,45 @@ const inspectPage = () => {
       const pageURI = manual[items.languageId || 0];
       filteredItems.map((value) => {
 
+        let {
+          marker,
+          element,
+          isFunction,
+          enableToWrapNode,
+          details,
+        } = value;
+
         const position = items.positionId || 0;
 
-        value.element.innerHTML =
-          `<a href="${pageURI + value.details.url}.php" target="_blank" class="gp-code-jumper-targeted">`
-          + `${value.element.innerHTML}`
+        if (enableToWrapNode) {
+          const wrapper = document.createElement('span');
+
+          element.parentNode.insertBefore(wrapper, element);
+          wrapper.appendChild(element);
+
+          const [ , beforeRemainedTexts, method, afterRemainedTexts ] = wrapper.innerHTML.match(/^([^A-Za-z0-9_]*)([A-Za-z0-9_]+)(.*)/);
+
+          if (beforeRemainedTexts.length > 0) {
+            wrapper.before(beforeRemainedTexts);
+          }
+
+          wrapper.innerHTML = method;
+
+          if (afterRemainedTexts.length > 0) {
+            wrapper.after(afterRemainedTexts);
+          }
+
+          // Apply rendered flags;
+          wrapper.setAttribute('data-gp-is-rendered', 'true');
+          wrapper.setAttribute('data-gp-generated', 'true');
+
+          // Change the reference;
+          element = wrapper;
+        }
+
+        element.innerHTML =
+          `<a href="${pageURI + details.url}.php" target="_blank" class="gp-code-jumper-targeted">`
+          + `${element.innerHTML}`
           + `</a>`;
 
         // Create popup DOM.
@@ -46,18 +100,18 @@ const inspectPage = () => {
         const popupCursorTriangle = document.createElement('div');
         popupCursorTriangle.classList.add('gp-code-jumper-targeted-popup__triangle');
 
-        popup.innerHTML = value.isFunction
+        popup.innerHTML = isFunction
           ? beatifyFunctionSignature(value)
           : beatifyClassSignature(value);
 
         popup.append(popupCursorTriangle);
 
         // Set mouse actions.
-        value.element.querySelector('.gp-code-jumper-targeted').addEventListener(
+        element.querySelector('.gp-code-jumper-targeted').addEventListener(
           'mouseover',
           (e) => {
             let baseClass = '.Box-body';
-            switch (value.marker) {
+            switch (marker) {
               case 'files':
                 baseClass = '.Details';
                 break;
@@ -68,7 +122,7 @@ const inspectPage = () => {
             const boxBody = document.querySelector(baseClass).getBoundingClientRect();
 
             // Set popup position.
-            const { top, left } = value.element.getBoundingClientRect();
+            const { top, left } = element.getBoundingClientRect();
             popup.style.display = 'block';
 
             // Initialize
@@ -88,7 +142,7 @@ const inspectPage = () => {
           }
         );
 
-        value.element.querySelector('.gp-code-jumper-targeted').addEventListener(
+        element.querySelector('.gp-code-jumper-targeted').addEventListener(
           'mouseout',
           (e) => {
             popup.style.display = 'none';

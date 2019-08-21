@@ -13,40 +13,70 @@ const getFunctionsWithElements = (matches, marker) => {
     value.setAttribute('data-gp-is-rendered', 'true');
 
     if (classes.hasOwnProperty(char) && classes[char].hasOwnProperty(loweredName) && classes[char][loweredName]['methods'].hasOwnProperty('__construct')) {
-      items.push({
-        marker,
-        name,
-        element: value,
-        isClass: true,
-        isFunction: false,
-        details: classes[char][loweredName]['methods']['__construct'],
-        classDetails: classes[char][loweredName],
-      });
+      classServiceRegistry(items, marker, name, value, classes[char][loweredName]);
       return;
     }
 
     if (!functions.hasOwnProperty(char) || !functions[char].hasOwnProperty(loweredName)) {
       return;
     }
+    functionServiceRegistry(items, marker, name, value, functions[char][loweredName]);
+  });
+  return items;
+};
 
-    const nextNode = value.nextSibling;
-    if (nextNode.nodeName === 'SPAN'
-      && nextNode.classList.contains('pl-k')
-      && (
-        nextNode.innerText === '::'
-        || nextNode.innerText === '->'
-      )
-    ) {
+const getCommentOutsWithElements = (matches, marker) => {
+  const allowsAnnotations = [
+    '@return',
+    '@var',
+    '@param',
+  ];
+  const items = [];
+  matches.forEach((value, key) => {
+    const annotation = value.innerText;
+    value.setAttribute('data-gp-is-rendered', 'true');
+    if (allowsAnnotations.indexOf(annotation.toLowerCase()) === -1) {
       return;
     }
-    items.push({
-      marker,
-      name,
-      element: value,
-      isClass: false,
-      isFunction: true,
-      details: functions[char][loweredName],
-    });
+
+    const nextNode = value.nextSibling;
+    if (nextNode.nodeName !== '#text') {
+      return;
+    }
+
+    const info = nextNode.nodeValue
+      .replace(/^\s+/, '')
+      .replace(/\s+$/, '')
+      .split(/\s+/);
+
+    if (typeof info[0] === 'undefined') {
+      return;
+    }
+
+    for (const name of info[0].split('|')) {
+      const loweredName = name.toLowerCase();
+      const char = name.charAt(0).toLowerCase();
+      if (!classes.hasOwnProperty(char)
+        || !classes[char].hasOwnProperty(loweredName)
+        || !classes[char][loweredName]['methods'].hasOwnProperty('__construct')
+      ) {
+        continue;
+      }
+      const classDetails = classes[char][loweredName];
+
+      items.push({
+        marker,
+        name,
+        element: nextNode,
+        ...templates.optionParameters,
+        isClass: true,
+        isClassReference: true,
+        enableToWrapNode: true,
+        details: classDetails['methods']['__construct'],
+        classDetails,
+      });
+    }
+
   });
   return items;
 };

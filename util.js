@@ -7,7 +7,7 @@ const beatifyParameters = (parameters) => {
       }
     )
     .replace(
-      /(?<!\$)(string|array|int|integer|bool|boolean|void|float|double|callable|resource|mixed)/g,
+      /(?<!\$[A-Za-z0-9_]*)(string|array|int|integer|bool|boolean|void|float|double|callable|resource|mixed)/g,
       '<span class="gp-code-jumper-colors--primary">$1</span>'
     )
     .replace(
