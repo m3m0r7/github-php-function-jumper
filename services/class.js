@@ -1,3 +1,37 @@
+const classServiceRegistry = (items, marker, name, element, classDetails) => {
+  const nextNode = element.nextSibling;
+
+  // Verify static node
+  if (nextNode.nodeName === 'SPAN' && nextNode.innerText === '::') {
+    const nextNextNode = nextNode.nextSibling;
+    if (nextNextNode.nodeName === 'SPAN') {
+      switch (nextNextNode.innerText) {
+        case 'class': // class reference
+          console.log('hey');
+          return;
+      }
+      return;
+    }
+    console.log(nextNextNode.nodeName);
+    if (nextNextNode.nodeName === '#text') {
+      const methodName = nextNextNode.nodeValue
+        .replace(/([A-Za-z0-9_]+).+/, '$1');
+      console.log(methodName);
+    }
+    return;
+  }
+  items.push({
+    marker,
+    name,
+    element,
+    ...templates.optionParameters,
+    isClass: true,
+    isConstructorAtClass: true,
+    details: classDetails['methods']['__construct'],
+    classDetails,
+  });
+};
+
 const beatifyClassSignature = (info) => {
   const parameters = beatifyParameters(info.details.spec.parameters);
 

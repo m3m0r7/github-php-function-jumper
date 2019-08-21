@@ -109,8 +109,9 @@
         "data/functions/z.js",
         "data/functions/_.js",
         "util.js",
-        "listener/function.js",
-        "listener/class.js",
+        "services/templates.js",
+        "services/function.js",
+        "services/class.js",
         "kernel.js",
         "inspector.js",
         "main.js"

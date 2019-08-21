@@ -1,3 +1,26 @@
+const functionServiceRegistry = (items, marker, name, element, details) => {
+  const nextNode = element.nextSibling;
+  if (nextNode.nodeName === 'SPAN'
+    && nextNode.classList.contains('pl-k')
+    && (
+      nextNode.innerText === '::'
+      || nextNode.innerText === '->'
+    )
+  ) {
+    // Stop registration.
+    return;
+  }
+
+  items.push({
+    marker,
+    name,
+    element,
+    ...templates.optionParameters,
+    isFunction: true,
+    details,
+  });
+};
+
 const beatifyFunctionSignature = (info) => {
   const parameters = beatifyParameters(info.details.spec.parameters);
 
