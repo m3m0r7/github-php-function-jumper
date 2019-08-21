@@ -7,16 +7,41 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
     if (nextNextNode.nodeName === 'SPAN') {
       switch (nextNextNode.innerText) {
         case 'class': // class reference
-          console.log('hey');
+          items.push({
+            marker,
+            name,
+            element: nextNextNode,
+            ...templates.optionParameters,
+            isClass: true,
+            details: classDetails['methods']['__construct'],
+            isClassReference: true,
+            classDetails,
+          });
           return;
       }
       return;
     }
-    console.log(nextNextNode.nodeName);
+
     if (nextNextNode.nodeName === '#text') {
       const methodName = nextNextNode.nodeValue
         .replace(/([A-Za-z0-9_]+).+/, '$1');
-      console.log(methodName);
+      const loweredMethodName = methodName.toLowerCase();
+
+      if (!classDetails['methods'].hasOwnProperty(loweredMethodName)) {
+        return;
+      }
+
+      items.push({
+        marker,
+        name,
+        element: nextNextNode,
+        ...templates.optionParameters,
+        isClass: true,
+        isStaticMethodAtClass: true,
+        enableToWrapNode: true,
+        details: classDetails['methods'][loweredMethodName],
+        classDetails,
+      });
     }
     return;
   }
@@ -36,6 +61,11 @@ const beatifyClassSignature = (info) => {
   const parameters = beatifyParameters(info.details.spec.parameters);
 
   const descriptor = [];
+
+  if (info.isClassReference) {
+    return `<span class="gp-code-jumper-colors--primary">class</span> `
+      + `<span class="gp-code-jumper-fonts--bold">${info.classDetails.name}</span>`;
+  }
 
   if (info.details.spec.isAbstract) {
     descriptor.push('abstract');
