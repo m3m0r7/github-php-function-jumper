@@ -1,6 +1,10 @@
 # Change Logs
 
-Ver 0.1.0
+Ver 0.1.1:
+- Implement to jump to the PHP manual from static method, class reference and PHPDoc.
+- Small bugfix.
+
+Ver 0.1.0:
 - Implement to jump to the PHP manual from class name token.
   - But, It cannot jump to the PHP manual (And show a popup) from a method on class.
 

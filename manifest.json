@@ -1,7 +1,7 @@
 {
   "name": "github-php-function-jumper",
   "description": "Jump to the PHP Manual from the php functions and classes on your GitHub source codes and discussion.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "index.html",
