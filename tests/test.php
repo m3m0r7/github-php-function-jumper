@@ -2,12 +2,30 @@
 
 class A extends \Exception implements ArrayAccess
 {
+
+  /**
+   * @return Exception
+   */
+  private $phpdocTest1;
+
+  /**
+   * @var Exception
+   */
+  private $phpdocTest2;
+
+  /**
+   * A constructor.
+   * @param string $message
+   * @param int $code
+   * @param Throwable|null $previous
+   */
   public function __construct($message = "", $code = 0, Throwable $previous = null)
   {
     parent::__construct($message, $code, $previous);
     var_dump('test');
     var_dump(\Exception::class);
     var_dump(ReflectionClass::export($this));
+    var_dump(microtime(true));
     try {
       $reflection = new ReflectionClass($this);
       var_dump($reflection->getName());
