@@ -22,6 +22,8 @@ class A extends \Exception implements ArrayAccess
   public function __construct($message = "", $code = 0, Throwable $previous = null)
   {
     parent::__construct($message, $code, $previous);
+
+    // Normal
     var_dump('test');
     var_dump(\Exception::class);
     var_dump(ReflectionClass::export($this));
@@ -29,6 +31,32 @@ class A extends \Exception implements ArrayAccess
     try {
       $reflection = new ReflectionClass($this);
       var_dump($reflection->getName());
+    } catch (Exception $e) {
+
+    }
+
+    // Dirty codes
+    var_dump  ('test');
+    var_dump
+    ('test');
+
+    ReflectionClass  ::export($this);
+    ReflectionClass::  export($this);
+    ReflectionClass::
+    export($this);
+
+    ReflectionClass
+      ::export($this);
+
+
+    $reflection = new ReflectionClass  ($this);
+
+    try {
+      $reflection =
+        new
+        ReflectionClass($this);
+      var_dump($reflection
+        ->getName());
     } catch (Exception $e) {
 
     }
