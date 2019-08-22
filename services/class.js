@@ -2,9 +2,14 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
   const nextNode = element.nextSibling;
 
   // Verify static node
-  if (nextNode.nodeName === 'SPAN' && nextNode.innerText === '::') {
+  if (nextNode !== null
+    && nextNode.nodeName === 'SPAN'
+    && nextNode.innerText === '::'
+  ) {
     const nextNextNode = nextNode.nextSibling;
-    if (nextNextNode.nodeName === 'SPAN') {
+    if (nextNextNode !== null
+      && nextNextNode.nodeName === 'SPAN'
+    ) {
       switch (nextNextNode.innerText) {
         case 'class': // class reference
           items.push({
@@ -22,7 +27,9 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
       return;
     }
 
-    if (nextNextNode.nodeName === '#text') {
+    if (nextNextNode !== null
+      && nextNextNode.nodeName === '#text'
+    ) {
       const methodName = nextNextNode.nodeValue
         .replace(/([A-Za-z0-9_]+).+/, '$1');
       const loweredMethodName = methodName.toLowerCase();
