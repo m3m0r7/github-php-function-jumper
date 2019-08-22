@@ -108,12 +108,13 @@
         "data/functions/y.js",
         "data/functions/z.js",
         "data/functions/_.js",
-        "util.js",
+        "services/util.js",
         "services/templates.js",
         "services/function.js",
         "services/class.js",
-        "kernel.js",
-        "inspector.js",
+        "services/kernel.js",
+        "services/inspector.js",
+        "services/variables.js",
         "main.js"
       ]
     }

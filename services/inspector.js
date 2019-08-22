@@ -1,4 +1,5 @@
 const inspectPage = () => {
+
   const filteredItems = [
     // Source tree
     ...getFunctionsWithElements(
@@ -40,6 +41,26 @@ const inspectPage = () => {
     ...getCommentOutsWithElements(
       document.querySelectorAll(
         '#discussion_bucket .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
+      ),
+      'discussion'
+    ),
+
+    // Processing variables
+    ...getVariableWithElements(
+      document.querySelectorAll(
+        '.type-php .pl-s1 .pl-smi:not([data-gp-is-rendered="true"])'
+      ),
+      'source'
+    ),
+    ...getVariableWithElements(
+      document.querySelectorAll(
+        '[data-file-type=".php"] .pl-s1 .pl-smi:not([data-gp-is-rendered="true"])'
+      ),
+      'files'
+    ),
+    ...getVariableWithElements(
+      document.querySelectorAll(
+        '#discussion_bucket .pl-s1 .pl-smi:not([data-gp-is-rendered="true"])'
       ),
       'discussion'
     ),
