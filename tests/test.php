@@ -31,6 +31,14 @@ class A extends \Exception implements ArrayAccess
     try {
       $reflection = new ReflectionClass($this);
       var_dump($reflection->getName());
+
+
+      $reflection = $reflection2 = new ReflectionClass($this);
+      var_dump($reflection2->getName());
+
+
+      $reflection = $reflection2 = new ReflectionMethod($reflection, '__construct');
+      var_dump($reflection2->isPublic());
     } catch (Exception $e) {
 
     }
@@ -50,6 +58,7 @@ class A extends \Exception implements ArrayAccess
 
 
     $reflection = new ReflectionClass  ($this);
+    $reflection = $reflection2 = new ReflectionClass  ($this);
 
     try {
       $reflection =
