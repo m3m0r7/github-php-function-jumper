@@ -1,5 +1,8 @@
 # Change Logs
 
+Ver 0.1.2
+- Fix bugs
+
 Ver 0.1.1:
 - Implement to jump to the PHP manual from static method, class reference and PHPDoc.
 - Small bugfix.

@@ -1,6 +1,8 @@
 const functionServiceRegistry = (items, marker, name, element, details) => {
   const nextNode = element.nextSibling;
-  if (nextNode.nodeName === 'SPAN'
+
+  if (nextNode !== null
+    && nextNode.nodeName === 'SPAN'
     && nextNode.classList.contains('pl-k')
     && (
       nextNode.innerText === '::'
