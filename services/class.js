@@ -31,7 +31,7 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
       && nextNextNode.nodeName === '#text'
     ) {
       const methodName = nextNextNode.nodeValue
-        .replace(/([A-Za-z0-9_]+).+/, '$1');
+        .replace(/\s*([A-Za-z0-9_]+).+/, '$1');
       const loweredMethodName = methodName.toLowerCase();
 
       if (!classDetails['methods'].hasOwnProperty(loweredMethodName)) {
