@@ -1,5 +1,8 @@
 # Change Logs
 
+Ver 0.2.3:
+- Small bugfix.
+
 Ver 0.2.2:
 - Hotfix.
 
