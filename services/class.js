@@ -1,5 +1,39 @@
 const classServiceRegistry = (items, marker, name, element, classDetails) => {
   const nextNode = element.nextSibling;
+  const prevNode = element.previousElementSibling;
+
+  if (prevNode
+    && prevNode.nodeName === 'SPAN'
+  ) {
+
+    switch (prevNode.innerText.toLowerCase()) {
+      case 'extends':
+        items.push({
+          marker,
+          name,
+          element,
+          ...templates.optionParameters,
+          isClass: true,
+          isClassReference: true,
+          details: classDetails['methods']['__construct'],
+          classDetails,
+        });
+        break;
+      case 'implements':
+        items.push({
+          marker,
+          name,
+          element,
+          ...templates.optionParameters,
+          isClass: true,
+          isInterface: true,
+          details: classDetails['methods']['__construct'],
+          classDetails,
+        });
+        break;
+    }
+    return;
+  }
 
   // Verify static node
   if (nextNode !== null
@@ -71,6 +105,16 @@ const beatifyClassSignature = (info) => {
 
   if (info.isClassReference) {
     return `<span class="gp-code-jumper-colors--primary">class</span> `
+      + `<span class="gp-code-jumper-fonts--bold">${info.classDetails.name}</span>`;
+  }
+
+  if (info.isInterface) {
+    return `<span class="gp-code-jumper-colors--primary">interface</span> `
+      + `<span class="gp-code-jumper-fonts--bold">${info.classDetails.name}</span>`;
+  }
+
+  if (info.isTrait) {
+    return `<span class="gp-code-jumper-colors--primary">trait</span> `
       + `<span class="gp-code-jumper-fonts--bold">${info.classDetails.name}</span>`;
   }
 
