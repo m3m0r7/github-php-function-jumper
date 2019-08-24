@@ -18,7 +18,7 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
           details: classDetails['methods']['__construct'],
           classDetails,
         });
-        break;
+        return;
       case 'implements':
         items.push({
           marker,
@@ -30,9 +30,8 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
           details: classDetails['methods']['__construct'],
           classDetails,
         });
-        break;
+        return;
     }
-    return;
   }
 
   // Verify static node

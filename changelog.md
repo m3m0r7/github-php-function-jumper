@@ -1,5 +1,8 @@
 # Change Logs
 
+Ver 0.2.2:
+- Hotfix.
+
 Ver 0.2.1:
 - Enable to popup interfaces.
 - Small bugfix.
