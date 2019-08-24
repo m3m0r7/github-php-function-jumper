@@ -1,6 +1,9 @@
 classes.g = {
   gearmanclient: {
     name: "GearmanClient",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addoptions: {
         name: "addOptions",
@@ -696,6 +699,9 @@ classes.g = {
   },
   gearmanjob: {
     name: "GearmanJob",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       complete: {
         name: "complete",
@@ -1001,6 +1007,9 @@ classes.g = {
   },
   gearmantask: {
     name: "GearmanTask",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       create: {
         name: "create",
@@ -1261,6 +1270,9 @@ classes.g = {
   },
   gearmanworker: {
     name: "GearmanWorker",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addfunction: {
         name: "addFunction",
@@ -1581,6 +1593,9 @@ classes.g = {
   },
   generator: {
     name: "Generator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -1716,11 +1731,29 @@ classes.g = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.generator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   globiterator: {
     name: "GlobIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -1756,6 +1789,9 @@ classes.g = {
   },
   gmagick: {
     name: "Gmagick",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addimage: {
         name: "addimage",
@@ -3876,6 +3912,9 @@ classes.g = {
   },
   gmagickdraw: {
     name: "GmagickDraw",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       annotate: {
         name: "annotate",
@@ -4386,11 +4425,29 @@ classes.g = {
           returnValue: "GmagickDraw",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.gmagickdraw",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   gmagickpixel: {
     name: "GmagickPixel",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getcolor: {
         name: "getcolor",

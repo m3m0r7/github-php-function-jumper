@@ -1,6 +1,9 @@
 classes.s = {
   samconnection: {
     name: "SAMConnection",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       commit: {
         name: "commit",
@@ -246,6 +249,9 @@ classes.s = {
   },
   sammessage: {
     name: "SAMMessage",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       body: {
         name: "body",
@@ -296,6 +302,9 @@ classes.s = {
   },
   sca: {
     name: "SCA",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createdataobject: {
         name: "createDataObject",
@@ -326,11 +335,29 @@ classes.s = {
           returnValue: "mixed",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sca",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sca_localproxy: {
     name: "SCA_LocalProxy",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createdataobject: {
         name: "createDataObject",
@@ -346,11 +373,29 @@ classes.s = {
           returnValue: "SDO_DataObject",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sca_localproxy",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sca_soapproxy: {
     name: "SCA_SoapProxy",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createdataobject: {
         name: "createDataObject",
@@ -366,11 +411,29 @@ classes.s = {
           returnValue: "SDO_DataObject",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sca_soapproxy",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   schema: {
     name: "Schema",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createcollection: {
         name: "createCollection",
@@ -541,6 +604,9 @@ classes.s = {
   },
   schemaobject: {
     name: "SchemaObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getschema: {
         name: "getSchema",
@@ -556,11 +622,29 @@ classes.s = {
           returnValue: "mysql_xdevapi\\Schema",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.schemaobject",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_das_changesummary: {
     name: "SDO_DAS_ChangeSummary",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       beginlogging: {
         name: "beginLogging",
@@ -666,11 +750,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_das_changesummary",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_das_datafactory: {
     name: "SDO_DAS_DataFactory",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addpropertytotype: {
         name: "addPropertyToType",
@@ -716,11 +818,29 @@ classes.s = {
           returnValue: "SDO_DAS_DataFactory",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_das_datafactory",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_das_dataobject: {
     name: "SDO_DAS_DataObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getchangesummary: {
         name: "getChangeSummary",
@@ -736,11 +856,29 @@ classes.s = {
           returnValue: "SDO_DAS_ChangeSummary",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_das_dataobject",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_das_relational: {
     name: "SDO_DAS_Relational",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       applychanges: {
         name: "applyChanges",
@@ -821,6 +959,9 @@ classes.s = {
   },
   sdo_das_setting: {
     name: "SDO_DAS_Setting",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getlistindex: {
         name: "getListIndex",
@@ -896,11 +1037,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_das_setting",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_das_xml: {
     name: "SDO_DAS_XML",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addtypes: {
         name: "addTypes",
@@ -1021,11 +1180,29 @@ classes.s = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_das_xml",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_das_xml_document: {
     name: "SDO_DAS_XML_Document",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getrootdataobject: {
         name: "getRootDataObject",
@@ -1116,11 +1293,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_das_xml_document",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_datafactory: {
     name: "SDO_DataFactory",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       create: {
         name: "create",
@@ -1136,11 +1331,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_datafactory",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_dataobject: {
     name: "SDO_DataObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       clear: {
         name: "clear",
@@ -1231,11 +1444,29 @@ classes.s = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_dataobject",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_exception: {
     name: "SDO_Exception",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getcause: {
         name: "getCause",
@@ -1251,11 +1482,29 @@ classes.s = {
           returnValue: "mixed",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_exception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_list: {
     name: "SDO_List",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       insert: {
         name: "insert",
@@ -1271,11 +1520,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_list",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_model_property: {
     name: "SDO_Model_Property",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getcontainingtype: {
         name: "getContainingType",
@@ -1366,11 +1633,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_model_property",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_model_reflectiondataobject: {
     name: "SDO_Model_ReflectionDataObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -1451,6 +1736,9 @@ classes.s = {
   },
   sdo_model_type: {
     name: "SDO_Model_Type",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getbasetype: {
         name: "getBaseType",
@@ -1601,11 +1889,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_model_type",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sdo_sequence: {
     name: "SDO_Sequence",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getproperty: {
         name: "getProperty",
@@ -1651,11 +1957,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sdo_sequence",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   seaslog: {
     name: "SeasLog",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       alert: {
         name: "alert",
@@ -2066,6 +2390,9 @@ classes.s = {
   },
   seekableiterator: {
     name: "SeekableIterator",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       seek: {
         name: "seek",
@@ -2081,11 +2408,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.seekableiterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   serializable: {
     name: "Serializable",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       serialize: {
         name: "serialize",
@@ -2116,11 +2461,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.serializable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   session: {
     name: "Session",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       close: {
         name: "close",
@@ -2366,6 +2729,9 @@ classes.s = {
   },
   sessionhandler: {
     name: "SessionHandler",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       close: {
         name: "close",
@@ -2471,11 +2837,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sessionhandler",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sessionhandlerinterface: {
     name: "SessionHandlerInterface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       close: {
         name: "close",
@@ -2566,11 +2950,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sessionhandlerinterface",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sessionidinterface: {
     name: "SessionIdInterface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       create_sid: {
         name: "create_sid",
@@ -2586,11 +2988,29 @@ classes.s = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sessionidinterface",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sessionupdatetimestamphandlerinterface: {
     name: "SessionUpdateTimestampHandlerInterface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       updatetimestamp: {
         name: "updateTimestamp",
@@ -2621,11 +3041,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sessionupdatetimestamphandlerinterface",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   simplexmlelement: {
     name: "SimpleXMLElement",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addattribute: {
         name: "addAttribute",
@@ -2841,6 +3279,9 @@ classes.s = {
   },
   simplexmliterator: {
     name: "SimpleXMLIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -2946,11 +3387,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.simplexmliterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   snmp: {
     name: "SNMP",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       close: {
         name: "close",
@@ -3091,6 +3550,9 @@ classes.s = {
   },
   soapclient: {
     name: "SoapClient",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       soapclient: {
         name: "SoapClient",
@@ -3321,6 +3783,9 @@ classes.s = {
   },
   soapfault: {
     name: "SoapFault",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       soapfault: {
         name: "SoapFault",
@@ -3371,6 +3836,9 @@ classes.s = {
   },
   soapheader: {
     name: "SoapHeader",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       soapheader: {
         name: "SoapHeader",
@@ -3406,6 +3874,9 @@ classes.s = {
   },
   soapparam: {
     name: "SoapParam",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       soapparam: {
         name: "SoapParam",
@@ -3441,6 +3912,9 @@ classes.s = {
   },
   soapserver: {
     name: "SoapServer",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addfunction: {
         name: "addFunction",
@@ -3596,6 +4070,9 @@ classes.s = {
   },
   soapvar: {
     name: "SoapVar",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       soapvar: {
         name: "SoapVar",
@@ -3631,6 +4108,9 @@ classes.s = {
   },
   solrclient: {
     name: "SolrClient",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       adddocument: {
         name: "addDocument",
@@ -3966,6 +4446,9 @@ classes.s = {
   },
   solrclientexception: {
     name: "SolrClientException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getinternalinfo: {
         name: "getInternalInfo",
@@ -3981,11 +4464,29 @@ classes.s = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.solrclientexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   solrcollapsefunction: {
     name: "SolrCollapseFunction",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getfield: {
         name: "getField",
@@ -4201,6 +4702,9 @@ classes.s = {
   },
   solrdismaxquery: {
     name: "SolrDisMaxQuery",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addbigramphrasefield: {
         name: "addBigramPhraseField",
@@ -4626,6 +5130,9 @@ classes.s = {
   },
   solrdocument: {
     name: "SolrDocument",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addfield: {
         name: "addField",
@@ -5126,6 +5633,9 @@ classes.s = {
   },
   solrdocumentfield: {
     name: "SolrDocumentField",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -5161,6 +5671,9 @@ classes.s = {
   },
   solrexception: {
     name: "SolrException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getinternalinfo: {
         name: "getInternalInfo",
@@ -5176,11 +5689,29 @@ classes.s = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.solrexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   solrgenericresponse: {
     name: "SolrGenericResponse",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -5216,6 +5747,9 @@ classes.s = {
   },
   solrillegalargumentexception: {
     name: "SolrIllegalArgumentException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getinternalinfo: {
         name: "getInternalInfo",
@@ -5231,11 +5765,29 @@ classes.s = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.solrillegalargumentexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   solrillegaloperationexception: {
     name: "SolrIllegalOperationException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getinternalinfo: {
         name: "getInternalInfo",
@@ -5251,11 +5803,29 @@ classes.s = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.solrillegaloperationexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   solrinputdocument: {
     name: "SolrInputDocument",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addchilddocument: {
         name: "addChildDocument",
@@ -5606,6 +6176,9 @@ classes.s = {
   },
   solrmodifiableparams: {
     name: "SolrModifiableParams",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -5641,6 +6214,9 @@ classes.s = {
   },
   solrobject: {
     name: "SolrObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getpropertynames: {
         name: "getPropertyNames",
@@ -5751,6 +6327,9 @@ classes.s = {
   },
   solrparams: {
     name: "SolrParams",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -5916,11 +6495,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.solrparams",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   solrpingresponse: {
     name: "SolrPingResponse",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getresponse: {
         name: "getResponse",
@@ -5971,6 +6568,9 @@ classes.s = {
   },
   solrquery: {
     name: "SolrQuery",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addexpandfilterquery: {
         name: "addExpandFilterQuery",
@@ -8871,6 +9471,9 @@ classes.s = {
   },
   solrqueryresponse: {
     name: "SolrQueryResponse",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -8906,6 +9509,9 @@ classes.s = {
   },
   solrresponse: {
     name: "SolrResponse",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getdigestedresponse: {
         name: "getDigestedResponse",
@@ -9071,11 +9677,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.solrresponse",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   solrserverexception: {
     name: "SolrServerException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getinternalinfo: {
         name: "getInternalInfo",
@@ -9091,11 +9715,29 @@ classes.s = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.solrserverexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   solrupdateresponse: {
     name: "SolrUpdateResponse",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -9131,6 +9773,9 @@ classes.s = {
   },
   solrutils: {
     name: "SolrUtils",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       digestxmlresponse: {
         name: "digestXmlResponse",
@@ -9191,11 +9836,29 @@ classes.s = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.solrutils",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sphinxclient: {
     name: "SphinxClient",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addquery: {
         name: "addQuery",
@@ -9726,6 +10389,9 @@ classes.s = {
   },
   spldoublylinkedlist: {
     name: "SplDoublyLinkedList",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -10091,6 +10757,9 @@ classes.s = {
   },
   splenum: {
     name: "SplEnum",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getconstlist: {
         name: "getConstList",
@@ -10106,11 +10775,29 @@ classes.s = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.splenum",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   splfileinfo: {
     name: "SplFileInfo",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getatime: {
         name: "getATime",
@@ -10551,6 +11238,9 @@ classes.s = {
   },
   splfileobject: {
     name: "SplFileObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -11051,6 +11741,9 @@ classes.s = {
   },
   splfixedarray: {
     name: "SplFixedArray",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -11296,6 +11989,9 @@ classes.s = {
   },
   splheap: {
     name: "SplHeap",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       compare: {
         name: "compare",
@@ -11511,6 +12207,9 @@ classes.s = {
   },
   splmaxheap: {
     name: "SplMaxHeap",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       compare: {
         name: "compare",
@@ -11526,11 +12225,29 @@ classes.s = {
           returnValue: "int",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.splmaxheap",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   splminheap: {
     name: "SplMinHeap",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       compare: {
         name: "compare",
@@ -11546,11 +12263,29 @@ classes.s = {
           returnValue: "int",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.splminheap",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   splobjectstorage: {
     name: "SplObjectStorage",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addall: {
         name: "addAll",
@@ -11866,11 +12601,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.splobjectstorage",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   splobserver: {
     name: "SplObserver",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       update: {
         name: "update",
@@ -11886,11 +12639,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.splobserver",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   splpriorityqueue: {
     name: "SplPriorityQueue",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       compare: {
         name: "compare",
@@ -12136,6 +12907,9 @@ classes.s = {
   },
   splqueue: {
     name: "SplQueue",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       dequeue: {
         name: "dequeue",
@@ -12201,6 +12975,9 @@ classes.s = {
   },
   splstack: {
     name: "SplStack",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       setiteratormode: {
         name: "setIteratorMode",
@@ -12236,6 +13013,9 @@ classes.s = {
   },
   splsubject: {
     name: "SplSubject",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       attach: {
         name: "attach",
@@ -12281,11 +13061,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.splsubject",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   spltempfileobject: {
     name: "SplTempFileObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -12306,6 +13104,9 @@ classes.s = {
   },
   spltype: {
     name: "SplType",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -12326,6 +13127,9 @@ classes.s = {
   },
   spoofchecker: {
     name: "Spoofchecker",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       areconfusable: {
         name: "areConfusable",
@@ -12406,6 +13210,9 @@ classes.s = {
   },
   sqlite3: {
     name: "SQLite3",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       busytimeout: {
         name: "busyTimeout",
@@ -12711,6 +13518,9 @@ classes.s = {
   },
   sqlite3result: {
     name: "SQLite3Result",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       columnname: {
         name: "columnName",
@@ -12801,11 +13611,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sqlite3result",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sqlite3stmt: {
     name: "SQLite3Stmt",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bindparam: {
         name: "bindParam",
@@ -12941,11 +13769,29 @@ classes.s = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.sqlite3stmt",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   sqlstatement: {
     name: "SqlStatement",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bind: {
         name: "bind",
@@ -13041,6 +13887,9 @@ classes.s = {
   },
   sqlstatementresult: {
     name: "SqlStatementResult",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       fetchall: {
         name: "fetchAll",
@@ -13241,6 +14090,9 @@ classes.s = {
   },
   statement: {
     name: "Statement",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getnextresult: {
         name: "getNextResult",
@@ -13306,6 +14158,9 @@ classes.s = {
   },
   stomp: {
     name: "Stomp",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       abort: {
         name: "abort",
@@ -13536,6 +14391,9 @@ classes.s = {
   },
   stompexception: {
     name: "StompException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getdetails: {
         name: "getDetails",
@@ -13551,11 +14409,29 @@ classes.s = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.stompexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   stompframe: {
     name: "StompFrame",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -13576,6 +14452,9 @@ classes.s = {
   },
   streamwrapper: {
     name: "streamWrapper",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       dir_closedir: {
         name: "dir_closedir",
@@ -13956,6 +14835,9 @@ classes.s = {
   },
   svm: {
     name: "SVM",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       crossvalidate: {
         name: "crossvalidate",
@@ -14036,6 +14918,9 @@ classes.s = {
   },
   svmmodel: {
     name: "SVMModel",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       checkprobabilitymodel: {
         name: "checkProbabilityModel",
@@ -14191,6 +15076,9 @@ classes.s = {
   },
   swfaction: {
     name: "SWFAction",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -14211,6 +15099,9 @@ classes.s = {
   },
   swfbitmap: {
     name: "SWFBitmap",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getheight: {
         name: "getHeight",
@@ -14261,6 +15152,9 @@ classes.s = {
   },
   swfbutton: {
     name: "SWFButton",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addaction: {
         name: "addAction",
@@ -14416,6 +15310,9 @@ classes.s = {
   },
   swfdisplayitem: {
     name: "SWFDisplayItem",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addaction: {
         name: "addAction",
@@ -14821,11 +15718,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.swfdisplayitem",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   swffill: {
     name: "SWFFill",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       moveto: {
         name: "moveTo",
@@ -14901,11 +15816,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.swffill",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   swffont: {
     name: "SWFFont",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getascent: {
         name: "getAscent",
@@ -15016,6 +15949,9 @@ classes.s = {
   },
   swffontchar: {
     name: "SWFFontChar",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addchars: {
         name: "addChars",
@@ -15046,11 +15982,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.swffontchar",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   swfgradient: {
     name: "SWFGradient",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addentry: {
         name: "addEntry",
@@ -15086,6 +16040,9 @@ classes.s = {
   },
   swfmorph: {
     name: "SWFMorph",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getshape1: {
         name: "getShape1",
@@ -15136,6 +16093,9 @@ classes.s = {
   },
   swfmovie: {
     name: "SWFMovie",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -15441,6 +16401,9 @@ classes.s = {
   },
   swfprebuiltclip: {
     name: "SWFPrebuiltClip",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -15461,6 +16424,9 @@ classes.s = {
   },
   swfshape: {
     name: "SWFShape",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addfill: {
         name: "addFill",
@@ -15706,6 +16672,9 @@ classes.s = {
   },
   swfsound: {
     name: "SWFSound",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -15726,6 +16695,9 @@ classes.s = {
   },
   swfsoundinstance: {
     name: "SWFSoundInstance",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       loopcount: {
         name: "loopCount",
@@ -15786,11 +16758,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.swfsoundinstance",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   swfsprite: {
     name: "SWFSprite",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -15916,6 +16906,9 @@ classes.s = {
   },
   swftext: {
     name: "SWFText",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addstring: {
         name: "addString",
@@ -16116,6 +17109,9 @@ classes.s = {
   },
   swftextfield: {
     name: "SWFTextField",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addchars: {
         name: "addChars",
@@ -16346,6 +17342,9 @@ classes.s = {
   },
   swfvideostream: {
     name: "SWFVideoStream",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getnumframes: {
         name: "getNumFrames",
@@ -16396,6 +17395,9 @@ classes.s = {
   },
   swish: {
     name: "Swish",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getmetalist: {
         name: "getMetaList",
@@ -16476,6 +17478,9 @@ classes.s = {
   },
   swishresult: {
     name: "SwishResult",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getmetalist: {
         name: "getMetaList",
@@ -16506,11 +17511,29 @@ classes.s = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.swishresult",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   swishresults: {
     name: "SwishResults",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getparsedwords: {
         name: "getParsedWords",
@@ -16571,11 +17594,29 @@ classes.s = {
           returnValue: "int",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.swishresults",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   swishsearch: {
     name: "SwishSearch",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       execute: {
         name: "execute",
@@ -16666,11 +17707,29 @@ classes.s = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.swishsearch",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   syncevent: {
     name: "SyncEvent",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       fire: {
         name: "fire",
@@ -16736,6 +17795,9 @@ classes.s = {
   },
   syncmutex: {
     name: "SyncMutex",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       lock: {
         name: "lock",
@@ -16786,6 +17848,9 @@ classes.s = {
   },
   syncreaderwriter: {
     name: "SyncReaderWriter",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       readlock: {
         name: "readlock",
@@ -16866,6 +17931,9 @@ classes.s = {
   },
   syncsemaphore: {
     name: "SyncSemaphore",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       lock: {
         name: "lock",
@@ -16916,6 +17984,9 @@ classes.s = {
   },
   syncsharedmemory: {
     name: "SyncSharedMemory",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       first: {
         name: "first",

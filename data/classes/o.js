@@ -1,6 +1,9 @@
 classes.o = {
   oauth: {
     name: "OAuth",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       disabledebug: {
         name: "disableDebug",
@@ -396,6 +399,9 @@ classes.o = {
   },
   oauthprovider: {
     name: "OAuthProvider",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addrequiredparameter: {
         name: "addRequiredParameter",
@@ -641,6 +647,9 @@ classes.o = {
   },
   outeriterator: {
     name: "OuterIterator",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       getinneriterator: {
         name: "getInnerIterator",
@@ -654,6 +663,21 @@ classes.o = {
           isStatic: false,
           parameters: "void",
           returnValue: "Iterator",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.outeriterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }

@@ -1,6 +1,9 @@
 classes.p = {
   parentiterator: {
     name: "ParentIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       accept: {
         name: "accept",
@@ -96,6 +99,9 @@ classes.p = {
   },
   pdo: {
     name: "PDO",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       begintransaction: {
         name: "beginTransaction",
@@ -521,6 +527,9 @@ classes.p = {
   },
   pdostatement: {
     name: "PDOStatement",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bindcolumn: {
         name: "bindColumn",
@@ -806,11 +815,29 @@ classes.p = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.pdostatement",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   phar: {
     name: "Phar",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addemptydir: {
         name: "addEmptyDir",
@@ -1686,6 +1713,9 @@ classes.p = {
   },
   phardata: {
     name: "PharData",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addemptydir: {
         name: "addEmptyDir",
@@ -2021,6 +2051,9 @@ classes.p = {
   },
   pharfileinfo: {
     name: "PharFileInfo",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       chmod: {
         name: "chmod",
@@ -2311,6 +2344,9 @@ classes.p = {
   },
   phdfs: {
     name: "phdfs",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       connect: {
         name: "connect",
@@ -2526,6 +2562,9 @@ classes.p = {
   },
   php_user_filter: {
     name: "php_user_filter",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       filter: {
         name: "filter",
@@ -2571,11 +2610,29 @@ classes.p = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.php_user_filter",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   pool: {
     name: "Pool",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       collect: {
         name: "collect",

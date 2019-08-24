@@ -1,6 +1,9 @@
 classes.u = {
   uconverter: {
     name: "UConverter",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       convert: {
         name: "convert",

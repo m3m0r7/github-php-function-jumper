@@ -1,6 +1,9 @@
 classes.y = {
   yaconf: {
     name: "Yaconf",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       get: {
         name: "get",
@@ -31,11 +34,29 @@ classes.y = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yaconf",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yaf_action_abstract: {
     name: "Yaf_Action_Abstract",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       execute: {
         name: "execute",
@@ -66,11 +87,29 @@ classes.y = {
           returnValue: "Yaf_Controller_Abstract",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yaf_action_abstract",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yaf_application: {
     name: "Yaf_Application",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       app: {
         name: "app",
@@ -346,6 +385,9 @@ classes.y = {
   },
   yaf_config_abstract: {
     name: "Yaf_Config_Abstract",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       get: {
         name: "get",
@@ -406,11 +448,29 @@ classes.y = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yaf_config_abstract",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yaf_config_ini: {
     name: "Yaf_Config_Ini",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -656,6 +716,9 @@ classes.y = {
   },
   yaf_config_simple: {
     name: "Yaf_Config_Simple",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -901,6 +964,9 @@ classes.y = {
   },
   yaf_controller_abstract: {
     name: "Yaf_Controller_Abstract",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       display: {
         name: "display",
@@ -1146,6 +1212,9 @@ classes.y = {
   },
   yaf_dispatcher: {
     name: "Yaf_Dispatcher",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       autorender: {
         name: "autoRender",
@@ -1511,6 +1580,9 @@ classes.y = {
   },
   yaf_exception: {
     name: "Yaf_Exception",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getprevious: {
         name: "getPrevious",
@@ -1546,6 +1618,9 @@ classes.y = {
   },
   yaf_loader: {
     name: "Yaf_Loader",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       autoload: {
         name: "autoload",
@@ -1746,6 +1821,9 @@ classes.y = {
   },
   yaf_plugin_abstract: {
     name: "Yaf_Plugin_Abstract",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       dispatchloopshutdown: {
         name: "dispatchLoopShutdown",
@@ -1851,11 +1929,29 @@ classes.y = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yaf_plugin_abstract",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yaf_registry: {
     name: "Yaf_Registry",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       del: {
         name: "del",
@@ -1951,6 +2047,9 @@ classes.y = {
   },
   yaf_request_abstract: {
     name: "Yaf_Request_Abstract",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getactionname: {
         name: "getActionName",
@@ -2386,11 +2485,29 @@ classes.y = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yaf_request_abstract",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yaf_request_http: {
     name: "Yaf_Request_Http",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       get: {
         name: "get",
@@ -2546,6 +2663,9 @@ classes.y = {
   },
   yaf_request_simple: {
     name: "Yaf_Request_Simple",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       get: {
         name: "get",
@@ -2686,6 +2806,9 @@ classes.y = {
   },
   yaf_response_abstract: {
     name: "Yaf_Response_Abstract",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       appendbody: {
         name: "appendBody",
@@ -2916,6 +3039,9 @@ classes.y = {
   },
   yaf_router: {
     name: "Yaf_Router",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addconfig: {
         name: "addConfig",
@@ -3026,6 +3152,9 @@ classes.y = {
   },
   yaf_route_interface: {
     name: "Yaf_Route_Interface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assemble: {
         name: "assemble",
@@ -3056,11 +3185,29 @@ classes.y = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yaf_route_interface",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yaf_route_map: {
     name: "Yaf_Route_Map",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assemble: {
         name: "assemble",
@@ -3111,6 +3258,9 @@ classes.y = {
   },
   yaf_route_regex: {
     name: "Yaf_Route_Regex",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assemble: {
         name: "assemble",
@@ -3161,6 +3311,9 @@ classes.y = {
   },
   yaf_route_rewrite: {
     name: "Yaf_Route_Rewrite",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assemble: {
         name: "assemble",
@@ -3211,6 +3364,9 @@ classes.y = {
   },
   yaf_route_simple: {
     name: "Yaf_Route_Simple",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assemble: {
         name: "assemble",
@@ -3261,6 +3417,9 @@ classes.y = {
   },
   yaf_route_static: {
     name: "Yaf_Route_Static",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assemble: {
         name: "assemble",
@@ -3306,11 +3465,29 @@ classes.y = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yaf_route_static",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yaf_route_supervar: {
     name: "Yaf_Route_Supervar",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assemble: {
         name: "assemble",
@@ -3361,6 +3538,9 @@ classes.y = {
   },
   yaf_session: {
     name: "Yaf_Session",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -3696,6 +3876,9 @@ classes.y = {
   },
   yaf_view_interface: {
     name: "Yaf_View_Interface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assign: {
         name: "assign",
@@ -3771,11 +3954,29 @@ classes.y = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yaf_view_interface",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yaf_view_simple: {
     name: "Yaf_View_Simple",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assign: {
         name: "assign",
@@ -3961,6 +4162,9 @@ classes.y = {
   },
   yar_client: {
     name: "Yar_Client",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       setopt: {
         name: "setOpt",
@@ -4011,6 +4215,9 @@ classes.y = {
   },
   yar_client_exception: {
     name: "Yar_Client_Exception",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       gettype: {
         name: "getType",
@@ -4026,11 +4233,29 @@ classes.y = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yar_client_exception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yar_concurrent_client: {
     name: "Yar_Concurrent_Client",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       call: {
         name: "call",
@@ -4076,11 +4301,29 @@ classes.y = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yar_concurrent_client",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   yar_server: {
     name: "Yar_Server",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       handle: {
         name: "handle",
@@ -4116,6 +4359,9 @@ classes.y = {
   },
   yar_server_exception: {
     name: "Yar_Server_Exception",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       gettype: {
         name: "getType",
@@ -4129,6 +4375,21 @@ classes.y = {
           isStatic: false,
           parameters: "void",
           returnValue: "string",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.yar_server_exception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }

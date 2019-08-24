@@ -1,6 +1,9 @@
 classes.e = {
   emptyiterator: {
     name: "EmptyIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -76,11 +79,29 @@ classes.e = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.emptyiterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   error: {
     name: "Error",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getcode: {
         name: "getCode",
@@ -236,6 +257,9 @@ classes.e = {
   },
   errorexception: {
     name: "ErrorException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getseverity: {
         name: "getSeverity",
@@ -271,6 +295,9 @@ classes.e = {
   },
   ev: {
     name: "Ev",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       backend: {
         name: "backend",
@@ -526,11 +553,29 @@ classes.e = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.ev",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   evcheck: {
     name: "EvCheck",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createstopped: {
         name: "createStopped",
@@ -566,6 +611,9 @@ classes.e = {
   },
   evchild: {
     name: "EvChild",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createstopped: {
         name: "createStopped",
@@ -616,6 +664,9 @@ classes.e = {
   },
   evembed: {
     name: "EvEmbed",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createstopped: {
         name: "createStopped",
@@ -681,6 +732,9 @@ classes.e = {
   },
   event: {
     name: "Event",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -911,6 +965,9 @@ classes.e = {
   },
   eventbase: {
     name: "EventBase",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       dispatch: {
         name: "dispatch",
@@ -1111,6 +1168,9 @@ classes.e = {
   },
   eventbuffer: {
     name: "EventBuffer",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -1446,6 +1506,9 @@ classes.e = {
   },
   eventbufferevent: {
     name: "EventBufferEvent",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       close: {
         name: "close",
@@ -1871,6 +1934,9 @@ classes.e = {
   },
   eventconfig: {
     name: "EventConfig",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       avoidmethod: {
         name: "avoidMethod",
@@ -1936,6 +2002,9 @@ classes.e = {
   },
   eventdnsbase: {
     name: "EventDnsBase",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addnameserverip: {
         name: "addNameserverIp",
@@ -2076,6 +2145,9 @@ classes.e = {
   },
   eventhttp: {
     name: "EventHttp",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       accept: {
         name: "accept",
@@ -2246,6 +2318,9 @@ classes.e = {
   },
   eventhttpconnection: {
     name: "EventHttpConnection",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getbase: {
         name: "getBase",
@@ -2416,6 +2491,9 @@ classes.e = {
   },
   eventhttprequest: {
     name: "EventHttpRequest",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addheader: {
         name: "addHeader",
@@ -2766,6 +2844,9 @@ classes.e = {
   },
   eventlistener: {
     name: "EventListener",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       disable: {
         name: "disable",
@@ -2876,6 +2957,9 @@ classes.e = {
   },
   eventsslcontext: {
     name: "EventSslContext",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -2896,6 +2980,9 @@ classes.e = {
   },
   eventutil: {
     name: "EventUtil",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getlastsocketerrno: {
         name: "getLastSocketErrno",
@@ -3006,6 +3093,9 @@ classes.e = {
   },
   evfork: {
     name: "EvFork",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createstopped: {
         name: "createStopped",
@@ -3041,6 +3131,9 @@ classes.e = {
   },
   evidle: {
     name: "EvIdle",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createstopped: {
         name: "createStopped",
@@ -3076,6 +3169,9 @@ classes.e = {
   },
   evio: {
     name: "EvIo",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createstopped: {
         name: "createStopped",
@@ -3126,6 +3222,9 @@ classes.e = {
   },
   evloop: {
     name: "EvLoop",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       backend: {
         name: "backend",
@@ -3476,6 +3575,9 @@ classes.e = {
   },
   evperiodic: {
     name: "EvPeriodic",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       again: {
         name: "again",
@@ -3556,6 +3658,9 @@ classes.e = {
   },
   evprepare: {
     name: "EvPrepare",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createstopped: {
         name: "createStopped",
@@ -3591,6 +3696,9 @@ classes.e = {
   },
   evsignal: {
     name: "EvSignal",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createstopped: {
         name: "createStopped",
@@ -3641,6 +3749,9 @@ classes.e = {
   },
   evstat: {
     name: "EvStat",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       attr: {
         name: "attr",
@@ -3736,6 +3847,9 @@ classes.e = {
   },
   evtimer: {
     name: "EvTimer",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       again: {
         name: "again",
@@ -3801,6 +3915,9 @@ classes.e = {
   },
   evwatcher: {
     name: "EvWatcher",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       clear: {
         name: "clear",
@@ -3941,6 +4058,9 @@ classes.e = {
   },
   exception: {
     name: "Exception",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getcode: {
         name: "getCode",
@@ -4096,6 +4216,9 @@ classes.e = {
   },
   executable: {
     name: "Executable",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       execute: {
         name: "execute",
@@ -4111,11 +4234,29 @@ classes.e = {
           returnValue: "mysql_xdevapi\\Result",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.executable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   executionstatus: {
     name: "ExecutionStatus",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -4136,6 +4277,9 @@ classes.e = {
   },
   expression: {
     name: "Expression",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",

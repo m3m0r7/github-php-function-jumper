@@ -1,6 +1,9 @@
 classes.a = {
   apciterator: {
     name: "APCIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -141,6 +144,9 @@ classes.a = {
   },
   apcuiterator: {
     name: "APCUIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -281,6 +287,9 @@ classes.a = {
   },
   appenditerator: {
     name: "AppendIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       append: {
         name: "append",
@@ -436,6 +445,9 @@ classes.a = {
   },
   arrayaccess: {
     name: "ArrayAccess",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       offsetexists: {
         name: "offsetExists",
@@ -496,11 +508,29 @@ classes.a = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.arrayaccess",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   arrayiterator: {
     name: "ArrayIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       append: {
         name: "append",
@@ -866,6 +896,9 @@ classes.a = {
   },
   arrayobject: {
     name: "ArrayObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       append: {
         name: "append",

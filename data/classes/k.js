@@ -1,6 +1,9 @@
 classes.k = {
   ktaglib_id3v2_attachedpictureframe: {
     name: "KTaglib_ID3v2_AttachedPictureFrame",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getdescription: {
         name: "getDescription",
@@ -106,11 +109,29 @@ classes.k = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.ktaglib_id3v2_attachedpictureframe",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   ktaglib_id3v2_frame: {
     name: "KTaglib_ID3v2_Frame",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getsize: {
         name: "getSize",
@@ -141,11 +162,29 @@ classes.k = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.ktaglib_id3v2_frame",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   ktaglib_id3v2_tag: {
     name: "KTaglib_ID3v2_Tag",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addframe: {
         name: "addFrame",
@@ -176,11 +215,29 @@ classes.k = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.ktaglib_id3v2_tag",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   ktaglib_mpeg_audioproperties: {
     name: "KTaglib_MPEG_AudioProperties",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getbitrate: {
         name: "getBitrate",
@@ -316,11 +373,29 @@ classes.k = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.ktaglib_mpeg_audioproperties",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   ktaglib_mpeg_file: {
     name: "KTaglib_MPEG_File",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getaudioproperties: {
         name: "getAudioProperties",
@@ -386,6 +461,9 @@ classes.k = {
   },
   ktaglib_tag: {
     name: "KTaglib_Tag",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getalbum: {
         name: "getAlbum",
@@ -504,6 +582,21 @@ classes.k = {
           isStatic: false,
           parameters: "void",
           returnValue: "bool",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.ktaglib_tag",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }

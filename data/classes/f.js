@@ -1,6 +1,9 @@
 classes.f = {
   fannconnection: {
     name: "FANNConnection",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getfromneuron: {
         name: "getFromNeuron",
@@ -81,6 +84,9 @@ classes.f = {
   },
   ffi: {
     name: "FFI",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addr: {
         name: "addr",
@@ -321,11 +327,29 @@ classes.f = {
           returnValue: "FFI\\CType",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.ffi",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   filesystemiterator: {
     name: "FilesystemIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -436,6 +460,9 @@ classes.f = {
   },
   filteriterator: {
     name: "FilterIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       accept: {
         name: "accept",
@@ -561,6 +588,9 @@ classes.f = {
   },
   finfo: {
     name: "finfo",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       buffer: {
         name: "buffer",

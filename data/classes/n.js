@@ -1,6 +1,9 @@
 classes.n = {
   norewinditerator: {
     name: "NoRewindIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -111,6 +114,9 @@ classes.n = {
   },
   normalizer: {
     name: "Normalizer",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getrawdecomposition: {
         name: "getRawDecomposition",
@@ -156,11 +162,29 @@ classes.n = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.normalizer",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   numberformatter: {
     name: "NumberFormatter",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       create: {
         name: "create",
@@ -399,6 +423,21 @@ classes.n = {
           isStatic: false,
           parameters: "int $attr, string $value",
           returnValue: "bool",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.numberformatter",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }

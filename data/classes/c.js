@@ -1,6 +1,9 @@
 classes.c = {
   cachingiterator: {
     name: "CachingIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -261,6 +264,9 @@ classes.c = {
   },
   cairo: {
     name: "Cairo",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       availablefonts: {
         name: "availableFonts",
@@ -336,11 +342,29 @@ classes.c = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.cairo",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   cairocontext: {
     name: "CairoContext",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       appendpath: {
         name: "appendPath",
@@ -1801,6 +1825,9 @@ classes.c = {
   },
   cairofontface: {
     name: "CairoFontFace",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       gettype: {
         name: "getType",
@@ -1851,6 +1878,9 @@ classes.c = {
   },
   cairofontoptions: {
     name: "CairoFontOptions",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       equal: {
         name: "equal",
@@ -2051,6 +2081,9 @@ classes.c = {
   },
   cairoformat: {
     name: "CairoFormat",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       strideforwidth: {
         name: "strideForWidth",
@@ -2066,11 +2099,29 @@ classes.c = {
           returnValue: "int",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.cairoformat",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   cairogradientpattern: {
     name: "CairoGradientPattern",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addcolorstoprgb: {
         name: "addColorStopRgb",
@@ -2161,11 +2212,29 @@ classes.c = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.cairogradientpattern",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   cairoimagesurface: {
     name: "CairoImageSurface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createfordata: {
         name: "createForData",
@@ -2291,6 +2360,9 @@ classes.c = {
   },
   cairolineargradient: {
     name: "CairoLinearGradient",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getpoints: {
         name: "getPoints",
@@ -2326,6 +2398,9 @@ classes.c = {
   },
   cairomatrix: {
     name: "CairoMatrix",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       initidentity: {
         name: "initIdentity",
@@ -2511,6 +2586,9 @@ classes.c = {
   },
   cairopattern: {
     name: "CairoPattern",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getmatrix: {
         name: "getMatrix",
@@ -2591,6 +2669,9 @@ classes.c = {
   },
   cairopdfsurface: {
     name: "CairoPdfSurface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       setsize: {
         name: "setSize",
@@ -2626,6 +2707,9 @@ classes.c = {
   },
   cairopssurface: {
     name: "CairoPsSurface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       dscbeginpagesetup: {
         name: "dscBeginPageSetup",
@@ -2781,6 +2865,9 @@ classes.c = {
   },
   cairoradialgradient: {
     name: "CairoRadialGradient",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getcircles: {
         name: "getCircles",
@@ -2816,6 +2903,9 @@ classes.c = {
   },
   cairoscaledfont: {
     name: "CairoScaledFont",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       extents: {
         name: "extents",
@@ -2986,6 +3076,9 @@ classes.c = {
   },
   cairosolidpattern: {
     name: "CairoSolidPattern",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getrgba: {
         name: "getRgba",
@@ -3021,6 +3114,9 @@ classes.c = {
   },
   cairosurface: {
     name: "CairoSurface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       copypage: {
         name: "copyPage",
@@ -3266,6 +3362,9 @@ classes.c = {
   },
   cairosurfacepattern: {
     name: "CairoSurfacePattern",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getextend: {
         name: "getExtend",
@@ -3361,6 +3460,9 @@ classes.c = {
   },
   cairosvgsurface: {
     name: "CairoSvgSurface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getversions: {
         name: "getVersions",
@@ -3426,6 +3528,9 @@ classes.c = {
   },
   callbackfilteriterator: {
     name: "CallbackFilterIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       accept: {
         name: "accept",
@@ -3461,6 +3566,9 @@ classes.c = {
   },
   chdb: {
     name: "chdb",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       get: {
         name: "get",
@@ -3496,6 +3604,9 @@ classes.c = {
   },
   closure: {
     name: "Closure",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bind: {
         name: "bind",
@@ -3576,6 +3687,9 @@ classes.c = {
   },
   collator: {
     name: "Collator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       asort: {
         name: "asort",
@@ -3791,6 +3905,9 @@ classes.c = {
   },
   collectable: {
     name: "Collectable",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       isgarbage: {
         name: "isGarbage",
@@ -3821,11 +3938,29 @@ classes.c = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.collectable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   collection: {
     name: "Collection",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -4071,6 +4206,9 @@ classes.c = {
   },
   collectionadd: {
     name: "CollectionAdd",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       execute: {
         name: "execute",
@@ -4106,6 +4244,9 @@ classes.c = {
   },
   collectionfind: {
     name: "CollectionFind",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bind: {
         name: "bind",
@@ -4276,6 +4417,9 @@ classes.c = {
   },
   collectionmodify: {
     name: "CollectionModify",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       arrayappend: {
         name: "arrayAppend",
@@ -4461,6 +4605,9 @@ classes.c = {
   },
   collectionremove: {
     name: "CollectionRemove",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bind: {
         name: "bind",
@@ -4541,6 +4688,9 @@ classes.c = {
   },
   columnresult: {
     name: "ColumnResult",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getcharactersetname: {
         name: "getCharacterSetName",
@@ -4741,6 +4891,9 @@ classes.c = {
   },
   cond: {
     name: "Cond",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       broadcast: {
         name: "broadcast",
@@ -4816,11 +4969,29 @@ classes.c = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.cond",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   countable: {
     name: "Countable",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -4836,11 +5007,29 @@ classes.c = {
           returnValue: "int",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.countable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   counter: {
     name: "Counter",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bumpvalue: {
         name: "bumpValue",
@@ -4951,6 +5140,9 @@ classes.c = {
   },
   crudoperationbindable: {
     name: "CrudOperationBindable",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bind: {
         name: "bind",
@@ -4966,11 +5158,29 @@ classes.c = {
           returnValue: "mysql_xdevapi\\CrudOperationBindable",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.crudoperationbindable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   crudoperationlimitable: {
     name: "CrudOperationLimitable",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       limit: {
         name: "limit",
@@ -4986,11 +5196,29 @@ classes.c = {
           returnValue: "mysql_xdevapi\\CrudOperationLimitable",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.crudoperationlimitable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   crudoperationskippable: {
     name: "CrudOperationSkippable",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       skip: {
         name: "skip",
@@ -5006,11 +5234,29 @@ classes.c = {
           returnValue: "mysql_xdevapi\\CrudOperationSkippable",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.crudoperationskippable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   crudoperationsortable: {
     name: "CrudOperationSortable",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       sort: {
         name: "sort",
@@ -5026,11 +5272,29 @@ classes.c = {
           returnValue: "mysql_xdevapi\\CrudOperationSortable",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.crudoperationsortable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   curlfile: {
     name: "CURLFile",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getfilename: {
         name: "getFilename",
@@ -5133,8 +5397,8 @@ classes.c = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          "returnValue": "void",
-          "ref": null
+          returnValue: "void",
+          ref: null
         }
       }
     }
