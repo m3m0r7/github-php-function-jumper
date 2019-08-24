@@ -1,50 +1,254 @@
 classes.__indexes__.q = {
-  query: [
-    classes.d.domxpath,
-    classes.m.mysqli,
-    classes.m.mysqlnduhconnection,
-    classes.p.pdo,
-    classes.s.solrclient,
-    classes.s.sphinxclient,
-    classes.s.sqlite3,
-    classes.s.swish
-  ],
-  quantizeimage: [
-    classes.g.gmagick,
-    classes.i.imagick
-  ],
-  quantizeimages: [
-    classes.g.gmagick,
-    classes.i.imagick
-  ],
-  queryfontmetrics: [
-    classes.g.gmagick,
-    classes.i.imagick
-  ],
-  queryfonts: [
-    classes.g.gmagick,
-    classes.i.imagick
-  ],
-  queryformats: [
-    classes.g.gmagick,
-    classes.i.imagick
-  ],
-  quit: [
-    classes.m.memcached
-  ],
-  queryreadresultsetheader: [
-    classes.m.mysqlnduhconnection
-  ],
-  quote: [
-    classes.p.pdo
-  ],
-  quotename: [
-    classes.s.session
-  ],
-  queryphrase: [
-    classes.s.solrutils
-  ],
-  querysingle: [
-    classes.s.sqlite3
-  ]
+  query: {
+    0: classes.d.domxpath,
+    1: classes.m.mysqli,
+    2: classes.m.mysqlnduhconnection,
+    3: classes.p.pdo,
+    4: classes.s.solrclient,
+    5: classes.s.sphinxclient,
+    6: classes.s.sqlite3,
+    7: classes.s.swish,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.query",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  quantizeimage: {
+    0: classes.g.gmagick,
+    1: classes.i.imagick,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.quantizeimage",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  quantizeimages: {
+    0: classes.g.gmagick,
+    1: classes.i.imagick,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.quantizeimages",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  queryfontmetrics: {
+    0: classes.g.gmagick,
+    1: classes.i.imagick,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.queryfontmetrics",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  queryfonts: {
+    0: classes.g.gmagick,
+    1: classes.i.imagick,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.queryfonts",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  queryformats: {
+    0: classes.g.gmagick,
+    1: classes.i.imagick,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.queryformats",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  quit: {
+    0: classes.m.memcached,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.quit",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  queryreadresultsetheader: {
+    0: classes.m.mysqlnduhconnection,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.queryreadresultsetheader",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  quote: {
+    0: classes.p.pdo,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.quote",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  quotename: {
+    0: classes.s.session,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.quotename",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  queryphrase: {
+    0: classes.s.solrutils,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.queryphrase",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  querysingle: {
+    0: classes.s.sqlite3,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "class.querysingle",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  }
 };

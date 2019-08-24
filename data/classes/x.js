@@ -1,6 +1,9 @@
 classes.x = {
   xmlreader: {
     name: "XMLReader",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       close: {
         name: "close",
@@ -376,11 +379,29 @@ classes.x = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.xmlreader",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   xsession: {
     name: "XSession",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -401,6 +422,9 @@ classes.x = {
   },
   xsltprocessor: {
     name: "XSLTProcessor",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getparameter: {
         name: "getParameter",

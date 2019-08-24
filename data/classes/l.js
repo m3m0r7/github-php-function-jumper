@@ -1,6 +1,9 @@
 classes.l = {
   lapack: {
     name: "Lapack",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       eigenvalues: {
         name: "eigenValues",
@@ -106,11 +109,29 @@ classes.l = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.lapack",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   limititerator: {
     name: "LimitIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -251,6 +272,9 @@ classes.l = {
   },
   locale: {
     name: "Locale",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       acceptfromhttp: {
         name: "acceptFromHttp",
@@ -521,11 +545,29 @@ classes.l = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.locale",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   lua: {
     name: "Lua",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assign: {
         name: "assign",
@@ -636,6 +678,9 @@ classes.l = {
   },
   luaclosure: {
     name: "LuaClosure",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __invoke: {
         name: "__invoke",
@@ -649,6 +694,21 @@ classes.l = {
           isStatic: false,
           parameters: "[ mixed $... ]",
           returnValue: "void",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.luaclosure",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }

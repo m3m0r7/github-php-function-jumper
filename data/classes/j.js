@@ -1,6 +1,9 @@
 classes.j = {
   jsonserializable: {
     name: "JsonSerializable",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       jsonserialize: {
         name: "jsonSerialize",
@@ -16,11 +19,29 @@ classes.j = {
           returnValue: "mixed",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.jsonserializable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   judy: {
     name: "Judy",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bycount: {
         name: "byCount",

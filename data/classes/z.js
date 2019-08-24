@@ -1,6 +1,9 @@
 classes.z = {
   ziparchive: {
     name: "ZipArchive",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addemptydir: {
         name: "addEmptyDir",
@@ -601,11 +604,29 @@ classes.z = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.ziparchive",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   zmq: {
     name: "ZMQ",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -626,6 +647,9 @@ classes.z = {
   },
   zmqcontext: {
     name: "ZMQContext",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getopt: {
         name: "getOpt",
@@ -706,6 +730,9 @@ classes.z = {
   },
   zmqdevice: {
     name: "ZMQDevice",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getidletimeout: {
         name: "getIdleTimeout",
@@ -831,6 +858,9 @@ classes.z = {
   },
   zmqpoll: {
     name: "ZMQPoll",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -921,11 +951,29 @@ classes.z = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.zmqpoll",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   zmqsocket: {
     name: "ZMQSocket",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bind: {
         name: "bind",
@@ -1156,6 +1204,9 @@ classes.z = {
   },
   zookeeper: {
     name: "Zookeeper",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addauth: {
         name: "addAuth",
@@ -1476,6 +1527,9 @@ classes.z = {
   },
   zookeeperconfig: {
     name: "ZookeeperConfig",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -1534,6 +1588,21 @@ classes.z = {
           isStatic: false,
           parameters: "string $members [, int $version = -1 [, array &$stat = NULL ]]",
           returnValue: "void",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.zookeeperconfig",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }

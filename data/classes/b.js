@@ -1,6 +1,9 @@
 classes.b = {
   baseresult: {
     name: "BaseResult",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getwarnings: {
         name: "getWarnings",
@@ -29,6 +32,21 @@ classes.b = {
           isStatic: false,
           parameters: "void",
           returnValue: "integer",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.baseresult",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }

@@ -1,6 +1,9 @@
 classes.i = {
   imagick: {
     name: "Imagick",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       adaptiveblurimage: {
         name: "adaptiveBlurImage",
@@ -5316,6 +5319,9 @@ classes.i = {
   },
   imagickdraw: {
     name: "ImagickDraw",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       affine: {
         name: "affine",
@@ -7181,6 +7187,9 @@ classes.i = {
   },
   imagickkernel: {
     name: "ImagickKernel",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addkernel: {
         name: "addKernel",
@@ -7286,11 +7295,29 @@ classes.i = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.imagickkernel",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   imagickpixel: {
     name: "ImagickPixel",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       clear: {
         name: "clear",
@@ -7596,6 +7623,9 @@ classes.i = {
   },
   imagickpixeliterator: {
     name: "ImagickPixelIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       clear: {
         name: "clear",
@@ -7811,6 +7841,9 @@ classes.i = {
   },
   infiniteiterator: {
     name: "InfiniteIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       next: {
         name: "next",
@@ -7846,6 +7879,9 @@ classes.i = {
   },
   intlbreakiterator: {
     name: "IntlBreakIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createcharacterinstance: {
         name: "createCharacterInstance",
@@ -8166,6 +8202,9 @@ classes.i = {
   },
   intlcalendar: {
     name: "IntlCalendar",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -8861,6 +8900,9 @@ classes.i = {
   },
   intlchar: {
     name: "IntlChar",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       charage: {
         name: "charAge",
@@ -9746,11 +9788,29 @@ classes.i = {
           returnValue: "mixed",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.intlchar",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   intlcodepointbreakiterator: {
     name: "IntlCodePointBreakIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getlastcodepoint: {
         name: "getLastCodePoint",
@@ -9766,11 +9826,29 @@ classes.i = {
           returnValue: "int",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.intlcodepointbreakiterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   intldateformatter: {
     name: "IntlDateFormatter",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       create: {
         name: "create",
@@ -10086,11 +10164,29 @@ classes.i = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.intldateformatter",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   intlgregoriancalendar: {
     name: "IntlGregorianCalendar",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getgregorianchange: {
         name: "getGregorianChange",
@@ -10156,6 +10252,9 @@ classes.i = {
   },
   intliterator: {
     name: "IntlIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -10231,11 +10330,29 @@ classes.i = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.intliterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   intlpartsiterator: {
     name: "IntlPartsIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getbreakiterator: {
         name: "getBreakIterator",
@@ -10251,11 +10368,29 @@ classes.i = {
           returnValue: "IntlBreakIterator",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.intlpartsiterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   intlrulebasedbreakiterator: {
     name: "IntlRuleBasedBreakIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getbinaryrules: {
         name: "getBinaryRules",
@@ -10336,6 +10471,9 @@ classes.i = {
   },
   intltimezone: {
     name: "IntlTimeZone",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       countequivalentids: {
         name: "countEquivalentIDs",
@@ -10696,11 +10834,29 @@ classes.i = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.intltimezone",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   iterator: {
     name: "Iterator",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -10776,11 +10932,29 @@ classes.i = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.iterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   iteratoraggregate: {
     name: "IteratorAggregate",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       getiterator: {
         name: "getIterator",
@@ -10796,11 +10970,29 @@ classes.i = {
           returnValue: "Traversable",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.iteratoraggregate",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   iteratoriterator: {
     name: "IteratorIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",

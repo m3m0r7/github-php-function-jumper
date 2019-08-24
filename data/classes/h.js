@@ -1,6 +1,9 @@
 classes.h = {
   haruannotation: {
     name: "HaruAnnotation",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       setborderstyle: {
         name: "setBorderStyle",
@@ -61,11 +64,29 @@ classes.h = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.haruannotation",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   harudestination: {
     name: "HaruDestination",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       setfit: {
         name: "setFit",
@@ -186,11 +207,29 @@ classes.h = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.harudestination",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   harudoc: {
     name: "HaruDoc",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addpage: {
         name: "addPage",
@@ -856,6 +895,9 @@ classes.h = {
   },
   haruencoder: {
     name: "HaruEncoder",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getbytetype: {
         name: "getByteType",
@@ -916,11 +958,29 @@ classes.h = {
           returnValue: "int",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.haruencoder",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   harufont: {
     name: "HaruFont",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getascent: {
         name: "getAscent",
@@ -1056,11 +1116,29 @@ classes.h = {
           returnValue: "int",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.harufont",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   haruimage: {
     name: "HaruImage",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getbitspercomponent: {
         name: "getBitsPerComponent",
@@ -1166,11 +1244,29 @@ classes.h = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.haruimage",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   haruoutline: {
     name: "HaruOutline",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       setdestination: {
         name: "setDestination",
@@ -1201,11 +1297,29 @@ classes.h = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.haruoutline",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   harupage: {
     name: "HaruPage",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       arc: {
         name: "arc",
@@ -2496,11 +2610,29 @@ classes.h = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.harupage",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   hashcontext: {
     name: "HashContext",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -2521,6 +2653,9 @@ classes.h = {
   },
   hw_api: {
     name: "hw_api",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       checkin: {
         name: "checkin",
@@ -3001,11 +3136,29 @@ classes.h = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.hw_api",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   hw_api_attribute: {
     name: "hw_api_attribute",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       key: {
         name: "key",
@@ -3066,11 +3219,29 @@ classes.h = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.hw_api_attribute",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   hw_api_content: {
     name: "hw_api_content",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       mimetype: {
         name: "mimetype",
@@ -3101,11 +3272,29 @@ classes.h = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.hw_api_content",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   hw_api_error: {
     name: "hw_api_error",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -3136,11 +3325,29 @@ classes.h = {
           returnValue: "HW_API_Reason",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.hw_api_error",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   hw_api_object: {
     name: "hw_api_object",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       assign: {
         name: "assign",
@@ -3246,11 +3453,29 @@ classes.h = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.hw_api_object",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   hw_api_reason: {
     name: "hw_api_reason",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       description: {
         name: "description",
@@ -3279,6 +3504,21 @@ classes.h = {
           isStatic: false,
           parameters: "void",
           returnValue: "HW_API_Reason",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.hw_api_reason",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }

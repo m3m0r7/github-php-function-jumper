@@ -1,6 +1,9 @@
 classes.w = {
   warning: {
     name: "Warning",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -21,6 +24,9 @@ classes.w = {
   },
   weakmap: {
     name: "WeakMap",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -191,6 +197,9 @@ classes.w = {
   },
   weakref: {
     name: "Weakref",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       acquire: {
         name: "acquire",
@@ -271,6 +280,9 @@ classes.w = {
   },
   worker: {
     name: "Worker",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       collect: {
         name: "collect",
@@ -374,6 +386,21 @@ classes.w = {
           isStatic: false,
           parameters: "void",
           returnValue: "int",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.worker",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }

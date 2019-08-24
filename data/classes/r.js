@@ -1,6 +1,9 @@
 classes.r = {
   rararchive: {
     name: "RarArchive",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       close: {
         name: "close",
@@ -136,11 +139,29 @@ classes.r = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.rararchive",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   rarentry: {
     name: "RarEntry",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       extract: {
         name: "extract",
@@ -351,11 +372,29 @@ classes.r = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.rarentry",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   rarexception: {
     name: "RarException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       isusingexceptions: {
         name: "isUsingExceptions",
@@ -386,11 +425,29 @@ classes.r = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.rarexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   recursivearrayiterator: {
     name: "RecursiveArrayIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getchildren: {
         name: "getChildren",
@@ -421,11 +478,29 @@ classes.r = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.recursivearrayiterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   recursivecachingiterator: {
     name: "RecursiveCachingIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getchildren: {
         name: "getChildren",
@@ -476,6 +551,9 @@ classes.r = {
   },
   recursivecallbackfilteriterator: {
     name: "RecursiveCallbackFilterIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getchildren: {
         name: "getChildren",
@@ -526,6 +604,9 @@ classes.r = {
   },
   recursivedirectoryiterator: {
     name: "RecursiveDirectoryIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getchildren: {
         name: "getChildren",
@@ -651,6 +732,9 @@ classes.r = {
   },
   recursivefilteriterator: {
     name: "RecursiveFilterIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getchildren: {
         name: "getChildren",
@@ -701,6 +785,9 @@ classes.r = {
   },
   recursiveiterator: {
     name: "RecursiveIterator",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       getchildren: {
         name: "getChildren",
@@ -731,11 +818,29 @@ classes.r = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.recursiveiterator",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   recursiveiteratoriterator: {
     name: "RecursiveIteratorIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       beginchildren: {
         name: "beginChildren",
@@ -1011,6 +1116,9 @@ classes.r = {
   },
   recursiveregexiterator: {
     name: "RecursiveRegexIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getchildren: {
         name: "getChildren",
@@ -1061,6 +1169,9 @@ classes.r = {
   },
   recursivetreeiterator: {
     name: "RecursiveTreeIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       beginchildren: {
         name: "beginChildren",
@@ -1336,6 +1447,9 @@ classes.r = {
   },
   reflection: {
     name: "Reflection",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -1366,11 +1480,29 @@ classes.r = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.reflection",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   reflectionclass: {
     name: "ReflectionClass",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -2171,6 +2303,9 @@ classes.r = {
   },
   reflectionclassconstant: {
     name: "ReflectionClassConstant",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -2341,6 +2476,9 @@ classes.r = {
   },
   reflectionextension: {
     name: "ReflectionExtension",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -2571,6 +2709,9 @@ classes.r = {
   },
   reflectionfunction: {
     name: "ReflectionFunction",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -2681,6 +2822,9 @@ classes.r = {
   },
   reflectionfunctionabstract: {
     name: "ReflectionFunctionAbstract",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getclosurescopeclass: {
         name: "getClosureScopeClass",
@@ -3086,11 +3230,29 @@ classes.r = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.reflectionfunctionabstract",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   reflectiongenerator: {
     name: "ReflectionGenerator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getexecutingfile: {
         name: "getExecutingFile",
@@ -3201,6 +3363,9 @@ classes.r = {
   },
   reflectionmethod: {
     name: "ReflectionMethod",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -3476,6 +3641,9 @@ classes.r = {
   },
   reflectionnamedtype: {
     name: "ReflectionNamedType",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getname: {
         name: "getName",
@@ -3491,11 +3659,29 @@ classes.r = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.reflectionnamedtype",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   reflectionobject: {
     name: "ReflectionObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -3531,6 +3717,9 @@ classes.r = {
   },
   reflectionparameter: {
     name: "ReflectionParameter",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       allowsnull: {
         name: "allowsNull",
@@ -3866,6 +4055,9 @@ classes.r = {
   },
   reflectionproperty: {
     name: "ReflectionProperty",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -4111,6 +4303,9 @@ classes.r = {
   },
   reflectiontype: {
     name: "ReflectionType",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       allowsnull: {
         name: "allowsNull",
@@ -4156,11 +4351,29 @@ classes.r = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.reflectiontype",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   reflectionzendextension: {
     name: "ReflectionZendExtension",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -4301,6 +4514,9 @@ classes.r = {
   },
   reflector: {
     name: "Reflector",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       export: {
         name: "export",
@@ -4331,11 +4547,29 @@ classes.r = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.reflector",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   regexiterator: {
     name: "RegexIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       accept: {
         name: "accept",
@@ -4476,6 +4710,9 @@ classes.r = {
   },
   resourcebundle: {
     name: "ResourceBundle",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -4566,11 +4803,29 @@ classes.r = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.resourcebundle",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   result: {
     name: "Result",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getautoincrementvalue: {
         name: "getAutoIncrementValue",
@@ -4651,6 +4906,9 @@ classes.r = {
   },
   rowresult: {
     name: "RowResult",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       fetchall: {
         name: "fetchAll",
@@ -4776,6 +5034,9 @@ classes.r = {
   },
   rrdcreator: {
     name: "RRDCreator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addarchive: {
         name: "addArchive",
@@ -4841,6 +5102,9 @@ classes.r = {
   },
   rrdgraph: {
     name: "RRDGraph",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       save: {
         name: "save",
@@ -4906,6 +5170,9 @@ classes.r = {
   },
   rrdupdater: {
     name: "RRDUpdater",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       update: {
         name: "update",

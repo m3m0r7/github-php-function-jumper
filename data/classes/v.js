@@ -1,6 +1,9 @@
 classes.v = {
   v8js: {
     name: "V8Js",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       executestring: {
         name: "executeString",
@@ -81,6 +84,9 @@ classes.v = {
   },
   v8jsexception: {
     name: "V8JsException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getjsfilename: {
         name: "getJsFileName",
@@ -141,11 +147,29 @@ classes.v = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.v8jsexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   varnishadmin: {
     name: "VarnishAdmin",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       auth: {
         name: "auth",
@@ -436,6 +460,9 @@ classes.v = {
   },
   varnishlog: {
     name: "VarnishLog",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getline: {
         name: "getLine",
@@ -486,6 +513,9 @@ classes.v = {
   },
   varnishstat: {
     name: "VarnishStat",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getsnapshot: {
         name: "getSnapshot",

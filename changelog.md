@@ -1,5 +1,12 @@
 # Change Logs
 
+Ver 0.2.1:
+- Enable to popup interfaces.
+- Small bugfix.
+
+Ver 0.2.0:
+- Enhance to highlight for dynamic method.
+
 Ver 0.1.2
 - Fix bugs
 

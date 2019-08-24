@@ -1,6 +1,9 @@
 classes.d = {
   databaseobject: {
     name: "DatabaseObject",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       existsindatabase: {
         name: "existsInDatabase",
@@ -46,11 +49,29 @@ classes.d = {
           returnValue: "mysql_xdevapi\\Session",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.databaseobject",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   dateinterval: {
     name: "DateInterval",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createfromdatestring: {
         name: "createFromDateString",
@@ -101,6 +122,9 @@ classes.d = {
   },
   dateperiod: {
     name: "DatePeriod",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getdateinterval: {
         name: "getDateInterval",
@@ -181,6 +205,9 @@ classes.d = {
   },
   datetime: {
     name: "DateTime",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -471,6 +498,9 @@ classes.d = {
   },
   datetimeimmutable: {
     name: "DateTimeImmutable",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -671,6 +701,9 @@ classes.d = {
   },
   datetimezone: {
     name: "DateTimeZone",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getlocation: {
         name: "getLocation",
@@ -781,6 +814,9 @@ classes.d = {
   },
   directory: {
     name: "Directory",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       close: {
         name: "close",
@@ -826,11 +862,29 @@ classes.d = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.directory",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   directoryiterator: {
     name: "DirectoryIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -1271,6 +1325,9 @@ classes.d = {
   },
   docresult: {
     name: "DocResult",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       fetchall: {
         name: "fetchAll",
@@ -1351,6 +1408,9 @@ classes.d = {
   },
   domattr: {
     name: "DOMAttr",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       isid: {
         name: "isId",
@@ -1386,6 +1446,9 @@ classes.d = {
   },
   domcdatasection: {
     name: "DOMCdataSection",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -1406,6 +1469,9 @@ classes.d = {
   },
   domcharacterdata: {
     name: "DOMCharacterData",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       appenddata: {
         name: "appendData",
@@ -1481,11 +1547,29 @@ classes.d = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.domcharacterdata",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   domcomment: {
     name: "DOMComment",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -1506,6 +1590,9 @@ classes.d = {
   },
   domdocument: {
     name: "DOMDocument",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createattribute: {
         name: "createAttribute",
@@ -1976,6 +2063,9 @@ classes.d = {
   },
   domdocumentfragment: {
     name: "DOMDocumentFragment",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       appendxml: {
         name: "appendXML",
@@ -1991,11 +2081,29 @@ classes.d = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.domdocumentfragment",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   domelement: {
     name: "DOMElement",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getattribute: {
         name: "getAttribute",
@@ -2286,6 +2394,9 @@ classes.d = {
   },
   domentityreference: {
     name: "DOMEntityReference",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -2306,6 +2417,9 @@ classes.d = {
   },
   domimplementation: {
     name: "DOMImplementation",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       createdocument: {
         name: "createDocument",
@@ -2371,6 +2485,9 @@ classes.d = {
   },
   domnamednodemap: {
     name: "DOMNamedNodeMap",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -2431,11 +2548,29 @@ classes.d = {
           returnValue: "DOMNode",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.domnamednodemap",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   domnode: {
     name: "DOMNode",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       appendchild: {
         name: "appendChild",
@@ -2691,11 +2826,29 @@ classes.d = {
           returnValue: "DOMNode",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.domnode",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   domnodelist: {
     name: "DOMNodeList",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -2726,11 +2879,29 @@ classes.d = {
           returnValue: "DOMElement",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.domnodelist",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   domprocessinginstruction: {
     name: "DOMProcessingInstruction",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -2751,6 +2922,9 @@ classes.d = {
   },
   domtext: {
     name: "DOMText",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       iselementcontentwhitespace: {
         name: "isElementContentWhitespace",
@@ -2816,6 +2990,9 @@ classes.d = {
   },
   domxpath: {
     name: "DOMXPath",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       evaluate: {
         name: "evaluate",

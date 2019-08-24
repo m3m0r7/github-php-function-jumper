@@ -1,6 +1,9 @@
 classes.t = {
   table: {
     name: "Table",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       count: {
         name: "count",
@@ -171,6 +174,9 @@ classes.t = {
   },
   tabledelete: {
     name: "TableDelete",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bind: {
         name: "bind",
@@ -266,6 +272,9 @@ classes.t = {
   },
   tableinsert: {
     name: "TableInsert",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       execute: {
         name: "execute",
@@ -316,6 +325,9 @@ classes.t = {
   },
   tableselect: {
     name: "TableSelect",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bind: {
         name: "bind",
@@ -486,6 +498,9 @@ classes.t = {
   },
   tableupdate: {
     name: "TableUpdate",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       bind: {
         name: "bind",
@@ -596,6 +611,9 @@ classes.t = {
   },
   thread: {
     name: "Thread",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       detach: {
         name: "detach",
@@ -761,11 +779,29 @@ classes.t = {
           returnValue: "boolean",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.thread",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   threaded: {
     name: "Threaded",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       chunk: {
         name: "chunk",
@@ -1036,11 +1072,29 @@ classes.t = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.threaded",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   throwable: {
     name: "Throwable",
+    isClass: false,
+    isInterface: true,
+    isTrait: false,
     methods: {
       getcode: {
         name: "getCode",
@@ -1161,11 +1215,29 @@ classes.t = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.throwable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   tidy: {
     name: "tidy",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       body: {
         name: "body",
@@ -1456,6 +1528,9 @@ classes.t = {
   },
   tidynode: {
     name: "tidyNode",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getparent: {
         name: "getParent",
@@ -1611,6 +1686,9 @@ classes.t = {
   },
   tokyotyrant: {
     name: "TokyoTyrant",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -1961,6 +2039,9 @@ classes.t = {
   },
   tokyotyrantiterator: {
     name: "TokyoTyrantIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -2056,6 +2137,9 @@ classes.t = {
   },
   tokyotyrantquery: {
     name: "TokyoTyrantQuery",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addcond: {
         name: "addCond",
@@ -2271,6 +2355,9 @@ classes.t = {
   },
   tokyotyranttable: {
     name: "TokyoTyrantTable",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -2451,11 +2538,29 @@ classes.t = {
           returnValue: "mixed",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.tokyotyranttable",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   transliterator: {
     name: "Transliterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       create: {
         name: "create",

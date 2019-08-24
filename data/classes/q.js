@@ -1,6 +1,9 @@
 classes.q = {
   quickhashinthash: {
     name: "QuickHashIntHash",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -186,6 +189,9 @@ classes.q = {
   },
   quickhashintset: {
     name: "QuickHashIntSet",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -326,6 +332,9 @@ classes.q = {
   },
   quickhashintstringhash: {
     name: "QuickHashIntStringHash",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -511,6 +520,9 @@ classes.q = {
   },
   quickhashstringinthash: {
     name: "QuickHashStringIntHash",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",

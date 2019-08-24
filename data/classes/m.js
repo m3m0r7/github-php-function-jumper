@@ -1,6 +1,9 @@
 classes.m = {
   memcache: {
     name: "Memcache",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -271,11 +274,29 @@ classes.m = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.memcache",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   memcached: {
     name: "Memcached",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -1046,6 +1067,9 @@ classes.m = {
   },
   messageformatter: {
     name: "MessageFormatter",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       create: {
         name: "create",
@@ -1196,11 +1220,29 @@ classes.m = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.messageformatter",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mongo: {
     name: "Mongo",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       close: {
         name: "close",
@@ -1416,6 +1458,9 @@ classes.m = {
   },
   mongobindata: {
     name: "MongoBinData",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -1451,6 +1496,9 @@ classes.m = {
   },
   mongoclient: {
     name: "MongoClient",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       dropdb: {
         name: "dropDB",
@@ -1621,6 +1669,9 @@ classes.m = {
   },
   mongocode: {
     name: "MongoCode",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -1656,6 +1707,9 @@ classes.m = {
   },
   mongocollection: {
     name: "MongoCollection",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       aggregate: {
         name: "aggregate",
@@ -2171,6 +2225,9 @@ classes.m = {
   },
   mongocommandcursor: {
     name: "MongoCommandCursor",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       batchsize: {
         name: "batchSize",
@@ -2371,6 +2428,9 @@ classes.m = {
   },
   mongocursor: {
     name: "MongoCursor",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       addoption: {
         name: "addOption",
@@ -2856,6 +2916,9 @@ classes.m = {
   },
   mongocursorexception: {
     name: "MongoCursorException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       gethost: {
         name: "getHost",
@@ -2871,11 +2934,29 @@ classes.m = {
           returnValue: "string",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mongocursorexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mongocursorinterface: {
     name: "MongoCursorInterface",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       batchsize: {
         name: "batchSize",
@@ -2966,11 +3047,29 @@ classes.m = {
           returnValue: "MongoCursorInterface",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mongocursorinterface",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mongodate: {
     name: "MongoDate",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       todatetime: {
         name: "toDateTime",
@@ -3021,6 +3120,9 @@ classes.m = {
   },
   mongodb: {
     name: "MongoDB",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       authenticate: {
         name: "authenticate",
@@ -3461,6 +3563,9 @@ classes.m = {
   },
   mongodbref: {
     name: "MongoDBRef",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       create: {
         name: "create",
@@ -3506,11 +3611,29 @@ classes.m = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mongodbref",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mongodeletebatch: {
     name: "MongoDeleteBatch",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -3531,6 +3654,9 @@ classes.m = {
   },
   mongogridfs: {
     name: "MongoGridFS",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       delete: {
         name: "delete",
@@ -3701,6 +3827,9 @@ classes.m = {
   },
   mongogridfscursor: {
     name: "MongoGridFSCursor",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       current: {
         name: "current",
@@ -3766,6 +3895,9 @@ classes.m = {
   },
   mongogridfsfile: {
     name: "MongoGridFSFile",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getbytes: {
         name: "getBytes",
@@ -3861,6 +3993,9 @@ classes.m = {
   },
   mongoid: {
     name: "MongoId",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       gethostname: {
         name: "getHostname",
@@ -3986,6 +4121,9 @@ classes.m = {
   },
   mongoinsertbatch: {
     name: "MongoInsertBatch",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -4006,6 +4144,9 @@ classes.m = {
   },
   mongoint32: {
     name: "MongoInt32",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -4041,6 +4182,9 @@ classes.m = {
   },
   mongoint64: {
     name: "MongoInt64",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -4076,6 +4220,9 @@ classes.m = {
   },
   mongolog: {
     name: "MongoLog",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getcallback: {
         name: "getCallback",
@@ -4166,11 +4313,29 @@ classes.m = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mongolog",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mongopool: {
     name: "MongoPool",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getsize: {
         name: "getSize",
@@ -4216,11 +4381,29 @@ classes.m = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mongopool",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mongoregex: {
     name: "MongoRegex",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -4256,6 +4439,9 @@ classes.m = {
   },
   mongoresultexception: {
     name: "MongoResultException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getdocument: {
         name: "getDocument",
@@ -4271,11 +4457,29 @@ classes.m = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mongoresultexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mongotimestamp: {
     name: "MongoTimestamp",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -4311,6 +4515,9 @@ classes.m = {
   },
   mongoupdatebatch: {
     name: "MongoUpdateBatch",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       __construct: {
         name: "__construct",
@@ -4331,6 +4538,9 @@ classes.m = {
   },
   mongowritebatch: {
     name: "MongoWriteBatch",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       add: {
         name: "add",
@@ -4381,6 +4591,9 @@ classes.m = {
   },
   mongowriteconcernexception: {
     name: "MongoWriteConcernException",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       getdocument: {
         name: "getDocument",
@@ -4396,11 +4609,29 @@ classes.m = {
           returnValue: "array",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mongowriteconcernexception",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   multipleiterator: {
     name: "MultipleIterator",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       attachiterator: {
         name: "attachIterator",
@@ -4586,6 +4817,9 @@ classes.m = {
   },
   mutex: {
     name: "Mutex",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       create: {
         name: "create",
@@ -4661,11 +4895,29 @@ classes.m = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mutex",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mysqli: {
     name: "mysqli",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       autocommit: {
         name: "autocommit",
@@ -5301,6 +5553,9 @@ classes.m = {
   },
   mysqli_driver: {
     name: "mysqli_driver",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       embedded_server_end: {
         name: "embedded_server_end",
@@ -5331,11 +5586,29 @@ classes.m = {
           returnValue: "bool",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mysqli_driver",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mysqli_result: {
     name: "mysqli_result",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       data_seek: {
         name: "data_seek",
@@ -5501,11 +5774,29 @@ classes.m = {
           returnValue: "void",
           ref: null
         }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.mysqli_result",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
       }
     }
   },
   mysqli_stmt: {
     name: "mysqli_stmt",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       attr_get: {
         name: "attr_get",
@@ -5796,6 +6087,9 @@ classes.m = {
   },
   mysqli_warning: {
     name: "mysqli_warning",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       next: {
         name: "next",
@@ -5831,6 +6125,9 @@ classes.m = {
   },
   mysqlnduhconnection: {
     name: "MysqlndUhConnection",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       changeuser: {
         name: "changeUser",
@@ -6601,6 +6898,9 @@ classes.m = {
   },
   mysqlnduhpreparedstatement: {
     name: "MysqlndUhPreparedStatement",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
     methods: {
       execute: {
         name: "execute",
