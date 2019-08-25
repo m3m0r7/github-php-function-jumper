@@ -1,70 +1,16 @@
+let filteredItems = [];
+let beforeUrl = location.href;
 const inspectPage = () => {
+  const analyzedItems = filterElementsOnPage();
+  if (analyzedItems.length === 0 && beforeUrl === location.href) {
+    return;
+  }
 
-  const filteredItems = [
-    // Source tree
-    ...getFunctionsWithElements(
-      document.querySelectorAll(
-        '.type-php .pl-c1:not([data-gp-is-rendered="true"])'
-      ),
-      'source'
-    ),
+  // Copy
+  filteredItems = [...analyzedItems];
 
-    // Files
-    ...getFunctionsWithElements(
-      document.querySelectorAll(
-        '[data-file-type=".php"] .pl-c1:not([data-gp-is-rendered="true"])'
-      ),
-      'files'
-    ),
-
-    // Discussion area
-    ...getFunctionsWithElements(
-      document.querySelectorAll(
-        '#discussion_bucket code:not([data-gp-is-rendered="true"])'
-      ),
-      'discussion'
-    ),
-
-    // Processing comment-outs.
-    ...getCommentOutsWithElements(
-      document.querySelectorAll(
-        '.type-php .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
-      ),
-      'source'
-    ),
-    ...getCommentOutsWithElements(
-      document.querySelectorAll(
-        '[data-file-type=".php"] .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
-      ),
-      'files'
-    ),
-    ...getCommentOutsWithElements(
-      document.querySelectorAll(
-        '#discussion_bucket .pl-s1 .pl-c .pl-k:not([data-gp-is-rendered="true"])'
-      ),
-      'discussion'
-    ),
-
-    // Processing variables
-    ...getVariableWithElements(
-      document.querySelectorAll(
-        '.type-php .pl-s1 .pl-smi:not([data-gp-is-rendered="true"])'
-      ),
-      'source'
-    ),
-    ...getVariableWithElements(
-      document.querySelectorAll(
-        '[data-file-type=".php"] .pl-s1 .pl-smi:not([data-gp-is-rendered="true"])'
-      ),
-      'files'
-    ),
-    ...getVariableWithElements(
-      document.querySelectorAll(
-        '#discussion_bucket .pl-s1 .pl-smi:not([data-gp-is-rendered="true"])'
-      ),
-      'discussion'
-    ),
-  ];
+  // Set before URL
+  beforeUrl = location.href;
 
   chrome.storage.sync.get(
     null,
@@ -79,6 +25,16 @@ const inspectPage = () => {
           enableToWrapNode,
           details,
         } = value;
+
+        const mode = settingData.themeId === 0
+          ? 'white'
+          : 'dark';
+        
+        const isEnabledPopupAtTheFile = typeof settingData.popupEnableAtTheFileId === 'undefined'
+          || settingData.popupEnableAtTheFileId == 1;
+
+        const isEnabledPopupAtTheDiscussion = typeof settingData.popupEnableAtTheDiscussionId === 'undefined'
+          || settingData.popupEnableAtTheDiscussionId == 1;
 
         const position = items.positionId || 0;
 
@@ -113,13 +69,27 @@ const inspectPage = () => {
           + `${element.innerHTML}`
           + `</a>`;
 
+        if (marker === 'source' || marker === 'file') {
+          if (!isEnabledPopupAtTheFile) {
+            return;
+          }
+        }
+
+        if (marker === 'discussion') {
+          if (!isEnabledPopupAtTheDiscussion) {
+            return;
+          }
+        }
+
         // Create popup DOM.
         const popup = document.createElement('div');
         popup.classList.add('gp-code-jumper-targeted__popup');
+        popup.classList.add('gp-code-jumper-targeted__popup--' + mode);
         popup.classList.add('gp-code-jumper-targeted__popup--' + (position === 0 ? 'top' : 'bottom'));
 
         const popupCursorTriangle = document.createElement('div');
         popupCursorTriangle.classList.add('gp-code-jumper-targeted-popup__triangle');
+        popupCursorTriangle.classList.add('gp-code-jumper-targeted-popup__triangle--' + mode);
 
         popup.innerHTML = isFunction
           ? beatifyFunctionSignature(value)

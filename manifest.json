@@ -1,7 +1,7 @@
 {
   "name": "github-php-function-jumper",
   "description": "Jump to the PHP Manual from the php functions and classes on your GitHub source codes and discussion.",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "index.html",
@@ -14,6 +14,10 @@
     "128": "icons/128x128.png"
   },
   "default_locale": "en",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
   "content_scripts": [
     {
       "matches": [
@@ -113,6 +117,7 @@
         "services/function.js",
         "services/class.js",
         "services/kernel.js",
+        "services/filter.js",
         "services/inspector.js",
         "services/variables.js",
         "main.js"

@@ -1,61 +1,60 @@
-const updateText = (propertyName, value) => {
-  const propertyTarget = propertyName === 'languageId'
-    ? ['language', 'data-language-id']
-    : ['position', 'data-position-id'];
-
-  document.querySelector(`.choose-${propertyTarget[0]} .active`).classList.remove('active');
-  document.querySelector(`.choose-${propertyTarget[0]} [${propertyTarget[1]}="${value}"]`).classList.add('active');
-};
-
-const update = (propertyName) => {
-  chrome.storage.sync.get(
-    ['languageId', 'positionId'],
-    (items) => {
-      const value = items[propertyName] || 0;
-      updateText(propertyName, value);
-    }
-  );
-};
-
-const change = (propertyName, value) => {
-  chrome.storage.sync.set({
-    [propertyName]: value,
-  });
-  updateText(propertyName, value);
-
-  document.querySelector('.description').classList.add('disabled');
-  document.querySelector('.flash-message').classList.remove('disabled');
-};
+// Send handshake
+chrome.tabs.query(
+  {
+    active: true,
+    currentWindow: true,
+  },
+  (tabs) => {
+    chrome.tabs.sendMessage(
+      tabs[0].id,
+      JSON.stringify({
+        tag: 'REQUEST_FILTERED_ITEMS',
+      }),
+      (response) => {
+        switch (response.tag) {
+          case 'RESPONSE_FILTERED_ITEMS':
+            const { payload } = response;
+            document.querySelectorAll('[data-rendered]').forEach((element) => {
+              const type = element.getAttribute('data-rendered');
+              let counter = 0;
+              switch (type) {
+                case 'classes':
+                  counter = payload.spl.filter((item) => item.isClass).length;
+                  break;
+                case 'methods':
+                  counter = payload.spl.filter((item) => item.isStaticMethodAtClass || item.isDynamicMethodAtClass).length;
+                  break;
+                case 'functions':
+                  counter = payload.spl.filter((item) => item.isFunction).length;
+                  break;
+                case 'variables':
+                  counter = Object.keys(payload.variables).length;
+                  break;
+              }
+              element.innerText = new Intl.NumberFormat('en-US').format(
+                counter
+              )
+            });
+            break;
+        }
+      },
+    );
+});
 
 document.addEventListener('DOMContentLoaded', () => {
-  update('languageId');
-  update('positionId');
-
-  // Update languages
-  document.querySelectorAll('[data-language-id]').forEach((element) => {
-    element.addEventListener('click', (e) => {
-      const languageId = element.getAttribute('data-language-id') * 1;
-      change(
-        'languageId',
-        languageId
-      );
-    })
-  });
-
-  // Update positions
-  document.querySelectorAll('[data-position-id]').forEach((element) => {
-    element.addEventListener('click', (e) => {
-      const positionId = element.getAttribute('data-position-id') * 1;
-      change(
-        'positionId',
-        positionId
-      );
-    })
-  });
-
   // Translation
   document.querySelectorAll('[data-translate]').forEach((element) => {
     const text = element.getAttribute('data-translate');
     element.innerHTML = chrome.i18n.getMessage(text);
   });
+
+  // Events
+  document.querySelector('.js-link-go-to-settings').addEventListener(
+    'click',
+    (e) => {
+      chrome.tabs.create({
+        url: 'chrome://extensions/?options=' + chrome.runtime.id
+      });
+    }
+  )
 });
