@@ -19,11 +19,11 @@ You can download here!
 
 ## Popup
 - You can understand which was effected elements.
-<img src="docs/tutorial_1.png">
+<img src="docs/tutorial_1.jpg">
 
 # Setting
 - You can set details options on extension setting screen. 
-<img src="docs/tutorial_1.png">
+<img src="docs/tutorial_2.png">
 
 # Demo
 <img src="docs/demo.gif">
