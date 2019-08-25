@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    li {
+      list-style: none;
+    }
+    .button,
+    .paragraph {
+      display: block;
+      min-width: 220px;
+      color: #000000;
+      text-decoration: none;
+      padding: 10px 14px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #F2F2F2;
+    }
+
+    .description {
+      padding: 10px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    body > .description:first-child {
+      margin-top: 0;
+    }
+
+    li.active {
+      background-color: #1e88e5;
+    }
+    li.active .button {
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+    li.active .button:hover {
+      background-color: #1e88e5;
+    }
+    .flash-message {
+      padding: 10px;
+      font-weight: bold;
+      color: #ff1744;
+    }
+    .disabled {
+      display: none;
+    }
+    .separator {
+      margin-top: 10px;
+      height: 1px;
+      background-color: #DDDDDD;
+    }
+    span.button span {
+      font-size: 14px;
+    }
+
+    .paragraph {
+      display: flex;
+      justify-content: space-between;
+      cursor: default;
+    }
+
+    .paragraph .label span,
+    .paragraph .count {
+      font-size: 14px;
+    }
+  </style>
+  <script src="options.js"></script>
+
+  <!-- Load classes -->
+  <script src="data/classes.js"></script>
+  <script src="data/classes/_.js"></script>
+  <script src="data/classes/a.js"></script>
+  <script src="data/classes/b.js"></script>
+  <script src="data/classes/c.js"></script>
+  <script src="data/classes/d.js"></script>
+  <script src="data/classes/e.js"></script>
+  <script src="data/classes/f.js"></script>
+  <script src="data/classes/g.js"></script>
+  <script src="data/classes/h.js"></script>
+  <script src="data/classes/i.js"></script>
+  <script src="data/classes/j.js"></script>
+  <script src="data/classes/k.js"></script>
+  <script src="data/classes/l.js"></script>
+  <script src="data/classes/m.js"></script>
+  <script src="data/classes/n.js"></script>
+  <script src="data/classes/o.js"></script>
+  <script src="data/classes/p.js"></script>
+  <script src="data/classes/q.js"></script>
+  <script src="data/classes/r.js"></script>
+  <script src="data/classes/s.js"></script>
+  <script src="data/classes/t.js"></script>
+  <script src="data/classes/u.js"></script>
+  <script src="data/classes/v.js"></script>
+  <script src="data/classes/w.js"></script>
+  <script src="data/classes/x.js"></script>
+  <script src="data/classes/y.js"></script>
+  <script src="data/classes/z.js"></script>
+
+  <!-- Load functions -->
+  <script src="data/functions.js"></script>
+  <script src="data/functions/_.js"></script>
+  <script src="data/functions/a.js"></script>
+  <script src="data/functions/b.js"></script>
+  <script src="data/functions/c.js"></script>
+  <script src="data/functions/d.js"></script>
+  <script src="data/functions/e.js"></script>
+  <script src="data/functions/f.js"></script>
+  <script src="data/functions/g.js"></script>
+  <script src="data/functions/h.js"></script>
+  <script src="data/functions/i.js"></script>
+  <script src="data/functions/j.js"></script>
+  <script src="data/functions/k.js"></script>
+  <script src="data/functions/l.js"></script>
+  <script src="data/functions/m.js"></script>
+  <script src="data/functions/n.js"></script>
+  <script src="data/functions/o.js"></script>
+  <script src="data/functions/p.js"></script>
+  <script src="data/functions/q.js"></script>
+  <script src="data/functions/r.js"></script>
+  <script src="data/functions/s.js"></script>
+  <script src="data/functions/t.js"></script>
+  <script src="data/functions/u.js"></script>
+  <script src="data/functions/v.js"></script>
+  <script src="data/functions/w.js"></script>
+  <script src="data/functions/x.js"></script>
+  <script src="data/functions/y.js"></script>
+  <script src="data/functions/z.js"></script>
+</head>
+<body>
+<p class="description"><span data-translate="L000000"></span></p>
+<ul class="choose-language">
+  <li data-language-id="0" class="active"><span class="button"><span data-translate="L000800"></span></span></li>
+  <li data-language-id="1"><span class="button"><span data-translate="L000801"></span></span></li>
+  <li data-language-id="2"><span class="button"><span data-translate="L000802"></span></span></li>
+  <li data-language-id="3"><span class="button"><span data-translate="L000803"></span></span></li>
+  <li data-language-id="4"><span class="button"><span data-translate="L000804"></span></span></li>
+  <li data-language-id="5"><span class="button"><span data-translate="L000805"></span></span></li>
+  <li data-language-id="6"><span class="button"><span data-translate="L000806"></span></span></li>
+  <li data-language-id="7"><span class="button"><span data-translate="L000807"></span></span></li>
+  <li data-language-id="8"><span class="button"><span data-translate="L000808"></span></span></li>
+  <li data-language-id="9"><span class="button"><span data-translate="L000809"></span></span></li>
+</ul>
+<div class="separator"></div>
+<p class="description"><span data-translate="L000201"></span></p>
+<ul class="choose-popup-enable-at-the-file">
+  <li data-popup-enable-at-the-file-id="1" class="active"><span class="button"><span data-translate="L900001"></span></span></li>
+  <li data-popup-enable-at-the-file-id="0"><span class="button"><span data-translate="L900002"></span></span></li>
+</ul>
+<div class="separator"></div>
+<p class="description"><span data-translate="L000202"></span></p>
+<ul class="choose-popup-enable-at-the-discussion">
+  <li data-popup-enable-at-the-discussion-id="1" class="active"><span class="button"><span data-translate="L900001"></span></span></li>
+  <li data-popup-enable-at-the-discussion-id="0"><span class="button"><span data-translate="L900002"></span></span></li>
+</ul>
+<div class="separator"></div>
+<p class="description"><span data-translate="L000002"></span></p>
+<ul class="choose-position">
+  <li data-position-id="0" class="active"><span class="button"><span data-translate="L000100"></span></span></li>
+  <li data-position-id="1"><span class="button"><span data-translate="L000101"></span></span></li>
+</ul>
+<div class="separator"></div>
+<p class="description"><span data-translate="L000203"></span></p>
+<ul class="choose-theme">
+  <li data-theme-id="0" class="active"><span class="button"><span data-translate="L000280"></span></span></li>
+  <li data-theme-id="1"><span class="button"><span data-translate="L000281"></span></span></li>
+</ul>
+<div class="separator"></div>
+<p class="description"><span data-translate="L000204"></span></p>
+<div class="paragraph">
+  <span class="label"><span data-translate="L901000"></span></span>
+  <span class="count" data-registered="classes">0</span>
+</div>
+<div class="paragraph">
+  <span class="label"><span data-translate="L901001"></span></span>
+  <span class="count" data-registered="methods">0</span>
+</div>
+<div class="paragraph">
+  <span class="label"><span data-translate="L901002"></span></span>
+  <span class="count" data-registered="functions">0</span>
+</div>
+<div class="separator"></div>
+<p class="description"><span data-translate="L000205"></span></p>
+<a href="https://github.com/memory-agape/github-php-function-jumper" class="button"><span data-translate="L000282"></span></a>
+</body>
+</html>

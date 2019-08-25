@@ -9,6 +9,22 @@ You can download here!
 - GitHub
 - Gists
 
+# Customize
+## You can choose theme
+- **White**
+<img src="docs/theme_white.png">
+
+- **Dark**
+<img src="docs/theme_dark.png">
+
+## Popup
+- You can understand which was effected elements.
+<img src="docs/tutorial_1.png">
+
+# Setting
+- You can set details options on extension setting screen. 
+<img src="docs/tutorial_1.png">
+
 # Demo
 <img src="docs/demo.gif">
 

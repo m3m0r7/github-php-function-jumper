@@ -1,5 +1,9 @@
 # Change Logs
 
+Ver 0.3.0:
+- Implement rich options.
+
+
 Ver 0.2.3:
 - Small bugfix.
 

@@ -1,77 +1,74 @@
 <!DOCTYPE html>
 <html lang="en_US">
-  <head>
-    <meta charset="utf-8" />
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        font-size: 12px;
-      }
-      .bold {
-        font-weight: bold;
-      }
-      li {
-        list-style: none;
-      }
-      span.button {
-        display: block;
-        min-width: 220px;
-        color: #000000;
-        text-decoration: none;
-        padding: 10px;
-        font-size: 14px;
-        cursor: pointer;
-      }
-      .description {
-        padding: 10px;
-        font-weight: bold;
-      }
-      li.active {
-        background-color: #1e88e5;
-      }
-      li.active span {
-        color: #FFFFFF;
-        font-weight: bold;
-      }
-      .flash-message {
-        padding: 10px;
-        font-weight: bold;
-        color: #ff1744;
-      }
-      .disabled {
-        display: none;
-      }
-      .separator {
-        height: 1px;
-        background-color: #DDDDDD;
-      }
-      span.button span {
-        font-size: 14px;
-      }
-    </style>
-    <script src="page.js"></script>
-  </head>
-  <body>
-    <p class="description"><span data-translate="L000000"></span></p>
-    <p class="flash-message disabled"><span data-translate="L000001"></span></p>
-    <ul class="choose-language">
-      <li data-language-id="0" class="active"><span class="button"><span data-translate="L000800"></span></span></li>
-      <li data-language-id="1"><span class="button"><span data-translate="L000801"></span></span></li>
-      <li data-language-id="2"><span class="button"><span data-translate="L000802"></span></span></li>
-      <li data-language-id="3"><span class="button"><span data-translate="L000803"></span></span></li>
-      <li data-language-id="4"><span class="button"><span data-translate="L000804"></span></span></li>
-      <li data-language-id="5"><span class="button"><span data-translate="L000805"></span></span></li>
-      <li data-language-id="6"><span class="button"><span data-translate="L000806"></span></span></li>
-      <li data-language-id="7"><span class="button"><span data-translate="L000807"></span></span></li>
-      <li data-language-id="8"><span class="button"><span data-translate="L000808"></span></span></li>
-      <li data-language-id="9"><span class="button"><span data-translate="L000809"></span></span></li>
-    </ul>
-    <div class="separator"></div>
-    <p class="description"><span data-translate="L000002"></span></p>
-    <ul class="choose-position">
-      <li data-position-id="0" class="active"><span class="button"><span data-translate="L000100"></span></span></li>
-      <li data-position-id="1"><span class="button"><span data-translate="L000101"></span></span></li>
-    </ul>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-size: 12px;
+    }
+    .description {
+      padding: 10px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    body > .description:first-child {
+      margin-top: 0;
+    }
+
+    .button,
+    .paragraph {
+      display: block;
+      min-width: 220px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .button:hover {
+      background-color: #F2F2F2;
+    }
+
+    .paragraph {
+      display: flex;
+      justify-content: space-between;
+      cursor: default;
+    }
+
+    .paragraph .label span,
+    .paragraph .count {
+      font-size: 14px;
+    }
+
+    .separator {
+      margin-top: 10px;
+      height: 1px;
+      background-color: #DDDDDD;
+    }
+  </style>
+  <script src="page.js"></script>
+</head>
+<body>
+<p class="description"><span data-translate="L010000"></span></p>
+  <div class="paragraph">
+    <span class="label"><span data-translate="L901000"></span></span>
+    <span class="count" data-rendered="classes">0</span>
+  </div>
+  <div class="paragraph">
+    <span class="label"><span data-translate="L901001"></span></span>
+    <span class="count" data-rendered="methods">0</span>
+  </div>
+  <div class="paragraph">
+    <span class="label"><span data-translate="L901002"></span></span>
+    <span class="count" data-rendered="functions">0</span>
+  </div>
+  <div class="paragraph">
+    <span class="label"><span data-translate="L901003"></span></span>
+    <span class="count" data-rendered="variables">0</span>
+  </div>
+  <div class="separator"></div>
+  <p class="description"><span data-translate="L010001"></span></p>
+  <div class="button js-link-go-to-settings"><span data-translate="L010100"></span></div>
+</body>
 </html>

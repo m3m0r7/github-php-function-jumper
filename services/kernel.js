@@ -1,4 +1,4 @@
-const getFunctionsWithElements = (matches, marker) => {
+const getSPLWithElements = (matches, marker) => {
   const items = [];
   matches.forEach((value, key) => {
     const name = value.innerText

@@ -74,6 +74,7 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
       items.push({
         marker,
         name,
+        calleeMethodName: loweredMethodName,
         element: nextNextNode,
         ...templates.optionParameters,
         isClass: true,

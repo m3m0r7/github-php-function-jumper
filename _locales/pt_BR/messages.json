@@ -43,5 +43,59 @@
   },
   "L000809": {
     "message": "&#x1f1f9;&#x1f1f7; Turco"
+  },
+
+  "L000201": {
+    "message": "Show popup at the file."
+  },
+  "L000202": {
+    "message": "Show popup at the discussion."
+  },
+  "L000203": {
+    "message": "Choose theme."
+  },
+  "L000280": {
+    "message": "White"
+  },
+  "L000281": {
+    "message": "Dark"
+  },
+  "L000204": {
+    "message": "About"
+  },
+  "L000205": {
+    "message": "Support and Contributions"
+  },
+  "L000282": {
+    "message": "Go to GitHub"
+  },
+
+  "L010000": {
+    "message": "Effected elements"
+  },
+  "L010001": {
+    "message": "Settings"
+  },
+  "L010100": {
+    "message": "Go to settings"
+  },
+
+  "L900001": {
+    "message": "Enable"
+  },
+  "L900002": {
+    "message": "Disable"
+  },
+  "L901000": {
+    "message": "Class"
+  },
+  "L901001": {
+    "message": "Method"
+  },
+  "L901002": {
+    "message": "Function"
+  },
+  "L901003": {
+    "message": "Variable"
   }
 }
