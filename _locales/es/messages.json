@@ -1,12 +1,12 @@
 {
   "L000000": {
-    "message": "Idioma documentación."
+    "message": "Idioma documentación"
   },
   "L000001": {
-    "message": "Recargue la página actual."
+    "message": "Recargue la página actual"
   },
   "L000002": {
-    "message": "Posición del pop-up."
+    "message": "Posición del pop-up"
   },
   "L000100": {
     "message": "Superior"
@@ -46,56 +46,56 @@
   },
 
   "L000201": {
-    "message": "Show popup at the file."
+    "message": "Mostrar pop-up en ficheros"
   },
   "L000202": {
-    "message": "Show popup at the discussion."
+    "message": "Mostrar pop-up en discusiones"
   },
   "L000203": {
-    "message": "Choose theme."
+    "message": "Tema"
   },
   "L000280": {
-    "message": "White"
+    "message": "Claro"
   },
   "L000281": {
-    "message": "Dark"
+    "message": "Oscuro"
   },
   "L000204": {
-    "message": "About"
+    "message": "Información"
   },
   "L000205": {
-    "message": "Support and Contributions"
+    "message": "Soporte y Contribuciones"
   },
   "L000282": {
-    "message": "Go to GitHub"
+    "message": "Ir a GitHub"
   },
 
   "L010000": {
-    "message": "Effected elements"
+    "message": "Elementos afectados"
   },
   "L010001": {
-    "message": "Settings"
+    "message": "Configuración"
   },
   "L010100": {
-    "message": "Go to settings"
+    "message": "Ir a configuración"
   },
 
   "L900001": {
-    "message": "Enable"
+    "message": "Activado"
   },
   "L900002": {
-    "message": "Disable"
+    "message": "Desactivado"
   },
   "L901000": {
-    "message": "Class"
+    "message": "Clases"
   },
   "L901001": {
-    "message": "Method"
+    "message": "Métodos"
   },
   "L901002": {
-    "message": "Function"
+    "message": "Funciones"
   },
   "L901003": {
-    "message": "Variable"
+    "message": "Variables"
   }
 }
