@@ -1,8 +1,10 @@
 # Change Logs
 
+Ver 0.3.1:
+- Update spanish locale (@jfuad)
+
 Ver 0.3.0:
 - Implement rich options.
-
 
 Ver 0.2.3:
 - Small bugfix.
