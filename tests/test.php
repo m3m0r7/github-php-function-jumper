@@ -25,6 +25,7 @@ class A extends \Exception implements ArrayAccess
 
     // Normal
     var_dump('test');
+    var_dump("$message");
     var_dump(\Exception::class);
     var_dump(ReflectionClass::export($this));
     var_dump(microtime(true));

@@ -25,6 +25,16 @@ const getSPLWithElements = (matches, marker) => {
   return items;
 };
 
+const getLineNumberFromNode = (node) => {
+  let current = node;
+  while (current = current.parentNode) {
+    const id = current.getAttribute('id');
+    if (/^LC/.test(id)) {
+      return id.replace(/^LC/, '') * 1;
+    }
+  }
+};
+
 const getVariableWithElements = (matches, marker) => {
   const items = [];
   matches.forEach((value, key) => {
@@ -48,7 +58,7 @@ const getVariableWithElements = (matches, marker) => {
           return;
         }
 
-        const lineNumber = value.parentNode.parentNode.getAttribute('id').replace(/^LC/, '') * 1;
+        const lineNumber = getLineNumberFromNode(value);
 
         let beforeDiff = null;
         let targetedLineNumber = null;
@@ -205,7 +215,7 @@ const getDynamicMethodConstructionNode = (matches, marker) => {
           }
 
           // Find line number
-          const lineNumber = value.parentNode.parentNode.getAttribute('id').replace(/^LC/, '') * 1;
+          const lineNumber = getLineNumberFromNode(value);
           methodPaths[lineNumber] = classes[char][loweredClassName];
           break;
         }
