@@ -31,6 +31,8 @@ const beatifyFunctionSignature = (info) => {
     descriptor = 'structure';
   }
 
+  const kindOfFunction = locales.functions[info.details.name.substr(0, 1)][info.details.name][locales.nameMap[settingData.languageId || 0]].summary;
+
   return `<span class="gp-code-jumper-colors--primary">${descriptor}</span> `
     + `<span class="gp-code-jumper-fonts--bold">${info.details.name}</span>`
     + `(${parameters})`
@@ -38,5 +40,5 @@ const beatifyFunctionSignature = (info) => {
       info.details.spec.returnValue
         ? `<span class="gp-code-jumper-colors--primary">: ${info.details.spec.returnValue}</span>`
         : ''
-    )
+    ) + `<div class="gp-code-jumper-kind-of">${kindOfFunction}</div>`
 };

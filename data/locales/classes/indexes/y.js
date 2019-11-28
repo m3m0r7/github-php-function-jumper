@@ -1,0 +1,1 @@
+locales.classes.y = {};

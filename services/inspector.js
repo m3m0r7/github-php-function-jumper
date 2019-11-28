@@ -91,9 +91,11 @@ const inspectPage = () => {
         popupCursorTriangle.classList.add('gp-code-jumper-targeted-popup__triangle');
         popupCursorTriangle.classList.add('gp-code-jumper-targeted-popup__triangle--' + mode);
 
-        popup.innerHTML = isFunction
-          ? beatifyFunctionSignature(value)
-          : beatifyClassSignature(value);
+        popup.innerHTML = (
+            isFunction
+              ? beatifyFunctionSignature(value)
+              : beatifyClassSignature(value)
+        );
 
         popup.append(popupCursorTriangle);
 
@@ -122,7 +124,13 @@ const inspectPage = () => {
 
             const tempXPosition = (left - 80 - boxBody.x + boxBody.left);
 
-            popup.style.top = (top + window.scrollY + (position === 0 ? -50 : 20)) + 'px';
+            // Adjust by type
+            if (isFunction) {
+              popup.style.top = (top + window.scrollY + (position === 0 ? -80 : 40)) + 'px';
+            } else {
+              popup.style.top = (top + window.scrollY + (position === 0 ? -50 : 20)) + 'px';
+            }
+
             if ((tempXPosition + popup.clientWidth + 50) < window.innerWidth) {
               popup.style.left = tempXPosition + 'px';
             } else {

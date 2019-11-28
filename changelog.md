@@ -1,5 +1,11 @@
 # Change Logs
 
+Ver 0.4.0: 
+- Add description for functions into popup.
+
+Ver 0.3.2
+- Bug fixes.
+
 Ver 0.3.1:
 - Update spanish locale (@jfuad)
 
