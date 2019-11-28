@@ -33,11 +33,18 @@
   width: 10px;
   height: 10px;
   left: 90px;
-  bottom: -6px;
   z-index: 10;
   transform: rotate(-45deg);
   border-left: 1px solid #888888;
   border-bottom: 1px solid #888888;
+}
+
+.gp-code-jumper-targeted__popup--top .gp-code-jumper-targeted-popup__triangle {
+  bottom: -6px;
+}
+
+.gp-code-jumper-targeted__popup--bottom .gp-code-jumper-targeted-popup__triangle {
+  top: -6px;
 }
 
 .gp-code-jumper-targeted-popup__triangle--white {
@@ -60,4 +67,16 @@
 }
 .gp-code-jumper-fonts--bold {
   font-weight: bold
+}
+
+.gp-code-jumper-targeted__popup--dark .gp-code-jumper-kind-of {
+  border-top: 1px solid #CCCCCC;
+  margin-top: 6px;
+  padding-top: 6px;
+}
+
+.gp-code-jumper-targeted__popup--dark .gp-code-jumper-kind-of {
+  border-top: 1px solid #333333;
+  margin-top: 6px;
+  padding-top: 6px;
 }
