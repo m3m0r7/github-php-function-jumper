@@ -1,5 +1,9 @@
 # Change Logs
 
+Ver 0.4.1: 
+- Allows to highlight use expression.
+
+
 Ver 0.4.0: 
 - Add description for functions into popup.
 

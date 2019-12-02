@@ -1,5 +1,7 @@
 <?php
 
+use RuntimeException;
+
 class A extends \Exception implements ArrayAccess
 {
 
