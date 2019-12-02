@@ -1,4 +1,4 @@
-const classServiceRegistry = (items, marker, name, element, classDetails) => {
+const classServiceRegistry = (items, marker, name, element, classDetails, realClass = null) => {
   const nextNode = element.nextSibling;
   const prevNode = element.previousElementSibling;
 
@@ -81,6 +81,7 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
         isStaticMethodAtClass: true,
         enableToWrapNode: true,
         details: classDetails['methods'][loweredMethodName],
+        realClass,
         classDetails,
       });
     }
@@ -94,6 +95,7 @@ const classServiceRegistry = (items, marker, name, element, classDetails) => {
     isClass: true,
     isConstructorAtClass: true,
     details: classDetails['methods']['__construct'],
+    realClass,
     classDetails,
   });
 };
@@ -140,8 +142,14 @@ const beatifyClassSignature = (info) => {
     descriptor.push('static');
   }
 
+  let name = info.classDetails.name;
+
+  if (info.realClass) {
+    name = info.realClass.name;
+  }
+
   return `<span class="gp-code-jumper-colors--primary">${descriptor.join(' ')}</span> `
-    + `<span class="gp-code-jumper-fonts--bold">${info.classDetails.name}::${info.details.name}</span>`
+    + `<span class="gp-code-jumper-fonts--bold">${name}::${info.details.name}</span>`
     + `(${parameters})`
     + (
         info.details.spec.returnValue

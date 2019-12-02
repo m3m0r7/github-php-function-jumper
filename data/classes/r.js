@@ -542,7 +542,7 @@ classes.r = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "Iterator $iterator [, string $flags = self::CALL_TOSTRING ]",
+          parameters: "Iterator $iterator [, int $flags = self::CALL_TOSTRING ]",
           returnValue: "",
           ref: null
         }
@@ -1077,7 +1077,7 @@ classes.r = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ string $max_depth = -1 ]",
+          parameters: "[ int $max_depth = -1 ]",
           returnValue: "void",
           ref: null
         }
@@ -1304,7 +1304,7 @@ classes.r = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "string",
           ref: null
         }
       },
@@ -1560,7 +1560,7 @@ classes.r = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "object",
+          returnValue: "ReflectionMethod",
           ref: null
         }
       },
@@ -2153,14 +2153,14 @@ classes.r = {
         name: "isIterateable",
         url: "reflectionclass.isiterateable",
         spec: {
-          isPublic: true,
+          isPublic: false,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "void",
-          returnValue: "bool",
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       },
@@ -2174,7 +2174,7 @@ classes.r = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $class",
+          parameters: "mixed $class",
           returnValue: "bool",
           ref: null
         }
@@ -2219,7 +2219,7 @@ classes.r = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "mixed $args [, mixed $... ]",
+          parameters: "[ mixed $... ]",
           returnValue: "object",
           ref: null
         }
@@ -2264,7 +2264,7 @@ classes.r = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $name, string $value",
+          parameters: "string $name, mixed $value",
           returnValue: "void",
           ref: null
         }
@@ -4385,7 +4385,7 @@ classes.r = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "string $name [, string $return ]",
+          parameters: "string $name [, bool $return ]",
           returnValue: "string",
           ref: null
         }
@@ -4827,6 +4827,21 @@ classes.r = {
     isInterface: false,
     isTrait: false,
     methods: {
+      getaffecteditemscount: {
+        name: "getAffectedItemsCount",
+        url: "mysql-xdevapi-result.getaffecteditemscount",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "int",
+          ref: null
+        }
+      },
       getautoincrementvalue: {
         name: "getAutoIncrementValue",
         url: "mysql-xdevapi-result.getautoincrementvalue",
@@ -5205,5 +5220,13 @@ classes.r = {
         }
       }
     }
+  },
+  rangeexception: {
+    ref: () => classes.r.runtimeexception,
+    url: "class.rangeexception"
+  },
+  runtimeexception: {
+    ref: () => classes.e.exception,
+    url: "class.runtimeexception"
   }
 };

@@ -2545,6 +2545,21 @@ classes.s = {
           ref: null
         }
       },
+      getdefaultschema: {
+        name: "getDefaultSchema",
+        url: "mysql-xdevapi-session.getdefaultschema",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "string",
+          ref: null
+        }
+      },
       getschema: {
         name: "getSchema",
         url: "mysql-xdevapi-session.getschema",
@@ -11230,7 +11245,7 @@ classes.s = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "string",
           ref: null
         }
       }
@@ -11726,14 +11741,14 @@ classes.s = {
         name: "__toString",
         url: "splfileobject.tostring",
         spec: {
-          isPublic: true,
+          isPublic: false,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "void",
-          returnValue: "void",
+          parameters: "",
+          returnValue: "",
           ref: null
         }
       }
@@ -13186,7 +13201,7 @@ classes.s = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "long $checks",
+          parameters: "int $checks",
           returnValue: "void",
           ref: null
         }
@@ -13419,7 +13434,7 @@ classes.s = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $filename [, int $flags = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE [, string $encryption_key = NULL ]]",
+          parameters: "string $filename [, int $flags = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE [, string $encryption_key = \"\" ]]",
           returnValue: "void",
           ref: null
         }
@@ -13509,7 +13524,7 @@ classes.s = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $filename [, int $flags = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE [, string $encryption_key = NULL ]]",
+          parameters: "string $filename [, int $flags = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE [, string $encryption_key = \"\" ]]",
           returnValue: "",
           ref: null
         }

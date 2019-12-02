@@ -1780,7 +1780,7 @@ classes.g = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $path [, int $flags = FilesystemIterator::KEY_AS_PATHNAME | FilesystemIterator::CURRENT_AS_FILEINFO ]",
+          parameters: "string $pattern [, int $flags = FilesystemIterator::KEY_AS_PATHNAME | FilesystemIterator::CURRENT_AS_FILEINFO ]",
           returnValue: "",
           ref: null
         }

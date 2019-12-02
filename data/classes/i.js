@@ -30,7 +30,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "int $columns, int $rows [, bool $bestfit = false ]",
+          parameters: "int $columns, int $rows [, bool $bestfit = FALSE [, bool $legacy = FALSE ]]",
           returnValue: "bool",
           ref: null
         }
@@ -150,7 +150,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "bool $stack = false",
+          parameters: "bool $stack",
           returnValue: "Imagick",
           ref: null
         }
@@ -390,7 +390,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "Imagick $lookup_table [, float $channel = Imagick::CHANNEL_DEFAULT ]",
+          parameters: "Imagick $lookup_table [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -435,7 +435,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "mixed $colorize, mixed $opacity",
+          parameters: "mixed $colorize, mixed $opacity [, bool $legacy = FALSE ]",
           returnValue: "bool",
           ref: null
         }
@@ -540,7 +540,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "Imagick $composite_object, int $composite, int $x, int $y [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "Imagick $composite_object, int $composite, int $x, int $y [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -570,7 +570,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $black_point, float $white_point [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "float $black_point, float $white_point [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -585,7 +585,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "array $kernel [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "array $kernel [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -630,7 +630,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "int $width, int $height",
+          parameters: "int $width, int $height [, bool $legacy = FALSE ]",
           returnValue: "bool",
           ref: null
         }
@@ -915,7 +915,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "int $op, float $constant [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "int $op, float $constant [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -1080,7 +1080,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $expression [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "string $expression [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "Imagick",
           ref: null
         }
@@ -1095,7 +1095,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $gamma [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "float $gamma [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -1110,7 +1110,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $radius, float $sigma [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "float $radius, float $sigma [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -2700,7 +2700,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $blackPoint, float $gamma, float $whitePoint [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "float $blackPoint, float $gamma, float $whitePoint [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -2940,7 +2940,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "bool $gray [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "bool $gray [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -3000,7 +3000,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "[ int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -3060,7 +3060,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $threshold_map [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "string $threshold_map [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -3075,7 +3075,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "mixed $fill, float $fuzz, mixed $bordercolor, int $x, int $y [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "mixed $fill, float $fuzz, mixed $bordercolor, int $x, int $y [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -3090,7 +3090,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "mixed $target, mixed $fill, float $fuzz [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "mixed $target, mixed $fill, float $fuzz [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -3315,7 +3315,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $angle [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "float $angle [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -3345,7 +3345,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $low, float $high [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "float $low, float $high [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -3540,7 +3540,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "int $columns, int $rows, int $filter, float $blur [, bool $bestfit = false ]",
+          parameters: "int $columns, int $rows, int $filter, float $blur [, bool $bestfit = FALSE [, bool $legacy = FALSE ]]",
           returnValue: "bool",
           ref: null
         }
@@ -3630,7 +3630,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "int $cols, int $rows [, bool $bestfit = false ]",
+          parameters: "int $cols, int $rows [, bool $bestfit = FALSE [, bool $legacy = FALSE ]]",
           returnValue: "bool",
           ref: null
         }
@@ -4755,7 +4755,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $radius, float $sigma [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "float $radius, float $sigma [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -4800,7 +4800,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "bool $sharpen, float $alpha, float $beta [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "bool $sharpen, float $alpha, float $beta [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -5010,7 +5010,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $threshold [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "float $threshold [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -5025,7 +5025,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "int $columns, int $rows [, bool $bestfit = false [, bool $fill = false ]]",
+          parameters: "int $columns, int $rows [, bool $bestfit = FALSE [, bool $fill = FALSE [, bool $legacy = FALSE ]]]",
           returnValue: "bool",
           ref: null
         }
@@ -5040,7 +5040,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "mixed $tint, mixed $opacity",
+          parameters: "mixed $tint, mixed $opacity [, bool $legacy = FALSE ]",
           returnValue: "bool",
           ref: null
         }
@@ -5160,7 +5160,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $radius, float $sigma, float $amount, float $threshold [, int $channel = Imagick::CHANNEL_ALL ]",
+          parameters: "float $radius, float $sigma, float $amount, float $threshold [, int $channel = Imagick::CHANNEL_DEFAULT ]",
           returnValue: "bool",
           ref: null
         }
@@ -5250,7 +5250,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "resource $filehandle",
+          parameters: "resource $filehandle [, string $format ]",
           returnValue: "bool",
           ref: null
         }
@@ -5280,7 +5280,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "resource $filehandle",
+          parameters: "resource $filehandle [, string $format ]",
           returnValue: "bool",
           ref: null
         }
@@ -5295,7 +5295,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "mixed $files",
+          parameters: "[ mixed $files ]",
           returnValue: "",
           ref: null
         }
@@ -7893,8 +7893,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "[ string $\"locale\" ]",
-          returnValue: "ReturnType",
+          parameters: "[ string $locale ]",
+          returnValue: "IntlBreakIterator",
           ref: null
         }
       },
@@ -7909,7 +7909,7 @@ classes.i = {
           isFinal: false,
           isStatic: true,
           parameters: "void",
-          returnValue: "ReturnType",
+          returnValue: "IntlBreakIterator",
           ref: null
         }
       },
@@ -7923,8 +7923,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "[ string $\"locale\" ]",
-          returnValue: "ReturnType",
+          parameters: "[ string $locale ]",
+          returnValue: "IntlBreakIterator",
           ref: null
         }
       },
@@ -7938,8 +7938,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "[ string $\"locale\" ]",
-          returnValue: "ReturnType",
+          parameters: "[ string $locale ]",
+          returnValue: "IntlBreakIterator",
           ref: null
         }
       },
@@ -7953,8 +7953,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "[ string $\"locale\" ]",
-          returnValue: "ReturnType",
+          parameters: "[ string $locale ]",
+          returnValue: "IntlBreakIterator",
           ref: null
         }
       },
@@ -7968,8 +7968,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "[ string $\"locale\" ]",
-          returnValue: "ReturnType",
+          parameters: "[ string $locale ]",
+          returnValue: "IntlBreakIterator",
           ref: null
         }
       },
@@ -7984,7 +7984,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "ReturnType",
+          returnValue: "int",
           ref: null
         }
       },
@@ -7999,7 +7999,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "ReturnType",
+          returnValue: "int",
           ref: null
         }
       },
@@ -8013,8 +8013,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $\"offset\"",
-          returnValue: "ReturnType",
+          parameters: "int $offset",
+          returnValue: "int",
           ref: null
         }
       },
@@ -8029,7 +8029,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "ReturnType",
+          returnValue: "int",
           ref: null
         }
       },
@@ -8044,7 +8044,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "ReturnType",
+          returnValue: "string",
           ref: null
         }
       },
@@ -8058,8 +8058,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $\"locale_type\"",
-          returnValue: "ReturnType",
+          parameters: "string $locale_type",
+          returnValue: "string",
           ref: null
         }
       },
@@ -8073,8 +8073,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ string $\"key_type\" ]",
-          returnValue: "ReturnType",
+          parameters: "[ int $key_type = IntlPartsIterator::KEY_SEQUENTIAL ]",
+          returnValue: "IntlPartsIterator",
           ref: null
         }
       },
@@ -8089,7 +8089,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "ReturnType",
+          returnValue: "string",
           ref: null
         }
       },
@@ -8103,8 +8103,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $\"offset\"",
-          returnValue: "ReturnType",
+          parameters: "int $offset",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -8119,7 +8119,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "ReturnType",
+          returnValue: "int",
           ref: null
         }
       },
@@ -8133,8 +8133,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ string $\"offset\" ]",
-          returnValue: "ReturnType",
+          parameters: "[ int $offset ]",
+          returnValue: "int",
           ref: null
         }
       },
@@ -8148,8 +8148,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $\"offset\"",
-          returnValue: "ReturnType",
+          parameters: "int $offset",
+          returnValue: "int",
           ref: null
         }
       },
@@ -8164,7 +8164,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "ReturnType",
+          returnValue: "int",
           ref: null
         }
       },
@@ -8178,8 +8178,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $\"text\"",
-          returnValue: "ReturnType",
+          parameters: "string $text",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -10146,7 +10146,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "mixed $zone",
-          returnValue: "boolean",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -10486,7 +10486,7 @@ classes.i = {
           isFinal: false,
           isStatic: true,
           parameters: "string $zoneId",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -10590,7 +10590,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ bool $isDaylight [, integer $style [, string $locale ]]]",
+          parameters: "[ bool $isDaylight [, int $style [, string $locale ]]]",
           returnValue: "string",
           ref: null
         }
@@ -10606,7 +10606,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -10620,7 +10620,7 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "string $zoneId, integer $index",
+          parameters: "string $zoneId, int $index",
           returnValue: "string",
           ref: null
         }
@@ -10636,7 +10636,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -10710,8 +10710,8 @@ classes.i = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "float $date, bool $local, integer &$rawOffset, integer &$dstOffset",
-          returnValue: "integer",
+          parameters: "float $date, bool $local, int &$rawOffset, int &$dstOffset",
+          returnValue: "int",
           ref: null
         }
       },
@@ -10726,7 +10726,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -11035,7 +11035,7 @@ classes.i = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "scalar",
+          returnValue: "mixed",
           ref: null
         }
       },
@@ -11100,5 +11100,9 @@ classes.i = {
         }
       }
     }
+  },
+  invalidargumentexception: {
+    ref: () => classes.l.logicexception,
+    url: "class.invalidargumentexception"
   }
 };

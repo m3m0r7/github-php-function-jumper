@@ -51,5 +51,13 @@ classes.b = {
         }
       }
     }
+  },
+  badfunctioncallexception: {
+    ref: () => classes.l.logicexception,
+    url: "class.badfunctioncallexception"
+  },
+  badmethodcallexception: {
+    ref: () => classes.b.badfunctioncallexception,
+    url: "class.badmethodcallexception"
   }
 };

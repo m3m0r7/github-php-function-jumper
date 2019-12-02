@@ -136,5 +136,14 @@ classes.__indexes__.o = {
     classes.t.tokyotyrant,
     classes.t.tokyotyrantquery,
     classes.t.tokyotyranttable
+  ],
+  outofboundsexception: [
+    classes.r.runtimeexception
+  ],
+  outofrangeexception: [
+    classes.l.logicexception
+  ],
+  overflowexception: [
+    classes.r.runtimeexception
   ]
 };

@@ -6,14 +6,30 @@ const getSPLWithElements = (matches, marker) => {
       .replace(/\s+$/, '')
       .replace(/^([^(]+).*$/, '$1')
       .replace(/^\\/, '');
-    const char = name.charAt(0).toLowerCase();
-    const loweredName = name.toLowerCase();
+    let loweredName = name.toLowerCase();
+    let char = loweredName.charAt(0);
 
     // Set rendering flags.
     value.setAttribute('data-gp-is-rendered', 'true');
 
-    if (classes.hasOwnProperty(char) && classes[char].hasOwnProperty(loweredName) && classes[char][loweredName]['methods'].hasOwnProperty('__construct')) {
-      classServiceRegistry(items, marker, name, value, classes[char][loweredName]);
+    if (classes.hasOwnProperty(char) && classes[char].hasOwnProperty(loweredName)) {
+      let ref = null;
+      let realClass = null;
+      if (classes[char][loweredName].ref) {
+        realClass = {
+          name,
+          details: classes[char][loweredName],
+        };
+        ref = calculateExtendedRecursion(realClass.details);
+
+        // Overwrite for extended classes
+        loweredName = ref.name.toLowerCase();
+        char = loweredName[0];
+      }
+
+      if (classes[char][loweredName]['methods'].hasOwnProperty('__construct')) {
+        classServiceRegistry(items, marker, name, value, classes[char][loweredName], realClass);
+      }
       return;
     }
 

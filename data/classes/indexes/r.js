@@ -581,5 +581,11 @@ classes.__indexes__.r = {
   ],
   recvmulti: [
     classes.z.zmqsocket
+  ],
+  rangeexception: [
+    classes.r.runtimeexception
+  ],
+  runtimeexception: [
+    classes.e.exception
   ]
 };

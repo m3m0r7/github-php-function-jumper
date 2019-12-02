@@ -31,7 +31,7 @@ classes.c = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "mixed",
           ref: null
         }
       },
@@ -135,7 +135,7 @@ classes.c = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $index",
+          parameters: "mixed $index",
           returnValue: "void",
           ref: null
         }
@@ -165,7 +165,7 @@ classes.c = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $index, string $newval",
+          parameters: "mixed $index, mixed $newval",
           returnValue: "void",
           ref: null
         }
@@ -3543,7 +3543,7 @@ classes.c = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "string",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -3596,6 +3596,44 @@ classes.c = {
           isFinal: false,
           isStatic: false,
           parameters: "string $pathname",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  client: {
+    name: "Client",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
+    methods: {
+      getclient: {
+        name: "getClient",
+        url: "mysql-xdevapi-client.getsession",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "mysql_xdevapi\\Session",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "mysql-xdevapi-client.construct",
+        spec: {
+          isPublic: false,
+          isPrivate: true,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
           returnValue: "",
           ref: null
         }
@@ -4889,6 +4927,29 @@ classes.c = {
       }
     }
   },
+  com: {
+    name: "COM",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "com.construct",
+        spec: {
+          isPublic: false,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "string $module_name [, mixed $server_name = NULL [, int $codepage = CP_ACP [, string $typelib ]]]",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
   cond: {
     name: "Cond",
     isClass: true,
@@ -5041,7 +5102,7 @@ classes.c = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "integer $offset",
+          parameters: "int $offset",
           returnValue: "",
           ref: null
         }
@@ -5056,7 +5117,7 @@ classes.c = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "integer $attribute",
+          parameters: "int $attribute",
           returnValue: "mixed",
           ref: null
         }
@@ -5087,7 +5148,7 @@ classes.c = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -5102,7 +5163,7 @@ classes.c = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "",
+          returnValue: "void",
           ref: null
         }
       },
@@ -5117,7 +5178,7 @@ classes.c = {
           isFinal: false,
           isStatic: true,
           parameters: "string $name",
-          returnValue: "",
+          returnValue: "void",
           ref: null
         }
       },
@@ -5131,7 +5192,7 @@ classes.c = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $name [, integer $initial_value [, integer $flags ]]",
+          parameters: "string $name [, int $initial_value [, int $flags ]]",
           returnValue: "",
           ref: null
         }

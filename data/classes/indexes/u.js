@@ -154,5 +154,11 @@ classes.__indexes__.u = {
   ],
   unbind: [
     classes.z.zmqsocket
+  ],
+  underflowexception: [
+    classes.r.runtimeexception
+  ],
+  unexpectedvalueexception: [
+    classes.r.runtimeexception
   ]
 };

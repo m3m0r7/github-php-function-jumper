@@ -91,7 +91,7 @@ classes.a = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -121,7 +121,7 @@ classes.a = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -618,7 +618,7 @@ classes.a = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "int",
           ref: null
         }
       },
@@ -707,8 +707,8 @@ classes.a = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $index",
-          returnValue: "void",
+          parameters: "mixed $index",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -722,7 +722,7 @@ classes.a = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $index",
+          parameters: "mixed $index",
           returnValue: "mixed",
           ref: null
         }
@@ -737,7 +737,7 @@ classes.a = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $index, string $newval",
+          parameters: "mixed $index, mixed $newval",
           returnValue: "void",
           ref: null
         }
@@ -752,7 +752,7 @@ classes.a = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $index",
+          parameters: "mixed $index",
           returnValue: "void",
           ref: null
         }
@@ -827,7 +827,7 @@ classes.a = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $cmp_function",
+          parameters: "callable $cmp_function",
           returnValue: "void",
           ref: null
         }
@@ -842,7 +842,7 @@ classes.a = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $cmp_function",
+          parameters: "callable $cmp_function",
           returnValue: "void",
           ref: null
         }
@@ -858,7 +858,7 @@ classes.a = {
           isFinal: false,
           isStatic: false,
           parameters: "string $serialized",
-          returnValue: "string",
+          returnValue: "void",
           ref: null
         }
       },

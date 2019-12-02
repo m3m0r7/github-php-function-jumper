@@ -178,6 +178,21 @@ classes.f = {
           ref: null
         }
       },
+      isnull: {
+        name: "isNull",
+        url: "ffi.isnull",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: true,
+          parameters: "FFI\\CData &$ptr",
+          returnValue: "bool",
+          ref: null
+        }
+      },
       load: {
         name: "load",
         url: "ffi.load",
@@ -602,7 +617,7 @@ classes.f = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $string = NULL [, int $options = FILEINFO_NONE [, resource $context = NULL ]]",
+          parameters: "string $string [, int $options = FILEINFO_NONE [, resource $context ]]",
           returnValue: "string",
           ref: null
         }
@@ -617,7 +632,7 @@ classes.f = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $file_name = NULL [, int $options = FILEINFO_NONE [, resource $context = NULL ]]",
+          parameters: "string $file_name [, int $options = FILEINFO_NONE [, resource $context ]]",
           returnValue: "string",
           ref: null
         }
@@ -647,7 +662,7 @@ classes.f = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ int $options = FILEINFO_NONE [, string $magic_file = NULL ]]",
+          parameters: "[ int $options = FILEINFO_NONE [, string $magic_file = \"\" ]]",
           returnValue: "",
           ref: null
         }

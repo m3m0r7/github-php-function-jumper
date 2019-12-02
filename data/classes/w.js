@@ -278,6 +278,59 @@ classes.w = {
       }
     }
   },
+  weakreference: {
+    name: "WeakReference",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
+    methods: {
+      create: {
+        name: "create",
+        url: "weakreference.create",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: true,
+          parameters: "object $referent",
+          returnValue: "WeakReference",
+          ref: null
+        }
+      },
+      get: {
+        name: "get",
+        url: "weakreference.get",
+        spec: {
+          isPublic: false,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: null,
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "weakreference.construct",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
   worker: {
     name: "Worker",
     isClass: true,
@@ -340,7 +393,7 @@ classes.w = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "boolean",
+          returnValue: "bool",
           ref: null
         }
       },

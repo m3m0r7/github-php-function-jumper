@@ -340,7 +340,7 @@ classes.e = {
           isFinal: true,
           isStatic: true,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "int",
           ref: null
         }
       },
@@ -430,7 +430,7 @@ classes.e = {
           isFinal: true,
           isStatic: true,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "int",
           ref: null
         }
       },
@@ -505,7 +505,7 @@ classes.e = {
           isFinal: true,
           isStatic: true,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "int",
           ref: null
         }
       },
@@ -4133,7 +4133,7 @@ classes.e = {
           isFinal: true,
           isStatic: false,
           parameters: "void",
-          returnValue: "Exception",
+          returnValue: "Throwable",
           ref: null
         }
       },

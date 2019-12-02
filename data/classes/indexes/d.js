@@ -349,5 +349,8 @@ classes.__indexes__.d = {
   ],
   deletename: [
     classes.z.ziparchive
+  ],
+  domainexception: [
+    classes.l.logicexception
   ]
 };

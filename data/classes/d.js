@@ -264,7 +264,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "DateTimeInterface $datetime2 [, bool $absolute = false ]",
+          parameters: "DateTimeInterface $datetime2 [, bool $absolute = FALSE ]",
           returnValue: "DateInterval",
           ref: null
         }
@@ -399,7 +399,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "int $hour, int $minute [, int $second = 0 ]",
+          parameters: "int $hour, int $minute [, int $second = 0 [, int $microseconds = 0 ]]",
           returnValue: "DateTime",
           ref: null
         }
@@ -617,7 +617,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "int $hour, int $minute [, int $second = 0 ]",
+          parameters: "int $hour, int $minute [, int $second = 0 [, int $microseconds = 0 ]]",
           returnValue: "DateTimeImmutable",
           ref: null
         }
@@ -745,7 +745,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "DateTime $datetime",
+          parameters: "DateTimeInterface $datetime",
           returnValue: "int",
           ref: null
         }
@@ -760,7 +760,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ int $timestamp_begin [, int $timestamp_end ]]",
+          parameters: "[ int $timestamp_begin = PHP_INT_MIN [, int $timestamp_end = PHP_INT_MAX ]]",
           returnValue: "array",
           ref: null
         }
@@ -1477,7 +1477,7 @@ classes.d = {
         name: "appendData",
         url: "domcharacterdata.appenddata",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1492,7 +1492,7 @@ classes.d = {
         name: "deleteData",
         url: "domcharacterdata.deletedata",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1507,7 +1507,7 @@ classes.d = {
         name: "insertData",
         url: "domcharacterdata.insertdata",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1522,7 +1522,7 @@ classes.d = {
         name: "replaceData",
         url: "domcharacterdata.replacedata",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1537,7 +1537,7 @@ classes.d = {
         name: "substringData",
         url: "domcharacterdata.substringdata",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1799,7 +1799,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "DOMNode $importedNode [, bool $deep ]",
+          parameters: "DOMNode $importedNode [, bool $deep = FALSE ]",
           returnValue: "DOMNode",
           ref: null
         }
@@ -1934,7 +1934,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $filename [, int $options ]",
+          parameters: "string $filename [, int $options = 0 ]",
           returnValue: "int",
           ref: null
         }
@@ -1979,7 +1979,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ DOMNode $node [, int $options ]]",
+          parameters: "[ DOMNode $node [, int $options = 0 ]]",
           returnValue: "string",
           ref: null
         }
@@ -1994,7 +1994,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $filename [, int $flags ]",
+          parameters: "string $filename [, int $flags = 0 ]",
           returnValue: "bool",
           ref: null
         }
@@ -2039,7 +2039,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ int $options ]",
+          parameters: "[ int $options = 0 ]",
           returnValue: "int",
           ref: null
         }
@@ -2612,7 +2612,7 @@ classes.d = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $uri [, bool $exclusive [, bool $with_comments [, array $xpath [, array $ns_prefixes ]]]]",
+          parameters: "string $uri [, bool $exclusive = FALSE [, bool $with_comments = FALSE [, array $xpath [, array $ns_prefixes ]]]]",
           returnValue: "int",
           ref: null
         }
@@ -2753,7 +2753,7 @@ classes.d = {
         }
       },
       lookupnamespaceuri: {
-        name: "lookupNamespaceURI",
+        name: "lookupNamespaceUri",
         url: "domnode.lookupnamespaceuri",
         spec: {
           isPublic: true,
@@ -2876,7 +2876,7 @@ classes.d = {
           isFinal: false,
           isStatic: false,
           parameters: "int $index",
-          returnValue: "DOMElement",
+          returnValue: "DOMNode",
           ref: null
         }
       },
@@ -3070,5 +3070,32 @@ classes.d = {
         }
       }
     }
+  },
+  dotnet: {
+    name: "DOTNET",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "dotnet.construct",
+        spec: {
+          isPublic: false,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "string $assembly_name, string $class_name [, int $codepage = CP_ACP ]",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  domainexception: {
+    ref: () => classes.l.logicexception,
+    url: "class.domainexception"
   }
 };

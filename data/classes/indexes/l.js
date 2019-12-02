@@ -217,5 +217,11 @@ classes.__indexes__.l = {
   ],
   locatename: [
     classes.z.ziparchive
+  ],
+  lengthexception: [
+    classes.l.logicexception
+  ],
+  logicexception: [
+    classes.e.exception
   ]
 };
