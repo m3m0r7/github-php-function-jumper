@@ -135,7 +135,7 @@ classes.o = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $access_token_url [, string $verifier_token [, string $http_method ]]",
+          parameters: "string $access_token_url [, string $auth_session_handle [, string $verifier_token [, string $http_method ]]]",
           returnValue: "array",
           ref: null
         }
@@ -682,5 +682,17 @@ classes.o = {
         }
       }
     }
+  },
+  outofboundsexception: {
+    ref: () => classes.r.runtimeexception,
+    url: "class.outofboundsexception"
+  },
+  outofrangeexception: {
+    ref: () => classes.l.logicexception,
+    url: "class.outofrangeexception"
+  },
+  overflowexception: {
+    ref: () => classes.r.runtimeexception,
+    url: "class.overflowexception"
   }
 };

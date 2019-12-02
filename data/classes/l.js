@@ -713,5 +713,329 @@ classes.l = {
         }
       }
     }
+  },
+  luasandbox: {
+    name: "LuaSandbox",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
+    methods: {
+      callfunction: {
+        name: "callFunction",
+        url: "luasandbox.callfunction",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "string $name [, mixed $... ]",
+          returnValue: "array|bool",
+          ref: null
+        }
+      },
+      disableprofiler: {
+        name: "disableProfiler",
+        url: "luasandbox.disableprofiler",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "void",
+          ref: null
+        }
+      },
+      enableprofiler: {
+        name: "enableProfiler",
+        url: "luasandbox.enableprofiler",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "[ float $period = 0.02 ]",
+          returnValue: "bool",
+          ref: null
+        }
+      },
+      getcpuusage: {
+        name: "getCPUUsage",
+        url: "luasandbox.getcpuusage",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "float",
+          ref: null
+        }
+      },
+      getmemoryusage: {
+        name: "getMemoryUsage",
+        url: "luasandbox.getmemoryusage",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "int",
+          ref: null
+        }
+      },
+      getpeakmemoryusage: {
+        name: "getPeakMemoryUsage",
+        url: "luasandbox.getpeakmemoryusage",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "int",
+          ref: null
+        }
+      },
+      getprofilerfunctionreport: {
+        name: "getProfilerFunctionReport",
+        url: "luasandbox.getprofilerfunctionreport",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "[ int $units = LuaSandbox::SECONDS ]",
+          returnValue: "array",
+          ref: null
+        }
+      },
+      getversioninfo: {
+        name: "getVersionInfo",
+        url: "luasandbox.getversioninfo",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: true,
+          parameters: "void",
+          returnValue: "array",
+          ref: null
+        }
+      },
+      loadbinary: {
+        name: "loadBinary",
+        url: "luasandbox.loadbinary",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "string $code [, string $chunkName = '' ]",
+          returnValue: "LuaSandboxFunction",
+          ref: null
+        }
+      },
+      loadstring: {
+        name: "loadString",
+        url: "luasandbox.loadstring",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "string $code [, string $chunkName = '' ]",
+          returnValue: "LuaSandboxFunction",
+          ref: null
+        }
+      },
+      pauseusagetimer: {
+        name: "pauseUsageTimer",
+        url: "luasandbox.pauseusagetimer",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "bool",
+          ref: null
+        }
+      },
+      registerlibrary: {
+        name: "registerLibrary",
+        url: "luasandbox.registerlibrary",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "string $libname, array $functions",
+          returnValue: "void",
+          ref: null
+        }
+      },
+      setcpulimit: {
+        name: "setCPULimit",
+        url: "luasandbox.setcpulimit",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "float|bool $limit",
+          returnValue: "void",
+          ref: null
+        }
+      },
+      setmemorylimit: {
+        name: "setMemoryLimit",
+        url: "luasandbox.setmemorylimit",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "int $limit",
+          returnValue: "void",
+          ref: null
+        }
+      },
+      unpauseusagetimer: {
+        name: "unpauseUsageTimer",
+        url: "luasandbox.unpauseusagetimer",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "void",
+          ref: null
+        }
+      },
+      wrapphpfunction: {
+        name: "wrapPhpFunction",
+        url: "luasandbox.wrapphpfunction",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "callable $function",
+          returnValue: "LuaSandboxFunction",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "class.luasandbox",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  luasandboxfunction: {
+    name: "LuaSandboxFunction",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
+    methods: {
+      call: {
+        name: "call",
+        url: "luasandboxfunction.call",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "[ string $... ]",
+          returnValue: "array|bool",
+          ref: null
+        }
+      },
+      dump: {
+        name: "dump",
+        url: "luasandboxfunction.dump",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "string",
+          ref: null
+        }
+      },
+      __construct: {
+        name: "__construct",
+        url: "luasandboxfunction.construct",
+        spec: {
+          isPublic: false,
+          isPrivate: true,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: true,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
+  lengthexception: {
+    ref: () => classes.l.logicexception,
+    url: "class.lengthexception"
+  },
+  logicexception: {
+    ref: () => classes.e.exception,
+    url: "class.logicexception"
   }
 };

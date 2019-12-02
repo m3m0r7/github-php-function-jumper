@@ -15,3 +15,12 @@ const beatifyParameters = (parameters) => {
       '<span class="gp-code-jumper-colors--third">$1</span>'
     );
 };
+
+const calculateExtendedRecursion = (ref) => {
+    if (ref.ref) {
+        return calculateExtendedRecursion(
+            ref.ref()
+        );
+    }
+    return ref;
+};

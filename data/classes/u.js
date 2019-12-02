@@ -30,7 +30,7 @@ classes.u = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "integer $reason, string $source, string $codePoint, integer &$error",
+          parameters: "int $reason, string $source, string $codePoint, int &$error",
           returnValue: "mixed",
           ref: null
         }
@@ -45,7 +45,7 @@ classes.u = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "[ string $name ]",
+          parameters: "string $name",
           returnValue: "array",
           ref: null
         }
@@ -91,7 +91,7 @@ classes.u = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -106,7 +106,7 @@ classes.u = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -151,7 +151,7 @@ classes.u = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -195,7 +195,7 @@ classes.u = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "[ integer $reason ]",
+          parameters: "[ int $reason ]",
           returnValue: "string",
           ref: null
         }
@@ -255,7 +255,7 @@ classes.u = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "integer $reason, string $source, string $codeUnits, integer &$error",
+          parameters: "int $reason, string $source, string $codeUnits, int &$error",
           returnValue: "mixed",
           ref: null
         }
@@ -291,5 +291,13 @@ classes.u = {
         }
       }
     }
+  },
+  underflowexception: {
+    ref: () => classes.r.runtimeexception,
+    url: "class.underflowexception"
+  },
+  unexpectedvalueexception: {
+    ref: () => classes.r.runtimeexception,
+    url: "class.unexpectedvalueexception"
   }
 };

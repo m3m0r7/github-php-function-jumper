@@ -159,7 +159,7 @@ classes.p = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "mixed",
+          returnValue: "string",
           ref: null
         }
       },
@@ -518,7 +518,7 @@ classes.p = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $dsn [, string $username [, string $password [, array $options ]]]",
+          parameters: "string $dsn [, string $username [, string $passwd [, array $options ]]]",
           returnValue: "",
           ref: null
         }
@@ -1164,7 +1164,7 @@ classes.p = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "string $pathto [, string|array $files [, bool $overwrite = false ]]",
+          parameters: "string $pathto [, string|array $files [, bool $overwrite = FALSE ]]",
           returnValue: "bool",
           ref: null
         }
@@ -1728,7 +1728,7 @@ classes.p = {
           isFinal: false,
           isStatic: false,
           parameters: "string $dirname",
-          returnValue: "bool",
+          returnValue: "void",
           ref: null
         }
       },
@@ -1758,7 +1758,7 @@ classes.p = {
           isFinal: false,
           isStatic: false,
           parameters: "string $localname, string $contents",
-          returnValue: "bool",
+          returnValue: "void",
           ref: null
         }
       },
@@ -1818,7 +1818,7 @@ classes.p = {
           isFinal: false,
           isStatic: false,
           parameters: "int $compression",
-          returnValue: "bool",
+          returnValue: "void",
           ref: null
         }
       },

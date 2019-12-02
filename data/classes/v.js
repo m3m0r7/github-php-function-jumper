@@ -165,6 +165,29 @@ classes.v = {
       }
     }
   },
+  variant: {
+    name: "VARIANT",
+    isClass: true,
+    isInterface: false,
+    isTrait: false,
+    methods: {
+      __construct: {
+        name: "__construct",
+        url: "variant.construct",
+        spec: {
+          isPublic: false,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "[ mixed $value = NULL [, int $type = VT_EMPTY [, int $codepage = CP_ACP ]]]",
+          returnValue: "",
+          ref: null
+        }
+      }
+    }
+  },
   varnishadmin: {
     name: "VarnishAdmin",
     isClass: true,

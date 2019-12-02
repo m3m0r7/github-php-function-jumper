@@ -641,7 +641,7 @@ classes.t = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -686,7 +686,7 @@ classes.t = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "integer",
+          returnValue: "int",
           ref: null
         }
       },
@@ -716,7 +716,7 @@ classes.t = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "boolean",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -731,7 +731,7 @@ classes.t = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "boolean",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -746,7 +746,7 @@ classes.t = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "boolean",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -775,8 +775,8 @@ classes.t = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ integer $options ]",
-          returnValue: "boolean",
+          parameters: "[ int $options ]",
+          returnValue: "bool",
           ref: null
         }
       },
@@ -1258,7 +1258,7 @@ classes.t = {
         name: "cleanRepair",
         url: "tidy.cleanrepair",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1273,7 +1273,7 @@ classes.t = {
         name: "diagnose",
         url: "tidy.diagnose",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1288,7 +1288,7 @@ classes.t = {
         name: "getConfig",
         url: "tidy.getconfig",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1303,7 +1303,7 @@ classes.t = {
         name: "getHtmlVer",
         url: "tidy.gethtmlver",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1318,7 +1318,7 @@ classes.t = {
         name: "getOpt",
         url: "tidy.getopt",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1333,7 +1333,7 @@ classes.t = {
         name: "getOptDoc",
         url: "tidy.getoptdoc",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1348,7 +1348,7 @@ classes.t = {
         name: "getRelease",
         url: "tidy.getrelease",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1363,7 +1363,7 @@ classes.t = {
         name: "getStatus",
         url: "tidy.getstatus",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1408,7 +1408,7 @@ classes.t = {
         name: "isXhtml",
         url: "tidy.isxhtml",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1423,7 +1423,7 @@ classes.t = {
         name: "isXml",
         url: "tidy.isxml",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1513,7 +1513,7 @@ classes.t = {
         name: "__construct",
         url: "tidy.construct",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1536,7 +1536,7 @@ classes.t = {
         name: "getParent",
         url: "tidynode.getparent",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1551,7 +1551,7 @@ classes.t = {
         name: "hasChildren",
         url: "tidynode.haschildren",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1566,7 +1566,7 @@ classes.t = {
         name: "hasSiblings",
         url: "tidynode.hassiblings",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1581,7 +1581,7 @@ classes.t = {
         name: "isAsp",
         url: "tidynode.isasp",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1611,7 +1611,7 @@ classes.t = {
         name: "isHtml",
         url: "tidynode.ishtml",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1626,7 +1626,7 @@ classes.t = {
         name: "isJste",
         url: "tidynode.isjste",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1641,7 +1641,7 @@ classes.t = {
         name: "isPhp",
         url: "tidynode.isphp",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,
@@ -1656,7 +1656,7 @@ classes.t = {
         name: "isText",
         url: "tidynode.istext",
         spec: {
-          isPublic: false,
+          isPublic: true,
           isPrivate: false,
           isProtected: false,
           isAbstract: false,

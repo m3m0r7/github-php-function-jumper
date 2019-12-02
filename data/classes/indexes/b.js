@@ -135,5 +135,11 @@ classes.__indexes__.b = {
   ],
   bootstrap: [
     classes.y.yaf_application
+  ],
+  badfunctioncallexception: [
+    classes.l.logicexception
+  ],
+  badmethodcallexception: [
+    classes.b.badfunctioncallexception
   ]
 };

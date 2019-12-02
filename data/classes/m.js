@@ -1244,36 +1244,6 @@ classes.m = {
     isInterface: false,
     isTrait: false,
     methods: {
-      close: {
-        name: "close",
-        url: "mongo.close",
-        spec: {
-          isPublic: true,
-          isPrivate: false,
-          isProtected: false,
-          isAbstract: false,
-          isFinal: false,
-          isStatic: false,
-          parameters: "[ boolean|string $connection ]",
-          returnValue: "bool",
-          ref: null
-        }
-      },
-      connect: {
-        name: "connect",
-        url: "mongo.connect",
-        spec: {
-          isPublic: true,
-          isPrivate: false,
-          isProtected: false,
-          isAbstract: false,
-          isFinal: false,
-          isStatic: false,
-          parameters: "void",
-          returnValue: "bool",
-          ref: null
-        }
-      },
       connectutil: {
         name: "connectUtil",
         url: "mongo.connectutil",
@@ -1286,21 +1256,6 @@ classes.m = {
           isStatic: false,
           parameters: "void",
           returnValue: "bool",
-          ref: null
-        }
-      },
-      gethosts: {
-        name: "getHosts",
-        url: "mongo.gethosts",
-        spec: {
-          isPublic: true,
-          isPrivate: false,
-          isProtected: false,
-          isAbstract: false,
-          isFinal: false,
-          isStatic: false,
-          parameters: "void",
-          returnValue: "array",
           ref: null
         }
       },
@@ -1423,36 +1378,6 @@ classes.m = {
           returnValue: "",
           ref: null
         }
-      },
-      __get: {
-        name: "__get",
-        url: "mongo.get",
-        spec: {
-          isPublic: true,
-          isPrivate: false,
-          isProtected: false,
-          isAbstract: false,
-          isFinal: false,
-          isStatic: false,
-          parameters: "string $dbname",
-          returnValue: "MongoDB",
-          ref: null
-        }
-      },
-      __tostring: {
-        name: "__toString",
-        url: "mongo.tostring",
-        spec: {
-          isPublic: true,
-          isPrivate: false,
-          isProtected: false,
-          isAbstract: false,
-          isFinal: false,
-          isStatic: false,
-          parameters: "void",
-          returnValue: "string",
-          ref: null
-        }
       }
     }
   },
@@ -1500,6 +1425,36 @@ classes.m = {
     isInterface: false,
     isTrait: false,
     methods: {
+      close: {
+        name: "close",
+        url: "mongoclient.close",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "[ boolean|string $connection ]",
+          returnValue: "bool",
+          ref: null
+        }
+      },
+      connect: {
+        name: "connect",
+        url: "mongoclient.connect",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "bool",
+          ref: null
+        }
+      },
       dropdb: {
         name: "dropDB",
         url: "mongoclient.dropdb",
@@ -1525,6 +1480,21 @@ classes.m = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
+          parameters: "void",
+          returnValue: "array",
+          ref: null
+        }
+      },
+      gethosts: {
+        name: "getHosts",
+        url: "mongoclient.gethosts",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
           parameters: "void",
           returnValue: "array",
           ref: null
@@ -1662,6 +1632,36 @@ classes.m = {
           isStatic: false,
           parameters: "[ string $server = \"mongodb:\/\/localhost:27017\" [, array $options = array(\"connect\" => TRUE) [, array $driver_options ]]]",
           returnValue: "",
+          ref: null
+        }
+      },
+      __get: {
+        name: "__get",
+        url: "mongoclient.get",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "string $dbname",
+          returnValue: "MongoDB",
+          ref: null
+        }
+      },
+      __tostring: {
+        name: "__toString",
+        url: "mongoclient.tostring",
+        spec: {
+          isPublic: true,
+          isPrivate: false,
+          isProtected: false,
+          isAbstract: false,
+          isFinal: false,
+          isStatic: false,
+          parameters: "void",
+          returnValue: "string",
           ref: null
         }
       }
@@ -4944,7 +4944,7 @@ classes.m = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ int $flags [, string $name ]]",
+          parameters: "[ int $flags = 0 [, string $name ]]",
           returnValue: "bool",
           ref: null
         }
@@ -5004,7 +5004,7 @@ classes.m = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ int $flags [, string $name ]]",
+          parameters: "[ int $flags = 0 [, string $name ]]",
           returnValue: "bool",
           ref: null
         }
@@ -5199,7 +5199,7 @@ classes.m = {
           isAbstract: false,
           isFinal: false,
           isStatic: true,
-          parameters: "array &$read, array &$error, array &$reject, int $sec [, int $usec ]",
+          parameters: "array &$read, array &$error, array &$reject, int $sec [, int $usec = 0 ]",
           returnValue: "int",
           ref: null
         }
@@ -5334,7 +5334,7 @@ classes.m = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "[ int $flags [, string $name ]]",
+          parameters: "[ int $flags = 0 [, string $name ]]",
           returnValue: "bool",
           ref: null
         }
@@ -5958,7 +5958,7 @@ classes.m = {
           isAbstract: false,
           isFinal: false,
           isStatic: false,
-          parameters: "mysqli_stmt $stmt",
+          parameters: "void",
           returnValue: "object",
           ref: null
         }
@@ -6102,7 +6102,7 @@ classes.m = {
           isFinal: false,
           isStatic: false,
           parameters: "void",
-          returnValue: "void",
+          returnValue: "bool",
           ref: null
         }
       },

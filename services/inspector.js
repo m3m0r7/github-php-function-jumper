@@ -24,6 +24,7 @@ const inspectPage = () => {
           isFunction,
           enableToWrapNode,
           details,
+          realClass
         } = value;
 
         const mode = settingData.themeId === 0
@@ -65,7 +66,7 @@ const inspectPage = () => {
         }
 
         element.innerHTML =
-          `<a href="${pageURI + details.url}.php" target="_blank" class="gp-code-jumper-targeted">`
+          `<a href="${pageURI + ((realClass ? realClass.details.url : null) || details.url)}.php" target="_blank" class="gp-code-jumper-targeted">`
           + `${element.innerHTML}`
           + `</a>`;
 

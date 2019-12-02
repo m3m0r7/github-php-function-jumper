@@ -261,7 +261,7 @@ classes.x = {
         }
       },
       readinnerxml: {
-        name: "readInnerXML",
+        name: "readInnerXml",
         url: "xmlreader.readinnerxml",
         spec: {
           isPublic: true,
@@ -276,7 +276,7 @@ classes.x = {
         }
       },
       readouterxml: {
-        name: "readOuterXML",
+        name: "readOuterXml",
         url: "xmlreader.readouterxml",
         spec: {
           isPublic: true,
@@ -391,29 +391,6 @@ classes.x = {
           isFinal: false,
           isStatic: false,
           parameters: "",
-          returnValue: "",
-          ref: null
-        }
-      }
-    }
-  },
-  xsession: {
-    name: "XSession",
-    isClass: true,
-    isInterface: false,
-    isTrait: false,
-    methods: {
-      __construct: {
-        name: "__construct",
-        url: "mysql-xdevapi-xsession.construct",
-        spec: {
-          isPublic: false,
-          isPrivate: true,
-          isProtected: false,
-          isAbstract: false,
-          isFinal: false,
-          isStatic: false,
-          parameters: "void",
           returnValue: "",
           ref: null
         }
@@ -592,7 +569,7 @@ classes.x = {
         }
       },
       transformtoxml: {
-        name: "transformToXML",
+        name: "transformToXml",
         url: "xsltprocessor.transformtoxml",
         spec: {
           isPublic: false,

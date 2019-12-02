@@ -639,5 +639,8 @@ classes.__indexes__.i = {
   ],
   isrecoverable: [
     classes.z.zookeeper
+  ],
+  invalidargumentexception: [
+    classes.l.logicexception
   ]
 };
