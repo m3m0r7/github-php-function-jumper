@@ -8,6 +8,19 @@ chrome.storage.sync.get(
       settingData[key] = items[key];
     }
 
+    const matchedWhitelistURLs = settingData.whitelistURLs.filter(
+        (url) => location.href.match(
+            url.replace(/\//g, '\\/')
+                .replace(/\./g, '\\.')
+                .replace(/\*/g, '.*?')
+        )
+    );
+
+    if (matchedWhitelistURLs.length === 0) {
+        // Do not effect.
+        return;
+    }
+
     setInterval(
       () => {
         // re-render

@@ -6,6 +6,11 @@ const settingOptionNames = [
   'themeId',
 ];
 
+const defaultWhitelistURLs = [
+  'https://github.com/*',
+  'https://gist.github.com/*',
+];
+
 const beSnakeCase = (propertyName) => {
   return propertyName.replace(/([A-Z])/g, (all) => `-${all.toLowerCase()}`);
 };
@@ -80,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .reduce(
               (sum, targetedClasses) => sum + Object.keys(classes[targetedClasses])
                 .reduce(
-                  (sum, targetClass) => sum + Object.keys(classes[targetedClasses][targetClass].methods).length,
+                  (sum, targetClass) => sum + Object.keys(classes[targetedClasses][targetClass].methods || []).length,
                   0
                 ),
               0
@@ -97,5 +102,24 @@ document.addEventListener('DOMContentLoaded', () => {
         );
         break;
     }
+  });
+
+
+  let whitelistURLs = document.querySelector('.whitelist')
+      .innerText
+      .split('\n')
+      .filter((value) => value.replace(/\s+/, '') !== '');
+
+  if (whitelistURLs.length === 0) {
+    // Set default whitelist.
+    for (const url of defaultWhitelistURLs) {
+      whitelistURLs.push(url);
+    }
+    document.querySelector('.whitelist')
+        .innerHTML = whitelistURLs.join("\n") + "\n"
+  }
+
+  chrome.storage.sync.set({
+    whitelistURLs,
   });
 });
