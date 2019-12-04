@@ -64,6 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const text = element.getAttribute('data-translate');
     element.innerHTML = chrome.i18n.getMessage(text);
   });
+  document.querySelectorAll('[data-translate-placeholder]').forEach((element) => {
+    const text = element.getAttribute('data-translate-placeholder');
+    element.setAttribute('placeholder', chrome.i18n.getMessage(text));
+  });
 
   document.querySelectorAll('[data-registered]').forEach((element) => {
     // The format is fixed en-US.
@@ -109,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
       null,
       (items) => {
         document.querySelector('.whitelist')
-            .innerHTML = (items.whitelistURLs || defaultWhitelistURLs).join("\n") + "\n";
+            .innerHTML = (items.whitelistURLs || defaultWhitelistURLs).join("\n");
 
         const saveWhitelist = () => {
           const whitelistURLs = document.querySelector('.whitelist')
@@ -119,11 +123,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
           if (whitelistURLs.length === 0) {
             // Set default whitelist.
+            document.querySelector('.whitelist')
+                .value = whitelistURLs.join("\n")
+          }
+
+          if (!items.hasOwnProperty('whitelistURLs')) {
             for (const url of defaultWhitelistURLs) {
               whitelistURLs.push(url);
             }
-            document.querySelector('.whitelist')
-                .value = whitelistURLs.join("\n") + "\n"
           }
 
           chrome.storage.sync.set({
