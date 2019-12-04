@@ -105,21 +105,38 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  let whitelistURLs = document.querySelector('.whitelist')
-      .innerText
-      .split('\n')
-      .filter((value) => value.replace(/\s+/, '') !== '');
+  chrome.storage.sync.get(
+      null,
+      (items) => {
+        document.querySelector('.whitelist')
+            .innerHTML = (items.whitelistURLs || defaultWhitelistURLs).join("\n") + "\n";
 
-  if (whitelistURLs.length === 0) {
-    // Set default whitelist.
-    for (const url of defaultWhitelistURLs) {
-      whitelistURLs.push(url);
-    }
-    document.querySelector('.whitelist')
-        .innerHTML = whitelistURLs.join("\n") + "\n"
-  }
+        const saveWhitelist = () => {
+          const whitelistURLs = document.querySelector('.whitelist')
+              .value
+              .split('\n')
+              .filter((value) => value.replace(/\s+/, '') !== '');
 
-  chrome.storage.sync.set({
-    whitelistURLs,
-  });
+          if (whitelistURLs.length === 0) {
+            // Set default whitelist.
+            for (const url of defaultWhitelistURLs) {
+              whitelistURLs.push(url);
+            }
+            document.querySelector('.whitelist')
+                .value = whitelistURLs.join("\n") + "\n"
+          }
+
+          chrome.storage.sync.set({
+            whitelistURLs,
+          });
+        }
+
+        document.querySelector('.whitelist').addEventListener(
+            'keyup',
+            (e) => {
+              saveWhitelist();
+            }
+        );
+      }
+  );
 });
