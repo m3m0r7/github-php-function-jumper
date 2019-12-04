@@ -69,6 +69,12 @@
   "L000282": {
     "message": "Go to GitHub"
   },
+  "L000206": {
+    "message": "Whitelist"
+  },
+  "L000296": {
+    "message": "Write whitelist URLs."
+  },
 
   "L010000": {
     "message": "Effected elements"

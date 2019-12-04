@@ -6,6 +6,11 @@ const settingOptionNames = [
   'themeId',
 ];
 
+const defaultWhitelistURLs = [
+  'https://github.com/*',
+  'https://gist.github.com/*',
+];
+
 const beSnakeCase = (propertyName) => {
   return propertyName.replace(/([A-Z])/g, (all) => `-${all.toLowerCase()}`);
 };
@@ -59,6 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const text = element.getAttribute('data-translate');
     element.innerHTML = chrome.i18n.getMessage(text);
   });
+  document.querySelectorAll('[data-translate-placeholder]').forEach((element) => {
+    const text = element.getAttribute('data-translate-placeholder');
+    element.setAttribute('placeholder', chrome.i18n.getMessage(text));
+  });
 
   document.querySelectorAll('[data-registered]').forEach((element) => {
     // The format is fixed en-US.
@@ -80,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .reduce(
               (sum, targetedClasses) => sum + Object.keys(classes[targetedClasses])
                 .reduce(
-                  (sum, targetClass) => sum + Object.keys(classes[targetedClasses][targetClass].methods).length,
+                  (sum, targetClass) => sum + Object.keys(classes[targetedClasses][targetClass].methods || []).length,
                   0
                 ),
               0
@@ -98,4 +107,43 @@ document.addEventListener('DOMContentLoaded', () => {
         break;
     }
   });
+
+
+  chrome.storage.sync.get(
+      null,
+      (items) => {
+        document.querySelector('.whitelist')
+            .innerHTML = (items.whitelistURLs || defaultWhitelistURLs).join("\n");
+
+        const saveWhitelist = () => {
+          const whitelistURLs = document.querySelector('.whitelist')
+              .value
+              .split('\n')
+              .filter((value) => value.replace(/\s+/, '') !== '');
+
+          if (whitelistURLs.length === 0) {
+            // Set default whitelist.
+            document.querySelector('.whitelist')
+                .value = whitelistURLs.join("\n")
+          }
+
+          if (!items.hasOwnProperty('whitelistURLs')) {
+            for (const url of defaultWhitelistURLs) {
+              whitelistURLs.push(url);
+            }
+          }
+
+          chrome.storage.sync.set({
+            whitelistURLs,
+          });
+        }
+
+        document.querySelector('.whitelist').addEventListener(
+            'keyup',
+            (e) => {
+              saveWhitelist();
+            }
+        );
+      }
+  );
 });
