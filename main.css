@@ -7,12 +7,12 @@
 .gp-code-jumper-targeted__popup {
   position: absolute;
   left: calc(-50% - 40px);
-  box-shadow: 0 0 3px #888888;
-  border: 1px solid #888888;
+  box-shadow: 0 1px 15px rgba(27, 31, 35, .15);
+  border: 1px solid #d1d5da;
   display: none;
-  z-index: 1;
+  z-index: 30;
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 3px;
   font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   font-size: 12px;
 }
@@ -35,8 +35,8 @@
   left: 90px;
   z-index: 10;
   transform: rotate(-45deg);
-  border-left: 1px solid #888888;
-  border-bottom: 1px solid #888888;
+  border-left: 1px solid rgba(27, 31, 35, .15);
+  border-bottom: 1px solid rgba(27, 31, 35, .15);
 }
 
 .gp-code-jumper-targeted__popup--top .gp-code-jumper-targeted-popup__triangle {
