@@ -69,8 +69,8 @@
   font-weight: bold
 }
 
-.gp-code-jumper-targeted__popup--dark .gp-code-jumper-kind-of {
-  border-top: 1px solid #CCCCCC;
+.gp-code-jumper-targeted__popup--white .gp-code-jumper-kind-of {
+  border-top: 1px solid #EEEEEE;
   margin-top: 6px;
   padding-top: 6px;
 }

@@ -1,5 +1,9 @@
 # Change Logs
 
+Ver 0.4.3:
+- Hotfix that the extension does not works when whitelist is not added. 
+- Update popup style to be GitHub flavoured (@chitoku-k)
+
 Ver 0.4.2: 
 - Allows to effect an enterprise GitHub
 - Implement whitelist on Chrome Settings.

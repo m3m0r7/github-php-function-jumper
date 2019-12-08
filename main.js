@@ -8,7 +8,7 @@ chrome.storage.sync.get(
       settingData[key] = items[key];
     }
 
-    const matchedWhitelistURLs = settingData.whitelistURLs.filter(
+    const matchedWhitelistURLs = (settingData.whitelistURLs || defaultWhitelistURLs).filter(
         (url) => location.href.match(
             url.replace(/\//g, '\\/')
                 .replace(/\./g, '\\.')

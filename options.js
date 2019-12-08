@@ -6,11 +6,6 @@ const settingOptionNames = [
   'themeId',
 ];
 
-const defaultWhitelistURLs = [
-  'https://github.com/*',
-  'https://gist.github.com/*',
-];
-
 const beSnakeCase = (propertyName) => {
   return propertyName.replace(/([A-Z])/g, (all) => `-${all.toLowerCase()}`);
 };
