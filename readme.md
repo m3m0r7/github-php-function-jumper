@@ -1,5 +1,5 @@
 # What is this?
-This Chrome Extension allows you to  jump to the PHP Manual from php functions and classes on your GitHub source codes and discussion.
+This Chrome Extension allows you to jump to the PHP Manual from php functions and classes on your GitHub source codes and discussion.
 
 # Chrome Web Store
 You can download here!
@@ -8,6 +8,7 @@ You can download here!
 # Supported services
 - GitHub
 - Gists
+- GitHub for Enterprise
 
 # Customize
 ## You can choose theme
