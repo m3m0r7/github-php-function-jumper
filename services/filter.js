@@ -52,11 +52,17 @@ const filterElementsOnPage = (enableRenderingCache) => {
       ),
       'discussion'
     ),
+    ...getSPLWithElements(
+        document.querySelectorAll(
+            '#discussion_bucket .pl-s1 .pl-c1' + suffix
+        ),
+        'discussion'
+    ),
     ...getCommentOutsWithElements(
-      document.querySelectorAll(
-        '#discussion_bucket .pl-s1 .pl-c .pl-k' + suffix
-      ),
-      'discussion'
+        document.querySelectorAll(
+            '#discussion_bucket .pl-s1 .pl-c .pl-k' + suffix
+        ),
+        'discussion'
     ),
     ...getVariableWithElements(
       document.querySelectorAll(
