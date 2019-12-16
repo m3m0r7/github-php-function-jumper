@@ -1,5 +1,8 @@
 # Change Logs
 
+Ver 0.4.4:
+- Allows to highlight source code at the dicussion
+
 Ver 0.4.3:
 - Hotfix that the extension does not works when whitelist is not added. 
 - Update popup style to be GitHub flavoured (@chitoku-k)
