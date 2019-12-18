@@ -54,6 +54,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // if blocks
+  document.querySelectorAll('[data-is-enterprise]').forEach((element) => {
+    const enableEnterprise = !!parseInt(element.getAttribute('data-is-enterprise'));
+    if ((isEnterpriseMode && !enableEnterprise)
+        || (!isEnterpriseMode && enableEnterprise)
+    ) {
+      element.remove();
+    }
+  });
+
   // Translation
   document.querySelectorAll('[data-translate]').forEach((element) => {
     const text = element.getAttribute('data-translate');
