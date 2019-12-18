@@ -1,5 +1,8 @@
 # Change Logs
 
+Ver 0.4.5
+- Branch to the enterprise edition and web edition for GitHub.
+
 Ver 0.4.4:
 - Allows to highlight source code at the discussion.
 
