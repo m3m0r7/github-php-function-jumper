@@ -1,7 +1,7 @@
 # Change Logs
 
 Ver 0.4.4:
-- Allows to highlight source code at the dicussion
+- Allows to highlight source code at the discussion.
 
 Ver 0.4.3:
 - Hotfix that the extension does not works when whitelist is not added. 
