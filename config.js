@@ -3,4 +3,4 @@ const defaultWhitelistURLs = [
     'https://gist.github.com/*',
 ];
 
-const isEnterpriseMode = false;
+const isEnterpriseMode = true;

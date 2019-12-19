@@ -6,8 +6,7 @@ You can download here!
 - https://chrome.google.com/webstore/detail/github-php-function-jumpe/pmgmgaejgbjiooiklinoelilmnldlhcf
 
 # Supported services
-- GitHub
-- Gists
+- Gists for Enterprise
 - GitHub for Enterprise
 
 # Customize

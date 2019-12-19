@@ -1,5 +1,5 @@
 {
-  "name": "github-php-function-jumper",
+  "name": "github-php-function-jumper-for-enterprise",
   "description": "Jump to the PHP Manual from the php functions and classes on your GitHub source codes and discussion.",
   "version": "0.4.5",
   "manifest_version": 2,
