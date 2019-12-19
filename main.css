@@ -80,3 +80,7 @@
   margin-top: 6px;
   padding-top: 6px;
 }
+
+.gp-code-jumper--is-deprecated {
+  text-decoration: line-through;
+}
