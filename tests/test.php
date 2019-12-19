@@ -31,6 +31,9 @@ class A extends \Exception implements ArrayAccess
     var_dump(\Exception::class);
     var_dump(ReflectionClass::export($this));
     var_dump(microtime(true));
+
+    // Deprecated
+    var_dump(split('a', 'abcd'));
     try {
       $reflection = new ReflectionClass($this);
       var_dump($reflection->getName());

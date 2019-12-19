@@ -1,5 +1,8 @@
 # Change Logs
 
+Ver 0.4.7
+- Implement deprecated functions.
+
 Ver 0.4.5
 - Branch to the enterprise edition and web edition for GitHub.
 

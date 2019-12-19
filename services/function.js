@@ -33,12 +33,18 @@ const beatifyFunctionSignature = (info) => {
 
   const kindOfFunction = locales.functions[info.details.name.substr(0, 1)][info.details.name][locales.nameMap[settingData.languageId || 0]].summary;
 
-  return `<span class="gp-code-jumper-colors--primary">${descriptor}</span> `
+  let isDeprecated = false;
+
+  if (deprecatedFunctions[info.details.name]) {
+    isDeprecated = true;
+  }
+
+  return `${isDeprecated ? '<strong>[DEPRECATED]</strong> ' : ''}<span class="${isDeprecated ? 'gp-code-jumper--is-deprecated' : ''}"><span class="gp-code-jumper-colors--primary">${descriptor}</span> `
     + `<span class="gp-code-jumper-fonts--bold">${info.details.name}</span>`
     + `(${parameters})`
     + (
       info.details.spec.returnValue
         ? `<span class="gp-code-jumper-colors--primary">: ${info.details.spec.returnValue}</span>`
         : ''
-    ) + `<div class="gp-code-jumper-kind-of">${kindOfFunction}</div>`
+    ) + `</span><div class="gp-code-jumper-kind-of">${kindOfFunction}</div>`
 };
