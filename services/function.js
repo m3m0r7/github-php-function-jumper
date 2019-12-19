@@ -35,7 +35,7 @@ const beatifyFunctionSignature = (info) => {
 
   let isDeprecated = false;
 
-  if (deprecatedFunctions[info.details.name]) {
+  if (deprecatedFunctions.indexOf(info.details.name) !== -1) {
     isDeprecated = true;
   }
 

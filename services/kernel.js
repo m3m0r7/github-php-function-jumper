@@ -44,6 +44,13 @@ const getSPLWithElements = (matches, marker) => {
 const getLineNumberFromNode = (node) => {
   let current = node;
   while (current = current.parentNode) {
+    if (current.tagName === 'TD') {
+      return parseInt(
+          current
+              .previousElementSibling
+              .getAttribute('data-line-number')
+      );
+    }
     const id = current.getAttribute('id');
     if (/^LC/.test(id)) {
       return id.replace(/^LC/, '') * 1;
