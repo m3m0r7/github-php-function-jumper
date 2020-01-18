@@ -60,7 +60,7 @@ To:
 
 3. Access to `chrome://extesions`
 
-4. Enable to developer mode on theGoogle Chrome.
+4. Enable to developer mode on the Google Chrome.
 <img src="docs/desc_01.jpg">
 
 5. Click the `Load unpacked` button, and choose cloned directory.
