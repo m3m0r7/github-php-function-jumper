@@ -68,61 +68,62 @@ const getVariableWithElements = (matches, marker) => {
     const variableName = value.innerText;
     const nextNode = value.nextSibling;
     if (nextNode
-      && nextNode.nodeName === 'SPAN'
-      && nextNode.innerText === '->'
+      && nextNode.nodeName === '#text'
+      && nextNode.nodeValue === '->'
     ) {
       const nextNextNode = nextNode.nextSibling;
-      if (nextNextNode) {
-        let calleeMethodName = null;
-        calleeMethodName = nextNextNode.innerText || nextNextNode.nodeValue
-          .replace(/^\s*([A-Za-z0-9_]+).+/, '$1');
-
-        if (!variables.hasOwnProperty(variableName)) {
-          return;
-        }
-
-        const lineNumber = getLineNumberFromNode(value);
-
-        let beforeDiff = null;
-        let targetedLineNumber = null;
-
-        for (const definedMethodLineNumber of Object.keys(variables[variableName].methodPaths).map((v) => v * 1)) {
-          const diff = Math.abs(definedMethodLineNumber - lineNumber);
-
-          if (definedMethodLineNumber > lineNumber) {
-            continue;
-          }
-
-          if (beforeDiff === null || diff < beforeDiff) {
-            beforeDiff = diff;
-            targetedLineNumber = definedMethodLineNumber;
-          }
-        }
-
-        if (targetedLineNumber === null) {
-          return;
-        }
-
-        const char = calleeMethodName.charAt(0).toLowerCase();
-        const loweredName = calleeMethodName.toLowerCase();
-        const classDetails = variables[variableName].methodPaths[targetedLineNumber];
-
-        if (!classDetails.methods.hasOwnProperty(loweredName)) {
-          return;
-        }
-
-        items.push({
-          marker,
-          calleeMethodName,
-          element: nextNextNode,
-          ...templates.optionParameters,
-          isClass: true,
-          isDynamicMethodAtClass: true,
-          enableToWrapNode: nextNextNode.nodeName === '#text',
-          details: classDetails.methods[loweredName],
-          classDetails,
-        });
+      if (!nextNextNode) {
+        return
       }
+      let calleeMethodName = null;
+      calleeMethodName = nextNextNode.innerText || nextNextNode.nodeValue
+        .replace(/^\s*([A-Za-z0-9_]+).+/, '$1');
+
+      if (!variables.hasOwnProperty(variableName)) {
+        return;
+      }
+
+      const lineNumber = getLineNumberFromNode(value);
+
+      let beforeDiff = null;
+      let targetedLineNumber = null;
+
+      for (const definedMethodLineNumber of Object.keys(variables[variableName].methodPaths).map((v) => v * 1)) {
+        const diff = Math.abs(definedMethodLineNumber - lineNumber);
+
+        if (definedMethodLineNumber > lineNumber) {
+          continue;
+        }
+
+        if (beforeDiff === null || diff < beforeDiff) {
+          beforeDiff = diff;
+          targetedLineNumber = definedMethodLineNumber;
+        }
+      }
+
+      if (targetedLineNumber === null) {
+        return;
+      }
+
+      const char = calleeMethodName.charAt(0).toLowerCase();
+      const loweredName = calleeMethodName.toLowerCase();
+      const classDetails = variables[variableName].methodPaths[targetedLineNumber];
+
+      if (!classDetails.methods.hasOwnProperty(loweredName)) {
+        return;
+      }
+
+      items.push({
+        marker,
+        calleeMethodName,
+        element: nextNextNode,
+        ...templates.optionParameters,
+        isClass: true,
+        isDynamicMethodAtClass: true,
+        enableToWrapNode: nextNextNode.nodeName === '#text',
+        details: classDetails.methods[loweredName],
+        classDetails,
+      });
     }
   });
   return items;
@@ -191,7 +192,7 @@ const getDynamicMethodConstructionNode = (matches, marker) => {
   matches.forEach((value, key) => {
 
     const name = value.innerText;
-    let nextNode = value.nextSibling;
+    let nextNode = value;
     const nodes = [];
     const targetedVariables = [name];
 
@@ -209,39 +210,37 @@ const getDynamicMethodConstructionNode = (matches, marker) => {
     // Check patterns
     for (let i = 0; i < nodes.length; i++) {
       let node = nodes[i];
-      if (node === '=') {
+      node = nodes[++i];
+      if (!node) {
+        break;
+      }
+
+      // Find the variable
+      if (node.charAt(0) === '$') {
+        targetedVariables.push(node);
+        continue;
+      }
+
+      // Found a construction
+      if (node.toLowerCase() === 'new') {
         node = nodes[++i];
         if (!node) {
           break;
         }
+        const char = node.charAt(0).toLowerCase();
+        const loweredClassName = node.toLocaleLowerCase();
 
-        // Find the variable
-        if (node.charAt(0) === '$') {
-          targetedVariables.push(node);
-          continue;
-        }
-
-        // Found a construction
-        if (node.toLowerCase() === 'new') {
-          node = nodes[++i];
-          if (!node) {
-            break;
-          }
-          const char = node.charAt(0).toLowerCase();
-          const loweredClassName = node.toLocaleLowerCase();
-
-          // Find class
-          if (!classes.hasOwnProperty(char)
-            || !classes[char].hasOwnProperty(loweredClassName)
-          ) {
-            break;
-          }
-
-          // Find line number
-          const lineNumber = getLineNumberFromNode(value);
-          methodPaths[lineNumber] = classes[char][loweredClassName];
+        // Find class
+        if (!classes.hasOwnProperty(char)
+          || !classes[char].hasOwnProperty(loweredClassName)
+        ) {
           break;
         }
+
+        // Find line number
+        const lineNumber = getLineNumberFromNode(value);
+        methodPaths[lineNumber] = classes[char][loweredClassName];
+        break;
       }
     }
 

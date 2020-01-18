@@ -3,6 +3,9 @@
 Ver 0.4.7
 - Implement deprecated functions.
 
+Ver 0.4.8
+- Update for changed GitHub syntax highlighting.
+
 Ver 0.4.5
 - Branch to the enterprise edition and web edition for GitHub.
 
@@ -10,17 +13,17 @@ Ver 0.4.4:
 - Allows to highlight source code at the discussion.
 
 Ver 0.4.3:
-- Hotfix that the extension does not works when whitelist is not added. 
+- Hotfix that the extension does not works when whitelist is not added.
 - Update popup style to be GitHub flavoured (@chitoku-k)
 
-Ver 0.4.2: 
+Ver 0.4.2:
 - Allows to effect an enterprise GitHub
 - Implement whitelist on Chrome Settings.
 
-Ver 0.4.1: 
+Ver 0.4.1:
 - Allows to highlight use expression.
 
-Ver 0.4.0: 
+Ver 0.4.0:
 - Add description for functions into popup.
 
 Ver 0.3.2
@@ -58,7 +61,7 @@ Ver 0.1.0:
 
 Ver 0.0.13:
 - Use monospace fonts (@chitoku-k)
-- Fix japanese localization file (@hexium310) 
+- Fix japanese localization file (@hexium310)
 
 Ver 0.0.12:
 - Change some descriptors type to structure.

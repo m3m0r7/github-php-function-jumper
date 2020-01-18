@@ -9,42 +9,56 @@ const filterElementsOnPage = (enableRenderingCache) => {
 
   const elements = [];
   elements.push(
+    // For new GitHub syntax highlight
     ...getSPLWithElements(
       document.querySelectorAll(
-        '.type-php .pl-c1' + suffix
+        '.type-php .pl-en' + suffix + ','
+        + '.type-php .pl-v' + suffix + ','
+        + '.type-php .pl-smi' + suffix
       ),
       'source'
     ),
-    // Files
     ...getSPLWithElements(
       document.querySelectorAll(
-        '[data-file-type=".php"] .pl-c1' + suffix
+        '[data-file-type=".php"] .pl-v' + suffix + ','
+        + '[data-file-type=".php"] .pl-en' + suffix + ','
+        + '[data-file-type=".php"] .pl-smi' + suffix
       ),
       'files'
     ),
     ...getCommentOutsWithElements(
       document.querySelectorAll(
-        '.type-php .pl-s1 .pl-c .pl-k' + suffix
+        '.type-php .pl-en' + suffix + ','
+        + '.type-php .pl-v' + suffix + ','
+        + '.type-php .pl-smi' + suffix
       ),
       'source'
     ),
     ...getCommentOutsWithElements(
       document.querySelectorAll(
-        '[data-file-type=".php"] .pl-s1 .pl-c .pl-k' + suffix
+        '[data-file-type=".php"] .pl-v' + suffix + ','
+        + '[data-file-type=".php"] .pl-en' + suffix + ','
+        + '[data-file-type=".php"] .pl-smi' + suffix
       ),
       'files'
     ),
     ...getVariableWithElements(
       document.querySelectorAll(
-        '.type-php .pl-s1 .pl-smi' + suffix
+        '.type-php .pl-s1' + suffix
       ),
       'source'
     ),
     ...getVariableWithElements(
       document.querySelectorAll(
-        '[data-file-type=".php"] .pl-s1 .pl-smi' + suffix
+        '[data-file-type=".php"] .pl-s1' + suffix
       ),
       'files'
+    ),
+    ...getVariableWithElements(
+      document.querySelectorAll(
+        '#discussion_bucket .pl-s1' + suffix
+      ),
+      'discussion'
     ),
     ...getSPLWithElements(
       document.querySelectorAll(
@@ -53,20 +67,10 @@ const filterElementsOnPage = (enableRenderingCache) => {
       'discussion'
     ),
     ...getSPLWithElements(
-        document.querySelectorAll(
-            '#discussion_bucket .pl-s1 .pl-c1' + suffix
-        ),
-        'discussion'
-    ),
-    ...getCommentOutsWithElements(
-        document.querySelectorAll(
-            '#discussion_bucket .pl-s1 .pl-c .pl-k' + suffix
-        ),
-        'discussion'
-    ),
-    ...getVariableWithElements(
       document.querySelectorAll(
-        '#discussion_bucket .pl-s1 .pl-smi' + suffix
+        '#discussion_bucket .pl-v' + suffix + ','
+        + '#discussion_bucket .pl-en' + suffix + ','
+        + '#discussion_bucket .pl-smi' + suffix
       ),
       'discussion'
     ),

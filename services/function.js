@@ -3,7 +3,7 @@ const functionServiceRegistry = (items, marker, name, element, details) => {
 
   if (nextNode !== null
     && nextNode.nodeName === 'SPAN'
-    && nextNode.classList.contains('pl-k')
+    && nextNode.classList.contains('pl-en')
     && (
       nextNode.innerText === '::'
       || nextNode.innerText === '->'
